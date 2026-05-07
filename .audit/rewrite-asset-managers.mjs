@@ -13,9 +13,15 @@ const PAGE_PATH = join(ROOT, "for-asset-managers/index.html");
 
 // ---------- escaping helpers ----------
 
+// Normalize curly apostrophes to ASCII to match the rest of the site
+// (every existing page uses `&#x27;` in HTML and `'` in JSON).
+function normalize(s) {
+  return String(s).replace(/\u2019/g, "'");
+}
+
 // HTML-escape for visible markup (text nodes / attribute values).
 function H(s) {
-  return String(s)
+  return normalize(s)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
@@ -29,7 +35,7 @@ function H(s) {
 //   \  → \\
 //   &  → \u0026  (Next.js convention; matches what the live site emits)
 function J(s) {
-  return String(s)
+  return normalize(s)
     .replace(/\\/g, "\\\\")
     .replace(/"/g, '\\"')
     .replace(/&/g, "\\u0026");
