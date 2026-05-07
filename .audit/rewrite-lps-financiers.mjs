@@ -518,7 +518,7 @@ const file = readFileSync(PAGE_PATH, "utf8");
 const HTML_OPEN = '<div class="ow-v4">';
 const HTML_TAIL = detectHtmlTail(file);
 const jsonStart = file.indexOf('\\"layout\\":[');
-const jsonEnd = file.indexOf("],\\"updatedAt\\\"", jsonStart);
+const jsonEnd = file.indexOf('],\\"updatedAt\\"', jsonStart);
 if (jsonStart < 0 || jsonEnd < 0) throw new Error("JSON layout not found");
 
 const newHtml = emitHtml();
