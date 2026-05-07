@@ -47,6 +47,31 @@
   // Schema cache keyed by slug.
   var schemaCache = {};
 
+  // Local fallback schemas — used only if the production GET endpoint can't
+  // be reached (e.g. when previewing the static export from localhost where
+  // CORS is restricted to www.opticwise.com). Submissions still POST to the
+  // real endpoint; if that also fails (it will, on localhost), the user gets
+  // a clear error. Mirror the production schema exactly so UI previews are
+  // accurate.
+  var FALLBACK_SCHEMAS = {
+    'schedule-review': {
+      id: 'fallback',
+      slug: 'schedule-review',
+      name: 'Schedule Review',
+      description: 'Standard Schedule Review Form',
+      submitButtonLabel: 'Submit',
+      successMessage: "Thanks — we'll be in touch shortly.",
+      honeypotFieldName: 'website_url_extra',
+      fields: [
+        { fieldKey: 'first_name', fieldType: 'text',     label: 'First name', required: true,  placeholder: 'First Name' },
+        { fieldKey: 'last_name',  fieldType: 'text',     label: 'Last name',  required: true },
+        { fieldKey: 'email',      fieldType: 'email',    label: 'Work email', required: true },
+        { fieldKey: 'company',    fieldType: 'text',     label: 'Company',    required: true },
+        { fieldKey: 'message',    fieldType: 'textarea', label: 'Message',    required: false },
+      ],
+    },
+  };
+
   /* ── Schema fetch ────────────────────────────────────────────────────── */
 
   function fetchSchema(slug) {
