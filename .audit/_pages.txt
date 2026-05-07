@@ -15,7 +15,7 @@ for-asset-managers: 10026 chars
 for-it-executives: 7189 chars
 for-lps-and-financiers: 7084 chars
 for-property-managers-and-engineers: 6736 chars
-for-tenants: 5804 chars
+for-tenants: 5511 chars
 glossary: 21985 chars
 how-we-operate: 5520 chars
 own-vs-lease-cre-building-data: 4123 chars

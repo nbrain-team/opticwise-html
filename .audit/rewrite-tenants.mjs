@@ -347,8 +347,8 @@ const BLOCKS = [
     id: "reframe-banner-for-tenants",
     style: "dark",
     eyebrow: "",
-    quote: "If you don\u2019t own your data \u0026 digital infrastructure, your vendors do.",
-    attribution: "",
+    quote: "No tenant data mining. No ad serving. That is sacred.",
+    attribution: "OpticWise privacy stance",
   },
   {
     type: "callToAction",
