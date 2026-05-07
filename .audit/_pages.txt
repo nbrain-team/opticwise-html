@@ -3,14 +3,14 @@ about: 5226 chars
 advisory-services: 3281 chars
 ai-ready-commercial-real-estate: 4027 chars
 blog/index.html: ERROR ENOENT: no such file or directory, open '/Users/billdouglas/My Drive/Cursor/opticwise-html/blog/index.html'
-bot-building-of-things: 4850 chars
+bot-building-of-things: 4883 chars
 contact: 4856 chars
 contact-cowork-dupe-please-delete/index.html: ERROR ENOENT: no such file or directory, open '/Users/billdouglas/My Drive/Cursor/opticwise-html/contact-cowork-dupe-please-delete/index.html'
 control-cre-digital-visibility: 4148 chars
 digital-infrastructure-noi-ai: 2159 chars
 digital-infrastructure-noi-playbook: 4049 chars
 digital-infrastructure-noi-strategy: 4899 chars
-faq: 12328 chars
+faq: 24962 chars
 for-asset-managers: 10026 chars
 for-it-executives: 7189 chars
 for-lps-and-financiers: 7084 chars
