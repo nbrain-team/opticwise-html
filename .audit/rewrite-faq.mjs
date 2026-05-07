@@ -200,34 +200,12 @@ function main() {
   // Easiest: hero section ends with the first '</section>' encountered while
   // depth tracking <section> tags.
   function findSectionEnd(startIdx) {
-    let depth = 0;
-    let pos = startIdx;
-    while (pos < html.length) {
-      const oRaw = html.indexOf('<section', pos);
-      const c = html.indexOf('</section>', pos);
-      // Only count <section as an opener when followed by whitespace or '>'
-      // (avoid matching <sectional...> or anything that just starts with section).
-      let o = -1;
-      let scan = oRaw;
-      while (scan !== -1) {
-        const next = html.charAt(scan + '<section'.length);
-        if (/[\s>]/.test(next)) { o = scan; break; }
-        scan = html.indexOf('<section', scan + 1);
-      }
-      if (c < 0) throw new Error('no closing </section> for hero');
-      if (o !== -1 && o < c) {
-        depth++;
-        pos = o + 1;
-      } else {
-        if (depth === 1) {
-          // closing the hero itself
-          return c + '</section>'.length;
-        }
-        depth--;
-        pos = c + 1;
-      }
-    }
-    throw new Error('unbalanced sections');
+    // The hero <section> contains no nested <section> tags in this layout, so
+    // the very next </section> after startIdx is its close. Verified against
+    // the current faq/index.html layout.
+    const c = html.indexOf('</section>', startIdx);
+    if (c < 0) throw new Error('no closing </section> for hero');
+    return c + '</section>'.length;
   }
   const heroEnd = findSectionEnd(heroOpen);
   const ctaOpen = html.indexOf('<section class="cta cta--blue"', heroEnd);
