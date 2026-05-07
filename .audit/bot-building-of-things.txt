@@ -14,7 +14,7 @@ BoT® (Building of Things®) consolidates and governs building connectivity so e
 BoT® is Layer 1 of the OpticWise Two-Layer Model. It is the foundation you own — and the foundation Property Brain™ and Portfolio Brain™ ride on top of.
 Why BoT® Exists
 Most Building Tech Looks Like This
-What the owner calls "infrastructure" is actually a stack of vendor contracts wearing a trench coat.
+What the owner calls "comms" or "networks" or "proptech" or "Internet" is actually a stack of vendor contracts wearing a trench coat.
 Wi-Fi Installed by one vendor, on their hardware, on their network
 Access Control Another vendor, another network
 HVAC A third network
