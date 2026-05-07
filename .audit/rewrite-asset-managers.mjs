@@ -517,7 +517,7 @@ let updated =
 
 // Now replace HTML in the updated string.
 const updatedHtmlStart = updated.indexOf(HTML_OPEN);
-const updatedHtmlEnd = updated.indexOf(HTML_CLOSE);
+const updatedHtmlEnd = updated.indexOf(HTML_TAIL_AFTER_DIV);
 updated =
   updated.slice(0, updatedHtmlStart) +
   newHtml +
