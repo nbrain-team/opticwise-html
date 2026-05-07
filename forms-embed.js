@@ -582,13 +582,63 @@
     }
   }
 
+  /* ── Page-specific customizations ──────────────────────────────────── */
+
+  // /ppp-audit/ — replace the bottom CTA section's button with an inline form.
+  // We do this in JS (post-hydration) rather than editing static HTML because
+  // the page's React Flight chunk re-renders a `callToAction` block with a
+  // button, and any static HTML edit would be reverted by hydration. By
+  // running this after hydration AND keeping it idempotent under the global
+  // MutationObserver, the swap holds even if React reconciles.
+  function isPPPAuditPage() {
+    var p = (window.location && window.location.pathname) || '';
+    return /(?:^|\/)ppp-audit(?:\/(?:index\.html)?)?$/.test(p);
+  }
+
+  function transformPPPAuditCTA() {
+    if (!isPPPAuditPage()) { return; }
+    var section = document.getElementById('cta');
+    if (!section) {
+      section = document.querySelector('section.cta--blue');
+    }
+    if (!section) { return; }
+    if (section.querySelector('[data-form-embed]')) { return; }
+    var btn = section.querySelector('button.btn');
+    if (!btn) { return; }
+
+    var inner = btn.parentNode;
+    var mount = el('div', {
+      'data-form-embed': 'schedule-review',
+      class: 'ow-fe-mount',
+      style: 'margin-top:1.5rem',
+    });
+    inner.replaceChild(mount, btn);
+
+    // Also tone down the now-redundant section heading + sub: the inline form
+    // has its own header copy (PPP Audit™ / Schedule Your Complimentary
+    // Review / One building, 45–90 minutes…). Leaving the section's eyebrow
+    // ("Your Next Step") in place gives nice micro-context.
+    var heading = section.querySelector('.cta__heading');
+    var sub = section.querySelector('.cta__sub');
+    if (heading) { heading.style.display = 'none'; }
+    if (sub) { sub.style.display = 'none'; }
+  }
+
+  function applyPageCustomizations() {
+    transformPPPAuditCTA();
+  }
+
   function setupObserver() {
     if (!window.MutationObserver) { return; }
-    var obs = new MutationObserver(function () { scanInlineMounts(); });
+    var obs = new MutationObserver(function () {
+      applyPageCustomizations();
+      scanInlineMounts();
+    });
     obs.observe(document.body, { childList: true, subtree: true });
   }
 
   function start() {
+    applyPageCustomizations();
     scanInlineMounts();
     setupObserver();
   }
