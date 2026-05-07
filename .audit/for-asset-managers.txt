@@ -30,7 +30,6 @@ Why It Matters Now, Not Someday
 Price = NOI × Cap Rate. Diligence Doesn't Wait.
 When a property trades, the buyer's diligence team runs their own analysis. If they find recoverable NOI you weren't capturing during the hold, that gap doesn't stay on the table. It becomes a price-negotiation lever. You take the hit at close.
 You don't just lose the income you could have captured during the hold. You lose the capitalized value of that income at exit. Same building. Same systems. Same data. Different access, different rigor — and the buyer's team finds the value that should have been yours. For a 300-unit multifamily asset in the canonical benchmark range — $500–$600 per door per year — that's $150,000 to $180,000 in annual NOI. Capitalize that at a market cap rate and the diligence discount becomes several million dollars in lost asset value at exit. Operationalize early. Capture the income while you hold. Don't hand the next owner a value-add that should have been yours.
-The Capitalized-Value Math “ Every dollar of recoverable NOI is worth roughly fifteen to twenty-five dollars of asset value at typical cap rates. ” Peak Property Performance® · Fast Company Press
 Capital-Markets Reality
 Refi, Renewals, and Investor Letters Don't Care That the Data's Trapped.
 DSCR ratios. Insurance renewals. Property-tax appeals. Expense-trajectory narratives. The conversations you have to defend up the chain all rest on operating data you can't see when it lives in vendor platforms.
