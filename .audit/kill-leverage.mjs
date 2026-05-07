@@ -32,10 +32,11 @@ const EDITS = [
     expect: 2,
   },
   // for-asset-managers — heading "Vendor Leverage You Didn't Have"
+  // (visible HTML uses Didn&#x27;t, JSON uses Didn't — needle stops before the apostrophe so it matches both)
   {
     file: "for-asset-managers/index.html",
-    find: "Vendor Leverage You Didn't Have",
-    replace: "Negotiating Power You Didn't Have",
+    find: "Vendor Leverage",
+    replace: "Negotiating Power",
     expect: 2,
   },
   {
