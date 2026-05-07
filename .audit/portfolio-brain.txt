@@ -43,6 +43,7 @@ Successful plays at one asset never become portfolio-wide standards
 Vendor pricing stays uncompetitive because operating data leverage doesn't exist
 The buyer's diligence team finds value the seller's team couldn't see — and the price reflects it
 “ You cannot optimize what you cannot see. At portfolio scale, what you cannot see becomes what your buyers can. ”
+“ If you don't own your data & digital infrastructure, your vendors do. ”
 Your Next Step Run the Big Three Plays Diagnostic Across Three Assets.
 A complimentary working session with your asset management team. Three properties from your portfolio. We map utilities, insurance, and occupancy data across all three — what you control, what your vendors control, where the variance is, and what closing the gap would do for your portfolio numbers.
 Where your operating data lives across the three assets — and which vendor platforms hold it

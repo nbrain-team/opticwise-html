@@ -55,6 +55,7 @@ Systems installed once, never re-tuned, quietly degraded
 Emergency calls at 11 PM for something a segmented network would have prevented
 New vendor installs that break old vendor installs
 “ Different skill set. Different lane. We're on your team — not in your way. ”
+“ If you don't own your data & digital infrastructure, your vendors do. ”
 Your Next Step See What Comes Off Your Plate
 If you're a PM, engineer, or ops lead whose owner is evaluating OpticWise — ask us to walk you through what changes for you. Honest conversation. No replacement talk.
 Schedule a Conversation

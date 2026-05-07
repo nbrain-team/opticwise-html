@@ -8,8 +8,7 @@
 
 === advisory-services === CLEAN
 
-=== ai-ready-commercial-real-estate ===
-  [MISSING] Reframing line absent on page
+=== ai-ready-commercial-real-estate === CLEAN
 
 === bot-building-of-things ===
   [BARE-INFRA] L17 — What the owner calls "infrastructure" is actually a stack of vendor contract…
@@ -18,7 +17,6 @@
   [MISSING] Reframing line absent on page
 
 === contact ===
-  [MISSING] Reframing line absent on page
   [BANNED] L33 "leverage" — …wn, where the data lives, and where the leverage is — without a software pitch.
   [BANNED] L31 "PropTech" — …lications including The Silicon Review, PropTech Outlook, CIO Bulletin, and Global 100. …
 
@@ -43,24 +41,18 @@
   [BARE-INFRA] L62 — …I, AI-ready operations, vendor-agnostic infrastructure, and portfolios that compound value ove…
 
 === for-asset-managers ===
-  [MISSING] Reframing line absent on page
   [BANNED] L40 "Leverage" — Vendor Leverage You Didn't Have
-  [BANNED] L61 "leverage" — …ot focused on the play with the highest leverage
+  [BANNED] L62 "leverage" — …ot focused on the play with the highest leverage
 
-=== for-it-executives ===
-  [MISSING] Reframing line absent on page
+=== for-it-executives === CLEAN
 
-=== for-lps-and-financiers ===
-  [MISSING] Reframing line absent on page
+=== for-lps-and-financiers === CLEAN
 
-=== for-property-managers-and-engineers ===
-  [MISSING] Reframing line absent on page
+=== for-property-managers-and-engineers === CLEAN
 
-=== for-tenants ===
-  [MISSING] Reframing line absent on page
+=== for-tenants === CLEAN
 
 === glossary ===
-  [MISSING] Reframing line absent on page
   [BANNED] L44 "leverage" — …rs who control the backbone control the leverage; owners who don’t hand it to vendors.
   [BANNED] L79 "leverage" — …cWise's shorthand for the three highest-leverage moves a CRE owner can make: (1) take ow…
   [BANNED] L70 "ESG" — …t experience, operational intelligence, ESG reporting, AI applications, and asset v…
@@ -84,9 +76,8 @@
   [BARE-INFRA] L55 — Managed infrastructure Ingest data into an owner-controlled, n…
 
 === portfolio-brain ===
-  [MISSING] Reframing line absent on page
   [BANNED] L43 "leverage" — …ys uncompetitive because operating data leverage doesn't exist
-  [BANNED] L50 "leverage" — …ped 90-day pilot focused on the highest-leverage play across the portfolio
+  [BANNED] L51 "leverage" — …ped 90-day pilot focused on the highest-leverage play across the portfolio
   [BARE TM] L8 "Property Brain" missing mark — …nal visibility for one building. Twenty Property Brains, networked under one owner standard, b…
 
 === ppp-audit ===
@@ -101,24 +92,24 @@ PAGE                                 ISSUES  REFRAME  CLOSER
 5s-user-experience-standard               0        Y       Y
 about                                     3        Y       Y
 advisory-services                         0        Y       Y
-ai-ready-commercial-real-estate           0        —       Y
+ai-ready-commercial-real-estate           0        Y       Y
 bot-building-of-things                    1        Y       Y
 contact-cowork-dupe-please-delete         0        —       Y
-contact                                   2        —       Y
+contact                                   2        Y       Y
 control-cre-digital-visibility            0        Y       Y
 digital-infrastructure-noi-ai             0        Y       Y
 digital-infrastructure-noi-playbook       2        Y       Y
 digital-infrastructure-noi-strategy       3        Y       Y
 faq                                       5        Y       Y
-for-asset-managers                        2        —       Y
-for-it-executives                         0        —       Y
-for-lps-and-financiers                    0        —       Y
-for-property-managers-and-engineers       0        —       Y
-for-tenants                               0        —       Y
-glossary                                 12        —       Y
+for-asset-managers                        2        Y       Y
+for-it-executives                         0        Y       Y
+for-lps-and-financiers                    0        Y       Y
+for-property-managers-and-engineers       0        Y       Y
+for-tenants                               0        Y       Y
+glossary                                 12        Y       Y
 how-we-operate                            2        Y       Y
 index.html                                0        Y       Y
 own-vs-lease-cre-building-data            1        Y       Y
-portfolio-brain                           3        —       Y
+portfolio-brain                           3        Y       Y
 ppp-audit                                 1        Y       Y
 property-brain                            2        Y       Y

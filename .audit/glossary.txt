@@ -78,6 +78,7 @@ The Massaged Report + OpticWise's term for vendor reports that look polished but
 The Diligence Discount + The valuation hit a CRE asset takes when buyers, lenders, or LPs can't verify operating performance because the data is vendor-trapped, incomplete, or massaged. The diligence discount is silent in good markets and brutal in tight ones. Owner-controlled data is what eliminates it.
 The Big Three Plays + OpticWise's shorthand for the three highest-leverage moves a CRE owner can make: (1) take ownership of the digital infrastructure, (2) make data normalized and portable across the portfolio, and (3) install the governance that lets any decision engine plug in safely. Run together, the Big Three compound.
 PPP Review + A focused checkpoint within the Peak Property Performance® methodology — a structured review of where a property or portfolio stands against the 5C™ Plan, 5S® Connectivity Standard, and owner-control benchmarks. The PPP Review surfaces what to fix, in what order, and what each fix is worth.
+“ If you don't own your data & digital infrastructure, your vendors do. ”
 Next step Ready to apply these to your portfolio?
 Schedule Your Review
 Owner-controlled data & digital infrastructure for commercial real estate.

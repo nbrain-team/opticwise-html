@@ -42,6 +42,7 @@ Insurance renewal flags OT exposure that wasn't on anyone's radar
 A tenant complaint becomes an OT diagnostic problem nobody owns
 Capital partners do diligence and surface OT findings that affect basis
 “ Governance debt comes due with interest — and IT is usually who pays it. ”
+“ If you don't own your data & digital infrastructure, your vendors do. ”
 Your Next Step Let's Map Your OT Posture
 A complimentary working session with your IT and facilities leadership. One building. We map who owns what, where the gaps are, and what closing them looks like.
 Where OT lives across your properties — and who actually controls it

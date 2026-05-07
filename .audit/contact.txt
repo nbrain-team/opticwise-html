@@ -6,8 +6,8 @@ Insights Blog Articles FAQ Glossary
 About Company Contact
 Schedule Review
 Get in Touch One Real Person. One Business Day.
-OpticWise works with CRE owners, asset managers, and operators who want to turn their data and digital infrastructure into an owner-controlled asset. Reach out by form, by email, or by phone. We respond personally within one business day — not with autoresponders, not with sales sequences. The person on the other end is a real member of the OpticWise team.
-If you don't own your data and digital infrastructure, your vendors do — let's talk about who owns what at your buildings.
+OpticWise works with CRE owners, asset managers, and operators who want to turn their data & digital infrastructure into an owner-controlled asset. Reach out by form, by email, or by phone. We respond personally within one business day — not with autoresponders, not with sales sequences. The person on the other end is a real member of the OpticWise team.
+If you don't own your data & digital infrastructure, your vendors do — let's talk about who owns what at your buildings.
 For CRE owners, asset managers, IT executives, property managers, GPs, LPs, financiers, tenants, residents, and anyone evaluating OpticWise as a partner-operator.
 Send a Message
 What to Expect
@@ -27,7 +27,7 @@ Tell Us What You’re Working On.
 We respond within one business day. Required fields: first name, last name, and email. Everything else is helpful context, not a gate.
 Who You’re Reaching
 OpticWise Is Not a Vendor. It’s a Partner-Operator.
-When you reach out, you’re not entering a sales funnel. You’re starting a conversation with the team that designs, implements, and operates owner-controlled data and digital infrastructure for CRE.
+When you reach out, you’re not entering a sales funnel. You’re starting a conversation with the team that designs, implements, and operates owner-controlled data & digital infrastructure for CRE.
 OpticWise is the firm behind Peak Property Performance® (Fast Company Press), the PPP 5C™ methodology, BoT® (Building of Things®), and Property Brain™ → Portfolio Brain™ — the owner-controlled intelligence layer that lets any LLM, vendor platform, or analytics tool act on your buildings under your governance. Twenty-plus years of CRE experience. Recognition from 13+ industry publications including The Silicon Review, PropTech Outlook, CIO Bulletin, and Global 100. Vendor-agnostic, LLM-agnostic, owner-controlled by design.
 Your Next Step Send a Message.
 Real person on the other end. One business day to respond. No drip campaigns, no sales sequences. We map what you own, where the data lives, and where the leverage is — without a software pitch.

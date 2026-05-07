@@ -41,6 +41,7 @@ Privacy Non-Negotiables
 What OpticWise Does Not Do
 OpticWise does not monetize tenant browsing behavior. OpticWise does not sell user data. Owner control and tenant trust are non-negotiable.
 Building-level connectivity and data & digital infrastructure is what we govern. What happens on your traffic, inside your suite, is yours.
+“ If you don't own your data & digital infrastructure, your vendors do. ”
 Your Next Step Evaluating a Building with OpticWise Inside?
 If you're a tenant or broker evaluating a building operated under the OpticWise standard, we're happy to walk your team through what that means — with the building's owner or operator present.
 Schedule a Conversation
