@@ -478,11 +478,13 @@ function emitJsonLayout() {
 
 const file = readFileSync(PAGE_PATH, "utf8");
 
-// HTML wrapper bounds (visible content)
+// HTML wrapper bounds (visible content). HTML_TAIL_AFTER_DIV starts AFTER the
+// closing `</div>` of the ow-v4 wrapper, so our replacement (which already
+// ends with `</div>`) doesn't double it.
 const HTML_OPEN = '<div class="ow-v4">';
-const HTML_CLOSE = '</div><!--$--><!--/$--></main>';
+const HTML_TAIL_AFTER_DIV = '<!--$--><!--/$--></main>';
 const htmlStart = file.indexOf(HTML_OPEN);
-const htmlEnd = file.indexOf(HTML_CLOSE);
+const htmlEnd = file.indexOf(HTML_TAIL_AFTER_DIV);
 if (htmlStart < 0 || htmlEnd < 0) {
   throw new Error("Could not locate visible HTML wrapper boundaries");
 }
