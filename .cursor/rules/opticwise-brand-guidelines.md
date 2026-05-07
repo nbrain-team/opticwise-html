@@ -304,7 +304,7 @@ Use only on discovery calls about the connectivity product line. Verify against 
 
 - **The opener:** *"Why in the world do you let a company put a network in your building that you don't own and that they mine data from your customers?"* Follow-up: *"But you do it every day with your ISP bulk agreements. Their network isn't actually yours."*
 - **The reframe:** *"This isn't an internet conversation. It's an owner-control digital conversation."*
-- **The diligence wedge:** *"Make this review part of your diligence process. You won't know what you don't know."*
+- **The diligence wedge:** *"Make this review part of your diligence process. You don't know what you don't know."*
 - **The exit-horizon objection killer:** *"Anytime we get somebody that starts monetizing $40–50 NOI per door, it goes right to the bottom line when they sell it. So the quicker you do it, the more NOI you can show."*
 - **Right Butt, Wrong Seat (Jim Collins, *Good to Great*):** *"Right person, right seat. CRE is doing the opposite: right people, wrong seat. We're asking PMs, IT managers, and asset managers to run operational technology. They're capable. They're not skilled or trained for it."* Always pair with the resolution: *"Don't ask them to staff up. Educate, partner, add a digital specialist."*
 - **The Skybox Principle:** *"Don't manage a 50-asset portfolio from the field. Build the owner-controlled intelligence layer so you can operate from the skybox — seeing causes, not just results."*
