@@ -89,7 +89,17 @@
       if (!json || !json.form) { throw new Error('Form schema missing'); }
       return json.form;
     }).catch(function (err) {
-      // Don't poison the cache on transient errors — let the next open retry.
+      // On network/CORS failure (e.g. localhost preview), fall back to a
+      // hardcoded copy of the schema so the UI still renders. The submit
+      // call will still hit the real endpoint and surface its own error if
+      // that fails too.
+      var fb = FALLBACK_SCHEMAS[slug];
+      if (fb) {
+        if (window.console && window.console.info) {
+          window.console.info('[OWFormEmbed] schema fetch failed, using local fallback', err);
+        }
+        return fb;
+      }
       delete schemaCache[slug];
       throw err;
     });
