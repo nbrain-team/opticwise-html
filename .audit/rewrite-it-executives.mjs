@@ -247,7 +247,8 @@ const BLOCKS = [
     style: "light",
     eyebrow: "The Honest Frame",
     heading: "IT/OT Was Never Architected. It Was Inherited.",
-    subheading: "In most CRE-owning organizations, nobody actually owns operational technology. The org chart shows IT covers corporate networks. Building tech is \"facilities\" or \"vendor-managed.\" Then comes the review. Or the breach. Or the AI initiative. Suddenly IT owns the outcome.",
+    subheading:
+      "In most CRE-owning organizations, nobody actually owns operational technology. The org chart shows IT covers corporate networks. Building tech is \u201cfacilities\u201d or \u201cvendor-managed.\u201d Then comes the review. Or the breach. Or the AI initiative. Suddenly IT owns the outcome.",
     authorityNote:
       "Building automation, HVAC controls, access, elevators, IoT, metering, tenant connectivity, EV infrastructure \u2014 they all ride on networks and they all generate data. Few were designed with IT review evidence in mind. The pattern we see: shadow paths installed by vendors, break-glass credentials nobody internal holds, flat OT without segmentation, monitoring, documentation, or a single owner thread when something breaks. That is not your team failing a certification. It is decades of buying buildings like the network is someone else\u2019s product.",
   },
