@@ -373,7 +373,7 @@ const BLOCKS = [
         text: "What the owner can show when your counsel or IT asks about segmentation, lineage, and vendor access on the building plane",
       },
       {
-        id: "69ebb643ea9de_scan8eff5e71".replace("ea9de_scan8", "ea9de5548"),
+        id: "69ebb643ea9de5548eff5e71",
         text: "Where suite scope stops and owner\u2011standard infrastructure begins \u2014 before TI gets re\u2011cut",
       },
     ],
