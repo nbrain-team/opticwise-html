@@ -391,7 +391,7 @@ const BLOCKS = [
     heading: "Owner-Controlled Data & Digital Infrastructure",
     botCalloutInnerHtml: BOT_CALLOUT_HTML,
     botDescriptionPlain:
-      "Delivered through BoT (Building of Things). A single, secure, segmented foundation engineered under SIC - Security, Infrastructure, and Connectivity - owned by the sponsor, operable under governance, portable at exit.",
+      "Delivered through BoT® (Building of Things®). A single, secure, segmented foundation engineered under SIC® — Security, Infrastructure, and Connectivity — owned by the sponsor, operable under governance, portable at exit.",
     pillars: [
       {
         id: "69ebb63dea9de5548eff5e3d",
