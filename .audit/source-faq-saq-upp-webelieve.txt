@@ -1,0 +1,256 @@
+Should Ask Questions (SAQ’s)
+Why don’t CRE owner/operators own and receive 100% of all profits on everything contained within their properties, including the technology?
+Traditionally, there has been resistance to change and outdated thinking in the Commercial Real Estate industry.  Many owner/operators have been bound by long-standing bulk agreements that limit their control over networks and equipment within their buildings, preventing them from offering lucrative technology services to their residents.  However, it is time to break free from these limitations and monetize your technology assets.  By selling technology services and branded offerings to your tenants/residents, you can not only enhance their experience but also significantly increase your profits.
+How much more would a resident pay you to have private, seamless, secure, fast property-wide connectivity?
+Across the country, apartment residents are willingly paying their landlords an additional $89 to $129 per month for private, seamless, secure, and fast property-wide connectivity, and office/retail tenants happily pay for Internet and WiFi in their commercial spaces.  Just think about it from their perspective: they get instant internet access upon signing their lease without the hassle of purchasing & installing routers, they can stay connected anywhere on the property, and they enjoy a completely private and secure network. All this comes at a similar price to what they are used to paying for subpar service from traditional internet service providers.
+In this post COVID/WFH world, how am I differentiating myself from my top three competitors?
+Are you providing your residents with a secure and private digital highway throughout your property? Are you enabling your residents to stay connected seamlessly while they move around the property? Can your residents securely work from home, the pool, the parking lot, or even their friend’s unit ten doors down? By offering these digital infrastructure and connectivity advantages, you set yourself apart from your top competitors and meet the evolving needs of residents in the post-COVID work-from-home era.
+So you’re saying I can spend money to get new countertops and raise rents $5 per Month/per Unit…OR….spend that same money and get digital infrastructure and connectivity offerings that capture an extra $89 per Month/per Unit? Is that what I’m hearing you say?
+YES, that’s precisely what we’re saying! If you invest in digital infrastructure and connectivity offerings, you can expect significant returns. Your Net Operating Income (NOI) and Return on Capital can experience a massive boost compared to spending the same amount on traditional renovations like new countertops.  By providing technology services, you can capture significantly higher per Month/per Unit Revenues and NOI, resulting in substantial long-term profitability.
+If this is so spectacular, why am I just now hearing about it? Why isn’t everyone doing it?
+It’s hard to be first. OpticWise was a first mover in CRE technology monetization, and our clients are forward-thinking early adopters.
+While not everyone may be aware of it, many owners are already embracing this approach. However, they don’t always advertise their earnings as it provides them a competitive advantage and generates significant cash flow.  Additionally, traditional Internet Service Providers often desire to retain control over the revenue and may offer bulk agreements early in the planning process, limiting the adoption of this lucrative strategy.  Rest assured; this is an opportunity worth exploring.
+I want to give my residents choices. Won’t this be forcing them into one thing?
+Not at all.  Internet connectivity has become a utility, much like water and electricity.  Residents simply want it to work reliably, be reasonably priced, and offer excellent service.  By providing a private and secure digital highway that covers your entire property, you grant your residents the freedom to connect from anywhere while maintaining their privacy.  Our connectivity is backed by multiple Internet Provider backbones, ensuring seamless access. Once connected, your residents can choose and enjoy any online services they desire, be it streaming, gaming, shopping, or any other digital activities, without being limited or tracked.  This solution offers them the ultimate digital freedom.
+Why can’t my residents use our old school common area WiFi and take their laptop and go sit at a picnic table and keep working or attend a Zoom call?
+Currently, the limitation lies in the existing infrastructure where your router is installed, plus the lack of coverage in tenant spaces, often resulting in weak or unreliable guest WiFi experience for tenants in common areas. However, by implementing a robust digital infrastructure and connectivity solution, you can extend seamless connectivity throughout your property, allowing your residents to work or attend Zoom calls from anywhere, even outside at the pool or on that beautiful outdoor patio. This ensures they can maintain productivity and flexibility in their work environment.
+How do I increase margins in this crazy economy?
+One effective way to increase margins in the current economy is by offering branded technology services to your residents. Many residents are already purchasing these services from external providers, so there is no resistance to the idea.  By marketing these services correctly, with our guidance and expertise, you can maximize your Net Operating Income (NOI) and achieve highly satisfying returns on your investment.  It’s a powerful strategy to differentiate yourself and thrive in this challenging economic climate.
+Why does my team field tech support calls on equipment I don’t even own and for services I don’t bill?
+It’s a common practice among landlords, albeit not preferred, to handle tech support calls related to equipment and services they don’t directly own or bill for.  This approach can be inefficient and result in wasted expenses.  However, by implementing the OpticWise solution, you own the equipment and digital infrastructure yourself, you eliminate the need to handle support calls and expenses for services you don’t get any revenue from. And with the expertise and assistance of OpticWise, technical issues are resolved promptly and effectively, ensuring your tenants receive the best support without burdening your staff or incurring unnecessary costs.
+
+
+
+
+
+
+
+
+
+
+
+
+Frequently Asked Questions (FAQ’s)
+
+How much does it cost?
+This is a net positive to your P&L. Services cost a fraction of the revenues they drive, providing significant NOI and yield for the CRE operator (i.e., our client).
+How long does it take to implement the OpticWise SIC® platform and 5S® user experience?
+Retrofit applications can be implemented in less than one quarter, while new construction applications always stay synchronized with GC schedules.
+Who does the resident call if there’s an issue? Who supports my residents?
+OpticWise supports any/all end-user tenant support related to Internet and Connectivity. We support tenants directly via phone, email, or text.
+What is your redundancy strategy?
+The SIC® platform is extremely stable.  In the design phase, each point of failure is addressed commensurate with the owner’s strategy and/or constraints. Internet circuits and power are redundant. Result: 5S® residents remain connected.
+How reliable is your service?
+With over 18 years of experience, we have mastered the art of creating a resilient and stable digital infrastructure. During the design phase, we address every potential point of failure based on your strategy and constraints.  Our redundant Internet circuits and effective power failure mitigation ensure that residents remain connected without interruptions.
+Who supports the equipment?
+OpticWise handles all monitoring, maintenance, and support for the equipment. Hardware has jointly-specified support contracts (see below options). In the event of any equipment failure, we coordinate all repair and restoration work.
+Who installs the equipment and physical network?
+Your low voltage contractor will install the wiring and equipment according to detailed specification and instructions that we provide.  OpticWise takes responsibility for configuring your in-building network, bringing it live in coordination with your go-live schedule.
+
+
+
+Will our entire campus from basement to attic, from parking lot to spa be WiFi covered and strong?
+As part of our proven process, we perform a comprehensive radio frequency (RF) design.  This engineering effort considers every aspect of your property, resulting in robust and extensive WiFi coverage for all owner-specified areas.
+Will my tenants/residents be able to make cell phone calls from deep inside my property?
+Your digital infrastructure will support WiFi calling for all users, including tenants and/or residents. This effectively eliminates the need for a separate cellular distributed antenna system (DAS) by mitigating the impact of poor in-building performance of 5G cellular networks.
+How many users can use the system at the same time?
+The digital infrastructure can accommodate as many users and devices as your property can host, including guests, operational systems and personnel, and future growth capacity for devices and data throughput.
+What brands of equipment are we talking about?
+All equipment is sourced from first-tier manufacturers such as HP, Cisco, Schneider, Fortinet, and others.  We do not use white-labeled or off-brand equipment.
+What happens if the physical equipment goes out?
+Core equipment is covered by factory warranties with replacement options selected by clients after design and evaluations.  See below tables for equipment warranty and support options available from the manufacturers of the digital infrastructure system components.
+
+CapEx Category
+Robust Factory Support Contracts
+Network Core:
+Mftr 5-yr SS 24x7x4 onsite svc contracts on core switching
+Wireless Systems:
+Mftr 5-yr SS 24x7x4 onsite svc contract on controller
+Security & UTM:
+Mftr 5-yr SS 24x7x4 onsite svc and 5 yr UTM updates
+Switching:
+No Mftr onsite svc contracts; Spare switch onsite
+Racks & Monitors:
+Equipment racks; monitoring of closets
+UPS & Power:
+Uninterruptible Power Supplies for run time during outages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CapEx ROM (Lean)
+Lean Factory Support Contracts
+Network Core:
+No Mftr onsite svc contracts on core switching
+Wireless Systems:
+No Mftr onsite svc contracts
+Security & UTM:
+Mftr 1-yr no onsite svc and 1 yr UTM updates
+Switching:
+No Mftr onsite svc contracts
+Racks & Monitors:
+Equipment racks; monitoring of closets
+UPS & Power:
+
+
+
+What future budget cycles should we plan for relative to the digital infrastructure?
+Years 1-5 are covered by factory support warranties.  At the end of year 5, we highly recommend a refresh of support and software contracts, which will amount to approximately 30% of the original equipment cost.  At the end of 10 years, a full refresh of core equipment and access points (APs) should be considered.
+How solid are the Internet circuits coming into the building? Do you provide two different carriers to ensure 100% redundancy?
+Selected ISP circuits are always diverse in terms of providers and paths. If one ISP circuit goes down, the network fails over to the other. OpticWise assists in coordinating the installation and connections of two DataCenter Direct (DIA) Internet circuits, each with 99.99999% uptime and made redundant within the system. This setup ensures near-guaranteed uptime, excluding unforeseen circumstances like physical damage or malicious behavior.
+Do I have to use a specific Bandwidth or Internet provider?
+No, the SIC® platform operates with any Internet circuits, including those already onsite or ones your tenants may already have or bring in.
+What is my liability for providing Internet and connectivity. How can I address this?
+Included with an OpticWise engagement is a battery of proven & deployed contract templates outlining SLA's for each offered service, as well as an over-arching Master Terms & Conditions that specifically addresses limitation of liability from multiple angles with specific definitions on exposure, remedy, and indemnification. These templates are not legal advice but will greatly simplify your legal counsel's generation and review process for tenant-facing documentation.
+Who bills the tenants and/or residents for these technology services?
+OpticWise brands the service to your property, and you will handle billing directly to your tenants/residents, which helps with your branding in their mind, and thus tenant/resident renewals/retention.  Most owners bill the residents as an amenity fee in addition to their rent. OpticWise bills you a fixed fee, billed monthly for our services and support.
+Who is OpticWise? How long have you been in business?
+OpticWise, formerly known as Summit Networks, was founded in 2005 and re-incorporated as OpticWise in 2015.  Headquartered in Golden, CO, serving clients around the globe and properties across the United States.  We are a high-growth, private, profitable enterprise. Our leadership team boasts decades of experience in managed services and deep technical expertise. Over the past 18 years, we have specialized in helping numerous properties operate tens of millions of square feet, ensuring high yields from technology assets.
+
+What about phone, security, and other network services?
+OpticWise provides standard network services included in the master agreement.  Additionally, we offer voice services based on your requirements or those of your tenants.  Our Software-as-a-Service (SaaS) platform allows you to onboard and manage any IoT devices and utilize various streaming services.
+What is the Building of Things® you mention?
+Building of Things® is our strategic approach to consolidate all your property’s networks onto the fewest possible physical networks, thereby reducing both build and operating costs.  This strategy often saves hundreds of thousands of dollars in build costs and several thousand dollars per month in operating costs, ultimately driving higher returns on your technology investments.
+What does SCI® stand for, and what is it?
+SIC® stands for Security, Infrastructure, and Connectivity.  It represents our core network design philosophy, ensuring resilient, secure, and hardened network design, deployment, maintenance, monitoring, and operation.
+What does 5S® stand for?
+5S® is our unique user experience offering, which encompasses Seamless mobility, Security, Stability (resilience), Speed, and Service.  This user experience will be branded to your property, allowing you to differentiate your offering.
+
+5S® User Ulitmate Privacy Policy
+
+Last updated: August 30, 2022
+
+This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use any 5S® Service and tells You about Your privacy rights and how the law protects You.
+
+Interpretation and Definitions
+Interpretation
+The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+Definitions
+For the purposes of this Privacy Policy:
+Account means a unique account created for You to access our Service or parts of our Service.
+
+Affiliate means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+
+Application means the software program provided by the Company downloaded by You on any electronic device.
+
+Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to OpticWise, Inc., 619 12th Street #1134, Golden, CO 80401.
+
+Country refers to: Colorado, United States
+
+Device means any device that can access the Service such as a computer, a cellphone or a digital tablet.
+
+Personal Data is any information that relates to an identified or identifiable individual.
+
+Service refers to the Application.
+
+Service Provider means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.
+
+Usage Data refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).
+
+You means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+
+Collecting and Using Your Personal Data
+Types of Data Collected
+Personal Data
+While using Our 5S® Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information is limited to:
+Email address
+First name and last name
+Phone number
+Usage Data
+Device Usage Data is collected automatically when using the Service.
+
+Device Usage Data is utilized for connectivity support purposes only. This may include information such as Your Device's Internet Protocol address (e.g., IP address) on the network, the time and date of Your usage of the Service, unique device identifiers and other diagnostic data.
+
+We do not collect information that Your browser sends whenever You access the Service by or through a mobile device.
+Use of Your Personal Data
+The Company may use Personal Data for the following purposes:
+
+To provide and maintain our Service, including to monitor the usage of our Service.
+To manage Your Account: to manage Your registration as a user of the Service.
+
+To contact You: To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products, or contracted services, including the security updates, when necessary or reasonable for their implementation.
+
+To manage Your requests: To attend and manage Your requests to Us.
+We do not share Your personal information ever, particularly in the following situations:
+With Service Providers
+With Affiliates
+With business partners
+With other users
+Retention of Your Personal Data
+The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.
+
+The Company will not retain Usage Data.
+Disclosure of Your Personal Data
+Business Transactions
+If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.
+Law enforcement
+Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency).
+Other legal requirements
+The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:
+Comply with a legal obligation
+Protect and defend the rights or property of the Company
+Prevent or investigate possible wrongdoing in connection with the Service
+Protect the personal safety of Users of the Service or the public
+Protect against legal liability
+Security of Your Personal Data
+The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.
+
+Links to Other Websites
+Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.
+
+We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+
+Changes to this Privacy Policy
+We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.
+
+We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.
+
+You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+
+Contact Us
+If you have any questions about this Privacy Policy, You can contact us:
+By email: support@opticwise.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We Believe
+
+At OpticWise, we are guided by a set of core beliefs that reflect our commitment to property owners and their success.  These principles drive our approach to data and digital infrastructure solutions, guaranteeing owners complete ownership, equitable compensation, and the ability to leverage technology as a differentiating factor.  Here’s what we stand for:
+
+Data and Digital Infrastructure Ownership: We firmly believe that property owners should have complete ownership and operational control of everything on, under, over, and within their property.  This includes the property data and digital infrastructure, which should be assets that contribute to their success.
+Compensation for Value: Property owners should be fairly compensated for everything on their property, including the digital infrastructure assets they provide. We believe in unlocking the value of technology investments and turning them into revenue streams that contribute to the owner’s bottom line.
+Connectivity as a Differentiator: In today’s competitive landscape, reliable and high-speed internet plays a crucial role in attracting and retaining tenants.  We recognize that connectivity is a differentiating factor that can set properties apart, and we provide tailored solutions that meet the evolving needs and expectations of tenants.
+Secure and Private Mobility: OpticWise is committed to securely enabling tenants’ mobility while respecting their privacy. We prioritize implementing robust security measures to safeguard user data and ensure a safe and private digital environment for all users.
+Reliability and Affordability: We believe that technology should be as reliable, affordable, and seamless as other essential utilities within a property. Our solutions are designed to provide dependable connectivity, providing a seamless and cost-effective experience.
+Unlocking Greater Returns: We firmly believe that the strategic application of collecting data and owning the digital infrastructure on your property has the potential to unlock greater returns than ever before.  By leveraging our expertise and solutions, property owners can optimize their investments and achieve enhanced financial outcomes.
+
+At OpticWise, our beliefs reflect our commitment to empowering property owners through data and digital infrastructure ownership.  We deliver comprehensive solutions that align with these fundamental principles, enabling property owners to maximize their potential, differentiate their properties, and thrive in the today’s dynamic Commercial Real Estate landscape.
+
+
+
+
+
+
+
