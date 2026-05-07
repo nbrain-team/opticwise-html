@@ -201,25 +201,30 @@ function main() {
   // depth tracking <section> tags.
   function findSectionEnd(startIdx) {
     let depth = 0;
-    const sectionOpenRe = /<section\b/gi;
-    const sectionCloseRe = /<\/section>/gi;
-    sectionOpenRe.lastIndex = startIdx;
     let pos = startIdx;
     while (pos < html.length) {
-      sectionOpenRe.lastIndex = pos;
-      sectionCloseRe.lastIndex = pos;
-      const o = sectionOpenRe.exec(html);
-      const c = sectionCloseRe.exec(html);
-      if (!c) throw new Error('no closing </section> for hero');
-      if (o && o.index < c.index) {
+      const oRaw = html.indexOf('<section', pos);
+      const c = html.indexOf('</section>', pos);
+      // Only count <section as an opener when followed by whitespace or '>'
+      // (avoid matching <sectional...> or anything that just starts with section).
+      let o = -1;
+      let scan = oRaw;
+      while (scan !== -1) {
+        const next = html.charAt(scan + '<section'.length);
+        if (/[\s>]/.test(next)) { o = scan; break; }
+        scan = html.indexOf('<section', scan + 1);
+      }
+      if (c < 0) throw new Error('no closing </section> for hero');
+      if (o !== -1 && o < c) {
         depth++;
-        pos = o.index + 1;
+        pos = o + 1;
       } else {
-        if (depth === 0) {
-          return c.index + '</section>'.length;
+        if (depth === 1) {
+          // closing the hero itself
+          return c + '</section>'.length;
         }
         depth--;
-        pos = c.index + 1;
+        pos = c + 1;
       }
     }
     throw new Error('unbalanced sections');
