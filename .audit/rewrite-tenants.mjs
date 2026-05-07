@@ -374,7 +374,7 @@ const BLOCKS = [
       },
       {
         id: "69ebb643ea9de5548eff5e71",
-        text: "Where suite scope stops and owner\u2011standard infrastructure begins \u2014 before TI gets re\u2011cut",
+        text: "Where suite scope stops and owner\u2011held data \u0026 digital infrastructure begins \u2014 before TI gets re\u2011cut",
       },
     ],
   },

@@ -4,46 +4,52 @@ How It Works
 Insights Blog Articles FAQ Glossary
 About Company Contact
 Schedule Review
-For Tenants What OpticWise Means for Your Lease
-If you're evaluating a building operated under the OpticWise standard — here's what it means for your team. No marketing language. Just what changes.
-Property tech is usually sold to the owner. This page is written for you.
-For corporate tenants, GCs, lease negotiators, and workplace teams.
-Schedule Your Review
-The Standard
-What 5S® Means in Your Suite
-Every OpticWise building is measured against five tenant-facing standards.
+For Business Tenants What You Are Really Buying: Building Data & Digital Infrastructure — Not Just RSF.
+Multi‑tenant teams show up with LC, IT, and workplace leads in the same room because the risk is operational: time to usable connectivity, who owns carriage in the path, whether common‑area and base‑building systems can take your firm down on Day One, and what the sponsor can evidence when you ask a hard question in diligence. This page is written for the tenant side of that conversation.
+If you don't own your data & digital infrastructure, your vendors do.
+For occupiers, corporate real estate advisors, workplace leads, and IT stakeholders evaluating office and multi‑tenant commercial space — not residential leasing.
+Schedule Your Review 5S® tenant experience standard
+What Tenants Ask Us to Evidence
+5S® — The User Experience You Can Negotiate Around
+Buy‑side teams increasingly treat reliable carriage, identity, and fault isolation as table stakes — the same way they treat power and HVAC capacity. Peak Property Performance® is the owner discipline; 5S® is the tenant‑facing description of what that feels like day to day.
 0 1
 Seamless Mobility
-One network identity from your suite to the common area. No re-logging in as you move.
+One coherent identity from the suite to shared amenity and circulation space — fewer “re‑authenticate everywhere” days when your employees move.
 0 2
 Security
-Segmented from other tenants and from building operational systems. Your traffic is your traffic.
+Tenant traffic logically separated from other occupiers and from building OT — the posture you want when legal and IT ask how “shared” the stack really is.
 0 3
 Stability
-Building-system outages don't take down your connectivity. Vendor failures are isolated.
+Failure domains that do not turn a chiller event or a vendor slip into a firm‑wide outage — closer to the resilience you model internally.
 0 4
 Speed
-Performance targeted to what your team actually runs — not building-minimum specs.
+Throughput and latency aligned to how you work — video, design, trading, clinic, lab — instead of a generic “building minimum” that ages poorly at Year Three.
 0 5
 Service
-Human support. Known contacts. Not a generic tenant services portal.
-What This Replaces
-The Patterns You've Probably Lived With
-Tenant Wi-Fi That "Just Happens"
-Installed by a vendor, on their hardware, on their network. Outages traced to nobody.
-Building-Wide Slowdowns
-One tenant or system consumes the building. Yours suffers.
-Fragmented Access
-Your building credential, your parking credential, your Wi-Fi credential — three different vendors, three different problems.
-Vendor Finger-Pointing
-When something breaks, nobody owns it. You've been the root-cause investigator more than once.
-Privacy Non-Negotiables
-What OpticWise Does Not Do
-OpticWise does not monetize tenant browsing behavior. OpticWise does not sell user data. Owner control and tenant trust are non-negotiable.
-Building-level connectivity and data & digital infrastructure is what we govern. What happens on your traffic, inside your suite, is yours.
+Named operational cover and runbooks — not a portal that routes every incident to “please wait for the next available vendor.”
+Patterns Offices Outgrow
+When the Stack Was Never Designed For Your Timeline
+A common pattern we see in tour and LOI weeks: connectivity looks free until it isn't, and the building story gets fuzzy right when IT joins the thread.
+“Gift” Wi‑Fi That Comes With a Landlord None of You Know
+Outsourced amenity networks, opaque SLAs, and a help desk that cannot answer suite‑edge questions — your GC signs; your IT inherits the ambiguity.
+Single‑Thread Building Paths
+One carrier, one closet, no documented diversity — fine until a backhoe afternoon becomes a revenue or patient‑care story instead of a facilities note.
+TI Surprises After IT Walks the Base Building
+Conduit, IDF capacity, cable plant, and cooling headroom were not priced against your move‑in — so your allowance disappears before a single desk lands.
+You Are the Default Integrator
+Access control, visitor, parking, and guest Wi‑Fi each want their own vendor login — your workplace team becomes the glue because nobody owns the plane end to end.
+None of this is drama for drama's sake — it is the difference between occupying on the date you modeled and burning soft dollars while someone finds the demarc.
+Owner Thread — Tenant Trust
+What We Do — and What Stays Sacred
+OpticWise does not monetize tenant browsing behavior. OpticWise does not sell user data. Tenant trust is non‑negotiable — the same way owner‑controlled data & digital infrastructure is non‑negotiable on the asset side.
+Owners and sponsors who run Peak Property Performance® use PPP 5C™ — Clarify → Connect → Collect → Coordinate → Control — so capital, operations, and risk land on one evidence line. OpticWise is the partner‑operator at the building's data & digital infrastructure layer (BoT® — Building of Things®), with Property Brain™ → Portfolio Brain™ as the trust plane for permissioned outputs. You still govern what happens inside your suite and on your corporate identity; we align the base building and common‑area carriage to a standard your sponsor can show in a review — without asking your workplace lead to become the landlord's network architect.
 “ If you don't own your data & digital infrastructure, your vendors do. ”
-Your Next Step Evaluating a Building with OpticWise Inside?
-If you're a tenant or broker evaluating a building operated under the OpticWise standard, we're happy to walk your team through what that means — with the building's owner or operator present.
+Your Next Step Diligencing a Building That Leads With OpticWise?
+Bring your sponsor or broker, your IT lead, and your workplace owner — we walk the questions tenant teams actually file after the tour: demarc, redundancy, change control, and what is evidenced when performance slips.
+Who holds operational authority for base‑building and amenity carriage — and how that shows up in an incident, not a slide
+How 5S® maps to your occupancy plan, headcount mix, and the applications your firm runs
+What the owner can show when your counsel or IT asks about segmentation, lineage, and vendor access on the building plane
+Where suite scope stops and owner‑held data & digital infrastructure begins — before TI gets re‑cut
 Schedule a Conversation
 Owner-controlled data & digital infrastructure for commercial real estate.
 Explore
@@ -74,4 +80,4 @@ About
 Contact
 © 2026 OpticWise. All rights reserved.
 Own your data & digital infrastructure. Operate with strategic foresight. Build for the long game.
-For Tenants | What 5S® Means for Lease Decisions | OpticWise
+For Business Tenants | Data & Digital Infrastructure in Your Lease | OpticWise
