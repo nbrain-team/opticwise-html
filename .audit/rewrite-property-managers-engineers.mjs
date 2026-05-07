@@ -336,7 +336,7 @@ const BLOCKS = [
           "New controls, access, IoT, or carrier installs plug into the owner integration pattern \u2014 fewer \u201cone\u2011off\u201d punches that age into mystery spans in the ceiling.",
       },
       {
-        id: "691eb640ea9de5548eff5e51",
+        id: "69ebb640ea9de5548eff5e51",
         title: "Documentation that survives turnover",
         description:
           "As\u2011builts, exports, and log access that match how owners and IT actually ask questions \u2014 not a PDF graveyard that only made sense the week of commissioning.",
@@ -485,15 +485,13 @@ updated = updated.slice(0, hs) + emitHtml() + updated.slice(he);
 if (!updated.includes(OLD_META_DESC_SNIPPET)) {
   throw new Error("Expected meta description segment not found — aborting head patch");
 }
-updated = updated.split(OLD_META_DESC_SNIPPET).join(
-  H(NEW_META_DESCRIPTION.replace(/&/g, "&amp;").replace(/"/g, "&quot;")) ===
-  NEW_META_DESCRIPTION.replace(/&/g, "&amp;").replace(/"/g, "&quot;")
-    ? NEW_META_DESCRIPTION.replace(/&/g, "&amp;")
-    : NEW_META_DESCRIPTION.replace(/&/g, "&amp;")
-);
-// H() over-escapes — meta content should use &amp; for & only
 const META_HTML_ESC = NEW_META_DESCRIPTION.replace(/&/g, "&amp;");
 updated = updated.split(OLD_META_DESC_SNIPPET).join(META_HTML_ESC);
+
+const OLD_FLIGHT_META_DESC = J(
+  "OpticWise takes the data & digital infrastructure burden off your on-site team — without replacing you. Operational coverage with owner control."
+);
+updated = updated.replace(OLD_FLIGHT_META_DESC, J(NEW_META_DESCRIPTION));
 
 const OLD_EXCERPT_ESC = J(
   "How OpticWise takes the operational burden off your on-site team without replacing you."
