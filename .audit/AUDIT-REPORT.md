@@ -8,14 +8,16 @@
 
 ## Headline summary
 
-| | Count |
-|---|---:|
-| Pages with **at least one** brand violation | 13 |
+
+|                                                                                                               | Count                  |
+| ------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| Pages with **at least one** brand violation                                                                   | 13                     |
 | Pages **missing the reframing line** ("If you don't own your data & digital infrastructure, your vendors do") | 8 (+1 typo'd as "and") |
-| Pages **missing the default closer** | 0 — all good |
-| Bare/missing trademarks | 2 instances |
-| Banned-word hits (leverage / PropTech / ESG) | 14 instances |
-| "Bare infrastructure" (missing "data & digital " prefix) | 23 instances |
+| Pages **missing the default closer**                                                                          | 0 — all good           |
+| Bare/missing trademarks                                                                                       | 2 instances            |
+| Banned-word hits (leverage / PropTech / ESG)                                                                  | 14 instances           |
+| "Bare infrastructure" (missing "data & digital " prefix)                                                      | 23 instances           |
+
 
 ---
 
@@ -42,16 +44,18 @@ Canon §5.4: required at least once on each piece. Missing on:
 
 Canon §5.3: never use. (Distinct from a trademark like "ElasticISP" — these are plain English.)
 
-| Page | Line | Phrase | Suggested swap |
-|---|---|---|---|
-| `ppp-audit/` | L22 | "the real leverage points" | "the real decision points" |
-| `portfolio-brain/` | L43 | "operating data leverage doesn't exist" | "you have no operating-data advantage" |
-| `portfolio-brain/` | L50 | "highest-leverage play across the portfolio" | "highest-impact play across the portfolio" |
-| `for-asset-managers/` | L40 (heading) | "Vendor Leverage You Didn't Have" | "Negotiating Power You Didn't Have" |
-| `for-asset-managers/` | L61 | "the play with the highest leverage" | "the highest-impact play" |
-| `glossary/` | L44 | "owners who control the backbone control the leverage" | "…control the upside / negotiating power" |
-| `glossary/` | L79 | "three highest-leverage moves" | "three highest-impact moves" |
-| `contact/` | L33 | "where the leverage is" | "where the recoverable NOI sits" |
+
+| Page                  | Line          | Phrase                                                 | Suggested swap                             |
+| --------------------- | ------------- | ------------------------------------------------------ | ------------------------------------------ |
+| `ppp-audit/`          | L22           | "the real leverage points"                             | "the real decision points"                 |
+| `portfolio-brain/`    | L43           | "operating data leverage doesn't exist"                | "you have no operating-data advantage"     |
+| `portfolio-brain/`    | L50           | "highest-leverage play across the portfolio"           | "highest-impact play across the portfolio" |
+| `for-asset-managers/` | L40 (heading) | "Vendor Leverage You Didn't Have"                      | "Negotiating Power You Didn't Have"        |
+| `for-asset-managers/` | L61           | "the play with the highest leverage"                   | "the highest-impact play"                  |
+| `glossary/`           | L44           | "owners who control the backbone control the leverage" | "…control the upside / negotiating power"  |
+| `glossary/`           | L79           | "three highest-leverage moves"                         | "three highest-impact moves"               |
+| `contact/`            | L33           | "where the leverage is"                                | "where the recoverable NOI sits"           |
+
 
 #### 3. Banned word "ESG" (1 instance)
 
@@ -64,7 +68,6 @@ Canon §5.1: use "operations / utilities optimization" instead.
 Canon §5.1 / §5.3: OpticWise is **NOT PropTech**.
 
 - `faq/` L60: *"How does the 5C™ Plan compare to traditional CRE PropTech? + Traditional CRE PropTech adds vendor tools…"* — both uses are in our voice. Suggested rewrite:
-
   > *"How is the 5C™ Plan different from typical CRE building-tech vendors? + Typical building-tech vendors stack tools on top of a fragmented data foundation. The 5C™ Plan inverts the order: Clarify and Connect the owner-controlled foundation first, Collect and Coordinate the data, then Control any decision engine on top. The same vendor tools can still plug in — but on the owner's terms, not the vendor's."*
 
 #### 5. Bare trademarks — missing mark
@@ -76,18 +79,20 @@ Canon §5.1 / §5.3: OpticWise is **NOT PropTech**.
 
 Canon §5.1: always "data & digital infrastructure" — never "infrastructure" alone. The most common offense is the **PPP 5C™ pillar label "Managed infrastructure"** which appears on 6+ landing pages and should read **"Managed data & digital infrastructure"** per canon §6.
 
-| Page | Lines | Phrase to fix |
-|---|---|---|
-| `index.html` (homepage) | L72, L75 | "Managed infrastructure" (×2) |
-| `property-brain/` | L35, L41 | "Managed infrastructure" |
-| `how-we-operate/` | L42, L45 | "Managed infrastructure" |
-| `digital-infrastructure-noi-playbook/` | L23, L26 | "Managed infrastructure" (note: "Managed infrastructure (BoT®)" → "Managed data & digital infrastructure (BoT®)") |
-| `digital-infrastructure-noi-strategy/` | L48, L51 | "Managed infrastructure" |
-| `own-vs-lease-cre-building-data/` | L55 | "Managed infrastructure" |
-| `digital-infrastructure-noi-strategy/` | L15 | "If that infrastructure is fragmented…" → "If that **data & digital** infrastructure…" |
-| `bot-building-of-things/` | L17 | *"What the owner calls 'infrastructure'…"* — quoted/rhetorical; lower priority but recommend "data & digital infrastructure" |
-| `faq/` | L56, L59, L62 | three bare uses |
-| `glossary/` | L25, L29, L38, L51, L54, L58, L60 (×2) | seven bare uses; mostly within definition bodies |
+
+| Pagenote:                              | Lines                                  | Phrase to fix                                                                                                                |
+| -------------------------------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `index.html` (homepage)                | L72, L75                               | "Managed infrastructure" (×2)                                                                                                |
+| `property-brain/`                      | L35, L41                               | "Managed infrastructure"                                                                                                     |
+| `how-we-operate/`                      | L42, L45                               | "Managed infrastructure"                                                                                                     |
+| `digital-infrastructure-noi-playbook/` | L23, L26                               | "Managed infrastructure" (note: "Managed infrastructure (BoT®)" → "Managed data & digital infrastructure (BoT®)")            |
+| `digital-infrastructure-noi-strategy/` | L48, L51                               | "Managed infrastructure"                                                                                                     |
+| `own-vs-lease-cre-building-data/`      | L55                                    | "Managed infrastructure"                                                                                                     |
+| `digital-infrastructure-noi-strategy/` | L15                                    | "If that infrastructure is fragmented…" → "If that **data & digital** infrastructure…"                                       |
+| `bot-building-of-things/`              | L17                                    | *"What the owner calls 'infrastructure'…"* — quoted/rhetorical; lower priority but recommend "data & digital infrastructure" |
+| `faq/`                                 | L56, L59, L62                          | three bare uses                                                                                                              |
+| `glossary/`                            | L25, L29, L38, L51, L54, L58, L60 (×2) | seven bare uses; mostly within definition bodies                                                                             |
+
 
 ---
 
@@ -142,8 +147,9 @@ The directory slug and page title say **"5S® Standard"**. Canon §5.2: *5S® is
 
 ## What's NOT yet audited
 
-- **`insights/` — 126 blog posts.** Brand canon §11.1 has stricter rules for blogs (live hyperlinks on inline citations + References Cited footer). That's a separate, larger pass — likely 1–3 hours of read-through per post with fixes.
-- **`sitemap.xml`** — needs to be regenerated/scrubbed after any page deletions.
-- **`_mirror-manifest.json`** — debug log of crawl; same scrub when pages are removed.
+- `**insights/` — 126 blog posts.** Brand canon §11.1 has stricter rules for blogs (live hyperlinks on inline citations + References Cited footer). That's a separate, larger pass — likely 1–3 hours of read-through per post with fixes.
+- `**sitemap.xml`** — needs to be regenerated/scrubbed after any page deletions.
+- `**_mirror-manifest.json**` — debug log of crawl; same scrub when pages are removed.
 - **JSON-LD / OG / canonical tags** in `<head>` of each page — not yet checked. Canon §12 implies we should validate.
 - **Image alt text** — not yet audited.
+

@@ -78,9 +78,7 @@
   [BARE-INFRA] L42 — Managed infrastructure Secure, owner-controlled connectivity. …
   [BARE-INFRA] L45 — Managed infrastructure High-fidelity, usable data in a consist…
 
-=== index.html ===
-  [BARE-INFRA] L72 — Managed infrastructure Establish secure, owner-controlled conn…
-  [BARE-INFRA] L75 — Managed infrastructure Capture and normalize high-fidelity usa…
+=== index.html === CLEAN
 
 === own-vs-lease-cre-building-data ===
   [BARE-INFRA] L55 — Managed infrastructure Ingest data into an owner-controlled, n…
@@ -119,7 +117,7 @@ for-property-managers-and-engineers       0        —       Y
 for-tenants                               0        —       Y
 glossary                                 12        —       Y
 how-we-operate                            2        Y       Y
-index.html                                2        Y       Y
+index.html                                0        Y       Y
 own-vs-lease-cre-building-data            1        Y       Y
 portfolio-brain                           3        —       Y
 ppp-audit                                 1        Y       Y

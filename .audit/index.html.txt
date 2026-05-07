@@ -69,10 +69,10 @@ Clarify
 PPP Audit™ Define success metrics, map ownership, identify leakage, document what's trustworthy and portable.
 Step 02
 Connect
-Managed infrastructure Establish secure, owner-controlled connectivity that repeats property-to-property.
+Managed data & digital infrastructure Establish secure, owner-controlled connectivity that repeats property-to-property.
 Step 03
 Collect
-Managed infrastructure Capture and normalize high-fidelity usable data into a consistent reusable model.
+Managed data & digital infrastructure Capture and normalize high-fidelity usable data into a consistent reusable model.
 Step 04
 Coordinate
 Property Brain™ + Portfolio Brain™ Govern identity, access, privacy, lineage, retention, and rules of use.

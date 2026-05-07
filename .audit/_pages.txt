@@ -1,4 +1,4 @@
-index.html: 8376 chars
+index.html: 8406 chars
 about: 5074 chars
 advisory-services: 3281 chars
 ai-ready-commercial-real-estate: 3936 chars
