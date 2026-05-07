@@ -1,0 +1,94 @@
+OpticWise | Own Your Data & Digital Infrastructure
+Solutions Property Brain™ Portfolio Brain™ PPP Audit™ BoT® — Building of Things® 5S® Standard Advisory Services
+Audiences For LPs & Financiers For Asset Managers For IT Executives For PMs & Engineers For Tenants
+How It Works
+Insights Blog Articles FAQ Glossary
+About Company Contact
+Schedule Review
+Own vs. Lease The Economics of CRE Data Ownership
+Every building generates data. The question is simple: who owns it?
+If you don't own your data & digital infrastructure, your vendors do.
+Schedule Your Review
+The Reality
+Most Owners Are Leasing Data and Don't Know It
+Every commercial property generates data: utilities, foot traffic, HVAC performance, access events, tenant service tickets, water flow, network activity.
+In most buildings, that data is collected by vendors, stored in vendor platforms, analyzed on vendor terms, and sold back to the owner as "insights." It looks like ownership. It costs like ownership. It isn't ownership. When the contract ends, the insights go with the vendor. The data often goes with them too.
+The Hidden Cost
+The Real Cost of Leased Data
+Data leasing doesn't show up as a line item. It shows up as:
+Vendor lock-in — every year, switching costs grow
+Renewals you can't walk away from — the data holds you, not the contract
+"Insights" you can't verify — no audit trail, no second-opinion analysis, no portability
+Repeated integration costs — every new system integrates with the old vendor, not with you
+Portfolio intelligence that can't compound — each building starts over
+“ Meanwhile, you're paying for the data & digital infrastructure the data rides on. ”
+What Owned Data Looks Like
+Leased vs. Owned
+Leased: Vendor platform
+Owned: Owner-controlled data plane.
+Leased: Vendor-proprietary format
+Owned: Normalized, consistent model.
+Leased: Export on vendor terms
+Owned: Unlimited, documented, real-time.
+Leased: Vendor-defined audit trail
+Owned: End-to-end owner governance.
+Leased: Lost when contract ends
+Owned: Moves with the owner.
+Leased: Can't compound across portfolio
+Owned: Every property makes every other smarter.
+The Switch Math “ If you own your data & digital infrastructure, switching vendors is not that difficult. ” OpticWise Quote Bank
+The Compounding Effect
+Why Ownership Compounds
+Owned data does something leased data cannot: it compounds.
+Every building you add to an owner-controlled data model improves decisions across the portfolio. Utilities benchmarks get tighter. Failure patterns get clearer. CapEx planning gets smarter. Tenant-experience standards get comparable. Leased data does not compound — it fragments. Every vendor contract is its own island. That compounding effect is exactly what turns Property Intelligence into Portfolio Intelligence.
+The Path
+From Leased to Owned in Five Steps
+Same five steps as every OpticWise engagement.
+Step 01
+Clarify
+PPP Audit™ Map every data source, every vendor, every contract. Know what you're leasing.
+Step 02
+Connect
+BoT® Owner-controlled connectivity that doesn't depend on any one vendor.
+Step 03
+Collect
+Managed infrastructure Ingest data into an owner-controlled, normalized model.
+Step 04
+Coordinate
+Property Brain™ Govern who can access, use, and extend the data.
+Step 05
+Control
+Portfolio Brain™ Plug in any analytics, AI, or vendor platform — and swap them without losing anything.
+“ Owned data is the outcome. ”
+Your Next Step Find Out What You Own — and What You're Leasing
+Start with a complimentary PPP Audit™.
+Schedule Your Review
+Owner-controlled data & digital infrastructure for commercial real estate.
+Explore
+NOI Strategy
+NOI Playbook
+AI-Ready CRE
+Own vs Lease Data
+Digital Visibility
+Solutions
+Property Brain™
+Portfolio Brain™
+PPP Audit™
+BoT® — Building of Things®
+5S® Standard
+Advisory Services
+By Audience
+For LPs & Financiers
+For Asset Managers
+For IT Executives
+For PMs & Engineers
+For Tenants
+Resources
+Insights (Blog)
+FAQ
+Glossary
+How We Operate
+About
+Contact
+© 2026 OpticWise. All rights reserved.
+Own your data & digital infrastructure. Operate with strategic foresight. Build for the long game.

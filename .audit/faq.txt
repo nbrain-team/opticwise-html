@@ -1,0 +1,94 @@
+OpticWise FAQ — Direct Answers for CRE Owners | OpticWise
+Solutions Property Brain™ Portfolio Brain™ PPP Audit™ BoT® — Building of Things® 5S® Standard Advisory Services
+Audiences For LPs & Financiers For Asset Managers For IT Executives For PMs & Engineers For Tenants
+How It Works
+Insights Blog Articles FAQ Glossary
+About Company Contact
+Schedule Review
+FAQ Frequently Asked Questions
+Direct answers for CRE owners, operators, and asset managers evaluating OpticWise. These are the questions owners actually ask us — on discovery calls, in due diligence, and during board-level reviews.
+If yours isn't here, schedule a complimentary review and ask it directly.
+Schedule Your Review
+Getting Started
+The Basics
+What is OpticWise, in one sentence? + OpticWise helps CRE owners turn data & digital infrastructure into owner-controlled digital assets — so Property Intelligence becomes Portfolio Intelligence.
+Who is OpticWise for? + CRE owners, operators, asset managers, portfolio operators, and developers who want predictable NOI, resilient operations, satisfied tenants, and portfolios that get smarter over time.
+Who is OpticWise not for? + Owners who only care about the cheapest internet. Owners who won't run governance after install. Owners looking for a single point solution without an owner standard. We're candid about fit so nobody wastes time.
+What is the first step? + A complimentary PPP Audit™. One building, one working session, clear deliverables, no sales pitch.
+Do I need to switch vendors to work with OpticWise? + No. OpticWise is vendor-agnostic and LLM-agnostic by design. You can keep vendors who perform, replace vendors who don't, and swap both in the future without rewiring the building.
+About the Model
+The Two-Layer Model & Frameworks
+What's the difference between Layer 1 and Layer 2? + Layer 1 is Managed Data & Digital Infrastructure — the foundation you own, delivered through BoT®. Layer 2 is the Owner-Controlled Intelligence Layer — Property Brain™ → Portfolio Brain™, which is a vendor-agnostic data plane + trust plane. Neither layer works alone. Both are designed to compound across the portfolio.
+What is BoT® (Building of Things®)? + BoT® is OpticWise's owner-controlled approach to data & digital infrastructure. It consolidates and governs building connectivity so every device and system runs on a single, secure, segmented foundation.
+What is Property Brain™? + Property Brain™ is a vendor- and LLM-agnostic Property Intelligence Layer — a governed data plane + trust plane that makes each property capable of autonomous activities and intelligence.
+What is Portfolio Brain™? + Portfolio Brain™ is what you get when you standardize Property Brain™ across multiple properties. Intelligence compounds across the portfolio instead of restarting at every address.
+What is the PPP 5C™ plan? + Peak Property Performance® 5C™ is the repeatable five-step plan: Clarify → Connect → Collect → Coordinate → Control. Every OpticWise engagement runs on it.
+What is 5S®? + 5S® is the user experience standard every OpticWise deployment is measured against: Seamless Mobility · Security · Stability · Speed · Service. Non-negotiable.
+Working Together
+Engagement Questions
+Is the PPP Audit™ really free? + Yes. Complimentary, no strings. It is how we determine fit for both sides before anyone commits to anything larger.
+How long does a PPP Audit™ take? + One building. Typically 45–90 minutes of live time with your team, plus our analysis and deliverable prep. You'll get a Property Data Map, a Control Gap Analysis, and a prioritized Roadmap.
+Do you require a long-term contract? + No. We scope to deliverables. Advisory engagements are typically project-based. Managed services are structured around ongoing operations — but without lock-in clauses that trap the owner's data.
+Will this disrupt our current operations? + No rip-and-replace. We phase around turnover, CapEx timing, and lease-up milestones. The Clarify step happens alongside normal operations.
+We don't have bandwidth on our on-site team. Is that a problem? + That's actually the point. OpticWise operates the owner standard without taxing your on-site engineers or property managers. Different skill set. Different lane. Different team. Same owner standard.
+What happens if we want to leave? + Your data is yours. Your documentation is yours. Your governance standard is yours. No hostage data. Portability is the design philosophy — not a departure penalty.
+Data, Privacy & AI
+About Data and AI
+Who owns the data? + You do. The entire model is built around owner-controlled data & digital infrastructure. If OpticWise goes away tomorrow, your data, your documentation, and your operating standard stay with you.
+Do you monetize tenant data? + No. OpticWise never monetizes tenant browsing behavior or sells user data. We adhere to the Ultimate Privacy Policy to protect any/all user data. Owner control and tenant trust are non-negotiable.
+What about privacy compliance? + Privacy, security, compliance, and auditability are baked into the governance layer (Coordinate step of PPP 5C™). Every access event, data flow, and system integration is documented and owner-controlled. We adhere to the Ultimate Privacy Policy to protect any/all user data.
+Is OpticWise an AI company? + We're a data & digital infrastructure company. We can perform AI functions for clients and/or we enable clients to be AI-driven. AI is a capability that runs on top of the foundation we build — which is why we're LLM-agnostic. You can plug in any AI platform, swap it, or run multiple in parallel — all under owner permissions.
+Can we use our own AI tools? + Yes. That's the point of LLM-agnostic design. Property Brain™ governs the data plane and trust plane. Any decision engine — internal analytics, vendor platform, any LLM — plugs in and acts under owner permissions.
+What happens when a better AI model comes out in six months? + That's exactly what Property Brain™ is built for. Swap the model. Keep your data, your workflows, your governance, and your portfolio intelligence intact. The model is the commodity. The layer above it is the asset. OpticWise designs and operates that layer for you.
+Objection Handling
+What If We Already...
+"We already have dashboards." + Dashboards aren't durable capability. The PPP 5C™ plan turns installed tech into a governed, portable owner standard — so you can actually act, not just look.
+"Our vendors already handle all this." + If you don't own your data & digital infrastructure, your vendors do. Portability changes the power dynamic. Vendors compete to serve you, instead of competing to trap you.
+"ROI isn't clear." + ROI ties to preventable failure modes plus specific monthly plays: utilities variance, ticket velocity, after-hours emergency spend, water risk visibility, renewals. The PPP Audit™ maps what is actually operable in your portfolio.
+"This sounds disruptive." + No rip-and-replace. Start with Clarify, then phase implementation around turnover, CapEx timing, and lease-up milestones.
+"We're too small for this." + If you have two or more buildings, standardization compounds. If you have one, the PPP Audit™ still maps what you own vs. what you're leasing from vendors — often the single most valuable conversation you'll have before your next CapEx cycle.
+"How are you different from other vendors?" + OpticWise is not a bolt-on vendor. We're a partner-operator. Most vendors want to own a layer of your stack. We want you to own the whole foundation, and we operate it for you under your rules. Vendor-agnostic, LLM-agnostic, owner-controlled by design.
+Quick Answers
+Common Questions About Owner-Controlled CRE
+What is owner-controlled data in commercial real estate? + Owner-controlled data means the building owner holds admin credentials, owns the data, has portability rights, and can swap vendors without losing history. It's the prerequisite for AI readiness, governance, and durable NOI growth across CRE portfolios.
+How do CRE owners prepare for AI? + AI readiness in commercial real estate starts with owner-controlled digital infrastructure — not the AI tool. The OpticWise 5C™ Plan sequences this: Clarify what data matters and who owns it, Connect systems on a unified backbone, Collect normalized data, Coordinate governance, then Control any AI or decision engine that plugs in.
+What is the difference between Property Brain™ and Portfolio Brain™? + Property Brain™ is the OpticWise intelligence layer at a single property — a vendor- and LLM-agnostic data plane plus trust plane that supports any decision engine. Portfolio Brain™ is the same intelligence layer scaled across every property in a portfolio, so benchmarking, pattern detection, and centralized decisioning compound across buildings.
+Should CRE owners build or buy digital infrastructure? + CRE owners shouldn't build digital infrastructure from scratch — it's not a real estate competency. The right move is to engage a managed services partner (like OpticWise) that designs, implements, and operates owner-controlled infrastructure, leaving the owner with admin credentials, data ownership, and portability rights, but without the operational burden.
+What does AI-ready CRE actually mean? + AI-ready commercial real estate is a property or portfolio where AI can deliver measurable operational value. It requires three things: clean, normalized, owner-controlled data; integrated building systems on a unified network; and governance that defines who and what can act on the data. Most buildings are not AI-ready today because the data layer belongs to vendors.
+Why is CRE data ownership a valuation issue now? + CRE data ownership has become a valuation issue because operational data — energy patterns, tenant behavior, maintenance history — is now what AI, predictive operations, and portfolio analytics run on. Buildings with portable, owner-controlled data can be operated, refinanced, and sold without losing intelligence. Buildings with vendor-trapped data trade at a discount.
+What is shadow AI in commercial real estate? + Shadow AI in CRE isn't your corporate team using ChatGPT. It's every vendor inside your building running AI on your operational data — leasing platforms, energy systems, access control — under their governance, not yours. The fix is owner-controlled data infrastructure that lets owners audit and control vendor AI, not ban it.
+How does the 5C™ Plan compare to traditional CRE PropTech? + Traditional CRE PropTech adds vendor tools on top of a fragmented data foundation. The 5C™ Plan inverts the order: Clarify and Connect the owner-controlled foundation first, Collect and Coordinate the data, then Control any decision engine on top. The same vendor tools can still plug in — but on the owner's terms, not the vendor's.
+What does it cost to make a building AI-ready? + Cost varies by property size and complexity, but typical Peak Property Performance® engagements cost a fraction of comparable hyperscale or enterprise IT projects — measured in tens of thousands of dollars per building, not millions. The real return is portfolio-wide: NOI lift, faster lease-up, lower OPEX, and the ability to swap decision engines without rewiring buildings.
+Who is OpticWise for? + OpticWise is for CRE owners, asset managers, IT executives, property managers, LPs, and developers who want predictable NOI, AI-ready operations, vendor-agnostic infrastructure, and portfolios that compound value over time. We're not a fit for owners looking for the cheapest internet, or owners who don't want to govern their digital assets after install.
+Still Have Questions? Ask Them Directly
+The fastest path is a complimentary PPP Audit™. One building, one working session, no pitch.
+Schedule Your Review
+Owner-controlled data & digital infrastructure for commercial real estate.
+Explore
+NOI Strategy
+NOI Playbook
+AI-Ready CRE
+Own vs Lease Data
+Digital Visibility
+Solutions
+Property Brain™
+Portfolio Brain™
+PPP Audit™
+BoT® — Building of Things®
+5S® Standard
+Advisory Services
+By Audience
+For LPs & Financiers
+For Asset Managers
+For IT Executives
+For PMs & Engineers
+For Tenants
+Resources
+Insights (Blog)
+FAQ
+Glossary
+How We Operate
+About
+Contact
+© 2026 OpticWise. All rights reserved.
+Own your data & digital infrastructure. Operate with strategic foresight. Build for the long game.

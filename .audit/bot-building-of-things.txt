@@ -1,0 +1,87 @@
+Solutions Property Brain™ Portfolio Brain™ PPP Audit™ BoT® — Building of Things® 5S® Standard Advisory Services
+Audiences For LPs & Financiers For Asset Managers For IT Executives For PMs & Engineers For Tenants
+How It Works
+Insights Blog Articles FAQ Glossary
+About Company Contact
+Schedule Review
+Layer 1 — The Foundation Building of Things® (BoT®)
+One single, secure, segmented foundation. Every device, every system, every vendor — running under owner rules.
+If you don't own your data & digital infrastructure, your vendors do.
+Schedule Your Review
+What It Is
+OpticWise's Owner-Controlled Data & Digital Infrastructure Framework
+BoT® (Building of Things®) consolidates and governs building connectivity so every device or system can run on a single, secure, segmented foundation — designed, implemented, and operated by OpticWise as managed services.
+BoT® is Layer 1 of the OpticWise Two-Layer Model. It is the foundation you own — and the foundation Property Brain™ and Portfolio Brain™ ride on top of.
+Why BoT® Exists
+Most Building Tech Looks Like This
+What the owner calls "infrastructure" is actually a stack of vendor contracts wearing a trench coat.
+Wi-Fi Installed by one vendor, on their hardware, on their network
+Access Control Another vendor, another network
+HVAC A third network
+Lighting A fourth
+Elevators A fifth
+BoT® replaces that pattern with one owner-controlled backplane. Vendors plug in under rules.
+The Principle “ Duplicate networks and redundant systems are wasted CapEx and wasted OpEx. ” OpticWise Quote Bank
+What BoT® Delivers
+Five Characteristics
+Single Foundation
+One secure, segmented network that carries every building system. No more vendor-by-vendor network sprawl.
+Owner-Controlled Governance
+Segmentation, access rules, admin credentials, data export rights, audit trails — all held by the owner.
+Vendor-Agnostic by Design
+Vendors plug in under rules. Swap any vendor without re-architecting the building.
+Managed Operations
+Designed, implemented, and operated — without taxing on-site engineers or property managers.
+5S® UX Standard
+Every BoT® deployment is measured against Seamless Mobility · Security · Stability · Speed · Service.
+What BoT® Prevents
+Three Patterns We See Every Week
+Ownership isn't purchase. It's governance plus operating model.
+Rogue Network Time Bomb — duplicate or undocumented networks that don't surface as problems until they fail years later
+Redundant Systems Tax — multiple systems doing the same job, paid twice in CapEx and OpEx
+The "Never Turned On" System — software billed, never operationalized after a PM change; zero ROI until someone takes ownership
+“ Governance debt comes due with interest. ”
+The Handoff BoT® + Property Brain™
+The Foundation + The Intelligence Layer
+Neither layer works without the other.
+BoT® is the foundation. Property Brain™ is the intelligence layer that sits on top of it.
+BoT® makes sure the data is there, trustworthy, and owner-controlled. Property Brain™ makes sure any analytics, AI, or decision engine can act on it — under your permissions.
+Portfolio Brain™ is what you get when you standardize Property Brain™ across the portfolio — intelligence that compounds.
+BoT® → Property Brain™ → Portfolio Brain™
+Your Next Step Schedule a BoT® Review
+Start with a PPP Audit™ to map your current data & digital infrastructure posture and scope a BoT® rollout for one pilot property.
+Schedule Your Review
+Engineering Discipline
+SIC® — Security, Infrastructure, and Connectivity
+The owner-controlled engineering discipline behind BoT®.
+SIC® stands for Security, Infrastructure, and Connectivity. It represents OpticWise's core network design philosophy — ensuring resilient, secure, hardened network design, deployment, maintenance, monitoring, and operation. Every BoT® implementation is built on SIC® principles: first-tier equipment from manufacturers like HP, Cisco, Schneider, and Fortinet (no white-labeled or off-brand hardware), redundant Internet circuits, comprehensive RF design, and resilience to physical failure. SIC® is what makes Building of Things® stable enough that owners can trust their data and digital infrastructure as a strategic asset, not a fragile dependency.
+Owner-controlled data & digital infrastructure for commercial real estate.
+Explore
+NOI Strategy
+NOI Playbook
+AI-Ready CRE
+Own vs Lease Data
+Digital Visibility
+Solutions
+Property Brain™
+Portfolio Brain™
+PPP Audit™
+BoT® — Building of Things®
+5S® Standard
+Advisory Services
+By Audience
+For LPs & Financiers
+For Asset Managers
+For IT Executives
+For PMs & Engineers
+For Tenants
+Resources
+Insights (Blog)
+FAQ
+Glossary
+How We Operate
+About
+Contact
+© 2026 OpticWise. All rights reserved.
+Own your data & digital infrastructure. Operate with strategic foresight. Build for the long game.
+OpticWise | Own Your Data & Digital Infrastructure

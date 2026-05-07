@@ -1,0 +1,126 @@
+
+=== 5s-user-experience-standard === CLEAN
+
+=== about ===
+  [BANNED] L33 "PropTech" — PropTech Outlook - 2025
+  [BANNED] L42 "PropTech" — PropTech Visionary of the Year USA (2024)
+  [BANNED] L46 "PropTech" — …ns Provider USA (2024). Most Innovative PropTech Solutions Company (2023 and 2022).
+
+=== advisory-services === CLEAN
+
+=== ai-ready-commercial-real-estate ===
+  [MISSING] Reframing line absent on page
+
+=== bot-building-of-things ===
+  [BARE-INFRA] L17 — What the owner calls "infrastructure" is actually a stack of vendor contract…
+
+=== contact-cowork-dupe-please-delete ===
+  [MISSING] Reframing line absent on page
+
+=== contact ===
+  [MISSING] Reframing line absent on page
+  [BANNED] L33 "leverage" — …wn, where the data lives, and where the leverage is — without a software pitch.
+  [BANNED] L31 "PropTech" — …lications including The Silicon Review, PropTech Outlook, CIO Bulletin, and Global 100. …
+
+=== control-cre-digital-visibility === CLEAN
+
+=== digital-infrastructure-noi-ai === CLEAN
+
+=== digital-infrastructure-noi-playbook ===
+  [BARE-INFRA] L23 — Managed infrastructure (BoT®) Secure, owner-controlled connect…
+  [BARE-INFRA] L26 — Managed infrastructure Capture and normalize high-fidelity, us…
+
+=== digital-infrastructure-noi-strategy ===
+  [BARE-INFRA] L15 — … data & digital infrastructure. If that infrastructure is fragmented and vendor-controlled, th…
+  [BARE-INFRA] L48 — Managed infrastructure Secure, owner-controlled connectivity, …
+  [BARE-INFRA] L51 — Managed infrastructure High-fidelity, usable data in a consist…
+
+=== faq ===
+  [BANNED] L60 "PropTech" — …the 5C™ Plan compare to traditional CRE PropTech? + Traditional CRE PropTech adds vendor…
+  [BANNED] L60 "PropTech" — …itional CRE PropTech? + Traditional CRE PropTech adds vendor tools on top of a fragmente…
+  [BARE-INFRA] L56 — …plements, and operates owner-controlled infrastructure, leaving the owner with admin credentia…
+  [BARE-INFRA] L59 — …yours. The fix is owner-controlled data infrastructure that lets owners audit and control vend…
+  [BARE-INFRA] L62 — …I, AI-ready operations, vendor-agnostic infrastructure, and portfolios that compound value ove…
+
+=== for-asset-managers ===
+  [MISSING] Reframing line absent on page
+  [BANNED] L40 "Leverage" — Vendor Leverage You Didn't Have
+  [BANNED] L61 "leverage" — …ot focused on the play with the highest leverage
+
+=== for-it-executives ===
+  [MISSING] Reframing line absent on page
+
+=== for-lps-and-financiers ===
+  [MISSING] Reframing line absent on page
+
+=== for-property-managers-and-engineers ===
+  [MISSING] Reframing line absent on page
+
+=== for-tenants ===
+  [MISSING] Reframing line absent on page
+
+=== glossary ===
+  [MISSING] Reframing line absent on page
+  [BANNED] L44 "leverage" — …rs who control the backbone control the leverage; owners who don’t hand it to vendors.
+  [BANNED] L79 "leverage" — …cWise's shorthand for the three highest-leverage moves a CRE owner can make: (1) take ow…
+  [BANNED] L70 "ESG" — …t experience, operational intelligence, ESG reporting, AI applications, and asset v…
+  [BARE TM] L10 "PPP Audit" missing mark — Schedule a PPP Audit
+  [BARE-INFRA] L25 — …roperty, replacing vendor-laid parallel infrastructure with one architecture the owner control…
+  [BARE-INFRA] L29 — …ology, building-operations, and digital-infrastructure terms you'll encounter across OpticWise…
+  [BARE-INFRA] L38 — …long-lived assets — buildings, systems, infrastructure. Digital infrastructure investments typ…
+  [BARE-INFRA] L51 — …networks usually mean vendor-controlled infrastructure. Owner-controlled connectivity (e.g., E…
+  [BARE-INFRA] L54 — …protect, or risk NOI — owner-controlled infrastructure tends to do all three.
+  [BARE-INFRA] L58 — …it valuation premiums. Owner-controlled infrastructure passes the ROI test under scrutiny; nov…
+  [BARE-INFRA] L60 — …comes. “Smart” without owner-controlled infrastructure is a feature set the vendor controls. “…
+  [BARE-INFRA] L60 — …r controls. “Smart” on owner-controlled infrastructure is a strategic asset the owner compound…
+
+=== how-we-operate ===
+  [BARE-INFRA] L42 — Managed infrastructure Secure, owner-controlled connectivity. …
+  [BARE-INFRA] L45 — Managed infrastructure High-fidelity, usable data in a consist…
+
+=== index.html ===
+  [BARE-INFRA] L72 — Managed infrastructure Establish secure, owner-controlled conn…
+  [BARE-INFRA] L75 — Managed infrastructure Capture and normalize high-fidelity usa…
+
+=== own-vs-lease-cre-building-data ===
+  [BARE-INFRA] L55 — Managed infrastructure Ingest data into an owner-controlled, n…
+
+=== portfolio-brain ===
+  [MISSING] Reframing line absent on page
+  [BANNED] L43 "leverage" — …ys uncompetitive because operating data leverage doesn't exist
+  [BANNED] L50 "leverage" — …ped 90-day pilot focused on the highest-leverage play across the portfolio
+  [BARE TM] L8 "Property Brain" missing mark — …nal visibility for one building. Twenty Property Brains, networked under one owner standard, b…
+
+=== ppp-audit ===
+  [BANNED] L22 "leverage" — Against your KPIs — the real leverage points.
+
+=== property-brain ===
+  [BARE-INFRA] L35 — Managed infrastructure Secure, owner-controlled connectivity, …
+  [BARE-INFRA] L41 — Managed infrastructure High-fidelity, usable data normalized i…
+
+=== SUMMARY ===
+PAGE                                 ISSUES  REFRAME  CLOSER
+5s-user-experience-standard               0        Y       Y
+about                                     3        Y       Y
+advisory-services                         0        Y       Y
+ai-ready-commercial-real-estate           0        —       Y
+bot-building-of-things                    1        Y       Y
+contact-cowork-dupe-please-delete         0        —       Y
+contact                                   2        —       Y
+control-cre-digital-visibility            0        Y       Y
+digital-infrastructure-noi-ai             0        Y       Y
+digital-infrastructure-noi-playbook       2        Y       Y
+digital-infrastructure-noi-strategy       3        Y       Y
+faq                                       5        Y       Y
+for-asset-managers                        2        —       Y
+for-it-executives                         0        —       Y
+for-lps-and-financiers                    0        —       Y
+for-property-managers-and-engineers       0        —       Y
+for-tenants                               0        —       Y
+glossary                                 12        —       Y
+how-we-operate                            2        Y       Y
+index.html                                2        Y       Y
+own-vs-lease-cre-building-data            1        Y       Y
+portfolio-brain                           3        —       Y
+ppp-audit                                 1        Y       Y
+property-brain                            2        Y       Y

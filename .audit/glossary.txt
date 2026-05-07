@@ -1,0 +1,112 @@
+Solutions Property Brain™ Portfolio Brain™ PPP Audit™ BoT® — Building of Things® 5S® Standard Advisory Services
+Audiences For LPs & Financiers For Asset Managers For IT Executives For PMs & Engineers For Tenants
+How It Works
+Insights Blog Articles FAQ Glossary
+About Company Contact
+Schedule Review
+Glossary OpticWise & CRE Vocabulary
+Definitions for the frameworks, products, and concepts behind owner-controlled data and digital infrastructure in commercial real estate. Use this as a quick reference — or share a link to a specific term.
+Don't see a term you're looking for? Tell us, and we'll add it.
+Schedule a PPP Audit
+Brand Frameworks
+OpticWise Frameworks
+Peak Property Performance® (PPP) + Peak Property Performance® is OpticWise's overarching playbook for turning commercial real estate into owner-controlled digital assets. It pairs the 5C™ Plan (operating sequence) with the 5S® Connectivity Standard (user-experience bar) and OpticWise's managed services model. PPP exists to make every property an asset that compounds value across a portfolio.
+5C™ Plan + The 5C™ Plan is the operating sequence inside Peak Property Performance®: Clarify, Connect, Collect, Coordinate, Control. CRE owners follow it in order. Clarify maps what data matters and who owns it. Connect establishes owner-controlled connectivity property-to-property. Collect normalizes building data. Coordinate governs identity, access, and lineage. Control enables any decision engine — vendor, internal, or AI — to act under owner permissions.
+5S® Connectivity Standard + 5S® is OpticWise's non-negotiable user-experience bar for commercial real estate: Seamless Mobility, Security, Stability, Speed, and Service. Every BoT®-based deployment is held to the 5S® standard so tenants and operators experience consistent, owner-grade performance across a portfolio.
+Building of Things® (BoT®) + Building of Things® (BoT®) is OpticWise's owner-controlled approach to data & digital infrastructure. BoT® consolidates building connectivity onto a single, secure, segmented foundation so every device or system runs on architecture the owner controls. It's the physical and logical layer underneath the Property Brain™ intelligence layer.
+SIC® (Security, Infrastructure, and Connectivity) + SIC® is OpticWise's core network design philosophy — the engineering discipline behind Layer 1 (Managed Data & Digital Infrastructure). It governs how every property is designed, deployed, hardened, monitored, and operated so the data & digital infrastructure performs as an owner-controlled asset, not a vendor-controlled liability. SIC® is what owning the foundation looks like in practice.
+Layer 1 — The Foundation You Own (Managed Data & Digital Infrastructure) + Layer 1 is the foundation in OpticWise's two-layer architecture — the data & digital infrastructure the owner owns and controls. Delivered through BoT® (Building of Things®): a single, secure, segmented foundation for every device and system in the property. Three disciplines run together — design (repeatable standards across every property), implementation (governance baked in: segmentation, access rules, documentation), and operations (ongoing digital management that keeps performance high and operational risk low). SIC® is the engineering standard behind Layer 1.
+Layer 2 — Owner-Controlled Intelligence (Property Brain™ → Portfolio Brain™) + Layer 2 is the intelligence layer in OpticWise's two-layer architecture — vendor- and LLM-agnostic, owner-controlled by design, and built on top of Layer 1. Property Brain™ is a governed data plane plus trust plane that makes each building capable of autonomous activities and intelligence. Standardize it once and Property Brain™ becomes Portfolio Brain™, so intelligence compounds across buildings instead of restarting at every address. Swap any model, vendor, or decision engine; keep the data, the standard, and the portfolio intelligence intact.
+Products & Services
+OpticWise Products
+Property Brain™ + Property Brain™ is the OpticWise vendor- and LLM-agnostic Property Intelligence Layer at the single-property level. It's a governed data plane plus trust plane that makes each property capable of autonomous activities and intelligence. Any decision engine — internal analytics, a vendor platform, or any LLM — can plug in under owner permissions.
+Portfolio Brain™ + Portfolio Brain™ is Property Brain™ scaled to the portfolio. When a single Property Brain™ is standardized and replicated across every building, intelligence compounds: benchmarking, pattern detection, and centralized decisioning all become possible without restarting at each address.
+PPP Audit™ + The PPP Audit™ is the Clarify step of the 5C™ Plan, delivered as one-building, one-working-session engagement. OpticWise maps what data matters, where it lives, who owns it, and where leakage is happening. The PPP Audit™ is how most CRE owners begin a Peak Property Performance® engagement.
+ElasticISP® + ElasticISP® is OpticWise's owner-controlled connectivity layer — the Connect step of the 5C™ Plan. It establishes secure, segmented connectivity that's repeatable property-to-property, replacing vendor-laid parallel infrastructure with one architecture the owner controls.
+5S® Managed Wi-Fi + 5S® Managed Wi-Fi is OpticWise's owner-controlled, fully managed Wi-Fi service for commercial real estate — built to the 5S® Connectivity Standard (Seamless Mobility, Security, Stability, Speed, Service). It's the productized expression of OW's network discipline: design, deploy, monitor, and operate Wi-Fi as a single, secure, segmented foundation per property. 5S® Managed Wi-Fi sits inside the broader BoT® / ElasticISP® stack and shares the same SIC® engineering standard at Layer 1.
+Industry Vocabulary
+Read this first
+The everyday CRE technology, building-operations, and digital-infrastructure terms you'll encounter across OpticWise content — defined plainly, with the owner's perspective in mind. Designed to be scanned, not studied.
+Industry Vocabulary
+CRE Fundamentals
+AI (Artificial Intelligence) + Software systems that perform tasks typically requiring human intelligence — pattern recognition, prediction, language understanding, and decision support. In CRE, AI is used for occupancy forecasting, energy optimization, leasing analytics, and tenant communications. Its usefulness depends on the quality and ownership of the data feeding it.
+API (Application Programming Interface) + A defined interface that lets one software system request data or actions from another. In CRE, APIs are how building systems, vendor platforms, and AI tools exchange information. Owner-controlled APIs determine whether the owner — not the vendor — decides who can read, write, or build on the building’s data.
+BAS (Building Automation System) + The control layer that operates a building’s mechanical and electrical systems — HVAC, lighting, access, life safety. A BAS typically runs locally per building and is a primary source of operational data. Modern CRE strategies extend BAS data into a governed, owner-controlled data plane rather than leaving it siloed per vendor.
+BMS (Building Management System) + A broader supervisory platform that monitors and controls building systems, often integrating BAS data with energy, security, and tenant systems. BMS adoption only delivers portfolio-level value when its data is normalized and owner-controlled — otherwise each building runs as an island.
+BI (Business Intelligence) + The practice of turning operational and financial data into reports, dashboards, and decisions. In CRE, BI depends on clean, comparable data across properties. Owner-controlled BI runs on the owner’s data plane; vendor-locked BI shows the slice each vendor wants the owner to see.
+Brownfield + An existing property or system being upgraded, retrofitted, or modernized — as opposed to a greenfield (new) build. Most CRE digital infrastructure work is brownfield: layering owner-controlled connectivity, data, and governance onto buildings already in operation, without disrupting tenants.
+CapEx (Capital Expenditure) + Money spent acquiring or improving long-lived assets — buildings, systems, infrastructure. Digital infrastructure investments typically sit on the CapEx side and should be evaluated against measurable NOI, retention, or efficiency outcomes, not novelty.
+CCPA (California Consumer Privacy Act) + A California privacy law that gives residents rights over personal data collected about them — including by buildings and the systems inside them. CRE owners with tenants or visitors in California need governance over what their building systems collect, how it’s stored, and how it can be deleted.
+CRE (Commercial Real Estate) + Real estate used for business or income-producing purposes — office, multi-family, industrial, retail, mixed-use, data centers, healthcare, hospitality. OpticWise focuses on the CRE owner perspective: turning each property into an owner-controlled digital asset.
+Data lake + A storage system that holds raw, often unstructured data from many sources. A data lake without governance becomes a data swamp. CRE data lakes are useful only when paired with normalization, lineage, and access rules — otherwise the volume hides the value.
+Data warehouse + A structured, queryable store of cleaned, modeled data — built for reporting and analytics. In CRE, the data warehouse is where normalized building data, lease data, and financial data come together so the same numbers can be trusted across asset management, operations, and finance.
+DDIA (Digital Due Diligence Audit) + A structured assessment of a property or portfolio’s digital infrastructure — connectivity, data ownership, vendor contracts, governance, and risk — performed at acquisition, refinance, or as part of operational diligence. OpticWise’s PPP Audit™ is a DDIA framework purpose-built for CRE.
+Digital backbone + The integrated layer of connectivity, networks, identity, and data flow that every other building system depends on. The digital backbone is what makes a property AI-ready, integrable, and portable. Owners who control the backbone control the leverage; owners who don’t hand it to vendors.
+GDPR (General Data Protection Regulation) + The European Union’s comprehensive data protection law. CRE owners with European tenants, visitors, or data flows need GDPR-compliant governance: lawful basis for processing, data minimization, subject rights, breach notification, and demonstrable accountability.
+Greenfield + A brand-new property or system designed from scratch — the opposite of brownfield. Greenfield CRE projects are the cleanest opportunity to build owner-controlled digital infrastructure correctly the first time, without legacy vendor entanglements.
+Hardware + The physical equipment in a building’s digital infrastructure — switches, access points, sensors, controllers, gateways, cabling. Hardware decisions made today determine the building’s flexibility for the next 5–10 years. Owner-controlled hardware decisions prevent vendor lock-in at the physical layer.
+HVAC (Heating, Ventilation, and Air Conditioning) + The mechanical systems that condition air in a building. HVAC is typically the largest energy consumer and a major source of operational data. Smart HVAC, properly integrated and governed, drives both NOI and tenant comfort — but only when its data is owner-controlled.
+IoT (Internet of Things) + The network of connected devices and sensors embedded in buildings — meters, thermostats, cameras, occupancy sensors, leak detectors. IoT generates the data that fuels intelligent operations. Without owner-controlled IoT networks and governance, every device becomes a vendor leash.
+IRR (Internal Rate of Return) + The annualized return rate that makes the net present value of an investment’s cash flows equal zero. IRR is a standard CRE underwriting metric. Owner-controlled digital infrastructure improves IRR by lifting NOI, reducing risk, and protecting exit valuations.
+ISP (Internet Service Provider) + A company that provides internet connectivity to a building or its tenants. ISP-built and ISP-managed networks usually mean vendor-controlled infrastructure. Owner-controlled connectivity (e.g., ElasticISP®) treats the ISP as a transport vendor — not the owner of the building’s nervous system.
+KPI (Key Performance Indicator) + A measurable metric tracked to evaluate performance against goals. CRE digital infrastructure KPIs typically include uptime, energy intensity, tenant retention, response times, occupancy accuracy, and connectivity-driven NOI. KPIs are only as trustworthy as the data plane underneath them.
+ML (Machine Learning) + A subset of AI in which systems learn patterns from data rather than from explicitly written rules. ML powers most modern CRE forecasting and optimization. Like AI, ML quality depends on the quality, breadth, and ownership of the training data — vendor-trapped data caps ML potential.
+NOI (Net Operating Income) + The income a property generates after operating expenses, before debt service and taxes. NOI is the fundamental performance metric in CRE. Digital infrastructure investments are evaluated on whether they grow, protect, or risk NOI — owner-controlled infrastructure tends to do all three.
+OpEx (Operating Expense) + Day-to-day costs of running a property — utilities, maintenance, staffing, services. OpEx leakage is one of the largest hidden costs in CRE portfolios, and it’s where owner-controlled data and automation most directly compound returns.
+OT (Operational Technology) + The hardware and software that monitor or control physical processes — HVAC controllers, meters, BAS, life safety. OT historically lived separately from IT, but modern CRE requires the two to integrate under unified, owner-controlled governance. Bridging the IT/OT gap is foundational to AI readiness.
+PEDS (Physical, Electrical, Digital, Smart) + A layered way of evaluating a CRE property: the physical structure, the electrical capacity, the digital infrastructure, and the smart systems that ride on top. PEDS readiness — especially the digital and smart layers — increasingly determines tenant fit and asset value.
+ROI (Return on Investment) + The benefit of an investment relative to its cost, usually expressed as a percentage or ratio. CRE digital infrastructure ROI is measured against NOI lift, OpEx reduction, retention, and exit valuation premiums. Owner-controlled infrastructure passes the ROI test under scrutiny; novelty stacks rarely do.
+RPA (Robotic Process Automation) + Software that automates repeatable business processes — invoicing, reporting, ticketing, lease administration. In CRE, RPA reduces manual work and increases consistency. Owner-controlled data is what lets RPA actually run end-to-end, instead of stalling on data each vendor refuses to share.
+Smart building + A property whose systems are connected, instrumented, and integrated to deliver measurable operational and tenant outcomes. “Smart” without owner-controlled infrastructure is a feature set the vendor controls. “Smart” on owner-controlled infrastructure is a strategic asset the owner compounds.
+Time-of-use billing + A utility billing structure where energy prices vary by time of day. Time-of-use creates real opportunities for CRE owners with intelligent buildings: shifting loads, pre-conditioning, and demand response can meaningfully reduce energy costs — but only with the right data and controls in place.
+UX (User Experience) + The overall experience a person has interacting with a system, app, or building. CRE UX spans tenant apps, access systems, connectivity, and how easy it is for staff to operate the building. Strong UX raises retention; weak UX shows up in turnover, support volume, and review scores.
+Core Concepts
+CRE Data & Digital Infrastructure Terms
+Owner-controlled data + Owner-controlled data means the building owner holds admin credentials, owns the data, has portability rights, and can swap vendors without losing history. It's the prerequisite for AI readiness, governance, regulatory defensibility, and durable NOI growth across CRE portfolios.
+Owner-controlled digital infrastructure + Owner-controlled digital infrastructure is connectivity, building systems, data flow, and governance that the building owner — not a vendor — controls. The owner can change platforms, decision engines, or AI tools without rewiring the building or losing operational history.
+AI-ready CRE + AI-ready commercial real estate is a property or portfolio where AI can deliver measurable operational value. It requires clean, normalized, owner-controlled data; integrated systems; and governance that defines who can act on what. Most buildings are not AI-ready today because the data layer underneath belongs to vendors, not owners.
+Vendor lock-in + Vendor lock-in in CRE happens when a building's data, networks, or operating intelligence sit inside a single vendor's platform without portability rights. Owners discover lock-in when they try to switch tools, sell the asset, or run independent analytics — and find the data won't follow them.
+Property Intelligence Layer + The Property Intelligence Layer is the data plane plus trust plane sitting on top of a building's owner-controlled digital infrastructure. In OpticWise's model, this layer is Property Brain™ at single-property scale and Portfolio Brain™ at portfolio scale. It's where decisions are governed and any AI/decision engine plugs in.
+Digital infrastructure (CRE) + Digital infrastructure in commercial real estate is the connectivity, networks, sensors, IoT systems, and data-flow architecture inside a building. Modern CRE digital infrastructure is the foundation for tenant experience, operational intelligence, ESG reporting, AI applications, and asset value growth.
+5C™ Plan vs traditional smart-building tech + Traditional smart-building tech adds vendor systems on top of a fragmented foundation. The 5C™ Plan inverts the order: Clarify and Connect the owner-controlled foundation first, Collect and Coordinate the data, then Control any decision engine on top. The same vendor systems can plug in — but on the owner's terms, not theirs.
+IT/OT Gap + The structural divide between traditional IT systems (email, business apps, cloud) and operational technology (HVAC controllers, BAS, meters, life safety). The IT/OT gap is where most CRE data fragmentation, vendor lock-in, and AI-readiness gaps live. Closing it requires owner-controlled connectivity, governance, and a shared data plane that respects both worlds.
+Trust plane + The governance layer that defines who can read, write, and act on a CRE owner's data — across humans, vendors, agents, and AI tools. The trust plane covers identity, permissions, lineage, retention, and audit. Without it, every new tool becomes another permission decision made implicitly, and accountability blurs.
+Data plane + The unified layer through which a CRE owner's data moves — from buildings, systems, and tenants into normalized, governed storage available to authorized consumers. Owner-controlled data planes make AI, analytics, and reporting consistent across properties. Vendor-controlled data planes keep the owner one step removed from their own data.
+Decision engine + Any system — vendor platform, internal model, or LLM — that takes data and produces a recommendation or action. In owner-controlled CRE architecture, decision engines plug into the owner's data plane under owner permissions. The owner picks engines; the engines don't pick the owner's data.
+The Skybox Principle + OpticWise's framing for portfolio-level visibility: the owner sits in the skybox with a clear view of every property's real operating performance, while operators on the field handle execution. The Skybox Principle requires owner-controlled, normalized data — without it, the skybox view is whatever each vendor decides to show.
+The Massaged Report + OpticWise's term for vendor reports that look polished but obscure operational reality — selective metrics, smoothed numbers, missing context. Massaged reports persist when owners don't control the underlying data. Owner-controlled data plus independent reporting makes massaging visible — and unnecessary.
+The Diligence Discount + The valuation hit a CRE asset takes when buyers, lenders, or LPs can't verify operating performance because the data is vendor-trapped, incomplete, or massaged. The diligence discount is silent in good markets and brutal in tight ones. Owner-controlled data is what eliminates it.
+The Big Three Plays + OpticWise's shorthand for the three highest-leverage moves a CRE owner can make: (1) take ownership of the digital infrastructure, (2) make data normalized and portable across the portfolio, and (3) install the governance that lets any decision engine plug in safely. Run together, the Big Three compound.
+PPP Review + A focused checkpoint within the Peak Property Performance® methodology — a structured review of where a property or portfolio stands against the 5C™ Plan, 5S® Connectivity Standard, and owner-control benchmarks. The PPP Review surfaces what to fix, in what order, and what each fix is worth.
+Next step Ready to apply these to your portfolio?
+Schedule Your Review
+Owner-controlled data & digital infrastructure for commercial real estate.
+Explore
+NOI Strategy
+NOI Playbook
+AI-Ready CRE
+Own vs Lease Data
+Digital Visibility
+Solutions
+Property Brain™
+Portfolio Brain™
+PPP Audit™
+BoT® — Building of Things®
+5S® Standard
+Advisory Services
+By Audience
+For LPs & Financiers
+For Asset Managers
+For IT Executives
+For PMs & Engineers
+For Tenants
+Resources
+Insights (Blog)
+FAQ
+Glossary
+How We Operate
+About
+Contact
+© 2026 OpticWise. All rights reserved.
+Own your data & digital infrastructure. Operate with strategic foresight. Build for the long game.
+Glossary — OpticWise Frameworks & Terms | OpticWise
