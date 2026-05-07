@@ -380,8 +380,9 @@ const BLOCKS = [
   },
 ];
 
-// Fix typo from inline edit safeguard
-BLOCKS[5].bulletPoints[3].id = "69ebb643ea9de5548eff5e71";
+const NEW_PAGE_TITLE = "For Business Tenants | Data & Digital Infrastructure in Your Lease | OpticWise";
+const OLD_PAGE_TITLE = "For Tenants | What 5S® Means for Lease Decisions | OpticWise";
+const OLD_OG_TITLE = "For Tenants | What 5S® Means for Lease Decisions";
 
 const NEW_META_DESCRIPTION =
   "For business tenants and advisors: what OpticWise signals in multi\u2011tenant CRE \u2014 5S\u00ae user experience, owner\u2011held data \u0026 digital infrastructure, PPP 5C\u2122 discipline, and diligence you can hold sponsors to.";
@@ -440,6 +441,27 @@ updated = updated.replace(
   `\\"excerpt\\":\\"${OLD_EXCERPT_ESC}\\"`,
   `\\"excerpt\\":\\"${J(NEW_EXCERPT)}\\"`
 );
+
+const NEW_TITLE_HTML = NEW_PAGE_TITLE.replace(/&/g, "&amp;");
+updated = updated.split(`<title>${OLD_PAGE_TITLE}</title>`).join(`<title>${NEW_TITLE_HTML}</title>`);
+updated = updated
+  .split(`<meta property="og:title" content="${OLD_OG_TITLE}"/>`)
+  .join(`<meta property="og:title" content="${NEW_TITLE_HTML.replace(" | OpticWise", "")}"/>`);
+updated = updated
+  .split(`<meta name="twitter:title" content="${OLD_OG_TITLE}"/>`)
+  .join(`<meta name="twitter:title" content="${NEW_TITLE_HTML.replace(" | OpticWise", "")}"/>`);
+
+const OLD_INITIAL_META_TITLE = J("For Tenants | What 5S® Means for Lease Decisions");
+const NEW_INITIAL_META_TITLE = J("For Business Tenants | Data & Digital Infrastructure in Your Lease");
+updated = updated.replace(`\\"title\\":\\"${OLD_INITIAL_META_TITLE}\\",\\"description\\"`, `\\"title\\":\\"${NEW_INITIAL_META_TITLE}\\",\\"description\\"`);
+
+const OLD_FLIGHT_OG = J(OLD_OG_TITLE);
+const NEW_FLIGHT_OG = J(NEW_TITLE_HTML.replace(" | OpticWise", ""));
+updated = updated.replace(`\\"property\\":\\"og:title\\",\\"content\\":\\"${OLD_FLIGHT_OG}\\"`, `\\"property\\":\\"og:title\\",\\"content\\":\\"${NEW_FLIGHT_OG}\\"`);
+updated = updated.replace(`\\"name\\":\\"twitter:title\\",\\"content\\":\\"${OLD_FLIGHT_OG}\\"`, `\\"name\\":\\"twitter:title\\",\\"content\\":\\"${NEW_FLIGHT_OG}\\"`);
+const OLD_METADATA_CHILD_TITLE = `For Tenants | What 5S\u00ae Means for Lease Decisions | OpticWise`;
+const NEW_METADATA_CHILD_TITLE = NEW_PAGE_TITLE.replace(/&/g, "\\u0026");
+updated = updated.split(`\\"children\\":\\"${OLD_METADATA_CHILD_TITLE}\\"`).join(`\\"children\\":\\"${J(NEW_PAGE_TITLE).replace(/&/g, "\\u0026")}\\"`);
 
 writeFileSync(PAGE_PATH, updated, "utf8");
 console.log("Rewrote for-tenants blocks:", BLOCKS.length);
