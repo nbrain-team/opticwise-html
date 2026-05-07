@@ -340,7 +340,7 @@ const BLOCKS = [
     lede: "These aren\u2019t hypotheticals. These are patterns we see every week.",
     punchLine: "Governance debt comes due with interest \u2014 and IT is usually who pays it.",
     consequences: [
-      { id: "69f13a51ebc16d4deb9a3693", text: "The shadow path nobody inventory\u2019d becomes a lateral-movement story" },
+      { id: "69f13a51ebc16d4deb9a3693", text: "The shadow path nobody inventoried becomes a lateral-movement story" },
       { id: "69f13a5bebc16d4deb9a3694", text: "Vendor admin credentials walk out the door with the vendor" },
       { id: "69f13a62ebc16d4deb9a3695", text: "The board asks about AI strategy and the data isn\u2019t governable under your policies" },
       { id: "69f13a69ebc16d4deb9a3696", text: "Insurance renewal flags OT exposure nobody mapped to a control owner" },

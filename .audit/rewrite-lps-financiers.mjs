@@ -339,7 +339,7 @@ const BLOCKS = [
     eyebrow: "The Read-Through From Property and IT",
     heading: "Operators and IT Aren\u2019t the Villains \u2014 They\u2019re Carrying the Wrong Scope.",
     subheading: "Property teams live in tenant service levels, work orders, life-safety, CAM recoveries, and vendor response times. Enterprise IT lives in identity, corporate networks, patching, and evidence packs for auditors. Multi-tenant building OT \u2014 access, BMS, metering, life-safety networks, tenant connectivity \u2014 usually grew through vendor installs, not an owner standard.",
-    authorityNote: "Neither group was hired to own segmented OT, exportable history, and vendor-neutral governance end-to-end. A common pattern we see: capable people asked to cover operational technology out of position \u2014 while counterparty concentration sits in vendor admin screens. Underwriting the sponsor means reading that gap, not pretending it is solved because the building \u201cleased smart.\u201d",
+    authorityNote: "Neither group was hired to own segmented OT, exportable history, and vendor-neutral governance end-to-end. A common pattern we see: capable people asked to cover operational technology out of position \u2014 while counterparty concentration sits in vendor admin screens. Underwriting the sponsor means reading that gap \u2014 not assuming it is closed because the operating partner forwarded a vendor uptime report.",
   },
   {
     type: "cardGrid",
