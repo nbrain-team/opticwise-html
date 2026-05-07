@@ -203,10 +203,332 @@ const jsonRenderers = {
       `\\"reframeLine\\":${b.reframeLine ? `\\"${J(b.reframeLine)}\\"` : "null"},` +
       `\\"audienceLine\\":${b.audienceLine ? `\\"${J(b.audienceLine)}\\"` : "null"},` +
       `\\"primaryCtaLabel\\":\\"${J(b.primaryCtaLabel)}\\",` +
-      `\\"secondaryCtaLabel\\":${b.secondaryCtaLabel ? `\\"${J(b.secondaryCtaLabel)}\\
-..."` : "null"}`
+      `\\"secondaryCtaLabel\\":${b.secondaryCtaLabel ? `\\"${J(b.secondaryCtaLabel)}\\"` : "null"},` +
+      `\\"secondaryCtaHref\\":${b.secondaryCtaHref ? `\\"${J(b.secondaryCtaHref)}\\"` : "null"},` +
+      `\\"style\\":\\"${b.style}\\",` +
+      `\\"blockName\\":null,` +
+      `\\"blockType\\":\\"hero\\"` +
+      `}`
+    );
+  },
+  twoColumn(b) {
+    return (
+      `{` +
+      `\\"id\\":\\"${b.id}\\",` +
+      `\\"eyebrow\\":\\"${J(b.eyebrow)}\\",` +
+      `\\"heading\\":\\"${J(b.heading)}\\",` +
+      `\\"subheading\\":${b.subheading ? `\\"${J(b.subheading)}\\"` : "null"},` +
+      `\\"body\\":null,` +
+      `\\"authorityNote\\":${b.authorityNote ? `\\"${J(b.authorityNote)}\\"` : "null"},` +
+      `\\"style\\":\\"${b.style}\\",` +
+      `\\"blockName\\":null,` +
+      `\\"blockType\\":\\"twoColumn\\"` +
+      `}`
+    );
+  },
+  cardGrid(b) {
+    const cards = b.cards
+      .map(
+        (c) =>
+          `{\\"id\\":\\"${c.id}\\",\\"image\\":null,\\"title\\":\\"${J(c.title)}\\",\\"description\\":\\"${J(c.description)}\\",\\"href\\":null}`
+      )
+      .join(",");
+    return (
+      `{` +
+      `\\"id\\":\\"${b.id}\\",` +
+      `\\"eyebrow\\":\\"${J(b.eyebrow)}\\",` +
+      `\\"heading\\":\\"${J(b.heading)}\\",` +
+      `\\"subheading\\":${b.subheading ? `\\"${J(b.subheading)}\\"` : "null"},` +
+      `\\"columns\\":\\"${b.columns}\\",` +
+      `\\"style\\":\\"${b.style}\\",` +
+      `\\"closingLine\\":${b.closingLine ? `\\"${J(b.closingLine)}\\"` : "null"},` +
+      `\\"blockName\\":null,` +
+      `\\"cards\\":[${cards}],` +
+      `\\"blockType\\":\\"cardGrid\\"` +
+      `}`
+    );
+  },
+  botCallout: jsonBotCallout,
+  brainBlock: jsonBrainBlock,
+  pullQuote(b) {
+    return (
+      `{` +
+      `\\"id\\":\\"${b.id}\\",` +
+      `\\"eyebrow\\":\\"${J(b.eyebrow)}\\",` +
+      `\\"quote\\":\\"${J(b.quote)}\\",` +
+      `\\"attribution\\":\\"${J(b.attribution || "")}\\",` +
+      `\\"style\\":\\"${b.style}\\",` +
+      `\\"blockName\\":null,` +
+      `\\"blockType\\":\\"pullQuote\\"` +
+      `}`
+    );
+  },
+  avoidFailure(b) {
+    const items = b.consequences
+      .map((c) => `{\\"id\\":\\"${c.id}\\",\\"text\\":\\"${J(c.text)}\\"}`)
+      .join(",");
+    return (
+      `{` +
+      `\\"id\\":\\"${b.id}\\",` +
+      `\\"eyebrow\\":\\"${J(b.eyebrow)}\\",` +
+      `\\"heading\\":\\"${J(b.heading)}\\",` +
+      `\\"lede\\":\\"${J(b.lede)}\\",` +
+      `\\"punchLine\\":\\"${J(b.punchLine)}\\",` +
+      `\\"blockName\\":null,` +
+      `\\"consequences\\":[${items}],` +
+      `\\"blockType\\":\\"avoidFailure\\"` +
+      `}`
+    );
+  },
+  callToAction(b) {
+    const bullets = (b.bulletPoints || [])
+      .map((p) => `{\\"id\\":\\"${p.id}\\",\\"text\\":\\"${J(p.text)}\\"}`)
+      .join(",");
+    return (
+      `{` +
+      `\\"id\\":\\"${b.id}\\",` +
+      `\\"eyebrow\\":\\"${J(b.eyebrow)}\\",` +
+      `\\"heading\\":\\"${J(b.heading)}\\",` +
+      `\\"subheading\\":\\"${J(b.subheading)}\\",` +
+      `\\"buttonLabel\\":\\"${J(b.buttonLabel)}\\",` +
+      `\\"style\\":\\"${b.style}\\",` +
+      `\\"blockName\\":null,` +
+      `\\"bulletPoints\\":[${bullets}],` +
+      `\\"blockType\\":\\"callToAction\\"` +
+      `}`
     );
   },
 };
 
-// Fix corrupted hero json renderer - I made a typo. Let me replace the whole jsonRenderers object properly in file.
+const BOT_CALLOUT_HTML =
+  "Delivered through <strong>BoT\u00ae</strong> <strong>(Building of Things\u00ae)</strong>. A single, secure, segmented foundation engineered under <strong>SIC\u00ae</strong> \u2014 Security, Infrastructure, and Connectivity \u2014 owned by the sponsor, operable under governance, portable at exit.";
+
+const BRAIN_BODY_HTML = [
+  "<p><strong>Property Brain\u2122</strong> is a governed <strong>data plane + trust plane</strong>. Every output is auditable. Every decision is permissioned.</p>",
+  "<p><strong>Portfolio Brain\u2122</strong> is the compounding layer \u2014 intelligence that survives each building and improves the whole portfolio over time.</p>",
+  "<p>At refinance, at sale, at partner exit \u2014 governed operating intelligence transfers with the asset when the sponsor owns the substrate.</p>",
+];
+
+const BLOCKS = [
+  {
+    type: "hero",
+    id: "69ebb63dea9de5548eff5e34",
+    style: "dark",
+    eyebrow: "For LPs & Financiers",
+    heading: "Governance, Basis Risk, and What Transfers at Exit.",
+    lede: "For limited partners, general partners, lenders, and institutional capital allocating to CRE \u2014 data & digital infrastructure is not a slide in the appendix. It is the substrate behind NOI, insurance, tenant experience, and every diligence narrative you rely on.",
+    reframeLine: "If the sponsor doesn\u2019t own the data & digital infrastructure, the vendors do.",
+    audienceLine: "A diligence and portfolio-governance frame for capital allocators \u2014 adjacent to how asset managers defend the same numbers.",
+    primaryCtaLabel: "Schedule Your Review",
+    secondaryCtaLabel: "See the asset-manager view",
+    secondaryCtaHref: "../for-asset-managers/index.html",
+  },
+  {
+    type: "twoColumn",
+    id: "69ebb63dea9de5548eff5e35",
+    style: "nearwhite",
+    eyebrow: "Basis Risk at Refi, Sale, and Partner Exit",
+    heading: "The Counterparty Underwrites the Same Asset With Different Access.",
+    subheading: "You modeled a building and an NOI path. At sale or major refi, the other side runs its own process on operating data, export rights, and governance. If they surface recoverable NOI the sponsor never operationalized \u2014 or intelligence that cannot be ported \u2014 that gap becomes a negotiation input, not a footnote.",
+    authorityNote: "Same systems. Same revenue line. Different rigor on who holds admin credentials, whether history is exportable, and whether \u201cinsights\u201d in the deck can be reproduced under your documentation standards. Owning data & digital infrastructure is not only an operating story. It is a diligence story \u2014 the same lesson capital markets keep re-learning at exit.",
+  },
+  {
+    type: "twoColumn",
+    id: "lp-operator-it-readthrough",
+    style: "light",
+    eyebrow: "The Read-Through From Property and IT",
+    heading: "Operators and IT Aren\u2019t the Villains \u2014 They\u2019re Carrying the Wrong Scope.",
+    subheading: "Property teams live in tenant service levels, work orders, life-safety, CAM recoveries, and vendor response times. Enterprise IT lives in identity, corporate networks, patching, and evidence packs for auditors. Multi-tenant building OT \u2014 access, BMS, metering, life-safety networks, tenant connectivity \u2014 usually grew through vendor installs, not an owner standard.",
+    authorityNote: "Neither group was hired to own segmented OT, exportable history, and vendor-neutral governance end-to-end. A common pattern we see: capable people asked to cover operational technology out of position \u2014 while counterparty concentration sits in vendor admin screens. Underwriting the sponsor means reading that gap, not pretending it is solved because the building \u201cleased smart.\u201d",
+  },
+  {
+    type: "cardGrid",
+    id: "69ebb63dea9de5548eff5e3c",
+    style: "dark",
+    columns: "2",
+    eyebrow: "What to Ask",
+    heading: "Six Questions for Your Next IC or Covenant Review",
+    subheading: "Plain English due diligence \u2014 the answers belong in the data room, not in a vendor\u2019s ticketing system.",
+    closingLine: "If the sponsor can\u2019t answer these cleanly, you are underwriting vendor dependency \u2014 not a portable intelligence position.",
+    cards: [
+      {
+        id: "69ebb63dea9de5548eff5e36",
+        title: "Who holds network admin and break-glass access?",
+        description: "Sponsor-held credentials with an export path \u2014 or vendor-held keys with renewal risk?",
+      },
+      {
+        id: "69ebb63dea9de5548eff5e37",
+        title: "Is building operating data exportable on demand?",
+        description: "Time-series history, alarms, and equipment context in a normalized model \u2014 not PDFs buried in portals.",
+      },
+      {
+        id: "69ebb63dea9de5548eff5e38",
+        title: "Can vendors be swapped without a rebuild?",
+        description: "Documented integrations and owner-controlled segmentation \u2014 or custom glue that resets when the incumbent leaves?",
+      },
+      {
+        id: "69ebb63dea9de5548eff5e39",
+        title: "Is there a written data governance standard?",
+        description: "Identity, access, retention, and lineage rules the owner can evidence \u2014 or tribal knowledge living in one integrator?",
+      },
+      {
+        id: "69ebb63dea9de5548eff5e3a",
+        title: "What AI or automation outputs exist today?",
+        description: "Who can audit prompts, inputs, and lineage \u2014 and who is accountable when outputs hit investor or lender reporting?",
+      },
+      {
+        id: "69ebb63dea9de5548eff5e3b",
+        title: "At refi, sale, or promote \u2014 what transfers?",
+        description: "The building shell only \u2014 or the operating intelligence, export rights, and governance package that protects basis?",
+      },
+    ],
+  },
+  {
+    type: "botCallout",
+    id: "69ebb63dea9de5548eff5e40",
+    layerLabel: "Layer 1",
+    eyebrow: "The Foundation",
+    heading: "Owner-Controlled Data & Digital Infrastructure",
+    botCalloutInnerHtml: BOT_CALLOUT_HTML,
+    botDescriptionPlain:
+      "Delivered through BoT (Building of Things). A single, secure, segmented foundation engineered under SIC - Security, Infrastructure, and Connectivity - owned by the sponsor, operable under governance, portable at exit.",
+    pillars: [
+      {
+        id: "69ebb63dea9de5548eff5e3d",
+        title: "Documented",
+        description: "Every system, credential, and integration mapped to an owner standard.",
+      },
+      {
+        id: "69ebb63dea9de5548eff5e3e",
+        title: "Traceable",
+        description: "Governance events and access patterns evidence-ready for your diligence narrative.",
+      },
+      {
+        id: "69ebb63dea9de5548eff5e3f",
+        title: "Portable",
+        description: "Survives vendor swaps, operator changes, and sponsor transitions without resetting intelligence.",
+      },
+    ],
+  },
+  {
+    type: "brainBlock",
+    id: "69ebb63dea9de5548eff5e44",
+    layerLabel: "Layer 2",
+    eyebrow: "The Intelligence",
+    heading: "Property Brain\u2122 \u2192 Portfolio Brain\u2122",
+    tagline: "Portable intelligence assets. Not rented software.",
+    flowLine: "Underwrite the intelligence layer \u2014 not just the building.",
+    bodyHtml: BRAIN_BODY_HTML,
+    bodyJson: [
+      {
+        id: "69ebb63dea9de5548eff5e41",
+        text: "Property Brain\u2122 is a governed data plane + trust plane. Every output is auditable. Every decision is permissioned.",
+      },
+      {
+        id: "69ebb63dea9de5548eff5e42",
+        text: "Portfolio Brain\u2122 is the compounding layer \u2014 intelligence that survives each building and improves the whole portfolio over time.",
+      },
+      {
+        id: "69ebb63dea9de5548eff5e43",
+        text: "At refinance, at sale, at partner exit \u2014 governed operating intelligence transfers with the asset when the sponsor owns the substrate.",
+      },
+    ],
+  },
+  {
+    type: "pullQuote",
+    id: "lp-diligence-wedge",
+    style: "nearwhite",
+    eyebrow: "The Diligence Wedge",
+    quote: "Make this review part of your diligence process. You won\u2019t know what you don\u2019t know.",
+    attribution: "OpticWise Talk Track",
+  },
+  {
+    type: "avoidFailure",
+    id: "69ebb63dea9de5548eff5e48",
+    eyebrow: "Patterns That Destroy Basis",
+    heading: "What We See When the Substrate Is Vendor-Held",
+    lede: "These are recurring patterns across portfolios \u2014 not one-off anecdotes.",
+    punchLine: "Governance debt comes due with interest \u2014 often at exit.",
+    consequences: [
+      {
+        id: "69ebb63dea9de5548eff5e45",
+        text: "The incumbent walks; admin credentials and normalized history walk with them \u2014 the next operator starts cold.",
+      },
+      {
+        id: "69ebb63dea9de5548eff5e46",
+        text: "Narratives in the sponsor deck cannot be reproduced under investor-side documentation standards.",
+      },
+      {
+        id: "69ebb63dea9de5548eff5e47",
+        text: "Portfolio comparability that compounded during the hold evaporates at sale because exports were never contractually real.",
+      },
+      {
+        id: "lp-risk-diligence",
+        text: "Counterparty diligence surfaces OT or data-lineage gaps that land in IC memos, not just operator backlogs.",
+      },
+      {
+        id: "lp-risk-nm006",
+        text: "Recoverable NOI shows up in the buyer\u2019s process and becomes a price or structure conversation the sponsor did not model.",
+      },
+    ],
+  },
+  {
+    type: "pullQuote",
+    id: "reframe-banner-for-lps-and-financiers",
+    style: "dark",
+    eyebrow: "",
+    quote: "If you don\u2019t own your data & digital infrastructure, your vendors do.",
+    attribution: "",
+  },
+  {
+    type: "callToAction",
+    id: "69ebb63dea9de5548eff5e49",
+    style: "blue",
+    eyebrow: "Your Next Step",
+    heading: "Get the Diligence Frame",
+    subheading:
+      "We work with LPs, GPs, and lenders on pre-investment diligence and post-close operational reviews of CRE data & digital infrastructure \u2014 mapped, scoped, and evidence-ready.",
+    buttonLabel: "Schedule a Conversation",
+    bulletPoints: [
+      { id: "lp-cta-1", text: "A sponsor-side map of who holds credentials, exports, and governance for building OT" },
+      { id: "lp-cta-2", text: "Gap analysis against the six capital-allocator questions \u2014 in plain English" },
+      { id: "lp-cta-3", text: "What transfers at refi, sale, or partner exit \u2014 and what resets if the posture does not change" },
+      { id: "lp-cta-4", text: "A practical path to owner-controlled Layer 1 (BoT\u00ae / SIC\u00ae) and Layer 2 (Property Brain\u2122 \u2192 Portfolio Brain\u2122)" },
+    ],
+  },
+];
+
+function emitHtml() {
+  return `<div class="ow-v4">${BLOCKS.map((b) => renderers[b.type](b)).join("")}</div>`;
+}
+
+function emitJsonLayout() {
+  return `\\"layout\\":[${BLOCKS.map((b) => jsonRenderers[b.type](b)).join(",")}]`;
+}
+
+function detectHtmlTail(html) {
+  const a = "<!--$?--><template id=\"B:1\"></template><!--/$--></main>";
+  const b = "<!--$--><!--/$--></main>";
+  if (html.includes(a)) return a;
+  if (html.includes(b)) return b;
+  throw new Error("Could not detect HTML tail after ow-v4");
+}
+
+const file = readFileSync(PAGE_PATH, "utf8");
+const HTML_OPEN = '<div class="ow-v4">';
+const HTML_TAIL = detectHtmlTail(file);
+const jsonStart = file.indexOf('\\"layout\\":[');
+const jsonEnd = file.indexOf("],\\"updatedAt\\\"", jsonStart);
+if (jsonStart < 0 || jsonEnd < 0) throw new Error("JSON layout not found");
+
+const newHtml = emitHtml();
+const newJson = emitJsonLayout();
+
+let updated = file.slice(0, jsonStart) + newJson + file.slice(jsonEnd + 1);
+const hs = updated.indexOf(HTML_OPEN);
+const he = updated.indexOf(HTML_TAIL);
+if (hs < 0 || he < 0) throw new Error("HTML bounds lost after JSON replace");
+updated = updated.slice(0, hs) + newHtml + updated.slice(he);
+
+writeFileSync(PAGE_PATH, updated, "utf8");
+console.log("Rewrote for-lps-and-financiers blocks:", BLOCKS.length);
