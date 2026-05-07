@@ -384,7 +384,7 @@ function main() {
     '',
   );
   html = html.replace(
-    /<script>\(function\(\)\{function init\(\)\{try\{var sections=document\.querySelectorAll\('main section\.faq'\)[\s\S]*?\}\)\(\);<\/script>/,
+    /<script>\(function\(\)\{(?:function init\(\)\{try\{var sections=document\.querySelectorAll\('main section\.faq'\)|var BAR_HTML=)[\s\S]*?\}\)\(\);<\/script>/,
     '',
   );
   const bodyClose = html.lastIndexOf('</body>');
