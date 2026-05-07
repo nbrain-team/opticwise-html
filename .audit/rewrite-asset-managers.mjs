@@ -410,15 +410,30 @@ const BLOCKS = [
     ],
   },
 
-  // 10) Two-Layer Model snapshot — NEW
+  // 10) Two-Layer Model snapshot — NEW (cardGrid 2-col so each layer gets its own card)
   {
-    type: "twoColumn",
+    type: "cardGrid",
     id: "am-two-layer-model",
     style: "dark",
+    columns: "2",
     eyebrow: "How OpticWise Operates",
     heading: "Two Layers. One Owner Standard.",
     subheading: "We don\u2019t sell another dashboard. We deliver the layers underneath the dashboards \u2014 the foundation your operating data has to come out of, and the governed substrate your decision engines run on top of.",
-    authorityNote: "Layer 1 \u2014 Managed data & digital infrastructure (BoT\u00AE). Owner-controlled connectivity, segmentation, and OT governance. Engineered under SIC\u00AE \u2014 Security, Infrastructure, and Connectivity. Vendor- and ISP-agnostic. \u2003\u2003 Layer 2 \u2014 Owner-controlled intelligence (Property Brain\u2122 \u2192 Portfolio Brain\u2122). A vendor- and LLM-agnostic governed data plane and trust plane. Plug in any vendor, any model, any decision engine \u2014 under your permissions, on your standard. Standardize once at one property; scale across the portfolio. The model is the commodity. The moat is the layer above it.",
+    closingLine: "The model is the commodity. The moat is the layer above it.",
+    cards: [
+      {
+        id: "am-layer-1",
+        title: "Layer 1 \u2014 Managed Data & Digital Infrastructure (BoT\u00AE)",
+        description:
+          "Owner-controlled connectivity, segmentation, and OT governance. Engineered under SIC\u00AE \u2014 Security, Infrastructure, and Connectivity. First-tier equipment only \u2014 no white-label gear. Vendor- and ISP-agnostic by design. The foundation your operating data has to come out of.",
+      },
+      {
+        id: "am-layer-2",
+        title: "Layer 2 \u2014 Owner-Controlled Intelligence (Property Brain\u2122 \u2192 Portfolio Brain\u2122)",
+        description:
+          "A vendor- and LLM-agnostic governed data plane and trust plane. Plug in any vendor, any model, any decision engine \u2014 under your permissions, on your standard. Standardize once at one property; scale across the portfolio without rewiring.",
+      },
+    ],
   },
 
   // 11) What Stays at Risk — refi bullet added, sharper closer
