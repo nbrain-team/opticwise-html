@@ -340,7 +340,7 @@ const BLOCKS = [
     subheading:
       "OpticWise does not monetize tenant browsing behavior. OpticWise does not sell user data. Tenant trust is non\u2011negotiable \u2014 the same way owner\u2011controlled data \u0026 digital infrastructure is non\u2011negotiable on the asset side.",
     authorityNote:
-      "Owners and sponsors who run Peak Property Performance\u00ae use PPP 5C\u2122 \u2014 Clarify \u2192 Connect \u2192 Collect \u2192 Coordinate \u2192 Control \u2014 so capital, operations, and risk land on one evidence line. OpticWise is the partner\u2011operator at the building\u2019s data \u0026 digital infrastructure layer (BoT\u00ae \u2014 Building of Things\u00ae), with Property Brain\u2122 \u2192 Portfolio Brain\u2122 as the trust plane for permissioned outputs. You still govern what happens inside your suite and on your corporate identity; we align the base building and common\u2011area carriage to a standard your sponsor can show in a review \u2014 without asking your workplace lead to become the landlord\u2019s network architect.",
+      "PPP 5C\u2122 under Peak Property Performance\u00ae keeps capital and operations on one owner evidence line. OpticWise runs the building\u2019s data \u0026 digital infrastructure (BoT\u00ae \u2014 Building of Things\u00ae); Property Brain\u2122 \u2192 Portfolio Brain\u2122 is the permissioned trust plane. Your suite stays yours \u2014 we align base\u2011building carriage to what your sponsor can show in a review.",
   },
   {
     type: "pullQuote",
