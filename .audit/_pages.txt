@@ -13,7 +13,7 @@ digital-infrastructure-noi-strategy: 4899 chars
 faq: 12328 chars
 for-asset-managers: 10026 chars
 for-it-executives: 5353 chars
-for-lps-and-financiers: 3974 chars
+for-lps-and-financiers: 7058 chars
 for-property-managers-and-engineers: 3797 chars
 for-tenants: 3118 chars
 glossary: 21985 chars

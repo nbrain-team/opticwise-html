@@ -4,56 +4,68 @@ How It Works
 Insights Blog Articles FAQ Glossary
 About Company Contact
 Schedule Review
-For LPs & Financiers Governance. Auditability. Portability.
-For limited partners, general partners, lenders, and institutional capital allocating to CRE — the questions you should be asking about data & digital infrastructure before you fund.
+For LPs & Financiers Governance, Basis Risk, and What Transfers at Exit.
+For limited partners, general partners, lenders, and institutional capital allocating to CRE — data & digital infrastructure is not a slide in the appendix. It is the substrate behind NOI, insurance, tenant experience, and every diligence narrative you rely on.
 If the sponsor doesn't own the data & digital infrastructure, the vendors do.
-A due-diligence frame for CRE capital allocators.
-Schedule Your Review
-The Due Diligence Question
-What Happens to the Data When the Deal Closes?
-You underwrote a building. You underwrote an NOI trajectory. But did you underwrite who owns the operational data that drives both — and what happens to it at refinance, at sale, at partner exit?
-Most CRE sponsors treat data & digital infrastructure as an operating expense. OpticWise treats it as an asset class inside the asset. The difference shows up at disposition.
+A diligence and portfolio-governance frame for capital allocators — adjacent to how asset managers defend the same numbers.
+Schedule Your Review See the asset-manager view
+Basis Risk at Refi, Sale, and Partner Exit
+The Counterparty Underwrites the Same Asset With Different Access.
+You modeled a building and an NOI path. At sale or major refi, the other side runs its own process on operating data, export rights, and governance. If they surface recoverable NOI the sponsor never operationalized — or intelligence that cannot be ported — that gap becomes a negotiation input, not a footnote.
+Same systems. Same revenue line. Different rigor on who holds admin credentials, whether history is exportable, and whether “insights” in the deck can be reproduced under your documentation standards. Owning data & digital infrastructure is not only an operating story. It is a diligence story — the same lesson capital markets keep re-learning at exit.
+The Read-Through From Property and IT
+Operators and IT Aren't the Villains — They're Carrying the Wrong Scope.
+Property teams live in tenant service levels, work orders, life-safety, CAM recoveries, and vendor response times. Enterprise IT lives in identity, corporate networks, patching, and evidence packs for auditors. Multi-tenant building OT — access, BMS, metering, life-safety networks, tenant connectivity — usually grew through vendor installs, not an owner standard.
+Neither group was hired to own segmented OT, exportable history, and vendor-neutral governance end-to-end. A common pattern we see: capable people asked to cover operational technology out of position — while counterparty concentration sits in vendor admin screens. Underwriting the sponsor means reading that gap, not pretending it is solved because the building “leased smart.”
 What to Ask
-Six Questions for Your Next Deal Review
-Who controls network admin credentials?
-Sponsor, operator, PM, or vendor?
-Is building data exportable on demand?
-Real-time, full-fidelity, normalized?
-Can vendors be swapped without data loss?
-Without re-architecting the building?
-Is there a documented data governance standard?
-Or is it tribal knowledge held by one vendor?
-What AI outputs are being generated
-And who can audit them?
-At refinance or disposition, what transfers?
-Just the building — or the intelligence too?
-If the sponsor can't answer these cleanly, you are underwriting vendor dependency — not an asset.
+Six Questions for Your Next IC or Covenant Review
+Plain English due diligence — the answers belong in the data room, not in a vendor's ticketing system.
+Who holds network admin and break-glass access?
+Sponsor-held credentials with an export path — or vendor-held keys with renewal risk?
+Is building operating data exportable on demand?
+Time-series history, alarms, and equipment context in a normalized model — not PDFs buried in portals.
+Can vendors be swapped without a rebuild?
+Documented integrations and owner-controlled segmentation — or custom glue that resets when the incumbent leaves?
+Is there a written data governance standard?
+Identity, access, retention, and lineage rules the owner can evidence — or tribal knowledge living in one integrator?
+What AI or automation outputs exist today?
+Who can audit prompts, inputs, and lineage — and who is accountable when outputs hit investor or lender reporting?
+At refi, sale, or promote — what transfers?
+The building shell only — or the operating intelligence, export rights, and governance package that protects basis?
+If the sponsor can't answer these cleanly, you are underwriting vendor dependency — not a portable intelligence position.
 Layer 1 The Foundation
 Owner-Controlled Data & Digital Infrastructure
-Delivered through BoT® (Building of Things®) . A single, secure, segmented foundation — owned by the sponsor, operable under governance, portable at exit.
+Delivered through BoT® (Building of Things®) . A single, secure, segmented foundation engineered under SIC® — Security, Infrastructure, and Connectivity — owned by the sponsor, operable under governance, portable at exit.
 Documented
-Every system, every credential, every integration.
-Audited
-Governance events traceable end-to-end.
+Every system, credential, and integration mapped to an owner standard.
+Traceable
+Governance events and access patterns evidence-ready for your diligence narrative.
 Portable
-Survives vendor changes, sponsor changes, operator changes.
+Survives vendor swaps, operator changes, and sponsor transitions without resetting intelligence.
 Layer 2 The Intelligence
 Property Brain™ → Portfolio Brain™
 Portable intelligence assets. Not rented software.
 Property Brain™ is a governed data plane + trust plane . Every output is auditable. Every decision is permissioned.
 Portfolio Brain™ is the compounding layer — intelligence that survives each building and improves the whole portfolio over time.
-At refinance, at sale, at partner exit — the intelligence transfers with the asset.
-Underwrite the intelligence, not just the building.
+At refinance, at sale, at partner exit — governed operating intelligence transfers with the asset when the sponsor owns the substrate.
+Underwrite the intelligence layer — not just the building.
+The Diligence Wedge “ Make this review part of your diligence process. You won't know what you don't know. ” OpticWise Talk Track
 Patterns That Destroy Basis
-Three Patterns LPs See at Exit
-Value you thought you had — that was never actually yours.
-The vendor walks. The data goes with them. The new operator starts over.
-The "insights" that justified the business plan can't be reproduced or audited.
-Portfolio benchmarking that compounded during hold disappears at sale.
+What We See When the Substrate Is Vendor-Held
+These are recurring patterns across portfolios — not one-off anecdotes.
+The incumbent walks; admin credentials and normalized history walk with them — the next operator starts cold.
+Narratives in the sponsor deck cannot be reproduced under investor-side documentation standards.
+Portfolio comparability that compounded during the hold evaporates at sale because exports were never contractually real.
+Counterparty diligence surfaces OT or data-lineage gaps that land in IC memos, not just operator backlogs.
+Recoverable NOI shows up in the buyer's process and becomes a price or structure conversation the sponsor did not model.
 “ Governance debt comes due with interest — often at exit. ”
 “ If you don't own your data & digital infrastructure, your vendors do. ”
 Your Next Step Get the Diligence Frame
-We work with LPs, GPs, and lenders on pre-investment diligence and post-close operational reviews of CRE data & digital infrastructure.
+We work with LPs, GPs, and lenders on pre-investment diligence and post-close operational reviews of CRE data & digital infrastructure — mapped, scoped, and evidence-ready.
+A sponsor-side map of who holds credentials, exports, and governance for building OT
+Gap analysis against the six capital-allocator questions — in plain English
+What transfers at refi, sale, or partner exit — and what resets if the posture does not change
+A practical path to owner-controlled Layer 1 (BoT® / SIC®) and Layer 2 (Property Brain™ → Portfolio Brain™)
 Schedule a Conversation
 Owner-controlled data & digital infrastructure for commercial real estate.
 Explore
