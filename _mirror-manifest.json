@@ -1,0 +1,2228 @@
+[
+  {
+    "url": "https://www.opticwise.com/",
+    "local": "index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights",
+    "local": "insights/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/blog/feed.xml",
+    "local": "blog/feed.xml",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/sitemap.xml",
+    "local": "sitemap.xml",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/robots.txt",
+    "local": "robots.txt",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/favicon.ico",
+    "local": "favicon.ico",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/favicon.png",
+    "local": "favicon.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/icon.png",
+    "local": "icon.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/apple-touch-icon.png",
+    "local": "apple-touch-icon.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/contact-cowork-dupe-please-delete",
+    "local": "contact-cowork-dupe-please-delete/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/contact",
+    "local": "contact/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/portfolio-brain",
+    "local": "portfolio-brain/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/glossary",
+    "local": "glossary/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/for-asset-managers",
+    "local": "for-asset-managers/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/for-it-executives",
+    "local": "for-it-executives/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/about",
+    "local": "about/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/for-tenants",
+    "local": "for-tenants/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/for-property-managers-and-engineers",
+    "local": "for-property-managers-and-engineers/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/for-lps-and-financiers",
+    "local": "for-lps-and-financiers/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/digital-infrastructure-noi-ai",
+    "local": "digital-infrastructure-noi-ai/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/control-cre-digital-visibility",
+    "local": "control-cre-digital-visibility/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/own-vs-lease-cre-building-data",
+    "local": "own-vs-lease-cre-building-data/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/ai-ready-commercial-real-estate",
+    "local": "ai-ready-commercial-real-estate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/digital-infrastructure-noi-playbook",
+    "local": "digital-infrastructure-noi-playbook/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/digital-infrastructure-noi-strategy",
+    "local": "digital-infrastructure-noi-strategy/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/faq",
+    "local": "faq/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/5s-user-experience-standard",
+    "local": "5s-user-experience-standard/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/bot-building-of-things",
+    "local": "bot-building-of-things/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/ppp-audit",
+    "local": "ppp-audit/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/advisory-services",
+    "local": "advisory-services/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/how-we-operate",
+    "local": "how-we-operate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/property-brain",
+    "local": "property-brain/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/The-LLM-Model-Just-Became-a-Commodity",
+    "local": "insights/The-LLM-Model-Just-Became-a-Commodity/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/part-4-ai-adoption-without-strategy-is-waste-digital-infrastructure-makes-it-wor",
+    "local": "insights/part-4-ai-adoption-without-strategy-is-waste-digital-infrastructure-makes-it-wor/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/your-pms-has-an-api-thats-not-the-same-as-a-data-strategy",
+    "local": "insights/your-pms-has-an-api-thats-not-the-same-as-a-data-strategy/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat",
+    "local": "insights/the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/why-cre-tech-is-shifting-from-point-solutions-to-platforms-and-what-to-do-about",
+    "local": "insights/why-cre-tech-is-shifting-from-point-solutions-to-platforms-and-what-to-do-about/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-winners-in-cre-will-own-the-stacknot-just-the-asset",
+    "local": "insights/the-winners-in-cre-will-own-the-stacknot-just-the-asset/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-most-valuable-asset-in-cre-isnt-the-buildingits-the-data",
+    "local": "insights/the-most-valuable-asset-in-cre-isnt-the-buildingits-the-data/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-hidden-cost-killing-your-noi-and-you-dont-see-it",
+    "local": "insights/the-hidden-cost-killing-your-noi-and-you-dont-see-it/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/operational-efficiency-is-the-new-alpha-in-commercial-real-estate",
+    "local": "insights/operational-efficiency-is-the-new-alpha-in-commercial-real-estate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/data-centers-are-the-new-cre-gravity-well",
+    "local": "insights/data-centers-are-the-new-cre-gravity-well/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/owners-are-overwhelmednot-under-informed",
+    "local": "insights/owners-are-overwhelmednot-under-informed/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/capex-is-tightening-roi-scrutiny-is-brutal-and-cool-tech-is-dead",
+    "local": "insights/capex-is-tightening-roi-scrutiny-is-brutal-and-cool-tech-is-dead/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/ai-wont-fix-your-propertyit-will-expose-whats-broken",
+    "local": "insights/ai-wont-fix-your-propertyit-will-expose-whats-broken/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/ai-wont-fix-your-propertybut-this-will",
+    "local": "insights/ai-wont-fix-your-propertybut-this-will/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/ai-will-commoditize-creunless-you-own-something-it-cant-replicate",
+    "local": "insights/ai-will-commoditize-creunless-you-own-something-it-cant-replicate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/if-your-building-sold-tomorrow-would-the-data-be-included",
+    "local": "insights/if-your-building-sold-tomorrow-would-the-data-be-included/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/ai-needs-a-nervous-system-why-digital-infrastructure-is-the-real-enabler",
+    "local": "insights/ai-needs-a-nervous-system-why-digital-infrastructure-is-the-real-enabler/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/ai-governance-is-now-a-cre-risk-category-are-you-exposed",
+    "local": "insights/ai-governance-is-now-a-cre-risk-category-are-you-exposed/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/why-asset-managers-are-flying-blind-and-dont-even-know-it",
+    "local": "insights/why-asset-managers-are-flying-blind-and-dont-even-know-it/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/hyperscalers-are-industrializing-digital-infrastructure-your-building-is-next",
+    "local": "insights/hyperscalers-are-industrializing-digital-infrastructure-your-building-is-next/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-realpage-settlements-are-not-the-story-the-story-is-who-makes-your-decisions",
+    "local": "insights/the-realpage-settlements-are-not-the-story-the-story-is-who-makes-your-decisions/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-shadow-ai-problem-is-already-in-your-buildings",
+    "local": "insights/the-shadow-ai-problem-is-already-in-your-buildings/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/office-just-had-its-best-quarter-since-2018-the-winners-will-be-the-owners-who-c",
+    "local": "insights/office-just-had-its-best-quarter-since-2018-the-winners-will-be-the-owners-who-c/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/data-centers-just-got-their-own-reit-every-owner-should-read-the-signal",
+    "local": "insights/data-centers-just-got-their-own-reit-every-owner-should-read-the-signal/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/blackstone-is-filing-a-2-billion-ipo-around-digital-infrastructure-most-cre-owne",
+    "local": "insights/blackstone-is-filing-a-2-billion-ipo-around-digital-infrastructure-most-cre-owne/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/ai-promises-20-30-savings-in-your-building-thats-only-true-if-you-own-your-data",
+    "local": "insights/ai-promises-20-30-savings-in-your-building-thats-only-true-if-you-own-your-data/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/blackstone-brookfield-and-jpmorgan-just-rewrote-the-rules-on-real-estate-value",
+    "local": "insights/blackstone-brookfield-and-jpmorgan-just-rewrote-the-rules-on-real-estate-value/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/ai-in-cre-wont-save-you-if-you-dont-own-your-data",
+    "local": "insights/ai-in-cre-wont-save-you-if-you-dont-own-your-data/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/when-the-scorekeeper-works-for-the-vendor-who-is-looking-out-for-you",
+    "local": "insights/when-the-scorekeeper-works-for-the-vendor-who-is-looking-out-for-you/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/ai-wont-fix-your-building-operations-your-data-foundation-will",
+    "local": "insights/ai-wont-fix-your-building-operations-your-data-foundation-will/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/part-5-digital-infrastructure-as-the-strategic-foundation-for-ai-driven-esg-and",
+    "local": "insights/part-5-digital-infrastructure-as-the-strategic-foundation-for-ai-driven-esg-and/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/part-3-digital-infrastructure-ai-operational-excellence-and-higher-asset-value",
+    "local": "insights/part-3-digital-infrastructure-ai-operational-excellence-and-higher-asset-value/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/Data-Is-the-New-Real-Estate-Utility",
+    "local": "insights/Data-Is-the-New-Real-Estate-Utility/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/transitioning-to-digital-first-commercial-real-estate-portfolio-owners",
+    "local": "insights/transitioning-to-digital-first-commercial-real-estate-portfolio-owners/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/what-is-digital-infrastructure-commercial-real-estate",
+    "local": "insights/what-is-digital-infrastructure-commercial-real-estate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/how-technology-is-transforming-real-estate-management",
+    "local": "insights/how-technology-is-transforming-real-estate-management/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/opticwise-building-intelligence-commercial-real-estate",
+    "local": "insights/opticwise-building-intelligence-commercial-real-estate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/best-practices-in-building-management",
+    "local": "insights/best-practices-in-building-management/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/artificial-intelligence-in-commercial-real-estate",
+    "local": "insights/artificial-intelligence-in-commercial-real-estate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/benefits-of-intelligent-building-management-for-multi-family-communities",
+    "local": "insights/benefits-of-intelligent-building-management-for-multi-family-communities/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/ai-iot-modern-commercial-real-estate-management",
+    "local": "insights/ai-iot-modern-commercial-real-estate-management/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/future-cre-operations-intelligent-building-systems",
+    "local": "insights/future-cre-operations-intelligent-building-systems/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/leveraging-data-analytics-optimize-commercial-real-estate-assets",
+    "local": "insights/leveraging-data-analytics-optimize-commercial-real-estate-assets/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/integrating-iot-smarter-safer-cre-building-management",
+    "local": "insights/integrating-iot-smarter-safer-cre-building-management/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/proactive-cybersecurity-smart-building-tech-keeps-tenants-safe",
+    "local": "insights/proactive-cybersecurity-smart-building-tech-keeps-tenants-safe/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/how-smart-technology-enhances-tenant-experience-commercial-real-estate",
+    "local": "insights/how-smart-technology-enhances-tenant-experience-commercial-real-estate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/how-smart-tech-is-shattering-modern-boundaries",
+    "local": "insights/how-smart-tech-is-shattering-modern-boundaries/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/resolute-building-intelligence-commercial-real-estate-management",
+    "local": "insights/resolute-building-intelligence-commercial-real-estate-management/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/smart-access-workspace-optimization-modern-space-as-a-service",
+    "local": "insights/smart-access-workspace-optimization-modern-space-as-a-service/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/intelligent-buildings-investment-trend",
+    "local": "insights/intelligent-buildings-investment-trend/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/how-digital-infrastructure-shapes-modern-business",
+    "local": "insights/how-digital-infrastructure-shapes-modern-business/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/how-intelligent-buildings-revolutionize-multi-family-living",
+    "local": "insights/how-intelligent-buildings-revolutionize-multi-family-living/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/future-proof-network-digital-era",
+    "local": "insights/future-proof-network-digital-era/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/transforming-spaces-smart-building-technology",
+    "local": "insights/transforming-spaces-smart-building-technology/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/building-automation-systems-future-of-smart-buildings",
+    "local": "insights/building-automation-systems-future-of-smart-buildings/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/commercial-real-estate-technology",
+    "local": "insights/commercial-real-estate-technology/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/building-management-systems-security-connectivity",
+    "local": "insights/building-management-systems-security-connectivity/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/digital-infrastructure-commercial-real-estate",
+    "local": "insights/digital-infrastructure-commercial-real-estate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/advanced-iot-device-management-strategies",
+    "local": "insights/advanced-iot-device-management-strategies/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/impact-cre-technology-real-estate",
+    "local": "insights/impact-cre-technology-real-estate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/digital-twins-revolutionizing-commercial-real-estate",
+    "local": "insights/digital-twins-revolutionizing-commercial-real-estate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/how-building-intelligence-drives-sustainable-work-environments",
+    "local": "insights/how-building-intelligence-drives-sustainable-work-environments/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/network-resilience-smart-building-success",
+    "local": "insights/network-resilience-smart-building-success/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/smart-building-technology-enhances-tenant-experience",
+    "local": "insights/smart-building-technology-enhances-tenant-experience/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/network-compliance-multi-tenant-commercial-properties",
+    "local": "insights/network-compliance-multi-tenant-commercial-properties/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/soaring-above-rest-opticwise-cre-thrive-flight-quality-era",
+    "local": "insights/soaring-above-rest-opticwise-cre-thrive-flight-quality-era/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/own-your-buildings-digital-infrastructure-or-be-owned-by-it",
+    "local": "insights/own-your-buildings-digital-infrastructure-or-be-owned-by-it/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/5-genius-ways-smart-building-tech-elevates-tenant-experience",
+    "local": "insights/5-genius-ways-smart-building-tech-elevates-tenant-experience/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/digital-infrastructure-office-residential-conversions",
+    "local": "insights/digital-infrastructure-office-residential-conversions/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/ai-revolutionizing-commercial-property-security-beyond-surveillance",
+    "local": "insights/ai-revolutionizing-commercial-property-security-beyond-surveillance/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/invisible-workforce-iot-networks-running-cre",
+    "local": "insights/invisible-workforce-iot-networks-running-cre/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/smart-security-future-access-control-protection",
+    "local": "insights/smart-security-future-access-control-protection/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/iot-networks-operational-efficiency-commercial-real-estate",
+    "local": "insights/iot-networks-operational-efficiency-commercial-real-estate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/cre-tech-revolution-data-driven-properties",
+    "local": "insights/cre-tech-revolution-data-driven-properties/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/not-just-smart-strategic-buildings-built-for-better-tenancy",
+    "local": "insights/not-just-smart-strategic-buildings-built-for-better-tenancy/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/ai-in-commercial-real-estate-innovation-ethics-and-the-new-regulatory",
+    "local": "insights/ai-in-commercial-real-estate-innovation-ethics-and-the-new-regulatory/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/data-infrastructure-the-engine-behind-modern-cre-operations",
+    "local": "insights/data-infrastructure-the-engine-behind-modern-cre-operations/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-hidden-roi-of-digital-infrastructure-ownership-in-commercial-real-estate",
+    "local": "insights/the-hidden-roi-of-digital-infrastructure-ownership-in-commercial-real-estate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/built-to-last-why-smart-infrastructure-is-the-backbone-of-future-proof",
+    "local": "insights/built-to-last-why-smart-infrastructure-is-the-backbone-of-future-proof/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/from-amenities-to-expectations-on-demand-connectivity-as-a-cre-necessity",
+    "local": "insights/from-amenities-to-expectations-on-demand-connectivity-as-a-cre-necessity/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/from-liability-to-leadership-how-cre-data-unlocks-value-in-at-risk-assets",
+    "local": "insights/from-liability-to-leadership-how-cre-data-unlocks-value-in-at-risk-assets/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/invisible-guardians-redefining-privacy-in-commercial-real-estate",
+    "local": "insights/invisible-guardians-redefining-privacy-in-commercial-real-estate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/why-redundant-networks-are-silent-killers",
+    "local": "insights/why-redundant-networks-are-silent-killers/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/monetize-like-amazon-analyze-like-google-and-avoid-tesla-s-data-missteps",
+    "local": "insights/monetize-like-amazon-analyze-like-google-and-avoid-tesla-s-data-missteps/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/from-wifi-to-wealth-the-hidden-profit-in-connectivity",
+    "local": "insights/from-wifi-to-wealth-the-hidden-profit-in-connectivity/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/before-ai-you-need-data-you-actually-own",
+    "local": "insights/before-ai-you-need-data-you-actually-own/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/data-lake-not-data-swamp-structuring-what-you-collect",
+    "local": "insights/data-lake-not-data-swamp-structuring-what-you-collect/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/who-s-making-480k-year-off-your-tenants-hint-it-s-not-you",
+    "local": "insights/who-s-making-480k-year-off-your-tenants-hint-it-s-not-you/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-800k-conversation-developers-keep-missing",
+    "local": "insights/the-800k-conversation-developers-keep-missing/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/why-power-and-not-just-square-footage-is-the-future-of-smart-buildings",
+    "local": "insights/why-power-and-not-just-square-footage-is-the-future-of-smart-buildings/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/what-swedish-beach-volleyball-can-teach-you-about-cre-strategy",
+    "local": "insights/what-swedish-beach-volleyball-can-teach-you-about-cre-strategy/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/why-98-of-property-owners-are-leaving-money-on-the-table",
+    "local": "insights/why-98-of-property-owners-are-leaving-money-on-the-table/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/what-starbucks-taught-us-about-smart-property-ops",
+    "local": "insights/what-starbucks-taught-us-about-smart-property-ops/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/what-s-your-smart-building-strategy-or-are-you-guessing",
+    "local": "insights/what-s-your-smart-building-strategy-or-are-you-guessing/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/reframing-cre-strategy-stop-playing-to-win-start-building-to-endure",
+    "local": "insights/reframing-cre-strategy-stop-playing-to-win-start-building-to-endure/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/how-one-operator-cut-120k-in-opex-with-a-single-upgrade",
+    "local": "insights/how-one-operator-cut-120k-in-opex-with-a-single-upgrade/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/tthe-hidden-cap-rate-enhancer-no-one-talks-about",
+    "local": "insights/tthe-hidden-cap-rate-enhancer-no-one-talks-about/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/digital-first-strategy-the-only-competitive-edge-that-lasts",
+    "local": "insights/digital-first-strategy-the-only-competitive-edge-that-lasts/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/wi-fi-is-not-a-utility-it-s-an-investment-signal",
+    "local": "insights/wi-fi-is-not-a-utility-it-s-an-investment-signal/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-operator-s-guide-to-autonomous-buildings",
+    "local": "insights/the-operator-s-guide-to-autonomous-buildings/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-hidden-cost-of-vendor-sprawl-and-what-to-do-about-it",
+    "local": "insights/the-hidden-cost-of-vendor-sprawl-and-what-to-do-about-it/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/clarify-the-first-step-to-peak-property-performance",
+    "local": "insights/clarify-the-first-step-to-peak-property-performance/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/connect-creating-the-flow-that-unlocks-your-building-s-potential",
+    "local": "insights/connect-creating-the-flow-that-unlocks-your-building-s-potential/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/collect-unlocking-the-value-hidden-in-your-building-s-data",
+    "local": "insights/collect-unlocking-the-value-hidden-in-your-building-s-data/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/bringing-systems-together-the-coordination-step-in-the-five-c-s",
+    "local": "insights/bringing-systems-together-the-coordination-step-in-the-five-c-s/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/mastering-control-the-final-c-in-the-5c-framework",
+    "local": "insights/mastering-control-the-final-c-in-the-5c-framework/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-hidden-tech-debt-you-won-t-catch-in-the-code",
+    "local": "insights/the-hidden-tech-debt-you-won-t-catch-in-the-code/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/cre-owners-are-the-data-stewards-whether-you-know-it-or-not",
+    "local": "insights/cre-owners-are-the-data-stewards-whether-you-know-it-or-not/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/from-data-to-decisions-what-cre-can-learn-from-cortland-s-product-mindset",
+    "local": "insights/from-data-to-decisions-what-cre-can-learn-from-cortland-s-product-mindset/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/cretech-2025-the-ai-illusion-and-the-next-wave-no-one-s-talking-about",
+    "local": "insights/cretech-2025-the-ai-illusion-and-the-next-wave-no-one-s-talking-about/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-post-pandemic-office-isn-t-smaller-it-s-smarter",
+    "local": "insights/the-post-pandemic-office-isn-t-smaller-it-s-smarter/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-genai-divide-what-cre-leaders-must-know-before-falling-behind",
+    "local": "insights/the-genai-divide-what-cre-leaders-must-know-before-falling-behind/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/what-ai-is-doing-to-apartment-demand-and-how-buildings-must-respond",
+    "local": "insights/what-ai-is-doing-to-apartment-demand-and-how-buildings-must-respond/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/trust-at-first-sight-data-dictionaries-refresh-stamps-and-adoption",
+    "local": "insights/trust-at-first-sight-data-dictionaries-refresh-stamps-and-adoption/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/own-the-digital-infrastructure-own-the-leverage",
+    "local": "insights/own-the-digital-infrastructure-own-the-leverage/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/how-one-portfolio-used-ai-to-cut-utility-spend-double-digits",
+    "local": "insights/how-one-portfolio-used-ai-to-cut-utility-spend-double-digits/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-cost-of-doing-nothing-what-you-lose-by-letting-the-isp-build-your-network",
+    "local": "insights/the-cost-of-doing-nothing-what-you-lose-by-letting-the-isp-build-your-network/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/digital-infrastructure-isn-t-just-wi-fi-it-s-the-nervous-system-of-your-property",
+    "local": "insights/digital-infrastructure-isn-t-just-wi-fi-it-s-the-nervous-system-of-your-property/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/organizational-pencils-why-agility-not-perfection-will-win-in-2026",
+    "local": "insights/organizational-pencils-why-agility-not-perfection-will-win-in-2026/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/the-case-for-a-digital-architect-why-cre-property-managers-are-drowning-in",
+    "local": "insights/the-case-for-a-digital-architect-why-cre-property-managers-are-drowning-in/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/digital-infrastructure-first-series-part-1-digital-infrastructure-is-the",
+    "local": "insights/digital-infrastructure-first-series-part-1-digital-infrastructure-is-the/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/part-2-what-cre-gets-wrong-about-tenant-experience-hint-it-s-not-a-smart",
+    "local": "insights/part-2-what-cre-gets-wrong-about-tenant-experience-hint-it-s-not-a-smart/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/part-3-esg-illusion-why-ai-dashboards-alone-won-t-deliver-sustainable-results",
+    "local": "insights/part-3-esg-illusion-why-ai-dashboards-alone-won-t-deliver-sustainable-results/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/part-4-the-coming-regulation-wave-why-cre-must-prepare-for-ethical-ai-now",
+    "local": "insights/part-4-the-coming-regulation-wave-why-cre-must-prepare-for-ethical-ai-now/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/part-5-cre-s-digital-divide-why-infrastructure-ownership-determines-ai",
+    "local": "insights/part-5-cre-s-digital-divide-why-infrastructure-ownership-determines-ai/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/ai-isn-t-the-future-it-s-today-why-your-digital-infrastructure-must",
+    "local": "insights/ai-isn-t-the-future-it-s-today-why-your-digital-infrastructure-must/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/images/project-catalyst.jpg",
+    "local": "images/project-catalyst.jpg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/The-LLM-Model-Just-Became-a-Commodity-1.jpg",
+    "local": "api/media/file/The-LLM-Model-Just-Became-a-Commodity-1.jpg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/your-pms-has-an-api-thats-not-the-same-as-a-data-strategy.png",
+    "local": "api/media/file/your-pms-has-an-api-thats-not-the-same-as-a-data-strategy.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat.png",
+    "local": "api/media/file/the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/why-cre-tech-is-shifting-from-point-solutions-to-platforms-and-what-to-do-about.png",
+    "local": "api/media/file/why-cre-tech-is-shifting-from-point-solutions-to-platforms-and-what-to-do-about.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-winners-in-cre-will-own-the-stacknot-just-the-asset.png",
+    "local": "api/media/file/the-winners-in-cre-will-own-the-stacknot-just-the-asset.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-most-valuable-asset-in-cre-isnt-the-buildingits-the-data.png",
+    "local": "api/media/file/the-most-valuable-asset-in-cre-isnt-the-buildingits-the-data.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/images/testimonial-bg.jpg",
+    "local": "images/testimonial-bg.jpg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/css/c5d469d49fb9e026.css?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/css/c5d469d49fb9e026.css",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/webpack-f6ca6769a9ac5ecf.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/webpack-f6ca6769a9ac5ecf.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/4bd1b696-cc729d47eba2cee4.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/4bd1b696-cc729d47eba2cee4.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/5964-aa0a5fb04ded436c.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/5964-aa0a5fb04ded436c.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/main-app-1752470139d2f8a3.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/main-app-1752470139d2f8a3.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/6874-414075bb21e16c80.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/6874-414075bb21e16c80.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/6766-80fce055a8eb2f5b.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/6766-80fce055a8eb2f5b.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/app/(frontend)/(main)/layout-b838912296ce8d52.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/app/(frontend)/(main)/layout-b838912296ce8d52.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/5562-9e4b3b5f9189ccc5.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/5562-9e4b3b5f9189ccc5.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/app/(frontend)/(main)/insights/page-6bccfc34344d7b3f.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/app/(frontend)/(main)/insights/page-6bccfc34344d7b3f.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/polyfills-42372ed130431b0a.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/image?url=%2Fimages%2Fow_logo.png&w=384&q=75",
+    "local": "images/ow_logo.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-hidden-cost-killing-your-noi-and-you-dont-see-it.png",
+    "local": "api/media/file/the-hidden-cost-killing-your-noi-and-you-dont-see-it.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/operational-efficiency-is-the-new-alpha-in-commercial-real-estate.png",
+    "local": "api/media/file/operational-efficiency-is-the-new-alpha-in-commercial-real-estate.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/data-centers-are-the-new-cre-gravity-well.png",
+    "local": "api/media/file/data-centers-are-the-new-cre-gravity-well.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/owners-are-overwhelmednot-under-informed.png",
+    "local": "api/media/file/owners-are-overwhelmednot-under-informed.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/capex-is-tightening-roi-scrutiny-is-brutal-and-cool-tech-is-dead.png",
+    "local": "api/media/file/capex-is-tightening-roi-scrutiny-is-brutal-and-cool-tech-is-dead.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ai-wont-fix-your-propertyit-will-expose-whats-broken.png",
+    "local": "api/media/file/ai-wont-fix-your-propertyit-will-expose-whats-broken.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ai-wont-fix-your-propertybut-this-will.png",
+    "local": "api/media/file/ai-wont-fix-your-propertybut-this-will.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ai-will-commoditize-creunless-you-own-something-it-cant-replicate.png",
+    "local": "api/media/file/ai-will-commoditize-creunless-you-own-something-it-cant-replicate.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/if-your-building-sold-tomorrow-would-the-data-be-included.png",
+    "local": "api/media/file/if-your-building-sold-tomorrow-would-the-data-be-included.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ai-needs-a-nervous-system-why-digital-infrastructure-is-the-real-enabler.png",
+    "local": "api/media/file/ai-needs-a-nervous-system-why-digital-infrastructure-is-the-real-enabler.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ai-governance-is-now-a-cre-risk-category-are-you-exposed.png",
+    "local": "api/media/file/ai-governance-is-now-a-cre-risk-category-are-you-exposed.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/why-asset-managers-are-flying-blind-and-dont-even-know-it.png",
+    "local": "api/media/file/why-asset-managers-are-flying-blind-and-dont-even-know-it.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/hyperscalers-are-industrializing-digital-infrastructure-your-building-is-next.png",
+    "local": "api/media/file/hyperscalers-are-industrializing-digital-infrastructure-your-building-is-next.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-realpage-settlements-are-not-the-story-the-story-is-who-makes-your-decisions.png",
+    "local": "api/media/file/the-realpage-settlements-are-not-the-story-the-story-is-who-makes-your-decisions.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-shadow-ai-problem-is-already-in-your-buildings.png",
+    "local": "api/media/file/the-shadow-ai-problem-is-already-in-your-buildings.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/office-just-had-its-best-quarter-since-2018-the-winners-will-be-the-owners-who-c.png",
+    "local": "api/media/file/office-just-had-its-best-quarter-since-2018-the-winners-will-be-the-owners-who-c.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/data-centers-just-got-their-own-reit-every-owner-should-read-the-signal.png",
+    "local": "api/media/file/data-centers-just-got-their-own-reit-every-owner-should-read-the-signal.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/blackstone-is-filing-a-2-billion-ipo-around-digital-infrastructure-most-cre-owne.png",
+    "local": "api/media/file/blackstone-is-filing-a-2-billion-ipo-around-digital-infrastructure-most-cre-owne.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ai-promises-20-30-savings-in-your-building-thats-only-true-if-you-own-your-data.png",
+    "local": "api/media/file/ai-promises-20-30-savings-in-your-building-thats-only-true-if-you-own-your-data.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/blackstone-brookfield-and-jpmorgan-just-rewrote-the-rules-on-real-estate-value.png",
+    "local": "api/media/file/blackstone-brookfield-and-jpmorgan-just-rewrote-the-rules-on-real-estate-value.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ai-in-cre-wont-save-you-if-you-dont-own-your-data.png",
+    "local": "api/media/file/ai-in-cre-wont-save-you-if-you-dont-own-your-data.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/when-the-scorekeeper-works-for-the-vendor-who-is-looking-out-for-you.png",
+    "local": "api/media/file/when-the-scorekeeper-works-for-the-vendor-who-is-looking-out-for-you.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ai-wont-fix-your-building-operations-your-data-foundation-will.png",
+    "local": "api/media/file/ai-wont-fix-your-building-operations-your-data-foundation-will.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/part-5-digital-infrastructure-as-the-strategic-foundation-for-ai-driven-esg-and.png",
+    "local": "api/media/file/part-5-digital-infrastructure-as-the-strategic-foundation-for-ai-driven-esg-and.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/image?url=%2Fimages%2Fow_logo.png&w=256&q=75",
+    "local": "images/ow_logo.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/image?url=%2Fimages%2Fow_logo.png&w=128&q=75",
+    "local": "images/ow_logo.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ppp-book-cover.png",
+    "local": "api/media/file/ppp-book-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/4846-c8dc34e366f92f9c.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/4846-c8dc34e366f92f9c.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/app/(frontend)/(main)/page-ca91de6b480235ef.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/app/(frontend)/(main)/page-ca91de6b480235ef.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/Digital%20Infrastructure%20Leadership%20in%20CRE%20Value%20Creation%202026_Award%20Logo.png",
+    "local": "api/media/file/Digital Infrastructure Leadership in CRE Value Creation 2026_Award Logo.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/OpticWise_Award%20logo.png",
+    "local": "api/media/file/OpticWise_Award logo.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/5%20Best%20CRE%20Data%20%26%20Digital%20Solution%20Providers%202025_Award%20Logo.jpg",
+    "local": "api/media/file/5 Best CRE Data & Digital Solution Providers 2025_Award Logo.jpg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/Global%20100%20-%202025%20award%20logo.png",
+    "local": "api/media/file/Global 100 - 2025 award logo.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/IE100%202025%20P-logo%20Optic%20Wise.png",
+    "local": "api/media/file/IE100 2025 P-logo Optic Wise.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/M%26A%20Today%20-%20Global%20Awards%20-%202024%20-%20OpticWise%2C%20Inc.png",
+    "local": "api/media/file/M&A Today - Global Awards - 2024 - OpticWise, Inc.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/Jul24311_OpticWise_W%26F-Fintech-Awards-2024--Winners-Badge.png",
+    "local": "api/media/file/Jul24311_OpticWise_W&F-Fintech-Awards-2024--Winners-Badge.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/9565-ed5e9f46ccca4453.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/9565-ed5e9f46ccca4453.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/_next/static/chunks/app/(frontend)/(main)/insights/%5Bslug%5D/page-af7e0322b6801616.js?dpl=dpl_CzufeDziQ2M1ZkyHFMBAMbVYBhVe",
+    "local": "_next/static/chunks/app/(frontend)/(main)/insights/[slug]/page-af7e0322b6801616.js",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/part-4-ai-adoption-without-strategy-is-waste-digital-infrastructure-makes-it-wor.png",
+    "local": "api/media/file/part-4-ai-adoption-without-strategy-is-waste-digital-infrastructure-makes-it-wor.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/Smart%20office%20tower%20at%20night.png",
+    "local": "api/media/file/Smart office tower at night.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/part-3-digital-infrastructure-ai-operational-excellence-and-higher-asset-value.png",
+    "local": "api/media/file/part-3-digital-infrastructure-ai-operational-excellence-and-higher-asset-value.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/transitioning-to-digital-first-commercial-real-estate-portfolio-owners-cover.jpeg",
+    "local": "api/media/file/transitioning-to-digital-first-commercial-real-estate-portfolio-owners-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/what-is-digital-infrastructure-commercial-real-estate-cover.jpeg",
+    "local": "api/media/file/what-is-digital-infrastructure-commercial-real-estate-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/how-technology-is-transforming-real-estate-management-cover.png",
+    "local": "api/media/file/how-technology-is-transforming-real-estate-management-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/artificial-intelligence-in-commercial-real-estate-cover.jpeg",
+    "local": "api/media/file/artificial-intelligence-in-commercial-real-estate-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/best-practices-in-building-management-cover.jpeg",
+    "local": "api/media/file/best-practices-in-building-management-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/opticwise-building-intelligence-commercial-real-estate-cover.jpeg",
+    "local": "api/media/file/opticwise-building-intelligence-commercial-real-estate-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/benefits-of-intelligent-building-management-for-multi-family-communities-cover.jpeg",
+    "local": "api/media/file/benefits-of-intelligent-building-management-for-multi-family-communities-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ai-iot-modern-commercial-real-estate-management-cover.png",
+    "local": "api/media/file/ai-iot-modern-commercial-real-estate-management-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/leveraging-data-analytics-optimize-commercial-real-estate-assets-cover.jpeg",
+    "local": "api/media/file/leveraging-data-analytics-optimize-commercial-real-estate-assets-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/how-we-operate#:~:text=Managed%20Data%20%26%20Digital%20Infrastructure",
+    "local": "how-we-operate/index.html",
+    "kind": "page",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/proactive-cybersecurity-smart-building-tech-keeps-tenants-safe-cover.jpeg",
+    "local": "api/media/file/proactive-cybersecurity-smart-building-tech-keeps-tenants-safe-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/future-cre-operations-intelligent-building-systems-cover.jpeg",
+    "local": "api/media/file/future-cre-operations-intelligent-building-systems-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/how-smart-tech-is-shattering-modern-boundaries-cover.jpeg",
+    "local": "api/media/file/how-smart-tech-is-shattering-modern-boundaries-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/integrating-iot-smarter-safer-cre-building-management-cover.png",
+    "local": "api/media/file/integrating-iot-smarter-safer-cre-building-management-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/resolute-building-intelligence-commercial-real-estate-management-cover.jpeg",
+    "local": "api/media/file/resolute-building-intelligence-commercial-real-estate-management-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/smart-access-workspace-optimization-modern-space-as-a-service-cover.png",
+    "local": "api/media/file/smart-access-workspace-optimization-modern-space-as-a-service-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/how-smart-technology-enhances-tenant-experience-commercial-real-estate-cover.jpeg",
+    "local": "api/media/file/how-smart-technology-enhances-tenant-experience-commercial-real-estate-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/how-digital-infrastructure-shapes-modern-business-cover.jpeg",
+    "local": "api/media/file/how-digital-infrastructure-shapes-modern-business-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/intelligent-buildings-investment-trend-cover.png",
+    "local": "api/media/file/intelligent-buildings-investment-trend-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/how-intelligent-buildings-revolutionize-multi-family-living-cover.jpeg",
+    "local": "api/media/file/how-intelligent-buildings-revolutionize-multi-family-living-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/future-proof-network-digital-era-cover.jpeg",
+    "local": "api/media/file/future-proof-network-digital-era-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/transforming-spaces-smart-building-technology-cover.jpeg",
+    "local": "api/media/file/transforming-spaces-smart-building-technology-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/building-automation-systems-future-of-smart-buildings-cover.jpeg",
+    "local": "api/media/file/building-automation-systems-future-of-smart-buildings-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/commercial-real-estate-technology-cover.jpeg",
+    "local": "api/media/file/commercial-real-estate-technology-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/digital-infrastructure-commercial-real-estate-cover.jpeg",
+    "local": "api/media/file/digital-infrastructure-commercial-real-estate-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/building-management-systems-security-connectivity-cover.jpeg",
+    "local": "api/media/file/building-management-systems-security-connectivity-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/advanced-iot-device-management-strategies-cover.png",
+    "local": "api/media/file/advanced-iot-device-management-strategies-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/impact-cre-technology-real-estate-cover.jpeg",
+    "local": "api/media/file/impact-cre-technology-real-estate-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/digital-twins-revolutionizing-commercial-real-estate-cover.jpeg",
+    "local": "api/media/file/digital-twins-revolutionizing-commercial-real-estate-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/network-resilience-smart-building-success-cover.jpeg",
+    "local": "api/media/file/network-resilience-smart-building-success-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/how-building-intelligence-drives-sustainable-work-environments-cover.jpeg",
+    "local": "api/media/file/how-building-intelligence-drives-sustainable-work-environments-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/smart-building-technology-enhances-tenant-experience-cover.jpeg",
+    "local": "api/media/file/smart-building-technology-enhances-tenant-experience-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/own-your-buildings-digital-infrastructure-or-be-owned-by-it-cover.jpeg",
+    "local": "api/media/file/own-your-buildings-digital-infrastructure-or-be-owned-by-it-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/soaring-above-rest-opticwise-cre-thrive-flight-quality-era-cover.jpeg",
+    "local": "api/media/file/soaring-above-rest-opticwise-cre-thrive-flight-quality-era-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/network-compliance-multi-tenant-commercial-properties-cover.jpeg",
+    "local": "api/media/file/network-compliance-multi-tenant-commercial-properties-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/5-genius-ways-smart-building-tech-elevates-tenant-experience-cover.jpeg",
+    "local": "api/media/file/5-genius-ways-smart-building-tech-elevates-tenant-experience-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ai-revolutionizing-commercial-property-security-beyond-surveillance-cover.jpeg",
+    "local": "api/media/file/ai-revolutionizing-commercial-property-security-beyond-surveillance-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/digital-infrastructure-office-residential-conversions-cover.jpeg",
+    "local": "api/media/file/digital-infrastructure-office-residential-conversions-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/iot-networks-operational-efficiency-commercial-real-estate-cover.jpeg",
+    "local": "api/media/file/iot-networks-operational-efficiency-commercial-real-estate-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/invisible-workforce-iot-networks-running-cre-cover.jpeg",
+    "local": "api/media/file/invisible-workforce-iot-networks-running-cre-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/smart-security-future-access-control-protection-cover.jpeg",
+    "local": "api/media/file/smart-security-future-access-control-protection-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/cre-tech-revolution-data-driven-properties-cover.jpeg",
+    "local": "api/media/file/cre-tech-revolution-data-driven-properties-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/not-just-smart-strategic-buildings-built-for-better-tenancy-cover.jpeg",
+    "local": "api/media/file/not-just-smart-strategic-buildings-built-for-better-tenancy-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/streamlining-property-management-data-solutions",
+    "local": "insights/streamlining-property-management-data-solutions/index.html",
+    "kind": "page",
+    "status": "error",
+    "error": "HTTP 404 for https://www.opticwise.com/insights/streamlining-property-management-data-solutions"
+  },
+  {
+    "url": "https://www.opticwise.com/clients#:~:text=AMAZE%20%40%20NODA%20APARTMENTS",
+    "local": "clients/index.html",
+    "kind": "page",
+    "status": "error",
+    "error": "HTTP 404 for https://www.opticwise.com/clients#:~:text=AMAZE%20%40%20NODA%20APARTMENTS"
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/data-infrastructure-the-engine-behind-modern-cre-operations-cover.jpeg",
+    "local": "api/media/file/data-infrastructure-the-engine-behind-modern-cre-operations-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/why-owning-your-cre-digital-infrastructure-is-essential-for-long-term-success",
+    "local": "insights/why-owning-your-cre-digital-infrastructure-is-essential-for-long-term-success/index.html",
+    "kind": "page",
+    "status": "error",
+    "error": "HTTP 404 for https://www.opticwise.com/insights/why-owning-your-cre-digital-infrastructure-is-essential-for-long-term-success"
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-hidden-roi-of-digital-infrastructure-ownership-in-commercial-real-estate-cover.jpeg",
+    "local": "api/media/file/the-hidden-roi-of-digital-infrastructure-ownership-in-commercial-real-estate-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ai-in-commercial-real-estate-innovation-ethics-and-the-new-regulatory-cover.jpeg",
+    "local": "api/media/file/ai-in-commercial-real-estate-innovation-ethics-and-the-new-regulatory-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/built-to-last-why-smart-infrastructure-is-the-backbone-of-future-proof-cover.jpeg",
+    "local": "api/media/file/built-to-last-why-smart-infrastructure-is-the-backbone-of-future-proof-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/from-amenities-to-expectations-on-demand-connectivity-as-a-cre-necessity-cover.jpeg",
+    "local": "api/media/file/from-amenities-to-expectations-on-demand-connectivity-as-a-cre-necessity-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/invisible-guardians-redefining-privacy-in-commercial-real-estate-cover.jpeg",
+    "local": "api/media/file/invisible-guardians-redefining-privacy-in-commercial-real-estate-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/why-redundant-networks-are-silent-killers-cover.jpeg",
+    "local": "api/media/file/why-redundant-networks-are-silent-killers-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/from-wifi-to-wealth-the-hidden-profit-in-connectivity-cover.jpeg",
+    "local": "api/media/file/from-wifi-to-wealth-the-hidden-profit-in-connectivity-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/insights/what-23andme-s-256m-data-sale-means-for-commercial-real-estate",
+    "local": "insights/what-23andme-s-256m-data-sale-means-for-commercial-real-estate/index.html",
+    "kind": "page",
+    "status": "error",
+    "error": "HTTP 404 for https://www.opticwise.com/insights/what-23andme-s-256m-data-sale-means-for-commercial-real-estate"
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/monetize-like-amazon-analyze-like-google-and-avoid-tesla-s-data-missteps-cover.jpeg",
+    "local": "api/media/file/monetize-like-amazon-analyze-like-google-and-avoid-tesla-s-data-missteps-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/from-liability-to-leadership-how-cre-data-unlocks-value-in-at-risk-assets-cover.jpeg",
+    "local": "api/media/file/from-liability-to-leadership-how-cre-data-unlocks-value-in-at-risk-assets-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/before-ai-you-need-data-you-actually-own-cover.jpeg",
+    "local": "api/media/file/before-ai-you-need-data-you-actually-own-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/data-lake-not-data-swamp-structuring-what-you-collect-cover.jpeg",
+    "local": "api/media/file/data-lake-not-data-swamp-structuring-what-you-collect-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/who-s-making-480k-year-off-your-tenants-hint-it-s-not-you-cover.jpeg",
+    "local": "api/media/file/who-s-making-480k-year-off-your-tenants-hint-it-s-not-you-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-800k-conversation-developers-keep-missing-cover.jpeg",
+    "local": "api/media/file/the-800k-conversation-developers-keep-missing-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/why-power-and-not-just-square-footage-is-the-future-of-smart-buildings-cover.jpeg",
+    "local": "api/media/file/why-power-and-not-just-square-footage-is-the-future-of-smart-buildings-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/what-swedish-beach-volleyball-can-teach-you-about-cre-strategy-cover.jpeg",
+    "local": "api/media/file/what-swedish-beach-volleyball-can-teach-you-about-cre-strategy-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/what-starbucks-taught-us-about-smart-property-ops-cover.jpeg",
+    "local": "api/media/file/what-starbucks-taught-us-about-smart-property-ops-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/reframing-cre-strategy-stop-playing-to-win-start-building-to-endure-cover.jpeg",
+    "local": "api/media/file/reframing-cre-strategy-stop-playing-to-win-start-building-to-endure-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/what-s-your-smart-building-strategy-or-are-you-guessing-cover.jpeg",
+    "local": "api/media/file/what-s-your-smart-building-strategy-or-are-you-guessing-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/why-98-of-property-owners-are-leaving-money-on-the-table-cover.jpeg",
+    "local": "api/media/file/why-98-of-property-owners-are-leaving-money-on-the-table-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/wi-fi-is-not-a-utility-it-s-an-investment-signal-cover.jpeg",
+    "local": "api/media/file/wi-fi-is-not-a-utility-it-s-an-investment-signal-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/how-one-operator-cut-120k-in-opex-with-a-single-upgrade-cover.jpeg",
+    "local": "api/media/file/how-one-operator-cut-120k-in-opex-with-a-single-upgrade-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/tthe-hidden-cap-rate-enhancer-no-one-talks-about-cover.png",
+    "local": "api/media/file/tthe-hidden-cap-rate-enhancer-no-one-talks-about-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/digital-first-strategy-the-only-competitive-edge-that-lasts-cover.jpeg",
+    "local": "api/media/file/digital-first-strategy-the-only-competitive-edge-that-lasts-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-operator-s-guide-to-autonomous-buildings-cover.jpeg",
+    "local": "api/media/file/the-operator-s-guide-to-autonomous-buildings-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/connect-creating-the-flow-that-unlocks-your-building-s-potential-cover.png",
+    "local": "api/media/file/connect-creating-the-flow-that-unlocks-your-building-s-potential-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/collect-unlocking-the-value-hidden-in-your-building-s-data-cover.jpeg",
+    "local": "api/media/file/collect-unlocking-the-value-hidden-in-your-building-s-data-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-hidden-cost-of-vendor-sprawl-and-what-to-do-about-it-cover.jpeg",
+    "local": "api/media/file/the-hidden-cost-of-vendor-sprawl-and-what-to-do-about-it-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/clarify-the-first-step-to-peak-property-performance-cover.jpeg",
+    "local": "api/media/file/clarify-the-first-step-to-peak-property-performance-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/bringing-systems-together-the-coordination-step-in-the-five-c-s-cover.jpeg",
+    "local": "api/media/file/bringing-systems-together-the-coordination-step-in-the-five-c-s-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/mastering-control-the-final-c-in-the-5c-framework-cover.jpeg",
+    "local": "api/media/file/mastering-control-the-final-c-in-the-5c-framework-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/from-data-to-decisions-what-cre-can-learn-from-cortland-s-product-mindset-cover.png",
+    "local": "api/media/file/from-data-to-decisions-what-cre-can-learn-from-cortland-s-product-mindset-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-hidden-tech-debt-you-won-t-catch-in-the-code-cover.jpg",
+    "local": "api/media/file/the-hidden-tech-debt-you-won-t-catch-in-the-code-cover.jpg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/cre-owners-are-the-data-stewards-whether-you-know-it-or-not-cover.jpeg",
+    "local": "api/media/file/cre-owners-are-the-data-stewards-whether-you-know-it-or-not-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/ppp-digital-infrastructure-review",
+    "local": "ppp-digital-infrastructure-review/index.html",
+    "kind": "page",
+    "status": "error",
+    "error": "HTTP 404 for https://www.opticwise.com/ppp-digital-infrastructure-review"
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/cretech-2025-the-ai-illusion-and-the-next-wave-no-one-s-talking-about-cover.png",
+    "local": "api/media/file/cretech-2025-the-ai-illusion-and-the-next-wave-no-one-s-talking-about-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-post-pandemic-office-isn-t-smaller-it-s-smarter-cover.png",
+    "local": "api/media/file/the-post-pandemic-office-isn-t-smaller-it-s-smarter-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/own-the-digital-infrastructure-own-the-leverage-cover.png",
+    "local": "api/media/file/own-the-digital-infrastructure-own-the-leverage-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/what-ai-is-doing-to-apartment-demand-and-how-buildings-must-respond-cover.png",
+    "local": "api/media/file/what-ai-is-doing-to-apartment-demand-and-how-buildings-must-respond-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-genai-divide-what-cre-leaders-must-know-before-falling-behind-cover.png",
+    "local": "api/media/file/the-genai-divide-what-cre-leaders-must-know-before-falling-behind-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/trust-at-first-sight-data-dictionaries-refresh-stamps-and-adoption-cover.jpeg",
+    "local": "api/media/file/trust-at-first-sight-data-dictionaries-refresh-stamps-and-adoption-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/how-one-portfolio-used-ai-to-cut-utility-spend-double-digits-cover.jpg",
+    "local": "api/media/file/how-one-portfolio-used-ai-to-cut-utility-spend-double-digits-cover.jpg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-case-for-a-digital-architect-why-cre-property-managers-are-drowning-in-cover.png",
+    "local": "api/media/file/the-case-for-a-digital-architect-why-cre-property-managers-are-drowning-in-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/organizational-pencils-why-agility-not-perfection-will-win-in-2026-cover.jpg",
+    "local": "api/media/file/organizational-pencils-why-agility-not-perfection-will-win-in-2026-cover.jpg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/the-cost-of-doing-nothing-what-you-lose-by-letting-the-isp-build-your-network-cover.png",
+    "local": "api/media/file/the-cost-of-doing-nothing-what-you-lose-by-letting-the-isp-build-your-network-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/part-2-what-cre-gets-wrong-about-tenant-experience-hint-it-s-not-a-smart-cover.jpg",
+    "local": "api/media/file/part-2-what-cre-gets-wrong-about-tenant-experience-hint-it-s-not-a-smart-cover.jpg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/digital-infrastructure-first-series-part-1-digital-infrastructure-is-the-cover.jpeg",
+    "local": "api/media/file/digital-infrastructure-first-series-part-1-digital-infrastructure-is-the-cover.jpeg",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/part-3-esg-illusion-why-ai-dashboards-alone-won-t-deliver-sustainable-results-cover.png",
+    "local": "api/media/file/part-3-esg-illusion-why-ai-dashboards-alone-won-t-deliver-sustainable-results-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/part-4-the-coming-regulation-wave-why-cre-must-prepare-for-ethical-ai-now-cover.png",
+    "local": "api/media/file/part-4-the-coming-regulation-wave-why-cre-must-prepare-for-ethical-ai-now-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/ai-isn-t-the-future-it-s-today-why-your-digital-infrastructure-must-cover.png",
+    "local": "api/media/file/ai-isn-t-the-future-it-s-today-why-your-digital-infrastructure-must-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/part-5-cre-s-digital-divide-why-infrastructure-ownership-determines-ai-cover.png",
+    "local": "api/media/file/part-5-cre-s-digital-divide-why-infrastructure-ownership-determines-ai-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "url": "https://www.opticwise.com/api/media/file/digital-infrastructure-isn-t-just-wi-fi-it-s-the-nervous-system-of-your-property-cover.png",
+    "local": "api/media/file/digital-infrastructure-isn-t-just-wi-fi-it-s-the-nervous-system-of-your-property-cover.png",
+    "kind": "asset",
+    "status": "ok",
+    "error": null
+  }
+]
