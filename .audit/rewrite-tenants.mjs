@@ -355,7 +355,7 @@ const BLOCKS = [
     id: "69ebb643ea9de5548eff5e6d",
     style: "blue",
     eyebrow: "Your Next Step",
-    heading: "Diligencing a Building That Leads With OpticWise?",
+    heading: "Evaluating a Building Marketed With OpticWise?",
     subheading:
       "Bring your sponsor or broker, your IT lead, and your workplace owner \u2014 we walk the questions tenant teams actually file after the tour: demarc, redundancy, change control, and what is evidenced when performance slips.",
     buttonLabel: "Schedule a Conversation",
@@ -460,8 +460,7 @@ const NEW_FLIGHT_OG = J(NEW_TITLE_HTML.replace(" | OpticWise", ""));
 updated = updated.replace(`\\"property\\":\\"og:title\\",\\"content\\":\\"${OLD_FLIGHT_OG}\\"`, `\\"property\\":\\"og:title\\",\\"content\\":\\"${NEW_FLIGHT_OG}\\"`);
 updated = updated.replace(`\\"name\\":\\"twitter:title\\",\\"content\\":\\"${OLD_FLIGHT_OG}\\"`, `\\"name\\":\\"twitter:title\\",\\"content\\":\\"${NEW_FLIGHT_OG}\\"`);
 const OLD_METADATA_CHILD_TITLE = `For Tenants | What 5S\u00ae Means for Lease Decisions | OpticWise`;
-const NEW_METADATA_CHILD_TITLE = NEW_PAGE_TITLE.replace(/&/g, "\\u0026");
-updated = updated.split(`\\"children\\":\\"${OLD_METADATA_CHILD_TITLE}\\"`).join(`\\"children\\":\\"${J(NEW_PAGE_TITLE).replace(/&/g, "\\u0026")}\\"`);
+updated = updated.split(`\\"children\\":\\"${OLD_METADATA_CHILD_TITLE}\\"`).join(`\\"children\\":\\"${J(NEW_PAGE_TITLE)}\\"`);
 
 writeFileSync(PAGE_PATH, updated, "utf8");
 console.log("Rewrote for-tenants blocks:", BLOCKS.length);
