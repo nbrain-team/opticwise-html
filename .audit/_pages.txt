@@ -1,14 +1,14 @@
 index.html: 8406 chars
-about: 5074 chars
+about: 5226 chars
 advisory-services: 3281 chars
-ai-ready-commercial-real-estate: 4010 chars
+ai-ready-commercial-real-estate: 4027 chars
 blog/index.html: ERROR ENOENT: no such file or directory, open '/Users/billdouglas/My Drive/Cursor/opticwise-html/blog/index.html'
-bot-building-of-things: 4819 chars
+bot-building-of-things: 4850 chars
 contact: 4856 chars
 contact-cowork-dupe-please-delete: 1015 chars
-control-cre-digital-visibility: 4131 chars
+control-cre-digital-visibility: 4148 chars
 digital-infrastructure-noi-ai: 2159 chars
-digital-infrastructure-noi-playbook: 4032 chars
+digital-infrastructure-noi-playbook: 4049 chars
 digital-infrastructure-noi-strategy: 4899 chars
 faq: 12328 chars
 for-asset-managers: 8065 chars
@@ -17,9 +17,9 @@ for-lps-and-financiers: 3974 chars
 for-property-managers-and-engineers: 3797 chars
 for-tenants: 3118 chars
 glossary: 21985 chars
-how-we-operate: 5503 chars
-own-vs-lease-cre-building-data: 4106 chars
+how-we-operate: 5520 chars
+own-vs-lease-cre-building-data: 4123 chars
 portfolio-brain: 6856 chars
 ppp-audit: 3385 chars
-property-brain: 3727 chars
-5s-user-experience-standard: 4616 chars
+property-brain: 3705 chars
+5s-user-experience-standard: 4647 chars

@@ -2,9 +2,10 @@
 === 5s-user-experience-standard === CLEAN
 
 === about ===
-  [BANNED] L33 "PropTech" — PropTech Outlook - 2025
-  [BANNED] L42 "PropTech" — PropTech Visionary of the Year USA (2024)
-  [BANNED] L46 "PropTech" — …ns Provider USA (2024). Most Innovative PropTech Solutions Company (2023 and 2022).
+  [BANNED] L31 "PropTech" — …ations. We don't position ourselves as "PropTech" — we operate the strategic / advisory …
+  [BANNED] L34 "PropTech" — PropTech Outlook - 2025
+  [BANNED] L43 "PropTech" — PropTech Visionary of the Year USA (2024)
+  [BANNED] L47 "PropTech" — …ns Provider USA (2024). Most Innovative PropTech Solutions Company (2023 and 2022).
 
 === advisory-services === CLEAN
 
@@ -69,7 +70,7 @@
 === SUMMARY ===
 PAGE                                 ISSUES  REFRAME  CLOSER
 5s-user-experience-standard               0        Y       Y
-about                                     3        Y       Y
+about                                     4        Y       Y
 advisory-services                         0        Y       Y
 ai-ready-commercial-real-estate           0        Y       Y
 bot-building-of-things                    1        Y       Y

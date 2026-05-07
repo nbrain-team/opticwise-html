@@ -48,7 +48,7 @@ From Standard to Service
 OpticWise delivers 5S® as a fully managed Wi-Fi and wireless service per property — designed, deployed, monitored, and operated against the five standards above. That's 5S® Managed Wi-Fi: Seamless Mobility, Security, Stability, Speed, and Service, owned by the building, not the ISP.
 For multi-property owners, 5S® Managed Wi-Fi is the entry point into the broader OpticWise stack — BoT® (the Layer 1 foundation), ElasticISP® (the connectivity layer), and SIC® (the engineering discipline behind both). Same standard. Same accountability. Repeatable property to property.
 Your Next Step Schedule a 5S® Review
-Start with a PPP Audit™ to measure your current property against the 5S® standard. Map the gaps. Build the roadmap.
+Start with a complimentary digital review (PPP Audit™) to measure your current property against the 5S® standard. Map the gaps. Build the roadmap.
 Schedule Your Review
 Connectivity Foundation
 ElasticISP® — Vendor-Agnostic Connectivity
