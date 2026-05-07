@@ -339,17 +339,7 @@ const BLOCKS = [
     authorityNote: "You don\u2019t just lose the income you could have captured during the hold. You lose the capitalized value of that income at exit. Same building. Same systems. Same data. Different access, different rigor \u2014 and the buyer\u2019s team finds the value that should have been yours. For a 300-unit multifamily asset in the canonical benchmark range \u2014 $500\u2013$600 per door per year \u2014 that\u2019s $150,000 to $180,000 in annual NOI. Capitalize that at a market cap rate and the diligence discount becomes several million dollars in lost asset value at exit. Operationalize early. Capture the income while you hold. Don\u2019t hand the next owner a value-add that should have been yours.",
   },
 
-  // 7) Cap-rate leverage line — NEW (canon §9.3)
-  {
-    type: "pullQuote",
-    id: "am-cap-rate-leverage",
-    style: "light",
-    eyebrow: "The Capitalized-Value Math",
-    quote: "Every dollar of recoverable NOI is worth roughly fifteen to twenty-five dollars of asset value at typical cap rates.",
-    attribution: "Peak Property Performance\u00AE \u00B7 Fast Company Press",
-  },
-
-  // 8) Refi & Investor-Letter Story — NEW
+  // 7) Refi & Investor-Letter Story — NEW
   {
     type: "twoColumn",
     id: "am-refi-investor-letter",
@@ -360,7 +350,7 @@ const BLOCKS = [
     authorityNote: "Quarterly investor letters need the why behind the variance, not just the variance. Refi conversations turn on a defensible expense trajectory. Property-tax appeals require documentation the assessor will respect. Insurance renewals reward owners who walk in with claims-history narratives and response-protocol logs. None of that comes out of an accounting system. All of it comes out of operating data. You can\u2019t defend a number you can\u2019t see.",
   },
 
-  // 9) Six Things AMs Get — sharpened AM-coded copy
+  // 8) Six Things AMs Get — sharpened AM-coded copy
   {
     type: "cardGrid",
     id: "69f149a8ebc16d4deb9a36a8",
@@ -410,7 +400,7 @@ const BLOCKS = [
     ],
   },
 
-  // 10) Two-Layer Model snapshot — NEW (cardGrid 2-col so each layer gets its own card)
+  // 9) Two-Layer Model snapshot — NEW (cardGrid 2-col so each layer gets its own card)
   {
     type: "cardGrid",
     id: "am-two-layer-model",
@@ -436,7 +426,7 @@ const BLOCKS = [
     ],
   },
 
-  // 11) What Stays at Risk — refi bullet added, sharper closer
+  // 10) What Stays at Risk — refi bullet added, sharper closer
   {
     type: "avoidFailure",
     id: "69f14a6aebc16d4deb9a36af",
@@ -455,7 +445,7 @@ const BLOCKS = [
     ],
   },
 
-  // 12) Canonical reframe pull-quote — preserved from Phase 3A insertion
+  // 11) Canonical reframe pull-quote — preserved from Phase 3A insertion
   {
     type: "pullQuote",
     id: "reframe-banner-for-asset-managers",
@@ -465,7 +455,7 @@ const BLOCKS = [
     attribution: "",
   },
 
-  // 13) CTA — copy polish only
+  // 12) CTA — copy polish only
   {
     type: "callToAction",
     id: "69f14ab4ebc16d4deb9a36b6",

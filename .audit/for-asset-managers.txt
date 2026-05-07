@@ -54,7 +54,11 @@ None of this requires a data-science team. It requires access to operating data 
 How OpticWise Operates
 Two Layers. One Owner Standard.
 We don't sell another dashboard. We deliver the layers underneath the dashboards — the foundation your operating data has to come out of, and the governed substrate your decision engines run on top of.
-Layer 1 — Managed data & digital infrastructure (BoT®). Owner-controlled connectivity, segmentation, and OT governance. Engineered under SIC® — Security, Infrastructure, and Connectivity. Vendor- and ISP-agnostic.    Layer 2 — Owner-controlled intelligence (Property Brain™ → Portfolio Brain™). A vendor- and LLM-agnostic governed data plane and trust plane. Plug in any vendor, any model, any decision engine — under your permissions, on your standard. Standardize once at one property; scale across the portfolio. The model is the commodity. The moat is the layer above it.
+Layer 1 — Managed Data & Digital Infrastructure (BoT®)
+Owner-controlled connectivity, segmentation, and OT governance. Engineered under SIC® — Security, Infrastructure, and Connectivity. First-tier equipment only — no white-label gear. Vendor- and ISP-agnostic by design. The foundation your operating data has to come out of.
+Layer 2 — Owner-Controlled Intelligence (Property Brain™ → Portfolio Brain™)
+A vendor- and LLM-agnostic governed data plane and trust plane. Plug in any vendor, any model, any decision engine — under your permissions, on your standard. Standardize once at one property; scale across the portfolio without rewiring.
+The model is the commodity. The moat is the layer above it.
 What's at Stake
 What Stays at Risk Without Operating-Data Access
 These aren't hypotheticals. These are patterns we see across portfolios every quarter.
