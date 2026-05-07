@@ -32,13 +32,13 @@ Clarify
 PPP Audit™ Map ownership, leakage, and what is trustworthy and portable.
 Step 02
 Connect
-Managed infrastructure Secure, owner-controlled connectivity, property to property.
+Managed data & digital infrastructure Secure, owner-controlled connectivity, property to property.
 Step 04
 Coordinate
 Property Brain™ Govern identity, access, privacy, lineage, retention, and rules of use.
 Step 03
 Collect
-Managed infrastructure High-fidelity, usable data normalized into a consistent reusable model.
+Managed data & digital infrastructure High-fidelity, usable data normalized into a consistent reusable model.
 Step 05
 Control
 Property Brain™ → Portfolio Brain™ Any decision engine or LLM acts under owner permissions, across the portfolio.

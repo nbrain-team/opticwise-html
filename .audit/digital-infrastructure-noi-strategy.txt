@@ -12,7 +12,7 @@ The Principle “ If you only look at NOI, you're looking at the result — not 
 The Diagnosis
 NOI Is the Result. Data & Digital Infrastructure Is the Cause.
 Most CRE owners look at NOI every month. Very few can tell you why it moved.
-Utilities variance, ticket velocity, after-hours emergency calls, water risk visibility, renewal patterns, vendor finger-pointing during outages — every one of these causes of NOI performance lives inside your data & digital infrastructure. If that infrastructure is fragmented and vendor-controlled, the causes stay invisible. You see the result in the P&L — and react. You don't get to operate.
+Utilities variance, ticket velocity, after-hours emergency calls, water risk visibility, renewal patterns, vendor finger-pointing during outages — every one of these causes of NOI performance lives inside your data & digital infrastructure. If that data & digital infrastructure is fragmented and vendor-controlled, the causes stay invisible. You see the result in the P&L — and react. You don't get to operate.
 The Silent Leaks
 Where NOI Leaks When Data & Digital Infrastructure Is Vendor-Controlled
 Dashboards show the leaks. They don't stop them.
@@ -45,10 +45,10 @@ Clarify
 PPP Audit™ Map ownership, leakage, and KPIs.
 Step 02
 Connect
-Managed infrastructure Secure, owner-controlled connectivity, property to property.
+Managed data & digital infrastructure Secure, owner-controlled connectivity, property to property.
 Step 03
 Collect
-Managed infrastructure High-fidelity, usable data in a consistent model.
+Managed data & digital infrastructure High-fidelity, usable data in a consistent model.
 Step 04
 Coordinate
 Property Brain™ Governance, identity, access, rules of use.

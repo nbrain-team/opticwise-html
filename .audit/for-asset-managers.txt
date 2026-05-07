@@ -37,7 +37,7 @@ Portfolio Benchmarking That Actually Compares
 Stop comparing NOI per door and start comparing causal drivers across assets. Why is Building A's HVAC OpEx 18 percent higher than Building B's? Now you can answer.
 CapEx Planning With Better Inputs
 Predictive maintenance data, equipment failure patterns, vendor performance variance. CapEx decisions stop being based on reactive emergencies and start being based on operational reality.
-Vendor Leverage You Didn't Have
+Negotiating Power You Didn't Have
 When you own the data, vendors compete to serve you instead of trapping you. Switching vendors stops being a multi-year reimplementation. Lock-in becomes negotiable.
 A Renewal Story for Insurance
 Walk into renewal with documentation underwriters actually respond to: response protocol logs, claims-history narratives, alarm escalation timing. Premium reductions follow documentation.
@@ -59,7 +59,7 @@ Your Next Step Run the Big Three Plays Diagnostic on One Asset.
 A complimentary working session with your asset management team. One building. We map utilities, insurance, and occupancy against the operating data you actually have access to — and the operating data you don't. Then we tell you which play has the biggest accountability-to-visibility gap, and what closing it would do for your numbers.
 Where your operating data lives — and which vendor platforms hold it
 Which of the Big Three Plays has the biggest gap between what you're accountable for and what you can see
-A scoped 90-day pilot focused on the play with the highest leverage
+A scoped 90-day pilot focused on the highest-impact play
 A defensible NOI uplift estimate grounded in benchmarks — $500-$600 per door per year for multifamily, $0.60-$0.90 per RSF per year for multi-tenant office
 Schedule a Working Session
 Owner-controlled data & digital infrastructure for commercial real estate.

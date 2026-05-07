@@ -52,7 +52,7 @@ Connect
 BoT® Owner-controlled connectivity that doesn't depend on any one vendor.
 Step 03
 Collect
-Managed infrastructure Ingest data into an owner-controlled, normalized model.
+Managed data & digital infrastructure Ingest data into an owner-controlled, normalized model.
 Step 04
 Coordinate
 Property Brain™ Govern who can access, use, and extend the data.

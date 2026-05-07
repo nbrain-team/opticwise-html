@@ -20,10 +20,10 @@ Clarify
 PPP Audit™ Define success metrics. Map ownership. Identify leakage. Document what is trustworthy and portable. What you own. What you lease. What it costs.
 Step 02
 Connect
-Managed infrastructure (BoT®) Secure, owner-controlled connectivity that repeats property-to-property. One segmented foundation. Vendors plug in under rules. The foundation becomes an owner standard, not a vendor install.
+Managed data & digital infrastructure (BoT®) Secure, owner-controlled connectivity that repeats property-to-property. One segmented foundation. Vendors plug in under rules. The foundation becomes an owner standard, not a vendor install.
 Step 03
 Collect
-Managed infrastructure Capture and normalize high-fidelity, usable data into a consistent model you can reuse — across systems, across vendors, across properties. Data stops being trapped in dashboards. It becomes a portable asset.
+Managed data & digital infrastructure Capture and normalize high-fidelity, usable data into a consistent model you can reuse — across systems, across vendors, across properties. Data stops being trapped in dashboards. It becomes a portable asset.
 Step 04
 Coordinate
 Property Brain™ Govern identity, access, privacy, lineage, retention, and rules of use. The trust plane that makes every downstream decision auditable. Governance is what turns data into capability.

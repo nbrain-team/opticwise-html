@@ -5,7 +5,7 @@ Insights Blog Articles FAQ Glossary
 About Company Contact
 Schedule Review
 Layer 2 — Owner-Controlled Intelligence at Portfolio Scale Property Brain™ Compounds Into Portfolio Brain™.
-One Property Brain™ is operational visibility for one building. Twenty Property Brains, networked under one owner standard, become Portfolio Brain™ — the cross-asset intelligence layer that turns property-by-property analytics into compounding portfolio capability.
+One Property Brain™ is operational visibility for one building. Twenty Property Brain™ instances, networked under one owner standard, become Portfolio Brain™ — the cross-asset intelligence layer that turns property-by-property analytics into compounding portfolio capability.
 If you only look at NOI, you're looking at the result — not the cause. Portfolio Brain™ shows you the causes across every asset you hold.
 For asset managers held accountable for portfolio-level returns built on operating data they couldn't fully see — until now.
 Schedule a Working Session
@@ -40,7 +40,7 @@ NOI variance across assets stays opaque — drift gets reported, not analyzed
 Insurance renewals come in 8–12% higher than peer assets because no portfolio-level data package exists
 Capital partners do diligence and surface OT findings that affect basis at exit
 Successful plays at one asset never become portfolio-wide standards
-Vendor pricing stays uncompetitive because operating data leverage doesn't exist
+Vendor pricing stays uncompetitive because operating-data advantage doesn't exist
 The buyer's diligence team finds value the seller's team couldn't see — and the price reflects it
 “ You cannot optimize what you cannot see. At portfolio scale, what you cannot see becomes what your buyers can. ”
 “ If you don't own your data & digital infrastructure, your vendors do. ”
@@ -48,7 +48,7 @@ Your Next Step Run the Big Three Plays Diagnostic Across Three Assets.
 A complimentary working session with your asset management team. Three properties from your portfolio. We map utilities, insurance, and occupancy data across all three — what you control, what your vendors control, where the variance is, and what closing the gap would do for your portfolio numbers.
 Where your operating data lives across the three assets — and which vendor platforms hold it
 Which assets in the sample have the biggest accountability-to-visibility gap
-A scoped 90-day pilot focused on the highest-leverage play across the portfolio
+A scoped 90-day pilot focused on the highest-impact play across the portfolio
 A defensible portfolio-level NOI uplift estimate grounded in benchmarks — $500–$600 per door per year for multifamily, $0.60–$0.90 per RSF per year for multi-tenant office
 Schedule a Working Session
 Owner-controlled data & digital infrastructure for commercial real estate.
