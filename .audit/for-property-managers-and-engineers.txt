@@ -5,59 +5,65 @@ How It Works
 Insights Blog Articles FAQ Glossary
 About Company Contact
 Schedule Review
-For PMs & Engineers Different Skill Set. Different Lane. Same Owner Standard.
-OpticWise is not a replacement for your property managers or building engineers. We lift the operational burden that never should have been on your plate to begin with.
-We're asking way too much from property managers relative to technology.
-For property managers, building engineers, and on-site operations teams.
-Schedule Your Review
+For PMs & Engineers You Run the Building. We Run the Owner Standard on Data & Digital Infrastructure.
+Your week is work orders, callbacks, rounds, and tenant touchpoints — not stitching together OT, Wi‑Fi, and vendor admin stories. OpticWise takes the data & digital infrastructure thread that landed on your radio without a charter: documented paths, owner-held credentials where they belong, and root‑cause discipline when the ticket stack goes noisy.
+If you don't own your data & digital infrastructure, your vendors do.
+For property managers, chief engineers, stationary engineers, and on‑site ops leads who feel the gap first when something in the riser misbehaves.
+Schedule Your Review How PPP 5C™ reads for owners
 The Honest Frame
-The Technology Load Is Not Fair
-Property managers and building engineers are being asked to diagnose network problems, arbitrate vendor finger-pointing, hold admin credentials for systems they didn't install, and explain Wi-Fi issues to tenants.
-None of that is why you were hired. The skill sets required to operate owner-controlled data & digital infrastructure — network governance, segmentation, data ingestion, trust planes, LLM-agnostic integration — are different from traditional building operations and property management. Different lane. Different team.
+Not a Skills Lecture — a Scope Fix
+You already know how to run property: setpoints, vendor coordination, tenant service, life‑safety posture, and the political lift when uptime slips. What keeps showing up is the digital layer — BAS alarms that need a vendor login nobody internal truly owns, tenant Wi‑Fi complaints that are not really “in the suite,” IDF doors propped during a truck roll, integration work orders that bounce because the stack was never engineered as one owner thread.
+On the ownership side, Peak Property Performance® runs through PPP 5C™ — Clarify → Connect → Collect → Coordinate → Control — the discipline asset managers use so capital, risk, and operations stay on one evidence line. Buildings drifted for years without that same clarity at the data & digital infrastructure layer; vendors filled the vacuum. OpticWise partners with your owner and enterprise IT as the operator at Layer 1 (BoT® — Building of Things®): you keep running the asset day to day; we align what is in the walls with the owner standard your sponsor is accountable for — including what shows up when IT or the asset team runs a review.
 What Changes for You
-Six Things That Come Off Your Plate
-Vendor Finger-Pointing
-During outages, OpticWise owns the root-cause call. Not you.
-Network Admin Credentials
-Held and operated by OpticWise under owner governance — no more tribal knowledge.
-Tenant Wi-Fi Complaints
-Routed to a team that can actually solve them. Measured against 5S®.
-After-Hours Emergency Dispatch
-When the cause is data & digital infrastructure, OpticWise answers.
-Vendor System Integration
-New vendors plug into the owner standard. You don't have to interpret their requirements.
-Documentation
-Every system, every credential, every change — documented and maintained. Not in your head.
+What Should Get Quieter in Your Ear
+Same shop language — tickets, vendors, turnovers — with governance, carriage, and evidence handled on the owner thread your asset team can defend.
+Root‑cause bridge calls
+When the outage is really vendor‑versus‑vendor, we own the thread. You get a named path and timestamps — not three voicemails asking you to referee scope on zero sleep.
+BAS / OT admin and credentials
+Break‑glass and service accounts are operated under owner governance — rotated, documented, not living in a personal notebook on the console.
+Tenant experience carriage
+Wi‑Fi and connectivity issues route to a team that can read path, tenancy, and 5S® carriage — measured like a service line, not a shrug at the front desk.
+After‑hours triage
+When the 2:00 a.m. page is packet‑path or integration‑plane — not the chiller itself — we pick up the operational thread so engineering can stay on equipment truth.
+Vendor on‑boarding to the owner ruleset
+New controls, access, IoT, or carrier installs plug into the owner integration pattern — fewer “one‑off” punches that age into mystery spans in the ceiling.
+Documentation that survives turnover
+As‑builts, exports, and log access that match how owners and IT actually ask questions — not a PDF graveyard that only made sense the week of commissioning.
+We are not here to replace property leadership. We are here to keep digital noise from eating the leadership bandwidth you already do not have.
 The Standard We Hold
-5S® — What You Get
-Every deployment measured against five standards. Non-negotiable.
+5S® — What Tenants Feel On Your Network
+Peak Property Performance® is the owner frame; 5S® is the tenant‑facing user experience we hold every deployment to — so your front line is not guessing if the building meets promise.
 0 1
 Seamless Mobility
-One consistent network identity across every property.
+One consistent network identity and roam behavior — so mobility stops being a daily fire drill at the lobby.
 0 2
 Security
-Segmented, authenticated, monitored from day one.
+Segmented, authenticated, monitored paths — fewer “it worked yesterday” surprises after a vendor laptop hits the wrong VLAN.
 0 3
 Stability
-Outages isolated, not inherited.
+Failure domains stay bounded; redundancy and change control read like engineering — not superstition.
 0 4
 Speed
-Performance matched to tenant expectations.
+Throughput and latency that match lease language and tenant class — measured, not debated in the hallway.
 0 5
 Service
-Human operations. Real people. Known contacts.
-The Pattern Without OpticWise
-What PMs and Engineers Are Living With
-The daily operational drag you already know too well.
-Tickets that can't be traced to a root cause
-"Works on my laptop" disputes with vendors and tenants
-Systems installed once, never re-tuned, quietly degraded
-Emergency calls at 11 PM for something a segmented network would have prevented
-New vendor installs that break old vendor installs
-“ Different skill set. Different lane. We're on your team — not in your way. ”
+Known runbooks, named contacts, accountable follow‑through — the opposite of endless ticket ping‑pong.
+When Layer 1 Stays Fuzzy
+The Patterns You Are Already Tired Of
+A common pattern we see when nobody truly owns the data & digital infrastructure layer:
+Work orders that close without a root cause because every vendor swears it is the other vendor's VLAN
+“Works on my laptop” arguments with tenants while the actual issue is path, DNS, or carriage — not their NIC
+Controls upgrades that ship with factory defaults still live because nobody named the OT change window with IT cover
+Late‑night pages for “network down” that trace to integration debt the asset plan never priced
+New vendor punch lists that quietly retire last year's documentation — the next team inherits fiction
+“ Different skill set. Different lane. Same PPP 5C™ owner thread — we are beside your shop, not in your chair. ”
 “ If you don't own your data & digital infrastructure, your vendors do. ”
-Your Next Step See What Comes Off Your Plate
-If you're a PM, engineer, or ops lead whose owner is evaluating OpticWise — ask us to walk you through what changes for you. Honest conversation. No replacement talk.
+Your Next Step Walk It With Someone Who Speaks Riser — and Owner
+If your sponsor is moving toward an OpticWise review, ask for the session that translates PPP 5C™ into what changes on your console, your radio, and your vendor list — honest scope, no replacement theater.
+What stays in property / engineering scope versus what lifts to the operator layer under owner governance
+How turnkey and tenant‑facing issues get carriage under 5S® so your team is not the accidental NOC
+What documentation and credential posture looks like when the asset manager needs to answer IT or capital in one thread
+Where BoT® (Building of Things®) and Property Brain™ → Portfolio Brain™ fit without turning you into the integrator
 Schedule a Conversation
 Owner-controlled data & digital infrastructure for commercial real estate.
 Explore

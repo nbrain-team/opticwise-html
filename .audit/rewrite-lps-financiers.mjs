@@ -439,7 +439,7 @@ const BLOCKS = [
     id: "lp-diligence-wedge",
     style: "nearwhite",
     eyebrow: "The Diligence Wedge",
-    quote: "Make this review part of your diligence process. You won\u2019t know what you don\u2019t know.",
+    quote: "Make this review part of your diligence process. You don\u2019t know what you don\u2019t know.",
     attribution: "OpticWise Talk Track",
   },
   {

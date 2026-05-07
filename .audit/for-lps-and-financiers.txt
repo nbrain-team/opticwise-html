@@ -16,7 +16,7 @@ Same systems. Same revenue line. Different rigor on who holds admin credentials,
 The Read-Through From Property and IT
 Operators and IT Aren't the Villains — They're Carrying the Wrong Scope.
 Property teams live in tenant service levels, work orders, life-safety, CAM recoveries, and vendor response times. Enterprise IT lives in identity, corporate networks, patching, and evidence packs for auditors. Multi-tenant building OT — access, BMS, metering, life-safety networks, tenant connectivity — usually grew through vendor installs, not an owner standard.
-Neither group was hired to own segmented OT, exportable history, and vendor-neutral governance end-to-end. A common pattern we see: capable people asked to cover operational technology out of position — while counterparty concentration sits in vendor admin screens. Underwriting the sponsor means reading that gap, not pretending it is solved because the building “leased smart.”
+Neither group was hired to own segmented OT, exportable history, and vendor-neutral governance end-to-end. A common pattern we see: capable people asked to cover operational technology out of position — while counterparty concentration sits in vendor admin screens. Underwriting the sponsor means reading that gap — not assuming it is closed because the operating partner forwarded a vendor uptime report.
 What to Ask
 Six Questions for Your Next IC or Covenant Review
 Plain English due diligence — the answers belong in the data room, not in a vendor's ticketing system.

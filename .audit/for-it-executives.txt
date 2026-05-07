@@ -5,51 +5,61 @@ How It Works
 Insights Blog Articles FAQ Glossary
 About Company Contact
 Schedule Review
-For IT Executives The IT/OT Gap Is Costing You. We Close It.
-In commercial real estate, OT has fallen between the cracks. IT didn't own it. Property managers couldn't carry it. Vendors got rich on the gap. OpticWise is the operational layer that closes it — under your governance, on your standard, without taxing your team.
-If you don't own your building's OT, your vendors do — and you'll get the audit findings.
-For CIOs, IT directors & managers, security leads, and digital strategy owners at CRE organizations.
-Schedule Your Review
+For IT Executives The IT/OT Gap Lands on Your Desk. We Operate the Layer Beneath It.
+In commercial real estate, OT fell between org-chart boxes. Enterprise IT was never chartered to own segmented building networks. Property teams kept the lights on while vendors held the admin keys. OpticWise closes the gap with an owner-standard data & digital infrastructure layer — under your governance, without pretending your team suddenly picks up a new career.
+If you don't own your building's OT, your vendors do — and you'll get the findings.
+For CIOs, IT directors and managers, security leads, and digital strategy owners at CRE organizations.
+Schedule Your Review See BoT® — the foundation layer
 The Honest Frame
 IT/OT Was Never Architected. It Was Inherited.
-In most CRE-owning organizations, nobody actually owns operational technology. The org chart shows IT covers corporate networks. Building tech is "facilities" or "vendor-managed." Then comes the audit. Or the breach. Or the AI initiative. Suddenly IT owns it.
-Building automation, HVAC controls, access systems, elevators, IoT sensors, sub-metering, tenant Wi-Fi, smart meters, EV chargers — all of these run on networks. All of these generate data. None of these were architected with IT in mind. The result: shadow networks installed by vendors, admin credentials nobody holds, OT environments with no segmentation, no monitoring, no governance, and no documentation. When something breaks — or when the security team finally audits — the responsibility cascades up to IT, even though the authority was never given. That's not an IT failure. That's a structural failure of how CRE has been buying technology for two decades.
+In most CRE-owning organizations, nobody actually owns operational technology. The org chart shows IT covers corporate networks. Building tech is “facilities” or “vendor-managed.” Then comes the review. Or the breach. Or the AI initiative. Suddenly IT owns the outcome.
+Building automation, HVAC controls, access, elevators, IoT, metering, tenant connectivity, EV infrastructure — they all ride on networks and they all generate data. Few were designed with IT review evidence in mind. The pattern we see: shadow paths installed by vendors, break-glass credentials nobody internal holds, flat OT without segmentation, monitoring, documentation, or a single owner thread when something breaks. That is not your team failing a certification. It is decades of buying buildings like the network is someone else's product.
+The Org-Chart Reality
+Right People. Wrong Seat. (Jim Collins, Good to Great)
+Right person, right seat. CRE is doing the opposite: right people, wrong seat. We're asking property managers, IT managers, and asset managers to run operational technology. They're capable. They're not skilled or trained for it.
+Don't ask them to staff up overnight. Educate, partner, add a digital specialist. OpticWise is that operator layer for the building stack — the same PPP 5C™ discipline owners use on the business side, applied to data & digital infrastructure — so enterprise IT keeps enterprise scope, and OT stops bleeding across your risk register.
+Coordinate and Control
+OT Governance Is Identity, Access, and Lineage — Not Just “More Firewall.”
+This is often a Coordinate-layer failure first: who may touch what, who can export history, where tenant and owner data may go, and what an auditor can replay — before you even argue model selection.
+PPP 5C™ runs Clarify → Connect → Collect → Coordinate → Control. Layer 1 — managed data & digital infrastructure — is engineered under SIC®, Security, Infrastructure, and Connectivity: segmented, documented, ISP-agnostic, first-tier gear. Property Brain™ → Portfolio Brain™ is the trust plane: vendor- and LLM-agnostic, permissioned outputs, lineage you can evidence. The model is the commodity. The moat is the layer above it. Vendors plug in under your rules; they do not own the governance story.
 What Changes for You
-Six Things That Come Off Your Plate
+Six Burdens That Stop Cascading to IT Alone
+Different lane than enterprise IT. Same owner standard on the packet captures and credentials sponsors actually need.
 OT Network Governance
-Segmentation, access control, monitoring, and documentation for every building system. One owner standard, repeated across every property.
+Segmentation, access control, monitoring, and documentation for every building system — repeatable across the portfolio, evidence-ready.
 Vendor Compliance
-Vendors plug in under your rules. No more shadow networks, no more vendor-only admin credentials, no more undocumented integrations.
+Vendors connect under your integration rules. No shadow networks, no private admin islands, no undocumented east-west paths in the basement IDF.
 Audit Readiness
-Every system, every credential, every data flow documented and traceable. SOC 2, ISO 27001, and insurance audits stop being scrambles.
+Systems, credentials, and data flows mapped for SOC 2, ISO 27001, carrier, and insurance reviews — fewer all-nighters assembling screenshots.
 OT Incident Response
-When a building system fails or gets compromised, OpticWise owns the root-cause call. You get visibility, not 2 AM emergencies. Bottom-line: Digital Infrastructure Control
-AI & Data Governance Foundation
-Property Brain™ provides the trust plane that makes AI in CRE actually defensible. No black-box vendor outputs that can't be audited.
+When a building system fails or is compromised, we run the root-cause thread. You get timelines and owner-held logs — not 2 AM bridge calls between three vendors who each claim “not my network.”
+AI and Data Governance Foundation
+Property Brain™ is the trust plane that makes AI in CRE defensible: inputs, prompts, and outputs permissioned — no black-box vendor answers your general counsel cannot trace.
 Different Lane, Same Standard
-OpticWise operates the OT layer with skill sets your IT team doesn't have to develop or hire for. You stay focused on enterprise IT.
+We bring the OT craft your enterprise bench was never scaled to hire for — partner-operator, not a generic MSP trying to own your LAN.
+You stay focused on enterprise identity and corporate risk. We operate the repeatable OT standard property by property.
 What OpticWise Is Not
 We're Not Replacing IT. We're Filling a Gap That's Been Sitting Open.
-OpticWise is not a managed services provider trying to take over your stack. We're a partner-operator focused specifically on the data & digital infrastructure layer of commercial real estate properties.
-Your enterprise IT remains yours. Your security stack, your identity systems, your corporate networks — all yours. OpticWise sits underneath the OT layer at each property and operates it under your governance standard, integrating with your enterprise systems where appropriate. Different skill set than enterprise IT. Different lane. Same owner standard.
+OpticWise is not a managed services provider trying to take over your stack. We are a partner-operator focused on the data & digital infrastructure layer of CRE assets.
+Your enterprise IT remains yours. Your security stack, identity systems, and corporate WAN — yours. OpticWise sits at the property OT layer and runs it to your governance standard, integrating with enterprise tooling where it makes sense. Same audit language. Different skill set.
 What's at Stake
 What Happens When the IT/OT Gap Stays Open
 These aren't hypotheticals. These are patterns we see every week.
-The shadow network nobody knew existed becomes a breach vector
+The shadow path nobody inventoried becomes a lateral-movement story
 Vendor admin credentials walk out the door with the vendor
-The board asks about AI strategy and discovers the data isn't governable
-Insurance renewal flags OT exposure that wasn't on anyone's radar
-A tenant complaint becomes an OT diagnostic problem nobody owns
-Capital partners do diligence and surface OT findings that affect basis
+The board asks about AI strategy and the data isn't governable under your policies
+Insurance renewal flags OT exposure nobody mapped to a control owner
+A tenant service issue becomes an OT rabbit hole with no named owner
+Capital partners run diligence and OT findings hit basis — with your logo on the response
 “ Governance debt comes due with interest — and IT is usually who pays it. ”
 “ If you don't own your data & digital infrastructure, your vendors do. ”
 Your Next Step Let's Map Your OT Posture
-A complimentary working session with your IT and facilities leadership. One building. We map who owns what, where the gaps are, and what closing them looks like.
-Where OT lives across your properties — and who actually controls it
-Audit readiness exposure — what would surface in a SOC 2 or insurance review today
-The IT/OT integration model — what stays IT, what moves to OpticWise, what stays joint
-The first three plays that would close your biggest gaps
-Schedule s Conversation
+A complimentary working session with your IT and facilities leadership. One building. We map who owns what, where the Coordinate gaps are, and what closing them looks like under your standards.
+Where OT lives across your properties — and who actually controls credentials and exports
+Evidence gaps that would surface in a SOC 2, carrier, or insurance review this quarter
+The IT/OT split — what stays enterprise IT, what OpticWise runs at the property, what stays joint
+The first three fixes that close your largest segmentation or lineage holes
+Schedule a Conversation
 Owner-controlled data & digital infrastructure for commercial real estate.
 Explore
 NOI Strategy
