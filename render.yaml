@@ -106,15 +106,12 @@ services:
         name: Cache-Control
         value: public, max-age=3600
 
-    routes:
-      # Trailing-slash canonicalization. Marketing canonical URLs use the form
-      # /about/ (with slash). Render serves /about/index.html for both /about
-      # and /about/, but we redirect to the canonical form for SEO clarity.
-      # NOTE: Render auto-handles directory-style URLs; explicit redirects
-      # only listed for legacy/typo paths.
-
-      # 404 fallback — points at /404.html (a real static page, not a Next.js
-      # client error). Render uses `notFoundPage` for the default 404 source.
-
-    # Render uses this when the path doesn't match any file.
-    # Filename convention: 404.html at root.
+    # 404 fallback: Render automatically serves /404.html for unmatched paths
+    # in static-site deployments — no explicit config needed. The custom 404
+    # page lives at the repo root.
+    #
+    # Pretty-URL routing: Render serves /about/index.html when the URL is
+    # either /about or /about/. Marketing canonical URLs use the trailing-
+    # slash form (`/about/`); both URLs resolve to the same page, and
+    # <link rel="canonical"> in each page's <head> tells search engines
+    # which one to index.
