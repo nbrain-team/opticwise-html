@@ -1,0 +1,135 @@
+/* OpticWise marketing site — overrides + new states layered on /styles.css.
+ * Loaded after styles.css so these rules win without !important where possible.
+ *
+ * Scope:
+ *   - Mobile nav open-state (hamburger toggles `nav.is-open`)
+ *   - Mobile dropdown expand-state (`.nav__dropdown.is-expanded`)
+ *   - Hamburger active animation (X-shape on open)
+ */
+
+/* Default state: hamburger button reserves space, animates spans on open. */
+nav button[aria-label="Menu"] {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+nav button[aria-label="Menu"] span {
+  transition:
+    transform 200ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 150ms ease,
+    margin 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Mobile menu open: show the desktop UL as a vertical sheet, animate hamburger
+ * into an X. Tailwind's `hidden lg:flex` classes set display:none below 1024px
+ * and display:flex above; we override with a more specific selector. */
+@media (max-width: 1023px) {
+  nav.is-open ul.hidden {
+    display: flex !important;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 0.5rem;
+    padding: 1rem 1.5rem 1.5rem;
+    background: rgba(15, 16, 18, 0.97);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);
+    z-index: 60;
+  }
+  nav.is-open ul.hidden > li {
+    width: 100%;
+    list-style: none;
+  }
+  nav.is-open ul.hidden > li > a,
+  nav.is-open ul.hidden .nav__dropdown-trigger {
+    display: flex;
+    width: 100%;
+    padding: 0.625rem 0;
+    font-size: 0.95rem;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  nav.is-open ul.hidden li > button.btn-nav {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  /* Mobile dropdown menus: collapse by default, show when expanded. */
+  nav.is-open .nav__dropdown-menu {
+    position: static;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    background: transparent;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    border: 0;
+    box-shadow: none;
+    padding: 0 0 0.5rem 1rem;
+    margin: 0;
+    display: none;
+    min-width: 0;
+    z-index: auto;
+  }
+  nav.is-open .nav__dropdown.is-expanded > .nav__dropdown-menu {
+    display: flex;
+  }
+  /* Override the desktop hover/focus rules so dropdowns only open on tap. */
+  nav.is-open .nav__dropdown:focus-within > .nav__dropdown-menu,
+  nav.is-open .nav__dropdown:hover > .nav__dropdown-menu {
+    display: none;
+  }
+  nav.is-open .nav__dropdown.is-expanded:focus-within > .nav__dropdown-menu,
+  nav.is-open .nav__dropdown.is-expanded:hover > .nav__dropdown-menu {
+    display: flex;
+  }
+  nav.is-open .nav__dropdown-trigger:after {
+    transition: transform 150ms ease;
+  }
+  nav.is-open .nav__dropdown.is-expanded > .nav__dropdown-trigger:after {
+    transform: rotate(180deg);
+  }
+}
+
+/* Hamburger → X animation. Three spans become two crossed lines + hidden middle. */
+nav.is-open button[aria-label="Menu"] span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  margin-bottom: 0;
+}
+nav.is-open button[aria-label="Menu"] span:nth-child(2) {
+  opacity: 0;
+}
+nav.is-open button[aria-label="Menu"] span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  margin-bottom: 0;
+}
+
+/* Body scroll lock when mobile menu is open. */
+@media (max-width: 1023px) {
+  html:has(nav.is-open) {
+    overflow: hidden;
+  }
+}
+
+/* Focus rings for keyboard nav (a11y). The bundle had React-managed focus
+ * styles; this restores something consistent for keyboard users. */
+nav a:focus-visible,
+nav button:focus-visible,
+nav .nav__dropdown-trigger:focus-visible {
+  outline: 2px solid rgba(43, 108, 176, 0.6);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
