@@ -147,36 +147,44 @@ function repairFull(slug) {
     }
   };
 
+  // Quote-aware content="..." matcher that survives unescaped apostrophes
+  // inside double-quoted attribute values from a previous repair pass.
+  const metaRe = (kind, name) =>
+    new RegExp(
+      '<meta\\s+' + kind + '=["\']' + name + '["\']\\s+content=(?:"[^"]*"|\'[^\']*\')\\s*\\/?>',
+      'i',
+    );
+
   apply(
     /<title[^>]*>[\s\S]*?<\/title>/i,
     `<title>${titleAttr}</title>`,
   );
   apply(
-    /<meta\s+name=["']description["']\s+content=["'][^"']*["']\s*\/?>/i,
+    metaRe('name', 'description'),
     `<meta name="description" content="${descAttr}"/>`,
   );
   apply(
-    /<meta\s+property=["']og:title["']\s+content=["'][^"']*["']\s*\/?>/i,
+    metaRe('property', 'og:title'),
     `<meta property="og:title" content="${titleAttr}"/>`,
   );
   apply(
-    /<meta\s+property=["']og:description["']\s+content=["'][^"']*["']\s*\/?>/i,
+    metaRe('property', 'og:description'),
     `<meta property="og:description" content="${descAttr}"/>`,
   );
   apply(
-    /<meta\s+property=["']og:image["']\s+content=["'][^"']*["']\s*\/?>/i,
+    metaRe('property', 'og:image'),
     `<meta property="og:image" content="${imageAttr}"/>`,
   );
   apply(
-    /<meta\s+name=["']twitter:title["']\s+content=["'][^"']*["']\s*\/?>/i,
+    metaRe('name', 'twitter:title'),
     `<meta name="twitter:title" content="${titleAttr}"/>`,
   );
   apply(
-    /<meta\s+name=["']twitter:description["']\s+content=["'][^"']*["']\s*\/?>/i,
+    metaRe('name', 'twitter:description'),
     `<meta name="twitter:description" content="${descAttr}"/>`,
   );
   apply(
-    /<meta\s+name=["']twitter:image["']\s+content=["'][^"']*["']\s*\/?>/i,
+    metaRe('name', 'twitter:image'),
     `<meta name="twitter:image" content="${imageAttr}"/>`,
   );
 
