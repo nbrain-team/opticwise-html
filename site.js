@@ -101,7 +101,7 @@
     var loadMoreBtn = document.querySelector('[data-ow-insights-loadmore]');
     var loadMoreWrap = document.querySelector('[data-ow-insights-loadmore-wrap]');
     var counter = document.querySelector('[data-ow-insights-count]');
-    console.log('[OW-DEBUG] tabs:', tabs.length, 'cards:', cards.length, 'searchInput:', !!searchInput, 'loadMore:', !!loadMoreBtn, 'counter:', !!counter);
+    console.warn('[OW-DEBUG] tabs:', tabs.length, 'cards:', cards.length, 'searchInput:', !!searchInput, 'loadMore:', !!loadMoreBtn, 'counter:', !!counter);
 
     var INITIAL_BATCH = 30;
     var BATCH = 30;
