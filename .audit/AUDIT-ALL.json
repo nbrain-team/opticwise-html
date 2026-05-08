@@ -31,19 +31,10 @@
   {
     "file": "5s-user-experience-standard/",
     "isInsight": false,
-    "title": "5S® Connectivity &amp; 5S® Managed Wi-Fi for CRE | OpticWise | OpticWise",
+    "title": "5S® Connectivity &amp; 5S® Managed Wi-Fi for CRE | OpticWise",
     "descLen": 172,
     "canonical": "https://www.opticwise.com/5s-user-experience-standard/",
     "issues": [
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "5S® Connectivity &amp; 5S® Managed Wi-Fi for CRE | OpticWise | OpticWise",
-        "len": 72
-      },
-      {
-        "kind": "SEO_TITLE_DUP_BRAND",
-        "title": "5S® Connectivity &amp; 5S® Managed Wi-Fi for CRE | OpticWise | OpticWise"
-      },
       {
         "kind": "SEO_DESC_LONG",
         "desc": "OpticWise&#x27;s 5S® Connectivity Standard and 5S® Managed Wi-Fi service for CRE — Seamless Mobility, Security, Stability, Speed, Service. Owner-controlled, non-negotiable.",
@@ -54,7 +45,7 @@
   {
     "file": "about/",
     "isInsight": false,
-    "title": "About OpticWise — CRE Digital Infrastructure Since 2004 | OpticWise",
+    "title": "About OpticWise — CRE Digital Infrastructure Since 2004",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/about/",
     "issues": [
@@ -72,10 +63,6 @@
         "kind": "BANNED",
         "word": "PropTech",
         "snippet": "…r USA (2024). Most Innovative PropTech Solutions Company (2023 and 2…"
-      },
-      {
-        "kind": "SEO_TITLE_DUP_BRAND",
-        "title": "About OpticWise — CRE Digital Infrastructure Since 2004 | OpticWise"
       }
     ]
   },
@@ -123,7 +110,7 @@
   {
     "file": "contact/",
     "isInsight": false,
-    "title": "Contact OpticWise | OpticWise",
+    "title": "Contact OpticWise",
     "descLen": 124,
     "canonical": "https://www.opticwise.com/contact/",
     "issues": [
@@ -133,8 +120,8 @@
         "snippet": "…including The Silicon Review, PropTech Outlook, CIO Bulletin, and Gl…"
       },
       {
-        "kind": "SEO_TITLE_DUP_BRAND",
-        "title": "Contact OpticWise | OpticWise"
+        "kind": "SEO_TITLE_SHORT",
+        "title": "Contact OpticWise"
       }
     ]
   },
@@ -185,7 +172,7 @@
   {
     "file": "faq/",
     "isInsight": false,
-    "title": "OpticWise FAQ — Direct Answers for CRE Owners | OpticWise",
+    "title": "OpticWise FAQ — Direct Answers for CRE Owners",
     "descLen": 151,
     "canonical": "https://www.opticwise.com/faq/",
     "issues": [
@@ -196,25 +183,16 @@
       {
         "kind": "BARE_INFRA",
         "snippet": "…and operates owner-controlled infrastructure, leaving the owner with admin…"
-      },
-      {
-        "kind": "SEO_TITLE_DUP_BRAND",
-        "title": "OpticWise FAQ — Direct Answers for CRE Owners | OpticWise"
       }
     ]
   },
   {
     "file": "for-asset-managers/",
     "isInsight": false,
-    "title": "For Asset Managers | OpticWise CRE Data Strategy | OpticWise",
+    "title": "For Asset Managers | OpticWise CRE Data Strategy",
     "descLen": 158,
     "canonical": "https://www.opticwise.com/for-asset-managers/",
-    "issues": [
-      {
-        "kind": "SEO_TITLE_DUP_BRAND",
-        "title": "For Asset Managers | OpticWise CRE Data Strategy | OpticWise"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "for-it-executives/",
@@ -254,15 +232,10 @@
   {
     "file": "for-tenants/",
     "isInsight": false,
-    "title": "For Business Tenants | Data &amp; Digital Infrastructure in Your Lease | OpticWise",
+    "title": "For Business Tenants | Data &amp; Digital Infrastructure in Your Lease",
     "descLen": 206,
     "canonical": "https://www.opticwise.com/for-tenants/",
     "issues": [
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "For Business Tenants | Data &amp; Digital Infrastructure in Your Lease | OpticWise",
-        "len": 82
-      },
       {
         "kind": "SEO_DESC_LONG",
         "desc": "For business tenants and advisors: what OpticWise signals in multi‑tenant CRE — 5S® user experience, owner‑held data &amp; digital infrastructure, PPP 5C™ discipline, and diligence you can hold sponsors to.",
@@ -273,15 +246,10 @@
   {
     "file": "glossary/",
     "isInsight": false,
-    "title": "Glossary — OpticWise Frameworks &amp; Terms | OpticWise",
+    "title": "Glossary — OpticWise Frameworks &amp; Terms",
     "descLen": 167,
     "canonical": "https://www.opticwise.com/glossary/",
-    "issues": [
-      {
-        "kind": "SEO_TITLE_DUP_BRAND",
-        "title": "Glossary — OpticWise Frameworks &amp; Terms | OpticWise"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "how-we-operate/",
@@ -300,15 +268,10 @@
   {
     "file": "/",
     "isInsight": false,
-    "title": "OpticWise — CRE Data &amp; Digital Infrastructure | OpticWise",
+    "title": "OpticWise — CRE Data &amp; Digital Infrastructure",
     "descLen": 141,
     "canonical": "https://www.opticwise.com/",
-    "issues": [
-      {
-        "kind": "SEO_TITLE_DUP_BRAND",
-        "title": "OpticWise — CRE Data &amp; Digital Infrastructure | OpticWise"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/5-genius-ways-smart-building-tech-elevates-tenant-experience/",
@@ -316,101 +279,43 @@
     "title": "5 Smart Building Tech Wins for Tenant Experience | OpticWise",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/insights/5-genius-ways-smart-building-tech-elevates-tenant-experience/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…essary energy consumption. By leveraging data, building owners can fin…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ecosystem",
-        "snippet": "…lding into a smart, connected ecosystem? Embrace the future of tenant…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…delivered on owner-controlled infrastructure that doesn't lock the upside …"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/Data-Is-the-New-Real-Estate-Utility/",
     "isInsight": true,
-    "title": "Why Owning Your Building&#x27;s Digital Infrastructure = Owning Your Data | OpticWise",
+    "title": "Why Owning Your Building&#x27;s Digital Infrastructure = Owning Your Data",
     "descLen": 183,
     "canonical": "https://www.opticwise.com/insights/Data-Is-the-New-Real-Estate-Utility/",
     "issues": [
       {
-        "kind": "BARE_INFRA",
-        "snippet": "…uable if it's flowing through infrastructure you own and control. But here…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
         "kind": "SEO_TITLE_LONG",
-        "title": "Why Owning Your Building&#x27;s Digital Infrastructure = Owning Your Data | OpticWise",
-        "len": 85
+        "title": "Why Owning Your Building&#x27;s Digital Infrastructure = Owning Your Data",
+        "len": 73
       },
       {
         "kind": "SEO_DESC_LONG",
         "desc": "If you don&#x27;t own your building&#x27;s network, you don&#x27;t own its data—or the NOI it could generate. Here&#x27;s why digital infrastructure is real estate&#x27;s new utility.",
         "len": 183
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
   {
     "file": "insights/The-LLM-Model-Just-Became-a-Commodity/",
     "isInsight": true,
-    "title": "The LLM Model Just Became a Commodity. Here&#x27;s What Actually Compounds in Commercial Real Estate. | OpticWise",
+    "title": "The LLM Model Just Became a Commodity. Here&#x27;s What Actually Compounds in Commercial Real Estate.",
     "descLen": 206,
     "canonical": "https://www.opticwise.com/insights/The-LLM-Model-Just-Became-a-Commodity/",
     "issues": [
       {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…es broken outputs faster. The leverage is in the workflow itself: wh…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "MISSING_CLOSER"
-      },
-      {
         "kind": "SEO_TITLE_LONG",
-        "title": "The LLM Model Just Became a Commodity. Here&#x27;s What Actually Compounds in Commercial Real Estate. | OpticWise",
-        "len": 113
+        "title": "The LLM Model Just Became a Commodity. Here&#x27;s What Actually Compounds in Commercial Real Estate.",
+        "len": 101
       },
       {
         "kind": "SEO_DESC_LONG",
         "desc": "Stanford&#x27;s 2026 AI Index put a number on something CRE owners need to feel: AI capability is converging fast. The competitive moat moved up the stack — and most portfolios aren&#x27;t built for it yet.",
         "len": 206
-      },
-      {
-        "kind": "SEO_MULTIPLE_H1",
-        "n": 2
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
@@ -420,46 +325,7 @@
     "title": "Advanced IoT Device Management for CRE Success | OpticWise",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/insights/advanced-iot-device-management-strategies/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ation with Proptech Solutions Leveraging IoT sensors in conjunction wi…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…g and Control: Businesses can leverage IoT remote management solutio…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…y, 2024). 2. Integration with Proptech Solutions Leveraging IoT sens…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…T sensors in conjunction with proptech solutions can maximize return…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…ty measures, integrating with proptech solutions, and ensuring enhan…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… aspects can ensure their IoT infrastructure remains reliable and efficien…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-governance-is-now-a-cre-risk-category-are-you-exposed/",
@@ -467,39 +333,7 @@
     "title": "AI Governance Is a New CRE Risk Category | OpticWise",
     "descLen": 135,
     "canonical": "https://www.opticwise.com/insights/ai-governance-is-now-a-cre-risk-category-are-you-exposed/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…ntional — it’s inherited. The Peak Property Performance (PPP) Audit surfaces where AI…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…ust a connectivity layer. The PPP Audit: Exposing Hidden AI Risk Most…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…dors already do. Start with a PPP Audit . Understand your exposure. R…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…a design decision made at the infrastructure layer. From AI Risk to AI Adv…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-in-commercial-real-estate-innovation-ethics-and-the-new-regulatory/",
@@ -507,30 +341,7 @@
     "title": "AI in CRE: Innovation, Ethics, and Regulation | OpticWise",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/insights/ai-in-commercial-real-estate-innovation-ethics-and-the-new-regulatory/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…ecisions s Across the CRE and PropTech sectors, Real Estate Technolo…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ntation with owner-controlled infrastructure that makes everything auditab…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_MULTIPLE_H1",
-        "n": 3
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-in-cre-wont-save-you-if-you-dont-own-your-data/",
@@ -538,33 +349,7 @@
     "title": "AI in CRE Won&#x27;t Save You Without Data Ownership | OpticWise",
     "descLen": 128,
     "canonical": "https://www.opticwise.com/insights/ai-in-cre-wont-save-you-if-you-dont-own-your-data/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…5 million across 55 different proptech companies. Everyone is consol…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…data. Scale, talent, and data infrastructure. These three things together …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ame. They're building out the infrastructure. But you don't have to play b…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-iot-modern-commercial-real-estate-management/",
@@ -572,45 +357,7 @@
     "title": "AI and IoT in Modern CRE Management | OpticWise",
     "descLen": 138,
     "canonical": "https://www.opticwise.com/insights/ai-iot-modern-commercial-real-estate-management/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ered platforms like OpticWise leverage building intelligence to deli…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…valuable insights that can be leveraged for informed decision-making.…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ial for long-term success. By leveraging AI and IoT, commercial real e…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "synergy",
-        "snippet": "… property’s market value. The Synergy of AI and IoT in CRE Manageme…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…means the owner is paying for infrastructure they don't control, again. Th…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ificant upfront investment in infrastructure, devices, and training. Howev…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-isn-t-the-future-it-s-today-why-your-digital-infrastructure-must/",
@@ -618,30 +365,7 @@
     "title": "AI in CRE: Why Digital Infrastructure Must Act Now | OpticWise",
     "descLen": 153,
     "canonical": "https://www.opticwise.com/insights/ai-isn-t-the-future-it-s-today-why-your-digital-infrastructure-must/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…ds to thrive. We start with a PPP Audit—because most owners don’t eve…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… already working. But if your infrastructure is fragmented or outsourced: …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…d an AI strategy. You need an infrastructure strategy that makes AI possib…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-needs-a-nervous-system-why-digital-infrastructure-is-the-real-enabler/",
@@ -649,30 +373,7 @@
     "title": "AI Needs a Nervous System — Digital Infrastructure | OpticWise",
     "descLen": 135,
     "canonical": "https://www.opticwise.com/insights/ai-needs-a-nervous-system-why-digital-infrastructure-is-the-real-enabler/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…ith software. We start with a Peak Property Performance (PPP) Audit. Because before A…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…rs already do. Start With the PPP Audit, Not the AI Tool This is why …"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-promises-20-30-savings-in-your-building-thats-only-true-if-you-own-your-data/",
@@ -680,28 +381,7 @@
     "title": "AI&#x27;s 20-30% Building Savings Need Owner Data | OpticWise",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/insights/ai-promises-20-30-savings-in-your-building-thats-only-true-if-you-own-your-data/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…nding: AI doesn't replace the infrastructure problem — it amplifies it. Bu…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… have Clarified who owns your infrastructure is like installing a state-of…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-revolutionizing-commercial-property-security-beyond-surveillance/",
@@ -709,32 +389,7 @@
     "title": "Beyond Surveillance: AI&#x27;s Role in CRE Security | OpticWise",
     "descLen": 132,
     "canonical": "https://www.opticwise.com/insights/ai-revolutionizing-commercial-property-security-beyond-surveillance/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "cutting-edge",
-        "snippet": "…your commercial property with cutting-edge AI security solutions. Contac…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "… AI-based security solutions (PropTech Outlook, 2024), it’s clear th…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…savings on security staffing (PropTech Security Report, 2025) Higher…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-will-commoditize-creunless-you-own-something-it-cant-replicate/",
@@ -742,20 +397,7 @@
     "title": "AI Will Commoditize CRE — Own What It Can&#x27;t Replicate | OpticWise",
     "descLen": 153,
     "canonical": "https://www.opticwise.com/insights/ai-will-commoditize-creunless-you-own-something-it-cant-replicate/",
-    "issues": [
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-wont-fix-your-building-operations-your-data-foundation-will/",
@@ -763,20 +405,7 @@
     "title": "AI Won&#x27;t Fix CRE Ops — Your Data Foundation Will | OpticWise",
     "descLen": 142,
     "canonical": "https://www.opticwise.com/insights/ai-wont-fix-your-building-operations-your-data-foundation-will/",
-    "issues": [
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-wont-fix-your-propertybut-this-will/",
@@ -784,32 +413,7 @@
     "title": "AI Won&#x27;t Fix Your CRE Property — But This Will | OpticWise",
     "descLen": 144,
     "canonical": "https://www.opticwise.com/insights/ai-wont-fix-your-propertybut-this-will/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…es without the right data and infrastructure foundation. What Actually Mov…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… it accessible). Building the infrastructure layer (ensure systems are con…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ation, and invest in scalable infrastructure. Then they apply AI where it …"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-wont-fix-your-propertyit-will-expose-whats-broken/",
@@ -817,24 +421,7 @@
     "title": "AI Won&#x27;t Fix CRE — It Will Expose What&#x27;s Broken | OpticWise",
     "descLen": 135,
     "canonical": "https://www.opticwise.com/insights/ai-wont-fix-your-propertyit-will-expose-whats-broken/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…he right operational and data infrastructure. AI Will Increase Pressure Ac…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/artificial-intelligence-in-commercial-real-estate/",
@@ -842,54 +429,7 @@
     "title": "Using AI in CRE for Transformational Growth | OpticWise",
     "descLen": 141,
     "canonical": "https://www.opticwise.com/insights/artificial-intelligence-in-commercial-real-estate/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…Back to Insights AI Readiness Leveraging artificial intelligence (AI) …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…e for transformational growth Leveraging artificial intelligence (AI) …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…oundation the owner controls. Leveraging artificial intelligence (AI) …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…in commercial real estate. By leveraging AI-driven energy management s…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…estors and asset managers can leverage AI to assess risk, analyze ma…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…cant investment in technology infrastructure, data management, and employe…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… central role in managing the infrastructure of smart cities, from energy …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… must invest in the necessary infrastructure, address ethical and security…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/before-ai-you-need-data-you-actually-own/",
@@ -897,32 +437,7 @@
     "title": "Before AI in CRE: You Need Data You Actually Own | OpticWise",
     "descLen": 140,
     "canonical": "https://www.opticwise.com/insights/before-ai-you-need-data-you-actually-own/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…question is murky at best. As Peak Property Performance puts it: “Do you own and cont…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…in obvious ways. According to Peak Property Performance : “Data access can drive sign…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…xplore these ideas further in Peak Property Performance —a must-read for modern prope…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/benefits-of-intelligent-building-management-for-multi-family-communities/",
@@ -930,35 +445,7 @@
     "title": "Intelligent Building Management for Multi-Family CRE | OpticWise",
     "descLen": 144,
     "canonical": "https://www.opticwise.com/insights/benefits-of-intelligent-building-management-for-multi-family-communities/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…, and overall property value. Leveraging advanced technologies and dat…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "… Data-Driven Decision Making: Leveraging data analytics to inform mana…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…t — built on owner-controlled infrastructure — solves them by giving opera…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…pairs of building systems and infrastructure. Security Management: Ensurin…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/best-practices-in-building-management/",
@@ -966,40 +453,7 @@
     "title": "Best Practices in CRE Building Management | OpticWise",
     "descLen": 139,
     "canonical": "https://www.opticwise.com/insights/best-practices-in-building-management/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…a comprehensive approach that leverages property operating systems da…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…nt monetization potential. By leveraging data analytics, property mana…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "holistic",
-        "snippet": "…This consolidation provides a holistic view of building operations, …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… governance, owner-controlled infrastructure, and operational rituals that…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…, data analytics, and network infrastructure laid the groundwork for more …"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/blackstone-brookfield-and-jpmorgan-just-rewrote-the-rules-on-real-estate-value/",
@@ -1007,53 +461,7 @@
     "title": "Blackstone, Brookfield, JPMorgan Rewrite CRE Value | OpticWise",
     "descLen": 140,
     "canonical": "https://www.opticwise.com/insights/blackstone-brookfield-and-jpmorgan-just-rewrote-the-rules-on-real-estate-value/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…ndors. Control it. That's not PropTech. That's owner-controlled digi…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ld launched a $100 billion AI infrastructure program. JPMorgan, Goldman, a…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… committed $100 billion to AI infrastructure. TPG's David Trujillo confirm…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…onnectivity. Control over the infrastructure that generates cash flow from…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…he scope of what qualifies as infrastructure value expanded. It's no longe…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…enterprise data centers. Edge infrastructure, distributed compute, AI-read…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ll Street created the banking infrastructure to move that capital. When JP…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… not an accident. State-level infrastructure policy, power reliability, an…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/blackstone-is-filing-a-2-billion-ipo-around-digital-infrastructure-most-cre-owne/",
@@ -1061,39 +469,7 @@
     "title": "Blackstone&#x27;s $2B Digital Infrastructure IPO Signal | OpticWise",
     "descLen": 148,
     "canonical": "https://www.opticwise.com/insights/blackstone-is-filing-a-2-billion-ipo-around-digital-infrastructure-most-cre-owne/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…, you have handed operational leverage to someone whose interests ar…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "REIT",
-        "snippet": "… — BXDC. It's structured as a REIT, focused on newly constructed…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "REIT",
-        "snippet": "…illion digital infrastructure REIT is the clearest single data p…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…asset is the same category of infrastructure they're currently subsidizing…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/bringing-systems-together-the-coordination-step-in-the-five-c-s/",
@@ -1101,37 +477,7 @@
     "title": "Coordination: The 4th Step in the 5C CRE Plan | OpticWise",
     "descLen": 154,
     "canonical": "https://www.opticwise.com/insights/bringing-systems-together-the-coordination-step-in-the-five-c-s/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…From Data to Decisions In the Peak Property Performance book, Coordination is describ…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…trategy. Get your copy of the Peak Property Performance book –Dive deeper into the fu…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…en to the Podcast – Catch the Peak Property Performance Podcast on all major platform…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…ays to get started: Request a PPP Audit – Our team will help you unco…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/building-automation-systems-future-of-smart-buildings/",
@@ -1139,34 +485,7 @@
     "title": "Building Automation: The Future of Smart Buildings | OpticWise",
     "descLen": 159,
     "canonical": "https://www.opticwise.com/insights/building-automation-systems-future-of-smart-buildings/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…e services, organizations can leverage automation, data analytics, a…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ws businesses to expand their infrastructure smoothly. A good building aut…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… costs by preventing outdated infrastructure. It ensures reliable performa…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ng security ensures that data infrastructure solutions remain safe while k…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/building-management-systems-security-connectivity/",
@@ -1174,40 +493,7 @@
     "title": "How BMS Boosts CRE Security and Connectivity | OpticWise",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/insights/building-management-systems-security-connectivity/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…rgy management. These systems leverage IT infrastructure support to …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…tion surveillance cameras. By leveraging smart building security and c…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…and ensure sustainability. By leveraging real-time data from smart gri…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…nt. These systems leverage IT infrastructure support to integrate various …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…s shaping the future of smart infrastructure (McKinsey). 4. Enhanced Commu…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/built-to-last-why-smart-infrastructure-is-the-backbone-of-future-proof/",
@@ -1217,70 +503,9 @@
     "canonical": "https://www.opticwise.com/insights/built-to-last-why-smart-infrastructure-is-the-backbone-of-future-proof/",
     "issues": [
       {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…era of rising tenant demands, ESG pressures, and tech disruptio…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… Against Risk and a Boost for ESG G Smart infrastructure goes f…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…nvenience—it strengthens your ESG strategy and helps reduce com…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ant satisfaction, aligns with ESG priorities, and helps you sta…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…lt on apps — they're built on infrastructure. Smart, owner-controlled infr…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ture. Smart, owner-controlled infrastructure is the durable backbone every…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… to stand—but to adapt. Smart infrastructure isn’t just an upgrade. It’s t…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… resilience. That’s why smart infrastructure is no longer optional—it’s th…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…e at $5,600 per minute. Smart infrastructure includes fail-safes for conne…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…s $9.48 million—making secure infrastructure a business-critical investmen…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…k and a Boost for ESG G Smart infrastructure goes far beyond convenience—i…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… an absolute necessity. Smart infrastructure supports operational resilien…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
         "kind": "SEO_DESC_LONG",
         "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
         "len": 175
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
@@ -1290,32 +515,7 @@
     "title": "CapEx Is Tightening — Cool Tech Is Dead in CRE | OpticWise",
     "descLen": 152,
     "canonical": "https://www.opticwise.com/insights/capex-is-tightening-roi-scrutiny-is-brutal-and-cool-tech-is-dead/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…cy outcomes. Owner-controlled infrastructure passes that test; vendor-stac…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ogy is judged by performance, infrastructure is judged by ROI, and decisio…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…dundant systems, and focus on infrastructure, not point solutions. Most im…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/clarify-the-first-step-to-peak-property-performance/",
@@ -1323,41 +523,7 @@
     "title": "Clarify: First Step to Peak Property Performance | OpticWise",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/insights/clarify-the-first-step-to-peak-property-performance/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…n Clarify – The First Step to Peak Property Performance \"What Is That?\" — How One Que…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… step in the 5C Framework for Peak Property Performance is Clarify . What Does “Clari…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…fy” Mean? On Episode 2 of the Peak Property Performance Podcast , hosts Bill Douglas …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… properties? Get your copy of Peak Property Performance and check out the PPP Podcast…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…because if you don’t own your infrastructure, your vendors do. Bill Dougla…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/collect-unlocking-the-value-hidden-in-your-building-s-data/",
@@ -1365,36 +531,7 @@
     "title": "Collect: Unlock the Value in Your Building&#x27;s Data | OpticWise",
     "descLen": 146,
     "canonical": "https://www.opticwise.com/insights/collect-unlocking-the-value-hidden-in-your-building-s-data/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…r eports that smart buildings leveraging data for operations can cut O…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… step in the 5C Framework for Peak Property Performance is Collect. What Does “Collec…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… operations? Get your copy of Peak Property Performance and tune into the PPP Podcast…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…e bridge between knowing your infrastructure (Clarify) and optimizing your…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/commercial-real-estate-technology/",
@@ -1402,41 +539,7 @@
     "title": "The Role of CRE Technology in Modern Business | OpticWise",
     "descLen": 138,
     "canonical": "https://www.opticwise.com/insights/commercial-real-estate-technology/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…porate real estate technology leverages data and automation to optimi…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…sses to collect, analyze, and leverage insights for better decision-…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ganizations have successfully leveraged corporate real estate technol…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…emonstrate how businesses can leverage CRE tech companies to gain a …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…keep pace by treating tech as infrastructure, not amenity: owner-controlle…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/connect-creating-the-flow-that-unlocks-your-building-s-potential/",
@@ -1444,31 +547,7 @@
     "title": "Connect: The 5C Step That Unlocks CRE Potential | OpticWise",
     "descLen": 150,
     "canonical": "https://www.opticwise.com/insights/connect-creating-the-flow-that-unlocks-your-building-s-potential/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… step in the 5C Framework for Peak Property Performance is Connect. What Does “Connec…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…coring model (outlined in the Peak Property Performance book ) to rank systems by dif…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… portfolios with unified data infrastructure saw 19% higher NOI growth ove…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/cre-owners-are-the-data-stewards-whether-you-know-it-or-not/",
@@ -1476,52 +555,7 @@
     "title": "CRE Owners: You&#x27;re the Data Steward, Like It or Not | OpticWise",
     "descLen": 147,
     "canonical": "https://www.opticwise.com/insights/cre-owners-are-the-data-stewards-whether-you-know-it-or-not/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…it secured, standardized, and leveraged across your portfolio? Until …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…ries originally published on [PropTech-X](https://proptech-x.com/ori…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…ished on [PropTech-X](https://proptech-x.com/original-link). Republi…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…ies originally published on [ PropTech-X](https://proptech-x.com/ori…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…shed on [ PropTech-X](https://proptech-x.com/original-link ). Republ…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "… . *Originally published on [ PropTech ] by Andrew Stanton. Co-autho…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…of OpticWise and co-author of Peak Property Performance . Each week, we share insight…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/cre-tech-revolution-data-driven-properties/",
@@ -1529,36 +563,7 @@
     "title": "Why Data-Driven CRE Properties Win the Market | OpticWise",
     "descLen": 135,
     "canonical": "https://www.opticwise.com/insights/cre-tech-revolution-data-driven-properties/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ng data-driven in CRE entails leveraging vast amounts of information t…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…tate practices. Companies are leveraging technology to streamline tran…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…and AI. Moreover, the rise of PropTech firms is revolutionizing trad…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…aluate existing technological infrastructure and identify areas that requi…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/cretech-2025-the-ai-illusion-and-the-next-wave-no-one-s-talking-about/",
@@ -1566,48 +571,7 @@
     "title": "CREtech 2025: Beyond the AI Illusion in Real Estate | OpticWise",
     "descLen": 140,
     "canonical": "https://www.opticwise.com/insights/cretech-2025-the-ai-illusion-and-the-next-wave-no-one-s-talking-about/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…-proof your portfolio for AI, ESG, and tenant expectations Own …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… your digital foundation. Our Peak Property Performance (PPP) Audit gives CRE owners …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…e long game. 👉 Schedule your PPP Audit now at OpticWise.com Your Nex…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…t wave: owner-controlled data infrastructure as the durable competitive ed…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…gmented systems, disconnected infrastructure, and vendor-controlled networ…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… AI-ready teams, and AI-ready infrastructure. And that starts with the PPP…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…nd what you don’t) Where your infrastructure is leaking NOI What data exis…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/data-centers-are-the-new-cre-gravity-well/",
@@ -1615,78 +579,7 @@
     "title": "Data Centers Are the New CRE Gravity Well | OpticWise",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/insights/data-centers-are-the-new-cre-gravity-well/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "REIT",
-        "snippet": "…d data centers. Across public REIT markets, private equity alloc…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…ructure upgrade costs. On the Peak Property Performance podcast, we’ve been discussin…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ty, grid interconnection, and infrastructure readiness are the new CRE con…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…, private equity allocations, infrastructure funds, and hyperscaler balanc…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ding” story. It’s a power and infrastructure story . The Capital Rotation …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…e, Brookfield, KKR, and other infrastructure-focused investors have made s…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…demand for compute and energy infrastructure, accelerating hyperscale inve…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… what it believes is durable, infrastructure-grade demand. But the Constra…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… and water access and cooling infrastructure. Deloitte’s infrastructure an…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ng infrastructure. Deloitte’s infrastructure and energy commentary across …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…quiring modernization of grid infrastructure. CBRE’s Data Center Outlook e…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… markets with available power infrastructure — not just cheap land. Infras…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…repositioning strategies, and infrastructure upgrade costs. On the Peak Pr…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…, interconnection agreements, infrastructure planning, utility relationshi…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/data-centers-just-got-their-own-reit-every-owner-should-read-the-signal/",
@@ -1694,71 +587,7 @@
     "title": "Data Centers Got Their REIT — Read the Signal | OpticWise",
     "descLen": 146,
     "canonical": "https://www.opticwise.com/insights/data-centers-just-got-their-own-reit-every-owner-should-read-the-signal/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "REIT",
-        "snippet": "…ta Centers Just Got Their Own REIT. Every Owner Should Read the …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "REIT",
-        "snippet": "…en data centers get their own REIT, the market just told you wha…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "REIT",
-        "snippet": "… week for a $100M Data Center REIT IPO, a public vehicle called …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Property Brain",
-        "snippet": "…rules. We call this layer the Property Brain. Scale the standard across th…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Portfolio Brain",
-        "snippet": "… the portfolio and it becomes Portfolio Brain. The point of the plan is not…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "BoT",
-        "snippet": "… property. We call this layer BoT. Every device and system runs…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP 5C",
-        "snippet": "…e same five things. It is the PPP 5C plan. Clarify. Write down per…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…quence. Blackstone is pricing infrastructure as a public asset. AI compani…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…is pointing in one direction: infrastructure is the asset. What That Means…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…orks. No vendor-laid parallel infrastructure. One standard. Collect. Norma…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…Because the market just named infrastructure as the asset, and you do not …"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/data-infrastructure-the-engine-behind-modern-cre-operations/",
@@ -1766,61 +595,7 @@
     "title": "Data Infrastructure: The Engine of Modern CRE Ops | OpticWise",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/insights/data-infrastructure-the-engine-behind-modern-cre-operations/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ilding & Construction Today ) ESG Data Compliance: A Growing Im…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ntal, Social, and Governance (ESG) reporting is increasingly ma…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…frastructure enables seamless ESG data compliance by automating…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…g digital twins, and ensuring ESG compliance to enhance your CR…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ue differentiator is now data infrastructure. Real-ti April 30, 2025 · 2 m…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…rn CRE operations run on data infrastructure, not BMS. The engine behind e…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ue differentiator is now data infrastructure . Real-time data lakes, integ…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… investors, and tenants. Data infrastructure enables seamless ESG data com…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… commercial real estate, data infrastructure is the engine that drives ope…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_MULTIPLE_H1",
-        "n": 2
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/data-lake-not-data-swamp-structuring-what-you-collect/",
@@ -1828,40 +603,7 @@
     "title": "Data Lake, Not Data Swamp: Structuring CRE Data | OpticWise",
     "descLen": 147,
     "canonical": "https://www.opticwise.com/insights/data-lake-not-data-swamp-structuring-what-you-collect/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…t to extract value from. From Peak Property Performance : Structure Unlocks Strategy …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… : Structure Unlocks Strategy Peak Property Performance puts it simply: “Build your d…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…re more insights like this in Peak Property Performance —your guide to unlocking the …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… as the backbone of your data infrastructure for commercial real estate (C…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…acy compliance. A secure data infrastructure builds trust and resilience. …"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/digital-first-strategy-the-only-competitive-edge-that-lasts/",
@@ -1871,64 +613,9 @@
     "canonical": "https://www.opticwise.com/insights/digital-first-strategy-the-only-competitive-edge-that-lasts/",
     "issues": [
       {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…rising tenant expectations to ESG di September 1, 2025 · 2 min …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…rising tenant expectations to ESG disclosures and cybersecurity…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "REIT",
-        "snippet": "…o Infrastructure A mid-market REIT realized its Class A status w…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…ility—it’s a value driver.” — Peak Property Performance The top-performing portfolios…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…wnload your executive copy of Peak Property Performance —a leadership playbook for em…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…ep 2: Book your complimentary PPP Audit. Get a fast, executive-level …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…egy built on owner-controlled infrastructure. Operators who own connectivi…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…io This is not IT. This is an infrastructure strategy. What’s At Stake: Th…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…r embedding performance-grade infrastructure into your asset and ops strat…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…-level snapshot of where your infrastructure stands—and where your perform…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
         "kind": "SEO_TITLE_LONG",
         "title": "Digital-First Strategy: CRE&#x27;s Lasting Competitive Edge | OpticWise",
         "len": 71
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
@@ -1938,21 +625,7 @@
     "title": "Digital Infrastructure: The Backbone of Modern CRE | OpticWise",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/insights/digital-infrastructure-commercial-real-estate/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…nants setting up their own IT infrastructure are over. Businesses want plu…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/digital-infrastructure-first-series-part-1-digital-infrastructure-is-the/",
@@ -1960,41 +633,7 @@
     "title": "Digital Infrastructure: The New CRE Amenity to Monetize | OpticWise",
     "descLen": 138,
     "canonical": "https://www.opticwise.com/insights/digital-infrastructure-first-series-part-1-digital-infrastructure-is-the/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…an offer. OWN IT. CONTROL IT. LEVERAGE IT. Your Next Step Compliment…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… one that directly influences ESG performance, AI readiness, te…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…tem without sprawl Power your ESG and other tracking and automa…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ile access and smart controls ESG mandates now require real-tim…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…mate operations, and turn the infrastructure into recurring NOI. Vendors w…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/digital-infrastructure-isn-t-just-wi-fi-it-s-the-nervous-system-of-your-property/",
@@ -2002,32 +641,7 @@
     "title": "Digital Infrastructure: The Nervous System of CRE | OpticWise",
     "descLen": 151,
     "canonical": "https://www.opticwise.com/insights/digital-infrastructure-isn-t-just-wi-fi-it-s-the-nervous-system-of-your-property/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…re. You’re laying operational leverage. Digital Infrastructure Witho…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ecosystem",
-        "snippet": "…, and make the entire digital ecosystem self-healing and supportable …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…the next decade. Start with a PPP Audit and see how future-ready your…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/digital-infrastructure-office-residential-conversions/",
@@ -2035,26 +649,7 @@
     "title": "Office-to-Residential: Why Infrastructure Pays Back | OpticWise",
     "descLen": 150,
     "canonical": "https://www.opticwise.com/insights/digital-infrastructure-office-residential-conversions/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "cutting-edge",
-        "snippet": "…s into 320 homes, emphasizing cutting-edge digital amenities to appeal t…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…al conversions live or die on infrastructure. Upgrading digital infrastruc…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/digital-twins-revolutionizing-commercial-real-estate/",
@@ -2062,36 +657,7 @@
     "title": "How Digital Twins Are Revolutionizing CRE | OpticWise",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/insights/digital-twins-revolutionizing-commercial-real-estate/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…is predictive maintenance. By leveraging AI-driven analytics, digital …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…d software platforms to fully leverage digital twin capabilities. 2.…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…implementation challenges and leveraging AI-driven advancements, the f…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…anizations must invest in IoT infrastructure, AI-powered analytics, and so…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/from-amenities-to-expectations-on-demand-connectivity-as-a-cre-necessity/",
@@ -2099,21 +665,7 @@
     "title": "On-Demand Connectivity: From CRE Amenity to Necessity | OpticWise",
     "descLen": 149,
     "canonical": "https://www.opticwise.com/insights/from-amenities-to-expectations-on-demand-connectivity-as-a-cre-necessity/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… deliver via owner-controlled infrastructure win leases; owners who outsou…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/from-data-to-decisions-what-cre-can-learn-from-cortland-s-product-mindset/",
@@ -2121,21 +673,7 @@
     "title": "From Data to Decisions: A CRE Product Mindset | OpticWise",
     "descLen": 146,
     "canonical": "https://www.opticwise.com/insights/from-data-to-decisions-what-cre-can-learn-from-cortland-s-product-mindset/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…tenance windows— if your data infrastructure is sound. Owner mindset: AI i…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/from-liability-to-leadership-how-cre-data-unlocks-value-in-at-risk-assets/",
@@ -2143,64 +681,7 @@
     "title": "From Liability to Leadership: CRE Data and Asset Value | OpticWise",
     "descLen": 160,
     "canonical": "https://www.opticwise.com/insights/from-liability-to-leadership-how-cre-data-unlocks-value-in-at-risk-assets/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "holistic",
-        "snippet": "…and every sensor is part of a holistic data strategy. That means: Fu…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…shifting tenant expectations, ESG May 27, 2025 · 3 min read TL;…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…shifting tenant expectations, ESG mandates, and rising capital …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ory Risk (non-compliance with ESG or energy mandates) Market Mi…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…e Attract tenants looking for ESG and smart building features R…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…adiness Score™ As part of our Peak Property Performance Audit, OpticWise provides a D…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…o exactly that. Schedule your Peak Property Performance Audit today and get your Digi…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…tional Obsolescence (outdated infrastructure or systems) Regulatory Risk (…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ystems are paired with a data infrastructure that collects, stores, and an…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…erstand how mature their data infrastructure is and how far they are from …"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/from-wifi-to-wealth-the-hidden-profit-in-connectivity/",
@@ -2208,51 +689,7 @@
     "title": "From Wi-Fi to Wealth: Hidden Profit in CRE Connectivity | OpticWise",
     "descLen": 151,
     "canonical": "https://www.opticwise.com/insights/from-wifi-to-wealth-the-hidden-profit-in-connectivity/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…kbone, owners can capture and leverage real-time insights from HVAC …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… asset value through improved ESG performance and marketability…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "… In the world of CRE Tech and PropTech, digital infrastructure has q…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…it. That’s where future-proof PropTech strategy comes in. Future-Rea…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…s it truly is. As outlined in Peak Property Performance , the latest book by our foun…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… recommend grabbing a copy of Peak Property Performance —a practical guide written by…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…s in treating connectivity as infrastructure, not overhead. Why Connectivi…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/future-cre-operations-intelligent-building-systems/",
@@ -2260,51 +697,7 @@
     "title": "The Future of CRE Ops With Intelligent Buildings | OpticWise",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/insights/future-cre-operations-intelligent-building-systems/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…intelligent building systems, leveraging AI and IoT for efficiency and…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…d through IBS, CRE owners can leverage it to increase Net Operating …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ecosystem",
-        "snippet": "…ings) IBS ensures a connected ecosystem, allowing building management…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…Demand for Smarter Solutions: PropTech innovations like Intelligent …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "BoT",
-        "snippet": "…T integration or in our world BoT (Building of things) IBS ensu…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "BoT",
-        "snippet": "… IoT or known in our world as BoT technology —and automation to…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ht on top of owner-controlled infrastructure — so owners can adopt new ope…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/future-proof-network-digital-era/",
@@ -2312,33 +705,7 @@
     "title": "Future-Proof Networks: Critical for CRE in the Digital Era | OpticWise",
     "descLen": 154,
     "canonical": "https://www.opticwise.com/insights/future-proof-network-digital-era/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…change. With scalable network infrastructure, smart network management , a…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…75% of companies are planning infrastructure upgrades to support the rise …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ks will provide the necessary infrastructure to manage this exponential gr…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…essity. With scalable network infrastructure, strong network upgrade solut…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/how-building-intelligence-drives-sustainable-work-environments/",
@@ -2346,54 +713,7 @@
     "title": "How Building Intelligence Drives Sustainable Work | OpticWise",
     "descLen": 140,
     "canonical": "https://www.opticwise.com/insights/how-building-intelligence-drives-sustainable-work-environments/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…l efficiency of buildings. By leveraging digital infrastructure , thes…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…tions and maximized benefits. Leveraging Cloud-Based Platforms: These …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ecosystem",
-        "snippet": "…it’s about creating a dynamic ecosystem where technology adapts to hu…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ed data — is what drives real ESG results: measurable energy re…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ing. Without that data layer, ESG stays performative. In the mo…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… without requiring full-scale infrastructure overhauls. Ensuring Data Secu…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…driven optimization and smart infrastructure investment. According to rece…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…driven optimization and smart infrastructure investment. According to rece…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/how-digital-infrastructure-shapes-modern-business/",
@@ -2401,58 +721,15 @@
     "title": "How Digital Infrastructure Shapes Modern Business | OpticWise",
     "descLen": 140,
     "canonical": "https://www.opticwise.com/insights/how-digital-infrastructure-shapes-modern-business/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ith managed, owner-controlled infrastructure can deliver that consistently…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…aried in every industry. This infrastructure is the unseen force that keep…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/how-intelligent-buildings-revolutionize-multi-family-living/",
     "isInsight": true,
-    "title": "How Intelligent Buildings Are Reshaping Multi-Family Living | OpticWise",
+    "title": "How Intelligent Buildings Are Reshaping Multi-Family Living",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/insights/how-intelligent-buildings-revolutionize-multi-family-living/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "BoT",
-        "snippet": "…essment. Explore OpticWise ’s BoT (Building of Things) building…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Building of Things",
-        "snippet": "…nt. Explore OpticWise ’s BoT (Building of Things) building audit to identify t…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "How Intelligent Buildings Are Reshaping Multi-Family Living | OpticWise",
-        "len": 71
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/how-one-operator-cut-120k-in-opex-with-a-single-upgrade/",
@@ -2460,30 +737,7 @@
     "title": "Case Study: Cutting $120K in OPEX With One Upgrade | OpticWise",
     "descLen": 150,
     "canonical": "https://www.opticwise.com/insights/how-one-operator-cut-120k-in-opex-with-a-single-upgrade/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… right now ? Get your copy of Peak Property Performance —packed with real-world insig…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…active This isn’t theory—it’s infrastructure-backed ROI. Operator Action P…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ghts, automation tactics, and infrastructure playbooks to cut OPEX and run…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/how-one-portfolio-used-ai-to-cut-utility-spend-double-digits/",
@@ -2491,37 +745,7 @@
     "title": "Case Study: AI Cut Utility Spend Double-Digits in CRE | OpticWise",
     "descLen": 146,
     "canonical": "https://www.opticwise.com/insights/how-one-portfolio-used-ai-to-cut-utility-spend-double-digits/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…n’t lack effort . They lacked leverage—specifically, a way to see th…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…th Mical Anselmo (NODA.ai) on Peak Property Performance — Ep. 12, hosted by Bill Doug…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…tent into outcomes. Check our Peak Property Performance Linkedin for more updates on …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…mplate. Let’s start with your PPP Audit. Contact us today . Your Next…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/how-smart-tech-is-shattering-modern-boundaries/",
@@ -2529,21 +753,7 @@
     "title": "How Smart Tech Is Raising CRE Safety Standards | OpticWise",
     "descLen": 152,
     "canonical": "https://www.opticwise.com/insights/how-smart-tech-is-shattering-modern-boundaries/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…y as part of owner-controlled infrastructure from day one — not retrofitti…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/how-smart-technology-enhances-tenant-experience-commercial-real-estate/",
@@ -2551,31 +761,7 @@
     "title": "How Smart Tech Enhances CRE Tenant Experience | OpticWise",
     "descLen": 156,
     "canonical": "https://www.opticwise.com/insights/how-smart-technology-enhances-tenant-experience-commercial-real-estate/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "cutting-edge",
-        "snippet": "… this blog, we’ll explore how cutting-edge innovations are transforming …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…for employee satisfaction and ESG goals. Data-driven insights i…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…delivered on owner-controlled infrastructure. Vendor-trapped smart tech lo…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/how-technology-is-transforming-real-estate-management/",
@@ -2583,41 +769,7 @@
     "title": "How Technology Is Transforming CRE Management | OpticWise",
     "descLen": 151,
     "canonical": "https://www.opticwise.com/insights/how-technology-is-transforming-real-estate-management/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "… management is the ability to leverage data for informed decision-ma…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "… manage leads efficiently. By leveraging CRM technologies, property ma…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…g management to strategically leverage property data to increase Net…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "holistic",
-        "snippet": "… operations managers can gain holistic insights into building perfor…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… From data analytics to smart infrastructure, technology is rewriting comm…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/hyperscalers-are-industrializing-digital-infrastructure-your-building-is-next/",
@@ -2625,17 +777,7 @@
     "title": "Hyperscalers Are Industrializing CRE Infrastructure | OpticWise",
     "descLen": 148,
     "canonical": "https://www.opticwise.com/insights/hyperscalers-are-industrializing-digital-infrastructure-your-building-is-next/",
-    "issues": [
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/if-your-building-sold-tomorrow-would-the-data-be-included/",
@@ -2643,39 +785,7 @@
     "title": "If Your Building Sold Tomorrow, Would the Data Go With It? | OpticWise",
     "descLen": 130,
     "canonical": "https://www.opticwise.com/insights/if-your-building-sold-tomorrow-would-the-data-be-included/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…ing Data Ownership Explicit A Peak Property Performance (PPP) Audit answers questions…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…ructure — not dashboards. The PPP Audit: Making Data Ownership Explic…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…dors already do. Start with a PPP Audit . Clarify ownership. Reclaim …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… is why OpticWise starts with infrastructure — not dashboards. The PPP Aud…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/impact-cre-technology-real-estate/",
@@ -2683,72 +793,15 @@
     "title": "How CRE Technology Is Reshaping Real Estate | OpticWise",
     "descLen": 147,
     "canonical": "https://www.opticwise.com/insights/impact-cre-technology-real-estate/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…real estate professionals now leverage cloud-based platforms, AI alg…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…I & Machine Learning: CBRE is leveraging AI-driven insights to optimiz…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "cutting-edge",
-        "snippet": "…eal estate tech companies and cutting-edge technology is driving the ind…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…s: The integration of various PropTech solutions and platforms can c…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ng real benefit treat tech as infrastructure, not features: owner-controll…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…fficiency. Additionally, data infrastructure management tools have enabled…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… & Efficiency: AI-driven data infrastructure management tools help busines…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ms continue investing in data infrastructure management and business intel…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/",
-    "isInsight": false,
+    "isInsight": true,
     "title": "Insights for Owners Who Want Control | OpticWise",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/insights/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…egic Foundation for AI-Driven ESG and Sustainability Goals Febr…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "REIT",
-        "snippet": "…ta Centers Just Got Their Own REIT. Every Owner Should Read the …"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/integrating-iot-smarter-safer-cre-building-management/",
@@ -2756,83 +809,15 @@
     "title": "Integrating IoT for Smarter, Safer CRE Buildings | OpticWise",
     "descLen": 149,
     "canonical": "https://www.opticwise.com/insights/integrating-iot-smarter-safer-cre-building-management/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…utions, facility managers can leverage cutting-edge technologies to …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ted ecosystem. This ecosystem leverages data and automation to make b…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "… more efficient buildings. By leveraging smart building solutions and …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ecosystem",
-        "snippet": "…ng systems create a connected ecosystem. This ecosystem leverages dat…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ecosystem",
-        "snippet": "…e a connected ecosystem. This ecosystem leverages data and automation…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "cutting-edge",
-        "snippet": "…acility managers can leverage cutting-edge technologies to reduce costs,…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…lifespan of critical building infrastructure. 5. Enhanced Tenant Experienc…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/intelligent-buildings-investment-trend/",
     "isInsight": true,
-    "title": "Why Intelligent Buildings Are the Next Big Thing for Investors | OpticWise",
+    "title": "Why Intelligent Buildings Are the Next Big Thing for Investors",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/insights/intelligent-buildings-investment-trend/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… with the growing emphasis on ESG (Environmental, Social, and G…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… on owner-controlled data and infrastructure — are the next investable cat…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "Why Intelligent Buildings Are the Next Big Thing for Investors | OpticWise",
-        "len": 74
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/invisible-guardians-redefining-privacy-in-commercial-real-estate/",
@@ -2840,17 +825,7 @@
     "title": "Invisible Guardians: Redefining Privacy in CRE | OpticWise",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/insights/invisible-guardians-redefining-privacy-in-commercial-real-estate/",
-    "issues": [
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/invisible-workforce-iot-networks-running-cre/",
@@ -2858,37 +833,7 @@
     "title": "The Invisible Workforce: IoT Running CRE Behind the Scenes | OpticWise",
     "descLen": 144,
     "canonical": "https://www.opticwise.com/insights/invisible-workforce-iot-networks-running-cre/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…wners who ignore it leave the leverage with their vendors. The Futur…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…edictive maintenance with IoT leverages sensors to detect equipment i…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…pitality Marketing Agency are leveraging these technologies to create …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "… here. If your building isn’t leveraging IoT for operational efficienc…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/iot-networks-operational-efficiency-commercial-real-estate/",
@@ -2896,26 +841,7 @@
     "title": "Boost CRE Operational Efficiency With IoT Networks | OpticWise",
     "descLen": 147,
     "canonical": "https://www.opticwise.com/insights/iot-networks-operational-efficiency-commercial-real-estate/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…, security, and occupancy. By leveraging IoT networks, buildings trans…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…valuate the existing building infrastructure to determine compatibility wi…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/leveraging-data-analytics-optimize-commercial-real-estate-assets/",
@@ -2923,56 +849,7 @@
     "title": "Using Data Analytics to Optimize CRE Assets | OpticWise",
     "descLen": 144,
     "canonical": "https://www.opticwise.com/insights/leveraging-data-analytics-optimize-commercial-real-estate-assets/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ck to Insights Data Ownership Leveraging Data Analytics to Optimize Co…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…al Estate Assets Discover how leveraging data analytics can optimize c…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…reate competitive advantages. Leveraging insights from data analytics …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…vides actionable insights for leveraging this powerful tool. The Growi…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…vely. Predictive Maintenance: Leveraging predictive algorithms reduces…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…riven Culture in CRE To fully leverage data analytics, CRE firms mus…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "cutting-edge",
-        "snippet": "…s companies ensures access to cutting-edge tools and expertise. Strategi…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… helps in designing resilient infrastructure. Real Estate Data Analytics i…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/mastering-control-the-final-c-in-the-5c-framework/",
@@ -2980,37 +857,7 @@
     "title": "Mastering Control: The Final C in the 5C Plan | OpticWise",
     "descLen": 148,
     "canonical": "https://www.opticwise.com/insights/mastering-control-the-final-c-in-the-5c-framework/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…As Bill Douglas put it in the Peak Property Performance Podcast : “Set the limits, le…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…et value . Grab a copy of the Peak Property Performance book to explore the full 5C F…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… in detail . Subscribe to the Peak Property Performance Podcast on all major platform…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…Control into practice ? Get a PPP Audit to see where your property ca…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/monetize-like-amazon-analyze-like-google-and-avoid-tesla-s-data-missteps/",
@@ -3020,27 +867,9 @@
     "canonical": "https://www.opticwise.com/insights/monetize-like-amazon-analyze-like-google-and-avoid-tesla-s-data-missteps/",
     "issues": [
       {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…Sell anonymized usage data to ESG consultants or urban planning…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…from cloud computing and data infrastructure service s. Smart Building App…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
         "kind": "SEO_DESC_LONG",
         "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
         "len": 175
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
@@ -3050,43 +879,7 @@
     "title": "Network Compliance for Multi-Tenant CRE: A Guide | OpticWise",
     "descLen": 139,
     "canonical": "https://www.opticwise.com/insights/network-compliance-multi-tenant-commercial-properties/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…monitoring and documentation. Leveraging Technology for Compliance Man…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "… compliance requirements, and leverage technology to maintain networ…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…or security, regulations, and infrastructure management. March 27, 2025 · …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…urity measures that ensure IT infrastructure support in commercial propert…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…dustry standards. Ensuring it infrastructure support meets the needs of al…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…lligence solutions, robust IT infrastructure support, and proactive securi…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/network-resilience-smart-building-success/",
@@ -3094,38 +887,7 @@
     "title": "Network Resilience: The Smart Building Must-Have | OpticWise",
     "descLen": 137,
     "canonical": "https://www.opticwise.com/insights/network-resilience-smart-building-success/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ure. These intelligent spaces leverage interconnected technologies s…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… as the cornerstone of modern infrastructure. These intelligent spaces lev…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…cyber threats. A weak network infrastructure can be an entry point for hac…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…esilient digital (ie network) infrastructure. When a power surge affected …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…buildings can safeguard their infrastructure and provide a seamless experi…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/not-just-smart-strategic-buildings-built-for-better-tenancy/",
@@ -3135,39 +897,9 @@
     "canonical": "https://www.opticwise.com/insights/not-just-smart-strategic-buildings-built-for-better-tenancy/",
     "issues": [
       {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…energy efficiency and support ESG goals Enable better security …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…telligence is embedded in the infrastructure and strategy is coded into ev…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…22.2%—a clear sign that smart infrastructure isn’t just a passing phase; i…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ry fiber of the property—from infrastructure to interaction—these building…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
         "kind": "SEO_DESC_LONG",
         "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
         "len": 175
-      },
-      {
-        "kind": "SEO_MULTIPLE_H1",
-        "n": 2
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
@@ -3177,39 +909,7 @@
     "title": "Office Recovery Winners Will See Their Buildings | OpticWise",
     "descLen": 138,
     "canonical": "https://www.opticwise.com/insights/office-just-had-its-best-quarter-since-2018-the-winners-will-be-the-owners-who-c/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Property Brain",
-        "snippet": "…es. That is the layer we call Property Brain. Scale it across the portfoli…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Portfolio Brain",
-        "snippet": "… the portfolio and it becomes Portfolio Brain. The point is not to build a …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP 5C",
-        "snippet": "…mple sequence. We call it the PPP 5C plan at OpticWise, because ev…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… networks. No vendor parallel infrastructure. Collect. Normalize utilizati…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/operational-efficiency-is-the-new-alpha-in-commercial-real-estate/",
@@ -3219,89 +919,19 @@
     "canonical": "https://www.opticwise.com/insights/operational-efficiency-is-the-new-alpha-in-commercial-real-estate/",
     "issues": [
       {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…highlights that organizations leveraging data and automation see meani…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
         "kind": "SEO_DESC_LONG",
         "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
         "len": 175
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
   {
     "file": "insights/opticwise-building-intelligence-commercial-real-estate/",
     "isInsight": true,
-    "title": "OpticWise Building Intelligence and the Future of CRE | OpticWise",
+    "title": "OpticWise Building Intelligence and the Future of CRE",
     "descLen": 155,
     "canonical": "https://www.opticwise.com/insights/opticwise-building-intelligence-commercial-real-estate/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "… Building Intelligence, which leverages property data to optimize ope…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…asingly data-driven world. By leveraging cutting-edge technologies and…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "cutting-edge",
-        "snippet": "…a-driven world. By leveraging cutting-edge technologies and seamless int…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ontrol over the building’s IT infrastructure support , allowing them to an…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ms. With full control over IT infrastructure support, property owners can …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…n easily scale or upgrade the infrastructure to meet evolving technologica…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…nt disruptions to the current infrastructure. This level of control also e…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…nicate with the broader urban infrastructure, driving even greater efficie…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… architecture with smart city infrastructure, the CRE industry will jointl…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_TITLE_DUP_BRAND",
-        "title": "OpticWise Building Intelligence and the Future of CRE | OpticWise"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/organizational-pencils-why-agility-not-perfection-will-win-in-2026/",
@@ -3309,30 +939,7 @@
     "title": "Why Agility Will Beat Perfection in CRE in 2026 | OpticWise",
     "descLen": 140,
     "canonical": "https://www.opticwise.com/insights/organizational-pencils-why-agility-not-perfection-will-win-in-2026/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…ermanence is a liability. The PPP Audit shows you where your infrastr…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…e need better tools.” “Our IT infrastructure is broken.” They said: “We do…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…PP Audit shows you where your infrastructure blocks agility—and how to fix…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/own-the-digital-infrastructure-own-the-leverage/",
@@ -3342,80 +949,9 @@
     "canonical": "https://www.opticwise.com/insights/own-the-digital-infrastructure-own-the-leverage/",
     "issues": [
       {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…gital Infrastructure, Own the Leverage Why owning the pipes changes …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…own your pipes, they own your leverage. Digital infrastructure—netwo…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…gital infrastructure owns the leverage. Owner-controlled connectivit…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ntrolled stacks transfer that leverage to someone whose interests ar…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…own your pipes, they own your leverage. Digital infrastructure—netwo…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…gital infrastructure, own the leverage.” - Peak Property Performance…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…’d tell you to pound salt.” ( Proptech Real Estate Influencer Analys…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…ructure, own the leverage.” - Peak Property Performance The Amazon test Andrew Stanto…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…and David Aronson episodes of Peak Property Performance Podcast and see how owners tu…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "… asset. Let’s start with your PPP Audit. Contact us today . Your Next…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…es like software. Treat it as infrastructure, not a bolt-on amenity, and y…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ransparency + outcomes Owning infrastructure is step one; making it usable…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…dcast and see how owners turn infrastructure control into NOI. You can als…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
         "kind": "SEO_DESC_LONG",
         "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
         "len": 175
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
@@ -3427,37 +963,9 @@
     "canonical": "https://www.opticwise.com/insights/own-your-buildings-digital-infrastructure-or-be-owned-by-it/",
     "issues": [
       {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ures the revenue, and who has leverage when the next vendor relation…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ecosystem",
-        "snippet": "… fully connected, data-driven ecosystem. Yet, if you don’t own your d…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ecosystem",
-        "snippet": "…l control of their technology ecosystem. Whether you need stronger bu…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… at higher risk due to shared infrastructure vulnerabilities. 4. Build a S…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
         "kind": "SEO_TITLE_LONG",
         "title": "Own Your Building&#x27;s Digital Infrastructure — or Be Owned | OpticWise",
         "len": 73
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
@@ -3469,25 +977,9 @@
     "canonical": "https://www.opticwise.com/insights/owners-are-overwhelmednot-under-informed/",
     "issues": [
       {
-        "kind": "BARE_INFRA",
-        "snippet": "…simplify. They define a clear infrastructure strategy, align decisions to …"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
         "kind": "SEO_TITLE_LONG",
         "title": "CRE Owners Aren&#x27;t Under-Informed — They&#x27;re Overwhelmed | OpticWise",
         "len": 76
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
@@ -3497,61 +989,15 @@
     "title": "What CRE Gets Wrong About Tenant Experience | OpticWise",
     "descLen": 149,
     "canonical": "https://www.opticwise.com/insights/part-2-what-cre-gets-wrong-about-tenant-experience-hint-it-s-not-a-smart/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… one that directly influences ESG performance, AI readiness, te…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…e. Great UX begins with great infrastructure. Let’s build that first. Your…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/part-3-digital-infrastructure-ai-operational-excellence-and-higher-asset-value/",
     "isInsight": true,
-    "title": "Digital Infrastructure + AI = Operational Excellence in CRE | OpticWise",
+    "title": "Digital Infrastructure + AI = Operational Excellence in CRE",
     "descLen": 150,
     "canonical": "https://www.opticwise.com/insights/part-3-digital-infrastructure-ai-operational-excellence-and-higher-asset-value/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…Wise leads with strategy: Our PPP Audit shows you what you own, where…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…rts with software and ignores infrastructure, you’ll waste time and money.…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "Digital Infrastructure + AI = Operational Excellence in CRE | OpticWise",
-        "len": 71
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/part-3-esg-illusion-why-ai-dashboards-alone-won-t-deliver-sustainable-results/",
@@ -3559,107 +1005,15 @@
     "title": "Why AI Dashboards Alone Won&#x27;t Deliver ESG Results | OpticWise",
     "descLen": 142,
     "canonical": "https://www.opticwise.com/insights/part-3-esg-illusion-why-ai-dashboards-alone-won-t-deliver-sustainable-results/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…nsights AI Readiness Part 3 : ESG Illusion: Why AI Dashboards A…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… the illusion of action. Real ESG performance requires owner-co…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… one that directly influences ESG performance, AI readiness, te…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…e, and long-term asset value. ESG goals are everywhere in comme…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…olled digital infrastructure, ESG becomes window dressing. The …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…vendor-locked. And that makes ESG reporting reactive at best—an…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…d greenwashing at worst. Real ESG Performance Demands Real-Time…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… a plug-and-play solution for ESG. But AI doesn’t work in the d…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…igital Infrastructure Enables ESG Automation When you own and t…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…s in real-time Export data to ESG platforms for verification an…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…You’re automating. That’s how ESG becomes a system, not a sprea…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… a spreadsheet. Final Thought ESG success isn’t about complianc…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/part-4-ai-adoption-without-strategy-is-waste-digital-infrastructure-makes-it-wor/",
     "isInsight": true,
-    "title": "AI Without Strategy Is Waste — Infrastructure Makes It Work | OpticWise",
+    "title": "AI Without Strategy Is Waste — Infrastructure Makes It Work",
     "descLen": 137,
     "canonical": "https://www.opticwise.com/insights/part-4-ai-adoption-without-strategy-is-waste-digital-infrastructure-makes-it-wor/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…. AI isn’t the strategy. Your infrastructure is. Digital infrastructure tu…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "AI Without Strategy Is Waste — Infrastructure Makes It Work | OpticWise",
-        "len": 71
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/part-4-the-coming-regulation-wave-why-cre-must-prepare-for-ethical-ai-now/",
@@ -3667,26 +1021,7 @@
     "title": "Ethical AI in CRE: Get Ahead of the Regulation Wave | OpticWise",
     "descLen": 131,
     "canonical": "https://www.opticwise.com/insights/part-4-the-coming-regulation-wave-why-cre-must-prepare-for-ethical-ai-now/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… one that directly influences ESG performance, AI readiness, te…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…e decisions, owner-controlled infrastructure — now will avoid costly retro…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/part-5-cre-s-digital-divide-why-infrastructure-ownership-determines-ai/",
@@ -3694,60 +1029,7 @@
     "title": "AI Readiness Starts With Owning Your Infrastructure | OpticWise",
     "descLen": 160,
     "canonical": "https://www.opticwise.com/insights/part-5-cre-s-digital-divide-why-infrastructure-ownership-determines-ai/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…dependent intelligence and no leverage. Infrastructure ownership is …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… one that directly influences ESG performance, AI readiness, te…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ne else ⚠️ Missed NOI, missed ESG goals, missed tenant retentio…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…lready in the building. So is ESG pressure—from investors, regu…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ucture readiness. There is no ESG compliance without data you c…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…e to act is now. Start with a Peak Property Performance (PPP) Audit from OpticWise . …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…nding it to the ISP Running a PPP Audit to map what they own, what th…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…You don’t need to worry about infrastructure—just buy our thing.\" But when…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…here the value leaks Building infrastructure that will adapt to tech shift…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/part-5-digital-infrastructure-as-the-strategic-foundation-for-ai-driven-esg-and/",
@@ -3755,82 +1037,7 @@
     "title": "Digital Infrastructure: Foundation for AI-Driven CRE Goals | OpticWise",
     "descLen": 150,
     "canonical": "https://www.opticwise.com/insights/part-5-digital-infrastructure-as-the-strategic-foundation-for-ai-driven-esg-and/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…egic Foundation for AI-Driven ESG and Sustainability Goals Febr…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…title: If you want to achieve ESG outcomes, start with digital …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…iver both data and decisions. ESG goals are everywhere in CRE r…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…eing pitched as the answer to ESG reporting and real-time optim…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…nything to work with. To meet ESG goals, you need: Sensor-rich,…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…Digital Infrastructure Powers ESG Automation With a Building of…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…rts to staff Export real-time ESG data to reporting platforms T…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…wning the network. AI-Ready = ESG-Ready OpticWise helps CRE own…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ter tenant wellbeing Verified ESG reporting We don’t sell you d…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… Digital infrastructure turns ESG from a goal into an outcome. …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… foundation. Owner-controlled infrastructure is the strategic enabler — no…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…cWise helps CRE owners design infrastructure that supports: Lower emission…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… cycle, it’s time to own your infrastructure. Your Next Step Complimentary…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/proactive-cybersecurity-smart-building-tech-keeps-tenants-safe/",
@@ -3838,41 +1045,7 @@
     "title": "Proactive Cybersecurity for Smart CRE Buildings | OpticWise",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/insights/proactive-cybersecurity-smart-building-tech-keeps-tenants-safe/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…t's an urgent requirement for Proptech and Smart Buildings. As smart…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…nd building operators rely on proptech and smart building technologi…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…T® (Building of Things®), and proptech demand solutions that don’t j…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…art building technologies and PropTech providers. 5S® User Bubble Le…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…SIC® (security, connectivity, infrastructure) architected digital infrastr…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/reframing-cre-strategy-stop-playing-to-win-start-building-to-endure/",
@@ -3880,35 +1053,7 @@
     "title": "Reframing CRE Strategy: Build to Endure, Not Just Win | OpticWise",
     "descLen": 147,
     "canonical": "https://www.opticwise.com/insights/reframing-cre-strategy-stop-playing-to-win-start-building-to-endure/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… best-selling playbook today, Peak Property Performance Your Next Step Complimentary …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…ild it together. Start with a PPP Audit . Reclaim the rules of the ga…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…le, owner-controlled data and infrastructure that compound across cycles. …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ons. Future-proofing requires infrastructure that supports long-term resil…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/resolute-building-intelligence-commercial-real-estate-management/",
@@ -3916,44 +1061,7 @@
     "title": "How Building Intelligence Transforms CRE Management | OpticWise",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/insights/resolute-building-intelligence-commercial-real-estate-management/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…nd managers' ability to fully leverage insights for operational impr…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…rward, property operators who leverage AI-powered insights will main…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "cutting-edge",
-        "snippet": "…on, equipping properties with cutting-edge technology to enhance efficie…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…milarly, reliance on external infrastructure solutions can result in highe…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ale operations , adapting the infrastructure based on changing business ne…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ing traffic flow, zoning, and infrastructure. Personalized Tenant Experien…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/smart-access-workspace-optimization-modern-space-as-a-service/",
@@ -3961,31 +1069,7 @@
     "title": "Smart Access for Space-as-a-Service Workplaces | OpticWise",
     "descLen": 142,
     "canonical": "https://www.opticwise.com/insights/smart-access-workspace-optimization-modern-space-as-a-service/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…other workspace providers are leveraging smart access solutions and wo…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…nd IoT Workspace optimization leverages the Internet of Things (IoT) …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ion layer on owner-controlled infrastructure. Vendor-locked SaaS access tu…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/smart-building-technology-enhances-tenant-experience/",
@@ -3993,36 +1077,7 @@
     "title": "5 Ways Smart Building Tech Enhances Tenant Experience | OpticWise",
     "descLen": 142,
     "canonical": "https://www.opticwise.com/insights/smart-building-technology-enhances-tenant-experience/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "… of the past. Smart buildings leverage advanced security systems to …"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ty Energy efficient buildings leverage technology to reduce their ca…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "cutting-edge",
-        "snippet": "… solutions ? OpticWise offers cutting-edge technology designed to optimi…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ent — provided the underlying infrastructure is owner-controlled, not rent…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/smart-security-future-access-control-protection/",
@@ -4030,25 +1085,7 @@
     "title": "Smart Security: Access Control&#x27;s Future in CRE | OpticWise",
     "descLen": 147,
     "canonical": "https://www.opticwise.com/insights/smart-security-future-access-control-protection/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…r as part of owner-controlled infrastructure from the start. Today, more t…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…an work alongside existing IT infrastructure and building intelligence sys…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/soaring-above-rest-opticwise-cre-thrive-flight-quality-era/",
@@ -4056,36 +1093,7 @@
     "title": "Flight to Quality: Win With Owner-Controlled CRE | OpticWise",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/insights/soaring-above-rest-opticwise-cre-thrive-flight-quality-era/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "cutting-edge",
-        "snippet": "…e health, sustainability, and cutting-edge technology. Simply put, build…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "cutting-edge",
-        "snippet": "…ticWise equips buildings with cutting-edge technologies that make operat…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ality real estate with strong ESG (Environmental, Social, and G…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ty era with advanced data and infrastructure solutions. April 1, 2025 · 3 …"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-800k-conversation-developers-keep-missing/",
@@ -4093,26 +1101,7 @@
     "title": "The $800K Conversation CRE Developers Keep Missing | OpticWise",
     "descLen": 158,
     "canonical": "https://www.opticwise.com/insights/the-800k-conversation-developers-keep-missing/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…n Redundant Networks? Get the Peak Property Performance Playbook by Bill Douglas, CEO…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…curring NOI. Owner-controlled infrastructure unlocks it; vendor-controlled…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat/",
@@ -4122,23 +1111,9 @@
     "canonical": "https://www.opticwise.com/insights/the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat/",
     "issues": [
       {
-        "kind": "BANNED",
-        "word": "REIT",
-        "snippet": "…n with executives at Primaris REIT and MIH Advisors carried the …"
-      },
-      {
         "kind": "SEO_DESC_LONG",
         "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
         "len": 175
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
@@ -4148,26 +1123,7 @@
     "title": "Why CRE Needs a Digital Architect — Not More Vendors | OpticWise",
     "descLen": 144,
     "canonical": "https://www.opticwise.com/insights/the-case-for-a-digital-architect-why-cre-property-managers-are-drowning-in/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…exity and weakens the owner's leverage. Digital is now the backbone …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…lock-in Clarify who owns your infrastructure—and who should. If your digit…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-cost-of-doing-nothing-what-you-lose-by-letting-the-isp-build-your-network/",
@@ -4175,46 +1131,7 @@
     "title": "Letting Your ISP Build Your Network? Here&#x27;s the Cost | OpticWise",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/insights/the-cost-of-doing-nothing-what-you-lose-by-letting-the-isp-build-your-network/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…mited integration, and weaker leverage on every future technology de…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ture-proof your property Gain leverage with every tech vendor And mo…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…start every engagement with a Peak Property Performance (PPP) Audit. It clarifies wha…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…ive away control. OpticWise’s Peak Property Performance Audit helps you uncover what …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…hing at all. 👉 Schedule Your PPP Audit Today Don’t guess. Don’t give…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…Because if you don’t own your infrastructure, your vendors already do. You…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-genai-divide-what-cre-leaders-must-know-before-falling-behind/",
@@ -4222,36 +1139,7 @@
     "title": "The GenAI Divide: What CRE Leaders Must Know Now | OpticWise",
     "descLen": 144,
     "canonical": "https://www.opticwise.com/insights/the-genai-divide-what-cre-leaders-must-know-before-falling-behind/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…NOI, tenant satisfaction, and ESG outcomes if deployed strategi…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…wners Must Do Today Conduct a PPP Audit: What do you own? What’s leak…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…office portfolio ? Start your PPP Audit her e . Your Next Step Compli…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…Siloed data Vendor-controlled infrastructure These are the exact condition…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-hidden-cost-killing-your-noi-and-you-dont-see-it/",
@@ -4259,28 +1147,7 @@
     "title": "The Hidden Cost Quietly Killing CRE NOI | OpticWise",
     "descLen": 146,
     "canonical": "https://www.opticwise.com/insights/the-hidden-cost-killing-your-noi-and-you-dont-see-it/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…il it does. Vendor-controlled infrastructure quietly drains NOI through le…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ptimization. Owner-controlled infrastructure is what makes the cost visibl…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-hidden-cost-of-vendor-sprawl-and-what-to-do-about-it/",
@@ -4288,42 +1155,7 @@
     "title": "The Hidden Cost of CRE Vendor Sprawl — and the Fix | OpticWise",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/insights/the-hidden-cost-of-vendor-sprawl-and-what-to-do-about-it/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…exity and weakens the owner's leverage. The fix is a single owner-ma…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…g down NOI. “True operational leverage comes not from adding more sy…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…nsolidation strategy based on Peak Property Performance frameworks: Vendor count drop…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…r Operations Get your copy of Peak Property Performance for playbooks on consolidatin…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…Your Hidden Cost Start with a PPP Audit . Let us show you: Where over…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-hidden-roi-of-digital-infrastructure-ownership-in-commercial-real-estate/",
@@ -4331,38 +1163,7 @@
     "title": "The Hidden ROI of Owning Your CRE Digital Infrastructure | OpticWise",
     "descLen": 142,
     "canonical": "https://www.opticwise.com/insights/the-hidden-roi-of-digital-infrastructure-ownership-in-commercial-real-estate/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…nectivity or managed services Leveraging smart building systems to opt…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…erty owners outsource network infrastructure to third-party providers, the…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…d, landlords can : Capitalize infrastructure investments as CapEx, improvi…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…wners who invest in their own infrastructure can directly benefit from the…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_MULTIPLE_H1",
-        "n": 2
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-hidden-tech-debt-you-won-t-catch-in-the-code/",
@@ -4370,43 +1171,7 @@
     "title": "The Hidden Tech Debt CRE Owners Don&#x27;t See | OpticWise",
     "descLen": 158,
     "canonical": "https://www.opticwise.com/insights/the-hidden-tech-debt-you-won-t-catch-in-the-code/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…ing data streams. In the book Peak Property Performance , we call this the “signal-no…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…rty stacks up? Ask us about a PPP Audit. t. Your Next Step Compliment…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…en costs buried in fragmented infrastructure and vendor-controlled systems…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…or messy realities. Establish infrastructure champions. Build diagnostic f…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…t who controls the underlying infrastructure and who they call when system…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…etween an internal bug and an infrastructure problem? The faster you isola…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-most-valuable-asset-in-cre-isnt-the-buildingits-the-data/",
@@ -4414,28 +1179,7 @@
     "title": "The Most Valuable CRE Asset Isn&#x27;t the Building | OpticWise",
     "descLen": 155,
     "canonical": "https://www.opticwise.com/insights/the-most-valuable-asset-in-cre-isnt-the-buildingits-the-data/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…al data, behavioral data, and infrastructure data — at scale. But unlike o…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ross the portfolio, and build infrastructure that captures and organizes d…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-operator-s-guide-to-autonomous-buildings/",
@@ -4443,36 +1187,7 @@
     "title": "The CRE Operator&#x27;s Guide to Autonomous Buildings | OpticWise",
     "descLen": 163,
     "canonical": "https://www.opticwise.com/insights/the-operator-s-guide-to-autonomous-buildings/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…—it’s an operator’s dream.” — Peak Property Performance What “Autonomous” Really Mean…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…ek 1 Step 1: Get your copy of Peak Property Performance —your real-world guide to cut…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…gs Step 2 : Request your free PPP Audit and get a personalized scorec…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ly downtime. That’s why smart infrastructure isn't about adding “tech.” It…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-post-pandemic-office-isn-t-smaller-it-s-smarter/",
@@ -4480,72 +1195,7 @@
     "title": "Post-Pandemic Office: Not Smaller — Smarter | OpticWise",
     "descLen": 155,
     "canonical": "https://www.opticwise.com/insights/the-post-pandemic-office-isn-t-smaller-it-s-smarter/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…abled real-time reporting for ESG and usage metrics The outcome…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ldings become self-improving. ESG, AI, and the Rise of the Data…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ay’s office tenant is also an ESG-conscious user. Energy, air q…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… Your asset must be AI-ready, ESG-compliant, and tenant-centere…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Building of Things",
-        "snippet": "…liver the opposite. Our BoT® (Building of Things) platform, ElasticISP® manage…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…lding facing vacancy used our PPP Audit to assess infrastructure gaps…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…office portfolio? S tart your PPP Audit here . Your Next Step Complim…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… Framework transform outdated infrastructure into a responsive intelligenc…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… used our PPP Audit to assess infrastructure gaps. The results: Eliminated…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…s is the power of intelligent infrastructure. When every system talks, and…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… AI is not the starting point—infrastructure is. Without structured, high-…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…rformance connectivity. Build infrastructure that learns and improves. Tha…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-realpage-settlements-are-not-the-story-the-story-is-who-makes-your-decisions/",
@@ -4553,17 +1203,7 @@
     "title": "RealPage Settlements: Who Makes Your CRE Decisions? | OpticWise",
     "descLen": 150,
     "canonical": "https://www.opticwise.com/insights/the-realpage-settlements-are-not-the-story-the-story-is-who-makes-your-decisions/",
-    "issues": [
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-shadow-ai-problem-is-already-in-your-buildings/",
@@ -4571,44 +1211,7 @@
     "title": "The Shadow AI Problem Is Already in Your CRE Buildings | OpticWise",
     "descLen": 146,
     "canonical": "https://www.opticwise.com/insights/the-shadow-ai-problem-is-already-in-your-buildings/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…ents will stay smaller. Their leverage with every vendor will be hig…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "REIT",
-        "snippet": "…filed for a $100M Data Center REIT IPO to house that demand. Ant…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "REIT",
-        "snippet": "…iling a dedicated data center REIT says out loud what the privat…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP 5C",
-        "snippet": "…. At OpticWise we call it the PPP 5C plan. It works because it get…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… fix is owner-controlled data infrastructure, not banning vendor AI. Every…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-winners-in-cre-will-own-the-stacknot-just-the-asset/",
@@ -4616,20 +1219,7 @@
     "title": "Winners in CRE Will Own the Stack — Not the Asset | OpticWise",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/insights/the-winners-in-cre-will-own-the-stacknot-just-the-asset/",
-    "issues": [
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/transforming-spaces-smart-building-technology/",
@@ -4637,21 +1227,7 @@
     "title": "Transforming CRE Spaces With Smart Building Tech | OpticWise",
     "descLen": 146,
     "canonical": "https://www.opticwise.com/insights/transforming-spaces-smart-building-technology/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…tion runs on owner-controlled infrastructure. Otherwise, the smart feature…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/transitioning-to-digital-first-commercial-real-estate-portfolio-owners/",
@@ -4659,26 +1235,7 @@
     "title": "A Digital-First Path for CRE Portfolio Owners | OpticWise",
     "descLen": 140,
     "canonical": "https://www.opticwise.com/insights/transitioning-to-digital-first-commercial-real-estate-portfolio-owners/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…nce. This innovative approach leverages property operations data to s…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…cant investment in technology infrastructure, training, and change managem…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/trust-at-first-sight-data-dictionaries-refresh-stamps-and-adoption/",
@@ -4686,32 +1243,7 @@
     "title": "Building Trustworthy CRE Data: Dictionaries &amp; Stamps | OpticWise",
     "descLen": 139,
     "canonical": "https://www.opticwise.com/insights/trust-at-first-sight-data-dictionaries-refresh-stamps-and-adoption/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… clarity compounds faster.” - Peak Property Performance : Show your work—simply Shea …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…a Fallick and Amanda Betts on Peak Property Performance to see how transparency accel…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…asset . Let’s start with your PPP Audit. Contact us today . Your Next…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/tthe-hidden-cap-rate-enhancer-no-one-talks-about/",
@@ -4719,45 +1251,7 @@
     "title": "The Hidden Cap Rate Enhancer in CRE No One Names | OpticWise",
     "descLen": 151,
     "canonical": "https://www.opticwise.com/insights/tthe-hidden-cap-rate-enhancer-no-one-talks-about/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…asingly come from operational leverage—not just rent.” — Peak Proper…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…al leverage—not just rent.” — Peak Property Performance The Investor Blind Spot: Outd…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…r empowered? Get your copy of Peak Property Performance - a strategic guide on how di…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "… your CRE portfolio. Get your PPP Audit today Your Next Step Complime…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…at directly impacts cap rate: infrastructure intelligence. “Valuation gain…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…cost reduction potential when infrastructure systems are integrated and au…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/what-ai-is-doing-to-apartment-demand-and-how-buildings-must-respond/",
@@ -4765,63 +1259,7 @@
     "title": "How AI Is Reshaping Apartment Demand — and Buildings | OpticWise",
     "descLen": 151,
     "canonical": "https://www.opticwise.com/insights/what-ai-is-doing-to-apartment-demand-and-how-buildings-must-respond/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…fficient capital planning. 4. ESG & AI-Readiness as Competitive…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ivacy Policy), integrate with ESG frameworks, and generate stru…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "… information ready for AI and ESG reporting. The Future: AI Wil…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…ses, recently implemented our PPP Audit and ElasticISP® offering. Wit…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…back control: 1. Start with a PPP Audit Map what you own, what you co…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "… asset. Let’s start with your PPP Audit. Contact us today . Your Next…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…d operate on owner-controlled infrastructure that adapts as AI search keep…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… gadgets. It’s about aligning infrastructure with tenant expectations and …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…nue-share deals that: Prevent infrastructure upgrades Collect tenant data …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…e owner If you don’t own your infrastructure, your vendors do. And that me…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/what-is-digital-infrastructure-commercial-real-estate/",
@@ -4829,91 +1267,15 @@
     "title": "What Is Digital Infrastructure in Commercial Real Estate? | OpticWise",
     "descLen": 148,
     "canonical": "https://www.opticwise.com/insights/what-is-digital-infrastructure-commercial-real-estate/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…a fundamental revolution that leverages technology to enhance propert…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "leverage",
-        "snippet": "…al real estate innovation. It leverages comprehensive property data t…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/what-s-your-smart-building-strategy-or-are-you-guessing/",
     "isInsight": true,
-    "title": "Do You Have a Smart Building Strategy — or Are You Guessing? | OpticWise",
+    "title": "Do You Have a Smart Building Strategy — or Are You Guessing?",
     "descLen": 158,
     "canonical": "https://www.opticwise.com/insights/what-s-your-smart-building-strategy-or-are-you-guessing/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…t. The Real Stakes: NOI Loss, ESG Failure, and Competitive Deca…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…eats Streamlined vendor stack ESG performance tracking baked in…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…ructure strategy unlocks NOI, ESG compliance, and long-term ass…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…et class within the asset.” — Peak Property Performance A building is no longer just …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…, and long-term asset value.. Peak Property Performance is also available in Ebook (K…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…X by 10–15%. In short, modern infrastructure strategy drives value. The ab…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…embedding intelligence. Smart infrastructure = Resilience against cyber th…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…s their portfolios. Learn how infrastructure strategy unlocks NOI, ESG com…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "Do You Have a Smart Building Strategy — or Are You Guessing? | OpticWise",
-        "len": 72
-      },
-      {
-        "kind": "SEO_MULTIPLE_H1",
-        "n": 2
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/what-starbucks-taught-us-about-smart-property-ops/",
@@ -4923,37 +1285,9 @@
     "canonical": "https://www.opticwise.com/insights/what-starbucks-taught-us-about-smart-property-ops/",
     "issues": [
       {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… access to real-time data.” — Peak Property Performance Operational Precision Isn’t J…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…nce the difference. → Get the Peak Property Performance Boo k and take ready-to-deplo…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…rate like it’s 2030. → Book a PPP Audit with OpticWise and experience…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…dvantage Smart ops start with infrastructure—because you can’t automate wh…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
         "kind": "SEO_DESC_LONG",
         "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
         "len": 175
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
@@ -4963,44 +1297,7 @@
     "title": "What Beach Volleyball Teaches About CRE Strategy | OpticWise",
     "descLen": 136,
     "canonical": "https://www.opticwise.com/insights/what-swedish-beach-volleyball-can-teach-you-about-cre-strategy/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…toward what’s next. Ready for Peak Property Performance ? If your portfolio feels dis…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…change that. Get your copy of Peak Property Performance —the playbook CRE leaders are…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…e rest of the way—with a full PPP Audit and your custom Digital Asset…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…in Stack: Vendors control key infrastructure Data is scattered, incomplete…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…CRE leaders are using to turn infrastructure into intelligence. 👉 Schedul…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_MULTIPLE_H1",
-        "n": 2
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/when-the-scorekeeper-works-for-the-vendor-who-is-looking-out-for-you/",
@@ -5008,47 +1305,7 @@
     "title": "When the Scorekeeper Works for the Vendor in CRE | OpticWise",
     "descLen": 141,
     "canonical": "https://www.opticwise.com/insights/when-the-scorekeeper-works-for-the-vendor-who-is-looking-out-for-you/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "ecosystem",
-        "snippet": "…tly — the walls of the vendor ecosystem get higher. At some point, an…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "ecosystem",
-        "snippet": "…service platforms. The vendor ecosystem is deepening — and owners who…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…ntrol, not closer. The global PropTech market is projected to reach …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ps, and global reach with our infrastructure gives us the platform to scal…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… WiredScore’s standards. “Our infrastructure”. Scale. For years, WiredScor…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ct. Another company with more infrastructure acquires it. The combined ent…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/who-s-making-480k-year-off-your-tenants-hint-it-s-not-you/",
@@ -5056,30 +1313,7 @@
     "title": "Who&#x27;s Making $480K/Year Off Your CRE Tenants? | OpticWise",
     "descLen": 146,
     "canonical": "https://www.opticwise.com/insights/who-s-making-480k-year-off-your-tenants-hint-it-s-not-you/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…ture is really worth. Get the Peak Property Performance Playbook, written by Bill Dou…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…gital asset. When you own the infrastructure, you: Own the tenant relation…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…—and start earning what their infrastructure is really worth. Get the Peak…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/why-98-of-property-owners-are-leaving-money-on-the-table/",
@@ -5087,33 +1321,7 @@
     "title": "Why 98% of CRE Owners Leave Money on the Table | OpticWise",
     "descLen": 153,
     "canonical": "https://www.opticwise.com/insights/why-98-of-property-owners-are-leaving-money-on-the-table/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…he table because they treated infrastructure as a cost line instead of a p…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…nored factor: under-optimized infrastructure. The Three Silent Killers of …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…t connected through a unified infrastructure, you lose the network effect—…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…nth without performance-grade infrastructure is another month your asset i…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/why-asset-managers-are-flying-blind-and-dont-even-know-it/",
@@ -5121,40 +1329,7 @@
     "title": "Why CRE Asset Managers Are Flying Blind | OpticWise",
     "descLen": 133,
     "canonical": "https://www.opticwise.com/insights/why-asset-managers-are-flying-blind-and-dont-even-know-it/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Property Brain",
-        "snippet": "… The Root Cause: There Is No “Property Brain” It’s not just integration. I…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Property Brain",
-        "snippet": "…brain. What Happens Without a Property Brain When each building operates a…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Property Brain",
-        "snippet": "…perty-Level Intelligence (the Property Brain): at each building, a single …"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Portfolio Brain",
-        "snippet": "…folio-Level Intelligence (the Portfolio Brain): once property data is stand…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/why-cre-tech-is-shifting-from-point-solutions-to-platforms-and-what-to-do-about/",
@@ -5162,28 +1337,7 @@
     "title": "CRE Tech Is Shifting to Platforms — Here&#x27;s What to Do | OpticWise",
     "descLen": 132,
     "canonical": "https://www.opticwise.com/insights/why-cre-tech-is-shifting-from-point-solutions-to-platforms-and-what-to-do-about/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ion, and building cloud-based infrastructure that supports integrated work…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…at portfolio scale, it is not infrastructure. Why This Shift Is Happening …"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/why-power-and-not-just-square-footage-is-the-future-of-smart-buildings/",
@@ -5191,43 +1345,7 @@
     "title": "Power, Not Square Footage: Future of Smart Buildings | OpticWise",
     "descLen": 146,
     "canonical": "https://www.opticwise.com/insights/why-power-and-not-just-square-footage-is-the-future-of-smart-buildings/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…velopers, asset managers, and proptech leaders. From intelligent net…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…bottom line. Get Your Copy of Peak Property Performance Unlock the blueprint for maxi…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…t just want space—they demand infrastructure. The New Anchor: Power and Co…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ask, “Where’s the lobby?” But infrastructure teams are asking, “Where’s th…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…o compete in the age of smart infrastructure, real estate developers must …"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…value, energy efficiency, and infrastructure ROI in modern commercial real…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/why-redundant-networks-are-silent-killers/",
@@ -5235,17 +1353,7 @@
     "title": "Why Redundant Networks Are CRE&#x27;s Silent Killers | OpticWise",
     "descLen": 152,
     "canonical": "https://www.opticwise.com/insights/why-redundant-networks-are-silent-killers/",
-    "issues": [
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/wi-fi-is-not-a-utility-it-s-an-investment-signal/",
@@ -5255,58 +1363,9 @@
     "canonical": "https://www.opticwise.com/insights/wi-fi-is-not-a-utility-it-s-an-investment-signal/",
     "issues": [
       {
-        "kind": "BANNED",
-        "word": "ESG",
-        "snippet": "…tor in lender risk assessment ESG disclosures require building-…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "… 6-cap from a 5-cap asset.” — Peak Property Performance Why Digital Infrastructure No…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…gly. Step 1: Get your copy of Peak Property Performance —the essential guide to under…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "PPP Audit",
-        "snippet": "…ule your infrastructure-level PPP Audit before you underwrite your ne…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…tion differentiator . “Modern infrastructure is the invisible layer that s…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…utional investors now include infrastructure-readiness in diligence report…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…was engaged to layer in smart infrastructure: Energy spend dropped 19% Net…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…de to understanding how smart infrastructure turns operational control int…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "… value. Step 2: Schedule your infrastructure-level PPP Audit before you un…"
-      },
-      {
-        "kind": "MISSING_REFRAMING"
-      },
-      {
         "kind": "SEO_TITLE_LONG",
         "title": "Wi-Fi Isn&#x27;t a Utility — It&#x27;s an Investment Signal | OpticWise",
         "len": 71
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
       }
     ]
   },
@@ -5316,17 +1375,7 @@
     "title": "Your PMS Has an API — But Is It a Data Strategy? | OpticWise",
     "descLen": 140,
     "canonical": "https://www.opticwise.com/insights/your-pms-has-an-api-thats-not-the-same-as-a-data-strategy/",
-    "issues": [
-      {
-        "kind": "SEO_ARTICLE_NULL_DESC"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_AUTHOR"
-      },
-      {
-        "kind": "SEO_ARTICLE_NO_MEOP"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "own-vs-lease-cre-building-data/",
@@ -5345,14 +1394,10 @@
   {
     "file": "portfolio-brain/",
     "isInsight": false,
-    "title": "Portfolio Brain™ | OpticWise | OpticWise",
+    "title": "Portfolio Brain™ | OpticWise",
     "descLen": 175,
     "canonical": "https://www.opticwise.com/portfolio-brain/",
     "issues": [
-      {
-        "kind": "SEO_TITLE_DUP_BRAND",
-        "title": "Portfolio Brain™ | OpticWise | OpticWise"
-      },
       {
         "kind": "SEO_DESC_LONG",
         "desc": "Portfolio Brain™ — owner-controlled intelligence at portfolio scale. Cross-asset visibility, compounding analytics, and the operating data behind asset manager accountability.",
