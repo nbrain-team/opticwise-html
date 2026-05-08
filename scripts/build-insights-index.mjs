@@ -355,6 +355,7 @@ function main() {
     excerpt: p.excerpt,
     category: p.category,
     date: p.date,
+    image: p.image,
     body: p.body,
   }));
   writeFileSync(INDEX_JSON, JSON.stringify(indexEntries) + '\n', 'utf8');
