@@ -191,9 +191,26 @@ function auditPage(file) {
 
   if (!skipBrandAll) {
     // ---- BrandScript checks (body text only, not <head>) ----
+    // Allow PropTech inside third-party publication/award names (proper nouns).
+    // These are locked, trademarked third-party labels and per Phase 1A audit P2
+    // they are acceptable. Pattern: PropTech followed by Outlook | Visionary |
+    // Solutions Company | Magazine | Awards.
+    const PROPTECH_THIRD_PARTY = /PropTech\s+(Outlook|Visionary|Solutions Company|Magazine|Awards|Today)/gi;
+    const propTechAllowedSpans = [];
+    let pm;
+    PROPTECH_THIRD_PARTY.lastIndex = 0;
+    while ((pm = PROPTECH_THIRD_PARTY.exec(text))) {
+      propTechAllowedSpans.push([pm.index, pm.index + pm[0].length]);
+    }
+    const inAllowed = (idx) =>
+      propTechAllowedSpans.some(([a, b]) => idx >= a && idx < b);
+
     for (const { name, re } of BANNED) {
       const m = findAll(text, new RegExp(re.source, re.flags));
-      for (const o of m) issues.push({ kind: "BANNED", word: name, snippet: snippetAround(text, o.index, o.match.length) });
+      for (const o of m) {
+        if (name === "PropTech" && inAllowed(o.index)) continue;
+        issues.push({ kind: "BANNED", word: name, snippet: snippetAround(text, o.index, o.match.length) });
+      }
     }
     for (const { name, re } of MARKS) {
       const m = findAll(text, new RegExp(re.source, re.flags));
