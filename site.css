@@ -133,3 +133,21 @@ nav .nav__dropdown-trigger:focus-visible {
   outline-offset: 2px;
   border-radius: 4px;
 }
+
+/* /contact form section — anchor target offset + suppress widget's internal
+ * header so the section's own eyebrow/heading/sub aren't duplicated.
+ *
+ * The "Send a Message" anchors on /contact (Hero CTA, CardGrid Card 1, bottom
+ * CTA) all point to #contact-form. The fixed top nav is ~4–5rem tall; the
+ * scroll-margin keeps the section heading from being hidden under it.
+ *
+ * The form widget (forms-embed.js) renders its own .ow-fe-header with copy
+ * pulled from the OWNet schema. On /contact the surrounding section already
+ * provides on-brand copy ("Send a Message" / "Tell Us What You're Working
+ * On." / instructions), so we hide the widget header to avoid the double. */
+#contact-form {
+  scroll-margin-top: 5rem;
+}
+#contact-form .ow-fe-header {
+  display: none;
+}
