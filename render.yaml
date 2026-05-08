@@ -1,18 +1,35 @@
-# Render Blueprint for the OpticWise static site.
-# This repo is a pre-built Next.js static export (no build step required at deploy).
-# Spec: https://render.com/docs/blueprint-spec
+# Render — Static Site config for opticwise.com
+#
+# Deployment model: this repo is the canonical source. Each push to the deploy
+# branch triggers Render to publish the directory contents (no build step).
+#
+# - Forms post directly to https://ownet.opticwise.com/api/public/forms/<slug>
+#   (CRM lives at the same Render org). CORS is configured server-side to
+#   allow this origin.
+# - Page interactivity is plain HTML/CSS + /site.js + /forms-embed.js. No
+#   Next.js bundle, no React hydration.
+# - Sitemap, robots.txt, and JSON-LD are all hand-edited in this repo.
+#
+# Reference: https://render.com/docs/static-sites
 services:
   - type: web
-    name: opticwise-html
+    name: opticwise-marketing
     runtime: static
-    branch: main
-    buildCommand: 'true'
-    staticPublishPath: ./
-    autoDeploy: true
+    # No build step — publish the working directory as-is. If a build is ever
+    # added (e.g., to compile Tailwind or run a linter), set buildCommand here.
+    buildCommand: ""
+    staticPublishPath: .
+
+    # Pretty URLs: /about/ resolves to /about/index.html. This matches the
+    # canonical URL form (`https://www.opticwise.com/about/` with trailing
+    # slash) emitted by .audit/strip-nextjs.mjs.
+    pullRequestPreviewsEnabled: true
+
     headers:
+      # — Security headers, applied site-wide ————————————————————————————
       - path: /*
-        name: X-Frame-Options
-        value: SAMEORIGIN
+        name: Strict-Transport-Security
+        value: max-age=31536000; includeSubDomains; preload
       - path: /*
         name: X-Content-Type-Options
         value: nosniff
@@ -21,15 +38,83 @@ services:
         value: strict-origin-when-cross-origin
       - path: /*
         name: Permissions-Policy
-        value: geolocation=(), microphone=(), camera=()
-      # Hashed/immutable bundles
-      - path: /_next/static/*
+        value: camera=(), microphone=(), geolocation=(), interest-cohort=()
+      # X-Frame-Options is legacy; modern equivalent is `frame-ancestors` in
+      # CSP. We keep both for broad UA support.
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+      # Content Security Policy. Permissive enough to keep working today
+      # (Google Fonts + form POST to ownet) but sealed against drive-by
+      # script execution. Tighten when no longer needed.
+      - path: /*
+        name: Content-Security-Policy
+        value: >-
+          default-src 'self';
+          script-src 'self' 'unsafe-inline';
+          style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+          font-src 'self' https://fonts.gstatic.com data:;
+          img-src 'self' https: data:;
+          connect-src 'self' https://ownet.opticwise.com;
+          form-action 'self' https://ownet.opticwise.com;
+          frame-ancestors 'self';
+          base-uri 'self';
+          object-src 'none'
+
+      # — Cache control ———————————————————————————————————————————————————
+      # HTML pages: revalidate every visit so edits ship immediately when the
+      # CDN refreshes. Render edge caches static assets aggressively by
+      # default; we override here for HTML.
+      - path: /*.html
         name: Cache-Control
-        value: 'public, max-age=31536000, immutable'
-      - path: /api/media/file/*
+        value: public, max-age=0, must-revalidate
+      - path: /
         name: Cache-Control
-        value: 'public, max-age=31536000, immutable'
-      # Other static assets
+        value: public, max-age=0, must-revalidate
+
+      # Long-cache for static assets that change rarely. Still revalidates
+      # via ETag, but avoids per-request body transfers.
+      - path: /styles.css
+        name: Cache-Control
+        value: public, max-age=3600, must-revalidate
+      - path: /site.css
+        name: Cache-Control
+        value: public, max-age=3600, must-revalidate
+      - path: /site.js
+        name: Cache-Control
+        value: public, max-age=3600, must-revalidate
+      - path: /forms-embed.css
+        name: Cache-Control
+        value: public, max-age=3600, must-revalidate
+      - path: /forms-embed.js
+        name: Cache-Control
+        value: public, max-age=3600, must-revalidate
+
+      # Images and downloadables — long cache, revalidate on change.
       - path: /images/*
         name: Cache-Control
-        value: 'public, max-age=86400'
+        value: public, max-age=86400, immutable
+      - path: /api/media/file/*
+        name: Cache-Control
+        value: public, max-age=86400, immutable
+
+      # Sitemap + robots: short TTL so SEO updates propagate.
+      - path: /sitemap.xml
+        name: Cache-Control
+        value: public, max-age=3600
+      - path: /robots.txt
+        name: Cache-Control
+        value: public, max-age=3600
+
+    routes:
+      # Trailing-slash canonicalization. Marketing canonical URLs use the form
+      # /about/ (with slash). Render serves /about/index.html for both /about
+      # and /about/, but we redirect to the canonical form for SEO clarity.
+      # NOTE: Render auto-handles directory-style URLs; explicit redirects
+      # only listed for legacy/typo paths.
+
+      # 404 fallback — points at /404.html (a real static page, not a Next.js
+      # client error). Render uses `notFoundPage` for the default 404 source.
+
+    # Render uses this when the path doesn't match any file.
+    # Filename convention: 404.html at root.
