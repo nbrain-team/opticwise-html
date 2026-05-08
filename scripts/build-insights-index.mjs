@@ -331,6 +331,8 @@ function main() {
     catch { warnings.push(`${slug}: missing index.html`); continue; }
     const post = extractPost(slug, html);
     if (!post.title) warnings.push(`${slug}: missing title`);
+    if (isGenericTitle(post.title)) warnings.push(`${slug}: title still resolves to generic site title`);
+    if (isGenericDescription(post.excerpt)) warnings.push(`${slug}: excerpt still resolves to generic site description`);
     if (!post.category) warnings.push(`${slug}: missing category pill`);
     if (!post.dateIso) warnings.push(`${slug}: missing datePublished`);
     if (!post.body) warnings.push(`${slug}: empty body extraction`);
