@@ -70,6 +70,27 @@
         { fieldKey: 'message',    fieldType: 'textarea', label: 'Message',    required: false },
       ],
     },
+    // Inbound contact form mounted on /contact via <div data-form-embed="inbound-contact">.
+    // Field keys mirror the production OWNet schema so localhost previews
+    // submit a payload with the correct keys (CORS will block the POST from
+    // localhost, that's expected — preview-only).
+    'inbound-contact': {
+      id: 'fallback',
+      slug: 'inbound-contact',
+      name: 'Inbound Contact',
+      description: 'OpticWise inbound contact form',
+      submitButtonLabel: 'Send Message',
+      successMessage: "Thanks — we'll be in touch within one business day.",
+      honeypotFieldName: 'website_url_extra',
+      fields: [
+        { fieldKey: 'first_name', fieldType: 'text',     label: 'First name', required: true,  placeholder: 'First name' },
+        { fieldKey: 'last_name',  fieldType: 'text',     label: 'Last name',  required: true,  placeholder: 'Last name' },
+        { fieldKey: 'email',      fieldType: 'email',    label: 'Work email', required: true,  placeholder: 'you@company.com' },
+        { fieldKey: 'company',    fieldType: 'text',     label: 'Company',    required: false, placeholder: 'Company or firm' },
+        { fieldKey: 'field_6',    fieldType: 'text',     label: 'Title / Role', required: false, placeholder: 'Asset manager, IT exec, owner…' },
+        { fieldKey: 'reason',     fieldType: 'textarea', label: 'What are you working on?', required: false, placeholder: 'Optional context — buildings, portfolio size, what brought you here.' },
+      ],
+    },
   };
 
   /* ── Schema fetch ────────────────────────────────────────────────────── */
