@@ -73,6 +73,18 @@ python3 -m http.server 4321 --directory opticwise-html
 
 Then open <http://localhost:4321/>.
 
+## Maintaining the Insights Page
+
+When you add or edit a blog post under `/insights/<slug>/`, run
+`node scripts/build-insights-index.mjs` to refresh the search index and
+regenerate the listing grid (`/insights/index.html` + `/insights/search-index.json`).
+
+The script is pure Node (>= 18) with no dependencies. It walks every post,
+extracts title / excerpt / category / date / hero image / body text, sorts
+newest-first, rewrites the card grid (first 30 visible, the rest behind
+"Load more"), and refreshes the category filter buttons so any category
+that exists on a card gets a button.
+
 ## How to regenerate from the live site
 
 The crawler reads the current live sitemap, downloads every page + every
