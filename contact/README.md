@@ -107,9 +107,9 @@ The wrapping section carries `id="contact-form"` (anchor target). The inner div 
 | Field | Value |
 |---|---|
 | Eyebrow | Your Next Step |
-| Heading | Send a Message. |
+| Heading | Contact Us. |
 | Subheading | Real person on the other end. One business day to respond. No drip campaigns, no sales sequences. We map what you own, where the data lives, and where the recoverable NOI sits — without a software pitch. |
-| Button | `<a href="#contact-form" class="btn btn-light btn-arrow">Contact us</a>` |
+| Button | `<a href="#contact-form" class="btn btn-light btn-arrow">Contact Us</a>` |
 
 Bullets:
 1. What digital infrastructure you actually own — and what your vendors do
@@ -124,13 +124,13 @@ Bullets:
 After any edit to `index.html`, walk this checklist:
 
 - [ ] All 5 blocks render in order: Hero, CardGrid (3 cards), FormEmbed mount, TwoColumn, CallToAction
-- [ ] Hero "Contact us" anchors to `#contact-form` and scrolls to the form (nav doesn't cover the form heading)
+- [ ] Hero "Contact Us" anchors to `#contact-form` and scrolls to the form (nav doesn't cover the form heading)
 - [ ] Card 1 ("Send a Message") → scrolls to `#contact-form`
 - [ ] Card 2 ("Email Us Directly") → opens email client with `info@opticwise.com` pre-filled in a new tab (current tab stays on the site)
 - [ ] Card 3 ("Call Us at 888-OpticWise (888-678-4294)") → opens dial prompt with `+18886784294` on mobile
 - [ ] The form mount renders all 6 fields: First name, Last name, Work email, Company, Title/Role, Reason
 - [ ] Test submission completes → thank-you message shown → new record appears in OWNet "Landing Pages Leads" pipeline at the "OW website inbound" stage with Bill as deal owner *(production only — localhost will fail at the POST step due to CORS, that's expected)*
-- [ ] Final "Contact us" CTA button anchors back to `#contact-form`
+- [ ] Final "Contact Us" CTA button anchors back to `#contact-form`
 - [ ] Footer `/contact` link from any page reaches this page
 
 If any item fails, fix in the repo and re-deploy.
