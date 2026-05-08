@@ -213,6 +213,17 @@ function extractPost(slug, html) {
   const catM = html.match(/<span class="block text-xs font-bold text-blue-300 bg-blue-400\/10[^"]*">([\s\S]*?)<\/span>/);
   const category = catM ? decodeEntities(catM[1]).trim() : '';
 
+  // Optional hidden secondary-categories metadata element rendered next to
+  // the primary pill. Comma-separated list, max 2 entries. Inert metadata
+  // for now — the listing filter still uses the primary `category` only.
+  const secM = html.match(/<span\s+hidden\s+data-ow-secondary-cats="([^"]*)"\s*><\/span>/);
+  const secondaryCategories = secM
+    ? decodeEntities(secM[1])
+        .split(',')
+        .map((s) => s.trim())
+        .filter(Boolean)
+    : [];
+
   // datePublished from JSON-LD Article schema
   const dateM = html.match(/"datePublished"\s*:\s*"([^"]+)"/);
   const dateIso = dateM ? dateM[1] : '';
@@ -224,6 +235,7 @@ function extractPost(slug, html) {
     title,
     excerpt,
     category,
+    secondaryCategories,
     date: dateLabel,
     dateIso,
     image,
