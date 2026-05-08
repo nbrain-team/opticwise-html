@@ -369,6 +369,7 @@ function main() {
     title: p.title,
     excerpt: p.excerpt,
     category: p.category,
+    secondaryCategories: p.secondaryCategories,
     date: p.date,
     image: p.image,
     body: p.body,
