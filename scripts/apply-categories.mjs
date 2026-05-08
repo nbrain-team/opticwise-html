@@ -159,6 +159,8 @@ const MAPPING = {
   'what-is-digital-infrastructure-commercial-real-estate': { primary: 'Digital Infrastructure', secondaries: ['CRE Strategy'] },
   'transitioning-to-digital-first-commercial-real-estate-portfolio-owners': { primary: 'CRE Strategy', secondaries: ['Digital Infrastructure'] },
   'The-LLM-Model-Just-Became-a-Commodity': { primary: 'AI Readiness', secondaries: ['Data Ownership', 'CRE Strategy'] },
+  'owner-controlled-ai-orchestration-cre': { primary: 'Building Intelligence', secondaries: ['AI Readiness', 'Vendor Control & Governance'] },
+  'avb-eqr-merger-operating-standard-portfolio-intelligence': { primary: 'CRE Strategy', secondaries: ['Data Ownership', 'Operational Control'] },
 };
 
 // Sanity-check the mapping itself before touching files.
