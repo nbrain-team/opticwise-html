@@ -162,14 +162,49 @@ function normalizeImagePath(image) {
 }
 
 function extractPost(slug, html) {
+  // Pull out the ghost-content body once; reused by excerpt fallback and body.
+  let ghostHtml = '';
+  let body = '';
+  const ghostMarker = '<div class="ghost-content">';
+  const ghostStart = html.indexOf(ghostMarker);
+  if (ghostStart !== -1) {
+    const after = html.slice(ghostStart + ghostMarker.length);
+    const closeIdx = after.indexOf('</div></div></section>');
+    ghostHtml = closeIdx !== -1 ? after.slice(0, closeIdx) : after;
+    body = normalizeText(ghostHtml).slice(0, BODY_CHAR_CAP);
+  }
+
+  // Title: prefer the post's hero <h1> over <title>, since some imported
+  // posts have the global site title in <title>. JSON-LD Article.headline is
+  // a secondary fallback before <title>; slug is the floor.
   const titleM = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
-  const title = titleM ? decodeEntities(titleM[1]).trim() : slug;
+  const rawTitle = titleM ? decodeEntities(titleM[1]).trim() : '';
+  const h1Title = extractH1Text(html);
+  const jsonLdHeadline = findJsonLdArticleField(html, 'headline');
 
+  let title;
+  if (h1Title) title = h1Title;
+  else if (jsonLdHeadline) title = jsonLdHeadline;
+  else if (rawTitle && !isGenericTitle(rawTitle)) title = rawTitle;
+  else title = slug;
+
+  // Excerpt: prefer post-specific meta description, then JSON-LD Article
+  // description, then the first substantive paragraph in the body. Reject
+  // generic site fallback values at every step.
   const descM = html.match(/<meta\s+name=["']description["']\s+content=["']([^"']*)["']/i);
-  const excerpt = descM ? decodeEntities(descM[1]).trim() : '';
+  const rawDesc = descM ? decodeEntities(descM[1]).trim() : '';
+  const jsonLdDesc = findJsonLdArticleField(html, 'description');
 
+  let excerpt = '';
+  if (rawDesc && !isGenericDescription(rawDesc)) excerpt = rawDesc;
+  else if (jsonLdDesc && !isGenericDescription(jsonLdDesc)) excerpt = jsonLdDesc;
+  else excerpt = extractFirstParagraphFromGhost(ghostHtml);
+
+  // Image: reject the global og-default fallback so the listing card can
+  // render a placeholder instead of showing a misleading hero image.
   const ogImageM = html.match(/<meta\s+property=["']og:image["']\s+content=["']([^"']+)["']/i);
-  const image = ogImageM ? normalizeImagePath(ogImageM[1]) : '';
+  const rawImage = ogImageM ? ogImageM[1] : '';
+  const image = (rawImage && !isGenericImage(rawImage)) ? normalizeImagePath(rawImage) : '';
 
   // Hero category pill (rendered on every post page hero)
   const catM = html.match(/<span class="block text-xs font-bold text-blue-300 bg-blue-400\/10[^"]*">([\s\S]*?)<\/span>/);
@@ -179,16 +214,6 @@ function extractPost(slug, html) {
   const dateM = html.match(/"datePublished"\s*:\s*"([^"]+)"/);
   const dateIso = dateM ? dateM[1] : '';
   const dateLabel = formatDateLabel(dateIso);
-
-  let body = '';
-  const ghostMarker = '<div class="ghost-content">';
-  const ghostStart = html.indexOf(ghostMarker);
-  if (ghostStart !== -1) {
-    const after = html.slice(ghostStart + ghostMarker.length);
-    const closeIdx = after.indexOf('</div></div></section>');
-    const ghostHtml = closeIdx !== -1 ? after.slice(0, closeIdx) : after;
-    body = normalizeText(ghostHtml).slice(0, BODY_CHAR_CAP);
-  }
 
   return {
     slug,
