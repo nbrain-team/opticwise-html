@@ -75,7 +75,7 @@ Do **not** modify form fields in this repo. Field schema is owned by OWNet admin
 **Card 1 — Send a Message** → `href="#contact-form"`
 > Use the form below to share your name, company, and what you're working on. Goes directly to our CRM. Real person responds within one business day.
 
-**Card 2 — Email Us Directly** → `href="mailto:info@opticwise.com"`
+**Card 2 — Email Us Directly** → `href="mailto:info@opticwise.com" target="_blank" rel="noopener noreferrer"`
 > Prefer to use your own email client? Reach us at info@opticwise.com. Same response time, same person on the other end.
 
 **Card 3 — Call Us at 888-OpticWise (888-678-4294)** → `href="tel:+18886784294"`
