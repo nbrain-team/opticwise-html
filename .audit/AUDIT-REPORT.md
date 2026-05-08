@@ -119,6 +119,7 @@ Affected:
 - `insights/the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat/`
 - `insights/what-starbucks-taught-us-about-smart-property-ops/`
 - `insights/owners-are-overwhelmednot-under-informed/` (also has long title)
+- `insights/ai-agents-permissions-cre-orchestration/` (post added after the initial sweep; same pattern)
 
 ### B. Insights with unique but too-long meta descriptions (2 posts)
 
