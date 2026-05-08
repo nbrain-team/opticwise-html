@@ -134,23 +134,35 @@ function stripPage(filePath) {
     /<script>\(self\.__next_f=self\.__next_f\|\|\[\]\)\.push\(\[0\]\)<\/script>/g,
   );
 
-  // 7. Suspense reconciler: <script>$RB=[];$RV=function(b){...};</script>
-  //    plus standalone $RC scripts. They're all `$R*` globals.
+  // 7. Suspense reconciler: <script>$RB=[];$RV=function(b){...};$RC=...</script>
+  //    Must use [\s\S] (not [^<]) because the JS body contains `<` operators
+  //    like `a<b.length`. Match everything from `<script>$R` to first `</script>`.
   [html, stats.reconciler] = strip(
     html,
-    /<script>\s*\$R[A-Z][^<]*?<\/script>/g,
+    /<script>\s*\$R[A-Z][\s\S]*?<\/script>/g,
   );
 
   // 8. Performance timing: <script>requestAnimationFrame(function(){$RT=performance.now()});</script>
   [html, stats.rafTiming] = strip(
     html,
-    /<script>\s*requestAnimationFrame\(function\(\)\{\$RT=[^<]*?<\/script>/g,
+    /<script>\s*requestAnimationFrame\(function\(\)\{\$RT=[\s\S]*?<\/script>/g,
   );
 
   // 9. Icon-hoister script (we'll place icons in <head> directly so this is moot)
   [html, stats.iconHoist] = strip(
     html,
-    /<script[^>]*>\s*document\.querySelectorAll\('body link\[rel="icon"\][^<]*?<\/script>/g,
+    /<script[^>]*>\s*document\.querySelectorAll\('body link\[rel="icon"\][\s\S]*?<\/script>/g,
+  );
+
+  // 9b. Old forms-embed asset tags (from a prior injection attempt) — clean
+  //     them up so we don't end up with two copies after we re-inject below.
+  [html, stats.oldFormsEmbedCss] = strip(
+    html,
+    /<link\s+rel="stylesheet"\s+href="[^"]*forms-embed\.css[^"]*"\s+data-ow-form-embed="css"\s*\/?>/g,
+  );
+  [html, stats.oldFormsEmbedJs] = strip(
+    html,
+    /<script\s+src="[^"]*forms-embed\.js[^"]*"\s+defer\s+data-ow-form-embed="js"><\/script>/g,
   );
 
   // 10. Suspense placeholder boundaries: <div hidden><!--$?--><template id="B:N"></template><!--/$--></div>
