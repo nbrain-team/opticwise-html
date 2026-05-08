@@ -190,9 +190,11 @@ function extractPost(slug, html) {
 
   // Excerpt: prefer post-specific meta description, then JSON-LD Article
   // description, then the first substantive paragraph in the body. Reject
-  // generic site fallback values at every step.
-  const descM = html.match(/<meta\s+name=["']description["']\s+content=["']([^"']*)["']/i);
-  const rawDesc = descM ? decodeEntities(descM[1]).trim() : '';
+  // generic site fallback values at every step. The content="" capture is
+  // quote-aware so an unescaped apostrophe inside a double-quoted attribute
+  // does not truncate the match.
+  const descM = html.match(/<meta\s+name=["']description["']\s+content=(?:"([^"]*)"|'([^']*)')/i);
+  const rawDesc = descM ? decodeEntities(descM[1] ?? descM[2] ?? '').trim() : '';
   const jsonLdDesc = findJsonLdArticleField(html, 'description');
 
   let excerpt = '';
