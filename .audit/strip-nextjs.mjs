@@ -193,12 +193,29 @@ function stripPage(filePath) {
   html = result.html;
   stats.hoisted = result.hoisted;
 
-  // 15. Fix canonical URL → absolute prod URL.
+  // 15. Fix canonical URL → absolute prod URL. If no canonical link exists in
+  //     the source (a handful of pages were exported without one), inject it.
   const canonical = canonicalUrlFor(filePath);
-  html = html.replace(
-    /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/g,
-    `<link rel="canonical" href="${canonical}"/>`,
-  );
+  if (/<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/.test(html)) {
+    html = html.replace(
+      /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/g,
+      `<link rel="canonical" href="${canonical}"/>`,
+    );
+  } else {
+    // Inject before </head>; placed near the other metadata.
+    html = html.replace('</head>', `<link rel="canonical" href="${canonical}"/></head>`);
+    stats.canonicalInjected = 1;
+  }
+  // Same treatment for og:url so OG cards point at the canonical URL.
+  if (/<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/.test(html)) {
+    html = html.replace(
+      /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/g,
+      `<meta property="og:url" content="${canonical}"/>`,
+    );
+  } else {
+    html = html.replace('</head>', `<meta property="og:url" content="${canonical}"/></head>`);
+    stats.ogUrlInjected = 1;
+  }
 
   // 16. Normalize favicon paths to absolute roots (they were relative). Use
   //     strict `(?:\.\.?\/)+` so we only match relative-prefixed forms and
