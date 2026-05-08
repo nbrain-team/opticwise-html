@@ -92,7 +92,6 @@
 
   function setupInsights() {
     var grid = document.querySelector('[data-ow-insights-grid]');
-    console.warn('[OW-DEBUG] setupInsights: grid =', grid);
     if (!grid) { return; }
     var tabs = Array.prototype.slice.call(document.querySelectorAll('.role-tab'));
     if (!tabs.length) { return; }
