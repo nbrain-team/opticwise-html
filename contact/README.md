@@ -14,7 +14,7 @@ This is the canonical spec for the `/contact` page. The page exists in this dire
 | Way | Where | How it's wired |
 |---|---|---|
 | Form | Block 3 Card 1 + Block 4 (embedded form) | `<a href="#contact-form">` → mounts via `data-form-embed="inbound-contact"` |
-| Email | Block 3 Card 2 | `<a href="mailto:info@opticwise.com">` |
+| Email | Block 2 Card 2 | `<a href="mailto:info@opticwise.com" target="_blank" rel="noopener noreferrer">` (opens in new tab so the visitor stays on the site) |
 | Phone | Block 3 Card 3 | `<a href="tel:+18886784294">` (888-OPTICWISE) |
 
 **Backend:** Form submissions POST to OWNet at `https://ownet.opticwise.com/api/public/forms/inbound-contact/submit`. New leads land in the OWNet "Landing Pages Leads" pipeline at the "OW website inbound" stage, with Bill as deal owner.
@@ -63,7 +63,7 @@ Do **not** modify form fields in this repo. Field schema is owned by OWNet admin
 | Lede | OpticWise works with CRE owners, asset managers, and operators who want to turn their data & digital infrastructure into an owner-controlled asset. Reach out by form, by email, or by phone. We respond personally within one business day — not with autoresponders, not with sales sequences. The person on the other end is a real member of the OpticWise team. |
 | Reframe Line | If you don't own your data & digital infrastructure, your vendors do — let's talk about who owns what at your buildings. |
 | Audience Line | For CRE owners, asset managers, IT executives, property managers, GPs, LPs, financiers, tenants, residents, and anyone evaluating OpticWise as a partner-operator. |
-| Primary CTA | `<a href="#contact-form" class="btn btn-primary btn-arrow">Send a Message</a>` |
+| Primary CTA | `<a href="#contact-form" class="btn btn-primary btn-arrow">Contact us</a>` |
 
 ### Block 2 — CardGrid (style: dark, 3 columns) — *the three ways in*
 
@@ -109,7 +109,7 @@ The wrapping section carries `id="contact-form"` (anchor target). The inner div 
 | Eyebrow | Your Next Step |
 | Heading | Send a Message. |
 | Subheading | Real person on the other end. One business day to respond. No drip campaigns, no sales sequences. We map what you own, where the data lives, and where the recoverable NOI sits — without a software pitch. |
-| Button | `<a href="#contact-form" class="btn btn-light btn-arrow">Send a Message</a>` |
+| Button | `<a href="#contact-form" class="btn btn-light btn-arrow">Contact us</a>` |
 
 Bullets:
 1. What digital infrastructure you actually own — and what your vendors do
