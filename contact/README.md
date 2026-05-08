@@ -3,7 +3,7 @@
 **Page file:** `index.html` (sibling of this README)
 **Live URL:** `https://www.opticwise.com/contact`
 
-This is the canonical spec for the `/contact` page. The page exists in this directory with all 6 blocks already built. This file documents what the page contains, how the three ways in are wired, and what to fix if anything drifts. Brand copy is the source of truth — if the live page contradicts what's here, update the page.
+This is the canonical spec for the `/contact` page. The page exists in this directory with all 5 blocks already built. This file documents what the page contains, how the three ways in are wired, and what to fix if anything drifts. Brand copy is the source of truth — if the live page contradicts what's here, update the page.
 
 ---
 
@@ -19,7 +19,7 @@ This is the canonical spec for the `/contact` page. The page exists in this dire
 
 **Backend:** Form submissions POST to OWNet at `https://ownet.opticwise.com/api/public/forms/inbound-contact/submit`. New leads land in the OWNet "Landing Pages Leads" pipeline at the "OW website inbound" stage, with Bill as deal owner.
 
-**Layout:** 6 blocks, in order — Hero (dark) → TwoColumn (nearwhite) → CardGrid (dark, 3 cards) → FormEmbed mount → TwoColumn (dark) → CallToAction (blue).
+**Layout:** 5 blocks, in order — Hero (dark) → CardGrid (dark, 3 cards) → FormEmbed mount → TwoColumn (dark) → CallToAction (blue).
 
 ---
 
