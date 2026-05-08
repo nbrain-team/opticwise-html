@@ -120,18 +120,28 @@ function getTag(html, tag) {
 }
 
 function getMeta(html, attr, val) {
-  const re = new RegExp(
-    `<meta[^>]*\\b${attr}=["']${val}["'][^>]*content=["']([^"']*)["']`,
+  // Try double-quoted content first, then single-quoted. We can't use [^"']*
+  // because real meta descriptions often contain apostrophes (don't, owner's, etc.).
+  const dq = new RegExp(
+    `<meta[^>]*\\b${attr}=["']${val}["'][^>]*content="([^"]*)"`,
     "i"
   );
-  const m = html.match(re);
+  const sq = new RegExp(
+    `<meta[^>]*\\b${attr}=["']${val}["'][^>]*content='([^']*)'`,
+    "i"
+  );
+  const m = html.match(dq) || html.match(sq);
   if (m) return m[1];
   // try reversed order
-  const re2 = new RegExp(
-    `<meta[^>]*content=["']([^"']*)["'][^>]*\\b${attr}=["']${val}["']`,
+  const dq2 = new RegExp(
+    `<meta[^>]*content="([^"]*)"[^>]*\\b${attr}=["']${val}["']`,
     "i"
   );
-  const m2 = html.match(re2);
+  const sq2 = new RegExp(
+    `<meta[^>]*content='([^']*)'[^>]*\\b${attr}=["']${val}["']`,
+    "i"
+  );
+  const m2 = html.match(dq2) || html.match(sq2);
   return m2 ? m2[1] : null;
 }
 

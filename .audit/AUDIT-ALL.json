@@ -10,21 +10,6 @@
         "kind": "SEO_DESC_SHORT",
         "desc": "The page you were looking for has moved or doesn",
         "len": 48
-      },
-      {
-        "kind": "SEO_NO_OG_IMAGE"
-      },
-      {
-        "kind": "SEO_NO_TW_CARD"
-      },
-      {
-        "kind": "SEO_NO_TW_TITLE"
-      },
-      {
-        "kind": "SEO_NO_TW_DESC"
-      },
-      {
-        "kind": "SEO_NO_JSONLD"
       }
     ]
   },
@@ -32,15 +17,9 @@
     "file": "5s-user-experience-standard/",
     "isInsight": false,
     "title": "5S® Connectivity &amp; 5S® Managed Wi-Fi for CRE | OpticWise",
-    "descLen": 172,
+    "descLen": 156,
     "canonical": "https://www.opticwise.com/5s-user-experience-standard/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise&#x27;s 5S® Connectivity Standard and 5S® Managed Wi-Fi service for CRE — Seamless Mobility, Security, Stability, Speed, Service. Owner-controlled, non-negotiable.",
-        "len": 172
-      }
-    ]
+    "issues": []
   },
   {
     "file": "about/",
@@ -48,37 +27,15 @@
     "title": "About OpticWise — CRE Digital Infrastructure Since 2004",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/about/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…in CRE Value Creation (2026). PropTech Outlook - 2025 Building Intel…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…&A Today Global Awards - 2024 PropTech Visionary of the Year USA (20…"
-      },
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…r USA (2024). Most Innovative PropTech Solutions Company (2023 and 2…"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "advisory-services/",
     "isInsight": false,
     "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "descLen": 165,
     "canonical": "https://www.opticwise.com/advisory-services/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
-      }
-    ]
+    "issues": []
   },
   {
     "file": "ai-ready-commercial-real-estate/",
@@ -92,38 +49,17 @@
     "file": "bot-building-of-things/",
     "isInsight": false,
     "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "descLen": 152,
     "canonical": "https://www.opticwise.com/bot-building-of-things/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…lls \"comms\" or \"networks\" or \"proptech\" or \"Internet\" is actually a …"
-      },
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
-      }
-    ]
+    "issues": []
   },
   {
     "file": "contact/",
     "isInsight": false,
-    "title": "Contact OpticWise",
-    "descLen": 124,
+    "title": "Contact OpticWise — Schedule a CRE Data &amp; Digital Review",
+    "descLen": 163,
     "canonical": "https://www.opticwise.com/contact/",
-    "issues": [
-      {
-        "kind": "BANNED",
-        "word": "PropTech",
-        "snippet": "…including The Silicon Review, PropTech Outlook, CIO Bulletin, and Gl…"
-      },
-      {
-        "kind": "SEO_TITLE_SHORT",
-        "title": "Contact OpticWise"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "control-cre-digital-visibility/",
@@ -137,15 +73,9 @@
     "file": "digital-infrastructure-noi-ai/",
     "isInsight": false,
     "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "descLen": 159,
     "canonical": "https://www.opticwise.com/digital-infrastructure-noi-ai/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
-      }
-    ]
+    "issues": []
   },
   {
     "file": "digital-infrastructure-noi-playbook/",
@@ -159,15 +89,9 @@
     "file": "digital-infrastructure-noi-strategy/",
     "isInsight": false,
     "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "descLen": 152,
     "canonical": "https://www.opticwise.com/digital-infrastructure-noi-strategy/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
-      }
-    ]
+    "issues": []
   },
   {
     "file": "faq/",
@@ -175,16 +99,7 @@
     "title": "OpticWise FAQ — Direct Answers for CRE Owners",
     "descLen": 151,
     "canonical": "https://www.opticwise.com/faq/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ht. \"We're focused on AI, not infrastructure.\" + Industry research is unan…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…and operates owner-controlled infrastructure, leaving the owner with admin…"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "for-asset-managers/",
@@ -200,12 +115,7 @@
     "title": "For IT Executives | Closing the CRE IT/OT Gap | OpticWise",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/for-it-executives/",
-    "issues": [
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ring, tenant connectivity, EV infrastructure — they all ride on networks a…"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "for-lps-and-financiers/",
@@ -219,27 +129,21 @@
     "file": "for-property-managers-and-engineers/",
     "isInsight": false,
     "title": "For Property Managers &amp; Building Engineers | OpticWise",
-    "descLen": 218,
+    "descLen": 166,
     "canonical": "https://www.opticwise.com/for-property-managers-and-engineers/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "For property managers and building engineers: OpticWise runs the owner standard on data &amp; digital infrastructure — PPP 5C™ alignment, 5S® carriage, and partner‑operator cover so your shop is not the accidental NOC.",
-        "len": 218
-      }
-    ]
+    "issues": []
   },
   {
     "file": "for-tenants/",
     "isInsight": false,
     "title": "For Business Tenants | Data &amp; Digital Infrastructure in Your Lease",
-    "descLen": 206,
+    "descLen": 173,
     "canonical": "https://www.opticwise.com/for-tenants/",
     "issues": [
       {
         "kind": "SEO_DESC_LONG",
-        "desc": "For business tenants and advisors: what OpticWise signals in multi‑tenant CRE — 5S® user experience, owner‑held data &amp; digital infrastructure, PPP 5C™ discipline, and diligence you can hold sponsors to.",
-        "len": 206
+        "desc": "For business tenants and CRE advisors: what OpticWise signals in multi-tenant office — 5S® user experience, owner-held data &amp; digital infrastructure, PPP 5C™ discipline.",
+        "len": 173
       }
     ]
   },
@@ -255,15 +159,9 @@
     "file": "how-we-operate/",
     "isInsight": false,
     "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "descLen": 169,
     "canonical": "https://www.opticwise.com/how-we-operate/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
-      }
-    ]
+    "issues": []
   },
   {
     "file": "/",
@@ -1381,29 +1279,17 @@
     "file": "own-vs-lease-cre-building-data/",
     "isInsight": false,
     "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "descLen": 159,
     "canonical": "https://www.opticwise.com/own-vs-lease-cre-building-data/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
-      }
-    ]
+    "issues": []
   },
   {
     "file": "portfolio-brain/",
     "isInsight": false,
     "title": "Portfolio Brain™ | OpticWise",
-    "descLen": 175,
+    "descLen": 161,
     "canonical": "https://www.opticwise.com/portfolio-brain/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "Portfolio Brain™ — owner-controlled intelligence at portfolio scale. Cross-asset visibility, compounding analytics, and the operating data behind asset manager accountability.",
-        "len": 175
-      }
-    ]
+    "issues": []
   },
   {
     "file": "ppp-audit/",
@@ -1417,14 +1303,8 @@
     "file": "property-brain/",
     "isInsight": false,
     "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "descLen": 167,
     "canonical": "https://www.opticwise.com/property-brain/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
-      }
-    ]
+    "issues": []
   }
 ]
