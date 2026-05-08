@@ -13,9 +13,9 @@ This is the canonical spec for the `/contact` page. The page exists in this dire
 
 | Way | Where | How it's wired |
 |---|---|---|
-| Form | Block 3 Card 1 + Block 4 (embedded form) | `<a href="#contact-form">` → mounts via `data-form-embed="inbound-contact"` |
+| Form | Block 2 Card 1 + Block 3 (embedded form) | `<a href="#contact-form">` → mounts via `data-form-embed="inbound-contact"` |
 | Email | Block 2 Card 2 | `<a href="mailto:info@opticwise.com" target="_blank" rel="noopener noreferrer">` (opens in new tab so the visitor stays on the site) |
-| Phone | Block 3 Card 3 | `<a href="tel:+18886784294">` (888-OPTICWISE) |
+| Phone | Block 2 Card 3 | `<a href="tel:+18886784294">` (888-OPTICWISE) |
 
 **Backend:** Form submissions POST to OWNet at `https://ownet.opticwise.com/api/public/forms/inbound-contact/submit`. New leads land in the OWNet "Landing Pages Leads" pipeline at the "OW website inbound" stage, with Bill as deal owner.
 
