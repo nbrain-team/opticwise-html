@@ -72,6 +72,18 @@ function escapeAttr(s) {
 
 // ---------- post extraction ----------
 
+// A small number of imported posts ship with the global site fallbacks baked
+// into <title>, <meta name="description">, and <meta property="og:image">
+// instead of post-specific values. The extractor refuses these and falls back
+// to higher-fidelity sources (post <h1>, JSON-LD Article, body first <p>).
+const GENERIC_TITLE_RE = /^OpticWise\s*\|/i;
+const GENERIC_DESC_RE = /^OpticWise\s+helps\s+commercial\s+real\s+estate\s+owners/i;
+const GENERIC_IMAGE_RE = /\/og-default\.png(?:[?#]|$)/i;
+
+function isGenericTitle(s) { return !!s && GENERIC_TITLE_RE.test(s); }
+function isGenericDescription(s) { return !!s && GENERIC_DESC_RE.test(s); }
+function isGenericImage(s) { return !!s && GENERIC_IMAGE_RE.test(s); }
+
 function htmlToText(html) {
   return html
     .replace(/<head[\s\S]*?<\/head>/gi, ' ')
@@ -82,6 +94,45 @@ function htmlToText(html) {
     .replace(/<br\s*\/?\s*>/gi, ' ')
     .replace(/<\/(p|div|li|h[1-6]|section|article|figure|blockquote)\s*>/gi, ' ')
     .replace(/<[^>]+>/g, ' ');
+}
+
+function extractH1Text(html) {
+  const m = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i);
+  if (!m) return '';
+  return decodeEntities(m[1].replace(/<[^>]+>/g, '')).replace(/\s+/g, ' ').trim();
+}
+
+function findJsonLdArticleField(html, field) {
+  const blockRe = /<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
+  const fieldRe = new RegExp('"' + field + '"\\s*:\\s*"((?:\\\\.|[^"\\\\])*)"');
+  let m;
+  while ((m = blockRe.exec(html)) !== null) {
+    const block = m[1];
+    if (!/"@type"\s*:\s*"Article"/i.test(block)) continue;
+    const fm = block.match(fieldRe);
+    if (!fm) continue;
+    try {
+      const decoded = JSON.parse('"' + fm[1] + '"');
+      return decodeEntities(decoded).replace(/\s+/g, ' ').trim();
+    } catch {
+      return decodeEntities(fm[1]).replace(/\s+/g, ' ').trim();
+    }
+  }
+  return '';
+}
+
+function extractFirstParagraphFromGhost(ghostHtml) {
+  if (!ghostHtml) return '';
+  const re = /<p\b[^>]*>([\s\S]*?)<\/p>/gi;
+  let m;
+  while ((m = re.exec(ghostHtml)) !== null) {
+    const text = decodeEntities(m[1].replace(/<[^>]+>/g, '')).replace(/\s+/g, ' ').trim();
+    if (!text) continue;
+    const cleaned = text.replace(/^TL;DR:\s*/i, '').trim();
+    if (cleaned.length < 60) continue;
+    return cleaned;
+  }
+  return '';
 }
 
 function normalizeText(html) {
