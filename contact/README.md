@@ -63,7 +63,7 @@ Do **not** modify form fields in this repo. Field schema is owned by OWNet admin
 | Lede | OpticWise works with CRE owners, asset managers, and operators who want to turn their data & digital infrastructure into an owner-controlled asset. Reach out by form, by email, or by phone. We respond personally within one business day — not with autoresponders, not with sales sequences. The person on the other end is a real member of the OpticWise team. |
 | Reframe Line | If you don't own your data & digital infrastructure, your vendors do — let's talk about who owns what at your buildings. |
 | Audience Line | For CRE owners, asset managers, IT executives, property managers, GPs, LPs, financiers, tenants, residents, and anyone evaluating OpticWise as a partner-operator. |
-| Primary CTA | `<a href="#contact-form" class="btn btn-primary btn-arrow">Contact us</a>` |
+| Primary CTA | `<a href="#contact-form" class="btn btn-primary btn-arrow">Contact Us</a>` |
 
 ### Block 2 — CardGrid (style: dark, 3 columns) — *the three ways in*
 
