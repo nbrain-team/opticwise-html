@@ -14,8 +14,7 @@
  */
 (function () {
   'use strict';
-  console.warn('[OW-DEBUG] site.js IIFE entered');
-  if (window.OWSite && window.OWSite.__init) { console.warn('[OW-DEBUG] OWSite already init, exiting'); return; }
+  if (window.OWSite && window.OWSite.__init) { return; }
 
   var MOBILE_MAX = 1023; // matches Tailwind `lg:` breakpoint (1024px)
 
