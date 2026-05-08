@@ -6,7 +6,14 @@
     <atom:link href="https://www.opticwise.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Owner plays for CRE: how to reclaim control, reduce operational risk, and turn data &amp; digital infrastructure into a compounding portfolio asset.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2026 18:17:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 13:00:00 GMT</lastBuildDate>
+    <item>
+      <title>AI Agents Are Already Inside Your Buildings. Who Gave Them Permission?</title>
+      <link>https://www.opticwise.com/insights/ai-agents-permissions-cre-orchestration</link>
+      <guid isPermaLink="true">https://www.opticwise.com/insights/ai-agents-permissions-cre-orchestration</guid>
+      <pubDate>Fri, 08 May 2026 13:00:00 GMT</pubDate>
+      <description>Three signals — a major real estate breach, fresh OT vulnerabilities, and a CRE-wide acknowledgment that agentic AI is already running operations — tell the same story: software is acting on your operating data with permissions nobody on your side wrote down.</description>
+    </item>
     <item>
       <title>The LLM Model Just Became a Commodity</title>
       <link>https://www.opticwise.com/insights/The-LLM-Model-Just-Became-a-Commodity</link>
