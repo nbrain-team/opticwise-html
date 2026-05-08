@@ -3,15 +3,9 @@
     "file": "404.html",
     "isInsight": false,
     "title": "Page Not Found | OpticWise",
-    "descLen": 48,
+    "descLen": 155,
     "canonical": "https://www.opticwise.com/404.html",
-    "issues": [
-      {
-        "kind": "SEO_DESC_SHORT",
-        "desc": "The page you were looking for has moved or doesn",
-        "len": 48
-      }
-    ]
+    "issues": []
   },
   {
     "file": "5s-user-experience-standard/",
@@ -137,15 +131,9 @@
     "file": "for-tenants/",
     "isInsight": false,
     "title": "For Business Tenants | Data &amp; Digital Infrastructure in Your Lease",
-    "descLen": 173,
+    "descLen": 164,
     "canonical": "https://www.opticwise.com/for-tenants/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "For business tenants and CRE advisors: what OpticWise signals in multi-tenant office — 5S® user experience, owner-held data &amp; digital infrastructure, PPP 5C™ discipline.",
-        "len": 173
-      }
-    ]
+    "issues": []
   },
   {
     "file": "glossary/",
