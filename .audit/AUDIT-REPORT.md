@@ -149,9 +149,9 @@ Per Bill's scope update, banned words / bare TMs / bare-infra / missing reframin
 
 ```
 $ node .audit/audit-all.mjs
-Audited 151 HTML files.
+Audited 152 HTML files.
 === ISSUE COUNTS BY KIND ===
-  SEO_DESC_LONG                    9   ← all on insights (per A + B above)
+  SEO_DESC_LONG                   10   ← all on insights (per A + B above)
   SEO_TITLE_LONG                   6   ← all on insights (per C above)
 
 Top-level page issues: 0
