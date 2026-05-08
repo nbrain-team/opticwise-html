@@ -214,22 +214,15 @@ function repairImageOnly(slug) {
   }
   const imageUrl = `${ABS}/api/media/file/${urlEncodePath(imgFile)}`;
   const imageAttr = escapeAttr(imageUrl);
-  const before = html;
-  html = html.replace(
-    /<meta\s+property=["']og:image["']\s+content=["'][^"']*["']\s*\/?>/i,
-    `<meta property="og:image" content="${imageAttr}"/>`,
-  );
-  html = html.replace(
-    /<meta\s+name=["']twitter:image["']\s+content=["'][^"']*["']\s*\/?>/i,
-    `<meta name="twitter:image" content="${imageAttr}"/>`,
-  );
-  // Also fix the JSON-LD Article image if present.
-  html = html.replace(
-    /("@type"\s*:\s*"Article"[^}]*?"image"\s*:\s*")(?:\\"|[^"])*(")/,
-    `$1${escapeJson(imageUrl)}$2`,
-  );
-  if (html === before) {
-    throw new Error(`${slug}: no image meta tags matched for override`);
+  const ogRe = /<meta\s+property=["']og:image["']\s+content=(?:"[^"]*"|'[^']*')\s*\/?>/i;
+  const twRe = /<meta\s+name=["']twitter:image["']\s+content=(?:"[^"]*"|'[^']*')\s*\/?>/i;
+  const ldRe = /("@type"\s*:\s*"Article"[^}]*?"image"\s*:\s*")(?:\\"|[^"])*(")/;
+  const ogHit = ogRe.test(html);
+  html = html.replace(ogRe, `<meta property="og:image" content="${imageAttr}"/>`);
+  html = html.replace(twRe, `<meta name="twitter:image" content="${imageAttr}"/>`);
+  html = html.replace(ldRe, `$1${escapeJson(imageUrl)}$2`);
+  if (!ogHit) {
+    throw new Error(`${slug}: og:image meta tag not found`);
   }
   writeFileSync(file, html, 'utf8');
   return { slug, imageUrl };
