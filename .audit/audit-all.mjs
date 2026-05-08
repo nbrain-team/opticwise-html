@@ -179,31 +179,40 @@ function auditPage(file) {
   const issues = [];
 
   const rel = relPath(file);
-  const isInsight = rel.startsWith("insights/") && rel !== "insights/";
+  // Per scope: blogs/insights are allowed exceptions to the SB7 brandscript.
+  // We audit them for SEO only — not for banned words, bare TMs, bare-infra,
+  // missing reframing line, or missing default closer.
+  const isInsight = rel.startsWith("insights/");
   const isHome = rel === "/" || rel === "index.html" || rel === "";
+  const insightsIndex = rel === "insights/";
+  const skipBrand = isInsight && !insightsIndex; // /insights/ index is exempt? No — it's a top-level resource page; canon applies. The 126 post pages skip.
+  // Actually: per the scope update, /insights/ index is also blog territory. Skip brand on the entire /insights/ tree.
+  const skipBrandAll = isInsight; // includes /insights/ index too
 
-  // ---- BrandScript checks (body text only, not <head>) ----
-  for (const { name, re } of BANNED) {
-    const m = findAll(text, new RegExp(re.source, re.flags));
-    for (const o of m) issues.push({ kind: "BANNED", word: name, snippet: snippetAround(text, o.index, o.match.length) });
-  }
-  for (const { name, re } of MARKS) {
-    const m = findAll(text, new RegExp(re.source, re.flags));
-    for (const o of m) {
-      // Skip awards/publication contexts (PropTech Visionary, PropTech Outlook)
-      const around = text.slice(Math.max(0, o.index - 20), o.index + o.match.length + 30);
-      if (/award|outlook|visionary|magazine/i.test(around)) continue;
-      issues.push({ kind: "BARE_TM", mark: name, snippet: snippetAround(text, o.index, o.match.length) });
+  if (!skipBrandAll) {
+    // ---- BrandScript checks (body text only, not <head>) ----
+    for (const { name, re } of BANNED) {
+      const m = findAll(text, new RegExp(re.source, re.flags));
+      for (const o of m) issues.push({ kind: "BANNED", word: name, snippet: snippetAround(text, o.index, o.match.length) });
     }
+    for (const { name, re } of MARKS) {
+      const m = findAll(text, new RegExp(re.source, re.flags));
+      for (const o of m) {
+        // Skip awards/publication contexts (PropTech Visionary, PropTech Outlook)
+        const around = text.slice(Math.max(0, o.index - 20), o.index + o.match.length + 30);
+        if (/award|outlook|visionary|magazine/i.test(around)) continue;
+        issues.push({ kind: "BARE_TM", mark: name, snippet: snippetAround(text, o.index, o.match.length) });
+      }
+    }
+    // Bare-infra: skip occurrences inside dictionary/glossary <details><summary> definitions
+    // for the glossary page only
+    if (!rel.startsWith("glossary")) {
+      const m = findAll(text, new RegExp(BARE_INFRA.source, BARE_INFRA.flags));
+      for (const o of m) issues.push({ kind: "BARE_INFRA", snippet: snippetAround(text, o.index, "infrastructure".length) });
+    }
+    if (!text.includes(REFRAMING_LINE)) issues.push({ kind: "MISSING_REFRAMING" });
+    if (!text.includes(DEFAULT_CLOSER)) issues.push({ kind: "MISSING_CLOSER" });
   }
-  // Bare-infra: skip occurrences inside dictionary/glossary <details><summary> definitions
-  // for the glossary page only
-  if (!rel.startsWith("glossary")) {
-    const m = findAll(text, new RegExp(BARE_INFRA.source, BARE_INFRA.flags));
-    for (const o of m) issues.push({ kind: "BARE_INFRA", snippet: snippetAround(text, o.index, "infrastructure".length) });
-  }
-  if (!text.includes(REFRAMING_LINE)) issues.push({ kind: "MISSING_REFRAMING" });
-  if (!text.includes(DEFAULT_CLOSER)) issues.push({ kind: "MISSING_CLOSER" });
 
   // ---- SEO hygiene ----
   const title = getTag(html, "title") || "";
