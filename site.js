@@ -5,6 +5,8 @@
  *   - ESC + outside-click to close the mobile menu
  *   - Wire data-form-trigger="schedule-review" buttons (forms-embed.js
  *     handles the rest via document-level click delegation)
+ *   - Insights listing: category filter, search, "Load more" pagination
+ *     (gated on /insights/ — no-ops everywhere else)
  *
  * Desktop nav dropdowns are pure CSS (:hover / :focus-within in styles.css).
  *
