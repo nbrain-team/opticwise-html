@@ -200,12 +200,15 @@ function stripPage(filePath) {
     `<link rel="canonical" href="${canonical}"/>`,
   );
 
-  // 16. Normalize favicon paths to absolute roots (they were relative).
+  // 16. Normalize favicon paths to absolute roots (they were relative). Use
+  //     strict `(?:\.\.?\/)+` so we only match relative-prefixed forms and
+  //     don't double-rewrite already-normalized hrefs (e.g. `/favicon.png`
+  //     would otherwise match the broader `icon.png` rule).
   html = html
-    .replace(/<link\s+rel="icon"\s+href="[^"]*?\/?favicon\.ico"/g, '<link rel="icon" href="/favicon.ico"')
-    .replace(/<link\s+rel="icon"\s+href="[^"]*?\/?favicon\.png"/g, '<link rel="icon" href="/favicon.png"')
-    .replace(/<link\s+rel="icon"\s+href="[^"]*?\/?icon\.png"/g, '<link rel="icon" href="/icon.png"')
-    .replace(/<link\s+rel="apple-touch-icon"\s+href="[^"]*?\/?apple-touch-icon\.png"/g, '<link rel="apple-touch-icon" href="/apple-touch-icon.png"');
+    .replace(/<link\s+rel="icon"\s+href="(?:\.\.?\/)+favicon\.ico"/g, '<link rel="icon" href="/favicon.ico"')
+    .replace(/<link\s+rel="icon"\s+href="(?:\.\.?\/)+favicon\.png"/g, '<link rel="icon" href="/favicon.png"')
+    .replace(/<link\s+rel="icon"\s+href="(?:\.\.?\/)+icon\.png"/g, '<link rel="icon" href="/icon.png"')
+    .replace(/<link\s+rel="apple-touch-icon"\s+href="(?:\.\.?\/)+apple-touch-icon\.png"/g, '<link rel="apple-touch-icon" href="/apple-touch-icon.png"');
 
   // 17. Inject our assets at end of <head>, idempotent.
   if (!html.includes(INJECTED_MARKER)) {
