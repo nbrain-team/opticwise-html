@@ -65,16 +65,7 @@ Do **not** modify form fields in this repo. Field schema is owned by OWNet admin
 | Audience Line | For CRE owners, asset managers, IT executives, property managers, GPs, LPs, financiers, tenants, residents, and anyone evaluating OpticWise as a partner-operator. |
 | Primary CTA | `<a href="#contact-form" class="btn btn-primary btn-arrow">Send a Message</a>` |
 
-### Block 2 — TwoColumn (style: nearwhite)
-
-| Field | Value |
-|---|---|
-| Eyebrow | What to Expect |
-| Heading | Real Person, One Business Day, No Sales Sequences. |
-| Lede | When you reach out, you're starting a conversation — not entering a funnel. We don't run drip campaigns, we don't sequence follow-ups, and we don't pass your message to a development rep. Here's how it actually works. |
-| Authority Note | When you send a message: it lands directly in the OpticWise CRM, where someone on the team reads it and responds personally within one business day. The first response is a real reply from a real person, not an automated acknowledgment.  ·  When you call: existing clients, tenants, and residents who need support press 1 and reach the live support team. New conversations press 2 and hear from Willow, our AI assistant who takes your information so the team can follow up personally.  ·  When the conversation gets serious: we offer a working session with the right specialist on our team — typically 45 minutes, focused on one property in your portfolio, with clear deliverables. No software pitch. No proposal pressure.  ·  When we're not the right fit: we tell you that, and we'll often point you toward someone we trust who is a better match. We'd rather be honest up front than waste your time. |
-
-### Block 3 — CardGrid (style: dark, 3 columns) — *the three ways in*
+### Block 2 — CardGrid (style: dark, 3 columns) — *the three ways in*
 
 | Field | Value |
 |---|---|
@@ -87,10 +78,10 @@ Do **not** modify form fields in this repo. Field schema is owned by OWNet admin
 **Card 2 — Email Us Directly** → `href="mailto:info@opticwise.com"`
 > Prefer to use your own email client? Reach us at info@opticwise.com. Same response time, same person on the other end.
 
-**Card 3 — Call Us** → `href="tel:+18886784294"`
-> Toll-free at 888-OPTICWISE (888-678-4294). Existing clients, tenants, and residents press 1 for live support. New conversations press 2 — our AI assistant Willow takes your information and the team responds within one business day. Available 24/7.
+**Card 3 — Call Us at 888-OpticWise (888-678-4294)** → `href="tel:+18886784294"`
+> Existing clients, tenants, and residents press 1 for live support. New conversations press 2 — our AI assistant Willow takes your information and the team responds within one business day. Available 24/7.
 
-### Block 4 — FormEmbed mount
+### Block 3 — FormEmbed mount
 
 The wrapping section carries `id="contact-form"` (anchor target). The inner div carries `data-form-embed="inbound-contact"` (mount point).
 
@@ -102,7 +93,7 @@ The wrapping section carries `id="contact-form"` (anchor target). The inner div 
 | Subheading | We respond within one business day. Required fields: first name, last name, and email. Everything else is helpful context, not a gate. |
 | Mount div | `<div data-form-embed="inbound-contact" class="ow-fe-mount rounded-2xl bg-white p-6 shadow-sm md:p-8"></div>` |
 
-### Block 5 — TwoColumn (style: dark)
+### Block 4 — TwoColumn (style: dark)
 
 | Field | Value |
 |---|---|
