@@ -234,7 +234,6 @@
   }
 
   function start() {
-    console.warn('[OW-DEBUG] start() called, readyState=', document.readyState);
     setupNav();
     setupInsights();
   }
