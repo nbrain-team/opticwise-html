@@ -199,7 +199,7 @@
 
     tabs.forEach(function (t) {
       t.addEventListener('click', function () {
-        console.log('[OW-DEBUG] tab clicked:', t.getAttribute('data-ow-cat'));
+        console.warn('[OW-DEBUG] tab clicked:', t.getAttribute('data-ow-cat'));
         tabs.forEach(function (o) { o.classList.remove('active'); });
         t.classList.add('active');
         activeCategory = (t.getAttribute('data-ow-cat') || t.textContent || 'All').trim();
