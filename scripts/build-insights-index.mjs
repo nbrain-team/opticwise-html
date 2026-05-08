@@ -203,9 +203,10 @@ function extractPost(slug, html) {
   else excerpt = extractFirstParagraphFromGhost(ghostHtml);
 
   // Image: reject the global og-default fallback so the listing card can
-  // render a placeholder instead of showing a misleading hero image.
-  const ogImageM = html.match(/<meta\s+property=["']og:image["']\s+content=["']([^"']+)["']/i);
-  const rawImage = ogImageM ? ogImageM[1] : '';
+  // render a placeholder instead of showing a misleading hero image. The
+  // content="" capture is quote-aware (see excerpt above).
+  const ogImageM = html.match(/<meta\s+property=["']og:image["']\s+content=(?:"([^"]+)"|'([^']+)')/i);
+  const rawImage = ogImageM ? (ogImageM[1] ?? ogImageM[2] ?? '') : '';
   const image = (rawImage && !isGenericImage(rawImage)) ? normalizeImagePath(rawImage) : '';
 
   // Hero category pill (rendered on every post page hero)
