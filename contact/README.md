@@ -124,10 +124,10 @@ Bullets:
 After any edit to `index.html`, walk this checklist:
 
 - [ ] All 5 blocks render in order: Hero, CardGrid (3 cards), FormEmbed mount, TwoColumn, CallToAction
-- [ ] Hero "Send a Message" anchors to `#contact-form` and scrolls to the form (nav doesn't cover the form heading)
+- [ ] Hero "Contact us" anchors to `#contact-form` and scrolls to the form (nav doesn't cover the form heading)
 - [ ] Card 1 ("Send a Message") → scrolls to `#contact-form`
-- [ ] Card 2 ("Email Us Directly") → opens email client with `info@opticwise.com` pre-filled
-- [ ] Card 3 ("Call Us") → opens dial prompt with `+18886784294` on mobile
+- [ ] Card 2 ("Email Us Directly") → opens email client with `info@opticwise.com` pre-filled in a new tab (current tab stays on the site)
+- [ ] Card 3 ("Call Us at 888-OpticWise (888-678-4294)") → opens dial prompt with `+18886784294` on mobile
 - [ ] The form mount renders all 6 fields: First name, Last name, Work email, Company, Title/Role, Reason
 - [ ] Test submission completes → thank-you message shown → new record appears in OWNet "Landing Pages Leads" pipeline at the "OW website inbound" stage with Bill as deal owner *(production only — localhost will fail at the POST step due to CORS, that's expected)*
 - [ ] Final CTA button anchors back to `#contact-form`
