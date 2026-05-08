@@ -151,3 +151,12 @@ nav .nav__dropdown-trigger:focus-visible {
 #contact-form .ow-fe-header {
   display: none;
 }
+
+/* Insights listing — runtime filter/search/pagination hides cards via the
+ * `hidden` attribute. Tailwind's utility class `block` on each card sets
+ * `display: block` at the same author-rule specificity as the user-agent
+ * `[hidden]` rule, so we re-assert `hidden` here so the filter actually
+ * hides cards. Scoped tightly so it only affects the insights grid. */
+[data-ow-insights-grid] > a[hidden] {
+  display: none !important;
+}
