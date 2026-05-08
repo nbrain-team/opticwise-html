@@ -1,6 +1,6 @@
 # OpticWise Site — SEO + SB7 BrandScript Audit (May 2026)
 
-> **Scope of this pass:** every `index.html` in the static site (151 pages including 404).
+> **Scope of this pass:** every `index.html` in the static site (152 pages including 404; one new insights post landed mid-run and was picked up automatically).
 >
 > **Per scope update from Bill (May 2026):** *blogs/insights are allowed exceptions to the SB7 brandscript.* All `/insights/...` pages are audited for **SEO only** — not for banned words, bare trademarks, bare-infra, or missing reframing line / default closer. SEO mechanical fixes (Article JSON-LD, title dedup, H1 demotion, etc.) still apply to insights.
 >

@@ -214,6 +214,20 @@
     "issues": []
   },
   {
+    "file": "insights/ai-agents-permissions-cre-orchestration/",
+    "isInsight": true,
+    "title": "AI Agents Are Already Inside Your Buildings. Who Gave Them Permission?",
+    "descLen": 259,
+    "canonical": "https://www.opticwise.com/insights/ai-agents-permissions-cre-orchestration/",
+    "issues": [
+      {
+        "kind": "SEO_DESC_LONG",
+        "desc": "Three signals — a major real estate breach, fresh OT vulnerabilities, and a CRE-wide acknowledgment that agentic AI is already running operations — tell the same story: software is acting on your operating data with permissions nobody on your side wrote down.",
+        "len": 259
+      }
+    ]
+  },
+  {
     "file": "insights/ai-governance-is-now-a-cre-risk-category-are-you-exposed/",
     "isInsight": true,
     "title": "AI Governance Is a New CRE Risk Category | OpticWise",
