@@ -102,7 +102,7 @@ The wrapping section carries `id="contact-form"` (anchor target). The inner div 
 | Lede | When you reach out, you're not entering a sales funnel. You're starting a conversation with the team that designs, implements, and operates owner-controlled data & digital infrastructure for CRE. |
 | Authority Note | OpticWise is the firm behind Peak Property Performance® (Fast Company Press), the PPP 5C™ methodology, BoT® (Building of Things®), and Property Brain™ → Portfolio Brain™ — the owner-controlled intelligence layer that lets any LLM, vendor platform, or analytics tool act on your buildings under your governance. Twenty-plus years of CRE experience. Recognition from 13+ industry publications including The Silicon Review, PropTech Outlook, CIO Bulletin, and Global 100. Vendor-agnostic, LLM-agnostic, owner-controlled by design. |
 
-### Block 6 — CallToAction (style: blue)
+### Block 5 — CallToAction (style: blue)
 
 | Field | Value |
 |---|---|
@@ -123,7 +123,7 @@ Bullets:
 
 After any edit to `index.html`, walk this checklist:
 
-- [ ] All 6 blocks render in order: Hero, TwoColumn, CardGrid (3 cards), FormEmbed mount, TwoColumn, CallToAction
+- [ ] All 5 blocks render in order: Hero, CardGrid (3 cards), FormEmbed mount, TwoColumn, CallToAction
 - [ ] Hero "Send a Message" anchors to `#contact-form` and scrolls to the form (nav doesn't cover the form heading)
 - [ ] Card 1 ("Send a Message") → scrolls to `#contact-form`
 - [ ] Card 2 ("Email Us Directly") → opens email client with `info@opticwise.com` pre-filled
