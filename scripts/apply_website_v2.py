@@ -8,6 +8,10 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+_SCRIPTS_DIR = Path(__file__).resolve().parent
+if str(_SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS_DIR))
+import apply_nav_consolidation_v2_1 as nav_v21  # noqa: E402
 
 NEW_CTA_INNER = (
     '<span class="eyebrow cta__eyebrow">Your Next Step</span>'
@@ -46,54 +50,6 @@ CTA_APPROVED = {
 }
 
 
-def nav_prefix(path: Path) -> str:
-    rel = path.relative_to(ROOT)
-    depth = len(rel.parts) - 1
-    return "./" if depth == 0 else "../" * depth
-
-
-def patch_nav_footer(html: str, prefix: str) -> str:
-    needle = (
-        f'href="{prefix}how-we-operate/index.html">How It Works</a></li>'
-        '<li class="nav__dropdown" tabindex="0"><a class="nav__dropdown-trigger text-sm font-medium !text-white/85" '
-        f'href="{prefix}insights/index.html">Insights</a>'
-    )
-    insert = (
-        f'href="{prefix}how-we-operate/index.html">How It Works</a></li>'
-        f'<li><a class="text-sm font-medium transition-colors text-white/85 hover:text-white" '
-        f'href="{prefix}customer-outcomes/index.html">Customer Outcomes</a></li>'
-        f'<li><a class="text-sm font-medium transition-colors text-white/85 hover:text-white" '
-        f'href="{prefix}working-with-us/index.html">Working With Us</a></li>'
-        '<li class="nav__dropdown" tabindex="0"><a class="nav__dropdown-trigger text-sm font-medium !text-white/85" '
-        f'href="{prefix}insights/index.html">Insights</a>'
-    )
-    if needle not in html:
-        if f'href="{prefix}customer-outcomes/index.html"' in html:
-            pass  # already patched
-        else:
-            print(f"WARN: nav needle missing: {prefix}", file=sys.stderr)
-    else:
-        html = html.replace(needle, insert, 1)
-
-    explore = (
-        '<h4 class="text-xs font-bold uppercase tracking-widest text-white/35 mb-4">Explore</h4>'
-        '<ul class="space-y-2.5"><li><a class="text-sm hover:text-white transition-colors" '
-        f'href="{prefix}digital-infrastructure-noi-strategy/index.html">NOI Strategy</a></li>'
-    )
-    explore_new = (
-        '<h4 class="text-xs font-bold uppercase tracking-widest text-white/35 mb-4">Explore</h4>'
-        '<ul class="space-y-2.5"><li><a class="text-sm hover:text-white transition-colors" '
-        f'href="{prefix}customer-outcomes/index.html">Customer Outcomes</a></li>'
-        '<li><a class="text-sm hover:text-white transition-colors" '
-        f'href="{prefix}working-with-us/index.html">Working With Us</a></li>'
-        '<li><a class="text-sm hover:text-white transition-colors" '
-        f'href="{prefix}digital-infrastructure-noi-strategy/index.html">NOI Strategy</a></li>'
-    )
-    if explore in html and f'{prefix}customer-outcomes/index.html">Customer Outcomes' not in html:
-        html = html.replace(explore, explore_new, 1)
-    return html
-
-
 def patch_cta_inner(html: str) -> str:
     def repl(m: re.Match) -> str:
         return m.group(1) + NEW_CTA_INNER + m.group(3)
@@ -111,8 +67,7 @@ def process_file(path: Path) -> bool:
         return False
     html = path.read_text(encoding="utf-8")
     orig = html
-    prefix = nav_prefix(path)
-    html = patch_nav_footer(html, prefix)
+    html, _ = nav_v21.patch_html(html, path)
     if path in CTA_APPROVED and '<div class="cta__inner">' in html:
         before = html
         html = patch_cta_inner(html)
