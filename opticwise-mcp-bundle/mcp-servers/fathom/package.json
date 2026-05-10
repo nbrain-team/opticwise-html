@@ -1,0 +1,20 @@
+{
+  "name": "opticwise-fathom-mcp",
+  "version": "0.1.0",
+  "description": "MCP server wrapping the Fathom.video REST API for Cursor",
+  "type": "module",
+  "main": "index.js",
+  "private": true,
+  "bin": {
+    "opticwise-fathom-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

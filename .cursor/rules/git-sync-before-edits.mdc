@@ -1,0 +1,14 @@
+---
+description: Sync with remote via git pull before modifying repository files
+alwaysApply: true
+---
+
+# Git sync before edits
+
+Before **creating, modifying, or deleting** files in this repository (after read-only exploration or planning, and **before the first write** for the current task), sync with the remote default branch from the **repository root**:
+
+1. Run `git pull` (use `git pull --rebase` if that matches this repo’s team convention).
+2. If the working tree has uncommitted changes and `git pull` refuses or would merge awkwardly, **stop and tell the user** what `git status` shows. Do not discard their work or force-pull without explicit instruction.
+3. If there is no remote, no tracking branch, or the repo is not a git checkout, **skip** the pull and say why.
+
+Treat this as a **session/task start** habit: one pull before batching edits, not before every tiny save.

@@ -14,8 +14,9 @@
  *             required, placeholder, helpText, options }] } }
  *
  * Triggers:
- *   - Any <button> or <a> with text exactly "Schedule Review" or
- *     "Schedule Your Review" (case-insensitive, trimmed) opens the modal.
+ *   - Any <button> or <a> with text exactly "Schedule Review",
+ *     "Schedule Your Review", or "Schedule a Complimentary Review"
+ *     (case-insensitive, trimmed) opens the modal.
  *   - Any element with data-form-embed="<slug>" gets an inline mount.
  *   - Window-level API:
  *       window.OWFormEmbed.openModal(slug?)
@@ -30,7 +31,7 @@
 
   var API_ORIGIN = 'https://ownet.opticwise.com';
   var DEFAULT_SLUG = 'schedule-review';
-  var TRIGGER_LABELS = ['schedule review', 'schedule your review'];
+  var TRIGGER_LABELS = ['schedule review', 'schedule your review', 'schedule a complimentary review'];
 
   // Modal copy is OW-canon-aligned. The form's `name`/`description` from the
   // schema are intentionally generic ("Schedule Review" / "Standard Schedule
@@ -669,15 +670,6 @@
       style: 'margin-top:1.5rem',
     });
     inner.replaceChild(mount, btn);
-
-    // Also tone down the now-redundant section heading + sub: the inline form
-    // has its own header copy (PPP Audit™ / Schedule Your Complimentary
-    // Review / One building, 45–90 minutes…). Leaving the section's eyebrow
-    // ("Your Next Step") in place gives nice micro-context.
-    var heading = section.querySelector('.cta__heading');
-    var sub = section.querySelector('.cta__sub');
-    if (heading) { heading.style.display = 'none'; }
-    if (sub) { sub.style.display = 'none'; }
   }
 
   function applyPageCustomizations() {

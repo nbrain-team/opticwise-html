@@ -20,3 +20,6 @@ desktop.ini
 *.log
 *.tmp
 .cache/
+
+# MCP / local secrets (never commit)
+opticwise-mcp-bundle/mcp-servers/gdrive/credentials.json

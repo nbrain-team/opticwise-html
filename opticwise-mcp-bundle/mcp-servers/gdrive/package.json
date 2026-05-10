@@ -1,0 +1,21 @@
+{
+  "name": "opticwise-gdrive-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Google Drive using the Opticwise service account",
+  "type": "module",
+  "main": "index.js",
+  "private": true,
+  "bin": {
+    "opticwise-gdrive-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "googleapis": "^144.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
