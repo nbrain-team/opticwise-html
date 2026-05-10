@@ -227,13 +227,13 @@ nav .nav__dropdown-trigger:focus-visible {
   max-width: 880px;
   margin: 2rem auto 0;
 }
-.ow-vimeo iframe {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  height: auto;
-  min-height: 200px;
-  border: 0;
+/* Vimeo responsive embed: inner box uses padding-top 56.25%; iframe is absolute */
+.ow-vimeo > div {
   border-radius: 8px;
+  overflow: hidden;
+}
+.ow-vimeo iframe {
+  border: 0;
 }
 
 .ow-outcomes-table-wrap {
