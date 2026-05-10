@@ -11,10 +11,16 @@
  * Desktop nav dropdowns are pure CSS (:hover / :focus-within in styles.css).
  *
  * Footer copyright year, JSON-LD, OG meta — all server-rendered, no JS.
+ *   - GA4 (gtag): loads when GA4_MEASUREMENT_ID is set (see below).
  */
 (function () {
   'use strict';
   if (window.OWSite && window.OWSite.__init) { return; }
+
+  /* Google Analytics 4 — OpticWise property (numeric): 378142813.
+   * Web tagging uses the stream Measurement ID (Admin → Data streams → Web → Measurement ID).
+   * Default below is the conventional G- form; if Realtime is empty, replace with the exact G- value from that screen. */
+  var GA4_MEASUREMENT_ID = 'G-378142813';
 
   var MOBILE_MAX = 1023; // matches Tailwind `lg:` breakpoint (1024px)
 
@@ -233,10 +239,52 @@
     applyFilters();
   }
 
+  function setupGa4() {
+    var mid = GA4_MEASUREMENT_ID;
+    if (!mid || !/^G-[A-Z0-9]+$/i.test(mid)) { return; }
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    window.gtag = gtag;
+    gtag('js', new Date());
+    gtag('config', mid);
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(mid);
+    if (document.head) {
+      document.head.appendChild(script);
+    }
+  }
+
+  function setupGa4NavTracking() {
+    if (typeof gtag !== 'function') { return; }
+    var nav = document.querySelector('nav');
+    if (!nav) { return; }
+    nav.querySelectorAll('.nav__dropdown-menu a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        var label = (a.textContent || '').trim();
+        var href = a.getAttribute('href') || '';
+        var dd = a.closest('.nav__dropdown');
+        var section = '';
+        if (dd) {
+          var trig = dd.querySelector('.nav__dropdown-trigger');
+          if (trig) { section = (trig.textContent || '').trim(); }
+        }
+        gtag('event', 'nav_dropdown_click', {
+          nav_section: section,
+          link_text: label,
+          link_url: href,
+        });
+      });
+    });
+  }
+
   function start() {
     setupNav();
+    setupGa4NavTracking();
     setupInsights();
   }
+
+  setupGa4();
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', start);
