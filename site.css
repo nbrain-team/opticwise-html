@@ -171,13 +171,20 @@ nav .nav__dropdown-trigger:focus-visible {
 /* Footer LinkedIn newsletter buttons — two stacked CTAs that point to the
  * LinkedIn newsletter pages. Replaces the old in-house signup form (we
  * don't run a newsletter outside LinkedIn). Constrains the column width
- * so it lines up with the "Resources" column below. */
+ * so it lines up with the "Resources" column below. Margin-top drops the
+ * stack a touch below the baseline of the left-column copy. */
 .ow-footer-newsletter .ow-footer-linkedin-newsletters {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
   align-items: flex-start;
   max-width: 360px;
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .ow-footer-newsletter .ow-footer-linkedin-newsletters {
+    margin-top: 1.5rem;
+  }
 }
 .ow-footer-newsletter .ow-footer-linkedin-newsletters .btn {
   width: 100%;
