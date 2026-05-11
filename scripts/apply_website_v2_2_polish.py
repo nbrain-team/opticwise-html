@@ -136,12 +136,12 @@ def patch_index() -> None:
 
     old_book = (
         '<div class="starter__book"><img src="./api/media/file/ppp-book-cover.png" '
-        'alt="Peak Property Performance — Bill Douglas, Drew Hall, Ryan R. Goble. Fast Company Press."/></div>'
+        'alt="Peak Property Performance — Bill Douglas and Drew Hall. Fast Company Press."/></div>'
     )
     new_book = (
         '<div class="starter__book"><a href="https://www.peakpropertyperformance.com/" target="_blank" rel="noopener noreferrer">'
         '<img src="./images/ppp-book-bestseller.png" '
-        'alt="Peak Property Performance by Bill Douglas, Drew Hall, and Ryan R. Goble — Amazon Best Seller, Fast Company Press"/>'
+        'alt="Peak Property Performance by Bill Douglas and Drew Hall — Amazon Best Seller, Fast Company Press"/>'
         "</a></div>"
     )
     if old_book not in t:
