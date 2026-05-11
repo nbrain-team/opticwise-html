@@ -25,11 +25,25 @@ def main() -> None:
     replace_ow_v4(ROOT / "customer-outcomes" / "index.html", CO_MAIN)
     replace_ow_v4(ROOT / "working-with-us" / "index.html", WWU_MAIN)
 
+    # NOTE: page-specific <title>, meta descriptions, OG titles, and OG
+    # descriptions below are the SEO-approved values. If you re-run this
+    # script and the page is already SEO-clean, every str.replace() below is
+    # a no-op (search string not found → original returned). This is the
+    # intended behavior: the script never resets a good title back to
+    # boilerplate.
+    #
+    # Production canonical / og:url / breadcrumb URLs are hardcoded to
+    # https://www.opticwise.com/ — DO NOT change to a staging host. The
+    # Render staging deploy is reachable via DNS regardless; the canonical
+    # URL must always point to the production origin so Google indexes the
+    # right one.
+    PROD = "https://www.opticwise.com"
+
     co = ROOT / "customer-outcomes" / "index.html"
     coh = co.read_text(encoding="utf-8")
     coh = coh.replace(
         "<title>OpticWise | Own Your Data &amp; Digital Infrastructure</title>",
-        "<title>Customer Outcomes — What OpticWise Earns the Owner | OpticWise</title>",
+        "<title>Customer Outcomes — Documented CRE Owner Economics | OpticWise</title>",
     )
     coh = coh.replace(
         '<meta name="description" content="How OpticWise operates: design, implement, and run managed data &amp; digital infrastructure plus the owner-controlled intelligence layer — without taxing on-site teams."/>',
@@ -37,7 +51,7 @@ def main() -> None:
     )
     coh = coh.replace(
         '<meta property="og:title" content="OpticWise | Own Your Data &amp; Digital Infrastructure"/>',
-        '<meta property="og:title" content="Customer Outcomes — What OpticWise Earns the Owner | OpticWise"/>',
+        '<meta property="og:title" content="Customer Outcomes — Documented CRE Owner Economics"/>',
     )
     coh = coh.replace(
         '<meta property="og:description" content="How OpticWise operates: design, implement, and run managed data &amp; digital infrastructure plus the owner-controlled intelligence layer — without taxing on-site teams."/>',
@@ -45,11 +59,11 @@ def main() -> None:
     )
     coh = coh.replace(
         '<link rel="canonical" href="https://www.opticwise.com/how-we-operate/"/><meta property="og:url" content="https://www.opticwise.com/how-we-operate/"/>',
-        '<link rel="canonical" href="https://opticwise-html.onrender.com/customer-outcomes/"/><meta property="og:url" content="https://opticwise-html.onrender.com/customer-outcomes/"/>',
+        f'<link rel="canonical" href="{PROD}/customer-outcomes/"/><meta property="og:url" content="{PROD}/customer-outcomes/"/>',
     )
     coh = coh.replace(
         '"name":"How We Operate","item":"https://www.opticwise.com/how-we-operate"',
-        '"name":"Customer Outcomes","item":"https://opticwise-html.onrender.com/customer-outcomes"',
+        f'"name":"Customer Outcomes","item":"{PROD}/customer-outcomes"',
     )
     co.write_text(coh, encoding="utf-8")
 
@@ -65,7 +79,7 @@ def main() -> None:
     )
     wuh = wuh.replace(
         '<meta property="og:title" content="OpticWise | Own Your Data &amp; Digital Infrastructure"/>',
-        '<meta property="og:title" content="Working With Us — Deployments &amp; Friction | OpticWise"/>',
+        '<meta property="og:title" content="Working With Us — Deployments &amp; Friction"/>',
     )
     wuh = wuh.replace(
         '<meta property="og:description" content="How OpticWise operates: design, implement, and run managed data &amp; digital infrastructure plus the owner-controlled intelligence layer — without taxing on-site teams."/>',
@@ -73,11 +87,11 @@ def main() -> None:
     )
     wuh = wuh.replace(
         '<link rel="canonical" href="https://www.opticwise.com/how-we-operate/"/><meta property="og:url" content="https://www.opticwise.com/how-we-operate/"/>',
-        '<link rel="canonical" href="https://opticwise-html.onrender.com/working-with-us/"/><meta property="og:url" content="https://opticwise-html.onrender.com/working-with-us/"/>',
+        f'<link rel="canonical" href="{PROD}/working-with-us/"/><meta property="og:url" content="{PROD}/working-with-us/"/>',
     )
     wuh = wuh.replace(
         '"name":"How We Operate","item":"https://www.opticwise.com/how-we-operate"',
-        '"name":"Working With Us","item":"https://opticwise-html.onrender.com/working-with-us"',
+        f'"name":"Working With Us","item":"{PROD}/working-with-us"',
     )
     wu.write_text(wuh, encoding="utf-8")
     print("injected customer-outcomes + working-with-us")

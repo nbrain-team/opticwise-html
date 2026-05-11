@@ -8,7 +8,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-STAGING = "https://opticwise-html.onrender.com"
+# Production origin — canonical / og:url MUST point here, never to a
+# Render staging host. (Earlier revisions of this script hardcoded
+# "opticwise-html.onrender.com" and shipped staging URLs to production HTML,
+# blocking Google from indexing the right origin.)
+PROD = "https://www.opticwise.com"
 PPP_HUB = "https://www.peakpropertyperformance.com/"
 
 FOOTER_LI = (
