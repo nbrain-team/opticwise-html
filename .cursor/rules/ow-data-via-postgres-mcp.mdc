@@ -14,7 +14,7 @@ is the `opticwise-postgres` MCP. Other MCPs are fallbacks.
 
 | Ask for… | Query these tables |
 |---|---|
-| Call transcripts / meetings | `CallTranscript`, `CallTranscriptChunk`, `ReadAIMeeting` |
+| Call transcripts / meetings | `ReadAIMeeting` (Read.ai is the only transcript source) |
 | Emails (inbound/outbound, threads, templates) | `GmailMessage`, `EmailMessage`, `EmailThread`, `EmailTemplate` |
 | Slack messages / sessions / users | `SlackMessageLog`, `SlackSession`, `SlackUser` |
 | Files (Drive sync) | `DriveFile` |
@@ -24,20 +24,33 @@ Join on `personId` / `organizationId` / `dealId` / `syncUserId` when the user
 asks "from X" or "about deal Y". `User.email` maps a person to their
 `syncUserId` for Gmail and Slack tables.
 
+## Fathom is deprecated — do not use
+
+- **Ignore the `opticwise-fathom` MCP entirely.** It is removed from the
+  active config. Do not call it, do not suggest it.
+- **Ignore the `CallTranscript` and `CallTranscriptChunk` tables.** They are
+  the legacy Fathom mirror (note the `fathomCallId` column on
+  `CallTranscript`) and are not the source of truth for transcripts going
+  forward.
+- All meeting/transcript queries resolve from `ReadAIMeeting` (and its
+  `transcript`, `transcriptJson`, `summary`, `actionItems`, `participants`,
+  `topics`, `chapterSummaries` columns).
+
 ## Allowed fallbacks
 
 Use a source-system MCP **only** when one of these is true:
 
-1. The user explicitly asks to hit the live source (e.g. "from the Fathom API
-   directly", "pull from Gmail live", "open the Drive file").
-2. The Postgres mirror returns **0 rows** for a category that should have data
-   (e.g. `SlackMessageLog` is currently empty — fall back to a Slack MCP if
-   one is installed, otherwise say the data isn't there yet).
-3. You need a binary asset (raw video, PDF bytes) that isn't stored in
-   Postgres — use `opticwise-gdrive` or `opticwise-fathom` for the binary,
-   but cite the row from Postgres for the record.
+1. The user explicitly asks to hit the live source (e.g. "pull from Gmail
+   live", "open the Drive file").
+2. The Postgres mirror returns **0 rows** for a category that should have
+   data (e.g. `SlackMessageLog` is currently empty — say the data isn't
+   there yet rather than substituting a different category).
+3. You need a binary asset (PDF bytes, file contents) that isn't stored in
+   Postgres — use `opticwise-gdrive` for the binary, but cite the row from
+   Postgres for the record.
 
-In every fallback, **say which MCP you used and why**.
+In every fallback, **say which MCP you used and why**. Never fall back to
+Fathom.
 
 ## If `opticwise-postgres` is unavailable
 
