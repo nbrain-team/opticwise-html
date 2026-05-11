@@ -40,9 +40,27 @@ def patch_footer(html: str) -> str:
         r'(<li><a class="text-sm hover:text-white transition-colors" href="/how-we-operate/">How It Works</a></li>)'
     )
     html2, n = pat_root.subn(rf"\1{FOOTER_LI}\2", html, count=1)
+    if n:
+        return html2
+    return html
+
+
+# One insights article shipped with a minimal footer (no Resources column). v2.2 Task 14.
+INSIGHTS_FOOTER_FULL = r"""<footer class="bg-ow-navy text-white/60"><div class="ow-container py-16"><div class="grid grid-cols-1 gap-10 pb-12 border-b border-white/10 md:grid-cols-5"><div><img alt="OpticWise" loading="lazy" width="120" height="32" decoding="async" data-nimg="1" class="h-8 w-auto mb-4" style="color:transparent" srcSet="../../images/ow_logo.png 1x, ../../images/ow_logo.png 2x" src="../../images/ow_logo.png"/><p class="text-sm text-white/50 leading-relaxed">Owner-controlled data &amp; digital infrastructure for commercial real estate.</p></div><div><h4 class="text-xs font-bold uppercase tracking-widest text-white/35 mb-4">Explore</h4><ul class="space-y-2.5"><li><a class="text-sm hover:text-white transition-colors" href="../../digital-infrastructure-noi-strategy/index.html">NOI Strategy</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../digital-infrastructure-noi-playbook/index.html">NOI Playbook</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../ai-ready-commercial-real-estate/index.html">AI-Ready CRE</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../own-vs-lease-cre-building-data/index.html">Own vs Lease Data</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../control-cre-digital-visibility/index.html">Digital Visibility</a></li></ul></div><div><h4 class="text-xs font-bold uppercase tracking-widest text-white/35 mb-4">Solutions</h4><ul class="space-y-2.5"><li><a class="text-sm hover:text-white transition-colors" href="../../property-brain/index.html">Property Brain™</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../portfolio-brain/index.html">Portfolio Brain™</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../ppp-audit/index.html">PPP Audit™</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../bot-building-of-things/index.html">BoT® — Building of Things®</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../5s-user-experience-standard/index.html">5S® Standard</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../advisory-services/index.html">Advisory Services</a></li></ul></div><div><h4 class="text-xs font-bold uppercase tracking-widest text-white/35 mb-4">By Audience</h4><ul class="space-y-2.5"><li><a class="text-sm hover:text-white transition-colors" href="../../for-lps-and-financiers/index.html">For LPs &amp; Financiers</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../for-asset-managers/index.html">For Asset Managers</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../for-it-executives/index.html">For IT Executives</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../for-property-managers-and-engineers/index.html">For PMs &amp; Engineers</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../for-tenants/index.html">For Tenants</a></li></ul></div><div><h4 class="text-xs font-bold uppercase tracking-widest text-white/35 mb-4">Resources</h4><ul class="space-y-2.5"><li><a class="text-sm hover:text-white transition-colors" href="../../insights/index.html">Insights (Blog)</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../faq/index.html">FAQ</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../glossary/index.html">Glossary</a></li><li><a class="text-sm hover:text-white transition-colors" href="https://www.peakpropertyperformance.com/" target="_blank" rel="noopener">PPP Book &amp; Podcast</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../how-we-operate/index.html">How It Works</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../about/index.html">About</a></li><li><a class="text-sm hover:text-white transition-colors" href="../../contact/index.html">Contact</a></li></ul></div></div><div class="pt-6 flex flex-col md:flex-row items-center justify-between gap-4"><p class="text-xs text-white/30">© <!-- -->2026<!-- --> OpticWise. All rights reserved.</p><p class="text-xs text-white/25 max-w-sm text-center md:text-right">Own your data &amp; digital infrastructure. Operate with strategic foresight. Build for the long game.</p></div></div></footer>"""
+
+
+def fix_minimal_insights_footer() -> None:
+    p = ROOT / "insights/ai-wont-fix-your-propertybut-this-will/index.html"
+    if not p.exists():
+        return
+    t = p.read_text(encoding="utf-8")
+    if "md:grid-cols-1 gap-10 pb-12 border-b border-white/10 md:grid-cols-1" not in t:
+        return
+    t2, n = re.subn(r'<footer class="bg-ow-navy[\s\S]*?</footer>', INSIGHTS_FOOTER_FULL, t, count=1)
     if n != 1:
-        raise ValueError("footer patch: expected exactly one Resources match")
-    return html2
+        raise ValueError("fix_minimal_insights_footer: footer replace failed")
+    p.write_text(t2, encoding="utf-8")
+    print("fixed minimal footer: insights/ai-wont-fix-your-propertybut-this-will/index.html")
 
 
 def patch_index() -> None:
@@ -280,13 +298,13 @@ def patch_all_other_footers() -> None:
         rel = path.relative_to(ROOT)
         if str(rel) in ("index.html", "customer-outcomes/index.html", "working-with-us/index.html", "about/index.html"):
             continue
+        if ".audit" in str(rel):
+            continue
         t = path.read_text(encoding="utf-8")
         if "PPP Book &amp; Podcast" in t:
             continue
         t2 = patch_footer(t)
         if t2 == t:
-            if "Glossary</a></li>" in t and "How It Works</a></li>" in t:
-                print("WARN: no footer match:", rel)
             continue
         path.write_text(t2, encoding="utf-8")
         n += 1
@@ -298,6 +316,7 @@ def main() -> None:
     patch_customer_outcomes()
     patch_working_with_us()
     patch_about()
+    fix_minimal_insights_footer()
     patch_all_other_footers()
 
 
