@@ -224,7 +224,7 @@ If a mark appears five times in a piece, it carries its symbol five times.
 
 Never use: **leverage, synergy, ecosystem, holistic, seamless, cutting-edge, ESG, PropTech.**
 
-**Path exception:** For **`insights/**`** and **`faq/**`** in `opticwise-html`, **PropTech** is not banned when used for third-party naming, media references, or deliberate link-building. All other banned words still apply on a best-effort basis but these pages are **not** checklist-gated; do not scrub copy for SB7 compliance unless asked.
+**Path exemption:** **`opticwise-html` `insights/**`** and **`faq/**`** are **outside compulsory SB7** — do not impose the banned-word list, reframing/closer cadence, trademark-every-mention cadence, or checklist items on those pages unless the brief requests an SB7 pass. **PropTech** is explicitly allowed for third-party names, outlets, anchor text, and deliberate link-building. Preserve source fidelity; do not “SB7-scrub” those paths unless asked.
 
 Avoid: news ledes ("Bloomberg reported X"), topic announcements ("Today I want to talk about"), context-setting wind-ups ("In today's rapidly evolving CRE landscape"), "smart building" hype phrasing.
 
@@ -817,7 +817,7 @@ Before delivering any output **in SB7 scope**, verify. **Skip this checklist ent
 - [ ] OpticWise **not** framed as PropTech?
 - [ ] Every trademark on every mention: Peak Property Performance®, PPP 5C™, BoT®, Building of Things®, ElasticISP®, 5S®, Property Brain™, Portfolio Brain™?
 - [ ] **"Audit"** not used to describe the OW offering — **"review"** instead (PPP Audit™ trademark wording is the exception)?
-- [ ] Banned words absent: leverage, synergy, ecosystem, holistic, seamless, cutting-edge, ESG, PropTech? *(On `insights/**` and `faq/**`, PropTech may appear only for third-party / link context — see §6.3.)*
+- [ ] Banned words absent: leverage, synergy, ecosystem, holistic, seamless, cutting-edge, ESG, PropTech?
 - [ ] PPP 5C™ stages or named differentiators woven in, not bolted on?
 - [ ] Reframing line present at least once on long-form pieces?
 - [ ] Default closer used when the close calls for it?
