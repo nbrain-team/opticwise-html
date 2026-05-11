@@ -34,12 +34,12 @@ FORM_MOUNT_LEGACY = (
 
 LINKEDIN_BLOCK = (
     '<div class="ow-footer-linkedin-newsletters">'
-    '<a class="btn btn-white"'
+    '<a class="btn btn-primary"'
     ' href="https://www.linkedin.com/newsletters/'
     'the-owner-s-standard-7453186296837156864/"'
     ' target="_blank" rel="noopener">'
     "The Owner&#x27;s Standard on LinkedIn →</a>"
-    '<a class="btn btn-white"'
+    '<a class="btn btn-primary"'
     ' href="https://www.linkedin.com/newsletters/'
     'the-foundation-7453442579339124736/"'
     ' target="_blank" rel="noopener">'
