@@ -168,13 +168,22 @@ nav .nav__dropdown-trigger:focus-visible {
   margin-top: 1.75rem;
 }
 
-/* Footer Insights Newsletter mount — the embed itself uses data-theme="dark"
- * and data-align="left" so the official loader styles it on a dark surface
- * and aligns it to the left of its column. We only need to constrain the
- * overall column width so it lines up with the surrounding "Resources"
- * column above. */
-.ow-footer-newsletter [data-opticwise-form="insights-newsletter"] {
+/* Footer LinkedIn newsletter buttons — two stacked CTAs that point to the
+ * LinkedIn newsletter pages. Replaces the old in-house signup form (we
+ * don't run a newsletter outside LinkedIn). Constrains the column width
+ * so it lines up with the "Resources" column below. */
+.ow-footer-newsletter .ow-footer-linkedin-newsletters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
   max-width: 360px;
+}
+.ow-footer-newsletter .ow-footer-linkedin-newsletters .btn {
+  width: 100%;
+  justify-content: space-between;
+  padding: 0.875rem 1.5rem;
+  font-size: 0.9375rem;
 }
 
 /* Insights listing — runtime filter/search/pagination hides cards via the
