@@ -112,6 +112,21 @@ services:
         name: Cache-Control
         value: public, max-age=3600
 
+      # llms.txt + llms-full.txt — AI-engine discovery surfaces. Plain text,
+      # short TTL so updates propagate as quickly as sitemap/robots.
+      - path: /llms.txt
+        name: Content-Type
+        value: text/plain; charset=utf-8
+      - path: /llms.txt
+        name: Cache-Control
+        value: public, max-age=3600
+      - path: /llms-full.txt
+        name: Content-Type
+        value: text/plain; charset=utf-8
+      - path: /llms-full.txt
+        name: Cache-Control
+        value: public, max-age=3600
+
     # 404 fallback: Render automatically serves /404.html for unmatched paths
     # in static-site deployments — no explicit config needed. The custom 404
     # page lives at the repo root.
