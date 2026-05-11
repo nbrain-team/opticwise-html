@@ -17,10 +17,12 @@
   'use strict';
   if (window.OWSite && window.OWSite.__init) { return; }
 
-  /* Google Analytics 4 — OpticWise property (numeric): 378142813.
-   * Web tagging uses the stream Measurement ID (Admin → Data streams → Web → Measurement ID).
-   * Default below is the conventional G- form; if Realtime is empty, replace with the exact G- value from that screen. */
-  var GA4_MEASUREMENT_ID = 'G-378142813';
+  /* Google Analytics 4 — OpticWise.
+   *   Property ID (numeric, GA Admin):  378142813
+   *   Web stream Measurement ID (tag):  G-XSB5M0FJC0
+   * Web tagging uses the Measurement ID (Admin → Data streams → Web → Measurement ID),
+   * NOT the numeric property ID. */
+  var GA4_MEASUREMENT_ID = 'G-XSB5M0FJC0';
 
   var MOBILE_MAX = 1023; // matches Tailwind `lg:` breakpoint (1024px)
 
