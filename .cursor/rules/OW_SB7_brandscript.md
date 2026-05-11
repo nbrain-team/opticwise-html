@@ -200,7 +200,7 @@ Prefer the right column over its written equivalent.
 - **"review"** — not "audit" — when describing the OW engagement. (PPP Audit™ stays as the formal trademark in marketing/contracts. External parties can "audit" their own things — that's about their activity, not OW's offering.)
 - **"data & digital infrastructure review"** is the approved name for the entry engagement.
 - **"Property Intelligence → Portfolio Intelligence"** is the conceptual phrase. **Property Brain™ → Portfolio Brain™** is the productized name. Don't conflate them.
-- **OpticWise is NOT "PropTech."** Ever. It is the strategic advisor + partner-operator layer above the tools.
+- **OpticWise is NOT "PropTech."** Ever. It is the strategic advisor + partner-operator layer above the tools. *(Exception: in `opticwise-html` **`insights/**`** and **`faq/**`**, the word **PropTech** may appear for third-party references, quotes, or link anchor text — never as a label for OpticWise.)*
 - **"Digital backbone"** is allowed only when it clearly means data & digital infrastructure.
 
 ### 6.2 Trademarks — every mark, every mention
@@ -223,6 +223,8 @@ If a mark appears five times in a piece, it carries its symbol five times.
 ### 6.3 Banned words and phrases
 
 Never use: **leverage, synergy, ecosystem, holistic, seamless, cutting-edge, ESG, PropTech.**
+
+**Path exception:** For **`insights/**`** and **`faq/**`** in `opticwise-html`, **PropTech** is not banned when used for third-party naming, media references, or deliberate link-building. All other banned words still apply on a best-effort basis but these pages are **not** checklist-gated; do not scrub copy for SB7 compliance unless asked.
 
 Avoid: news ledes ("Bloomberg reported X"), topic announcements ("Today I want to talk about"), context-setting wind-ups ("In today's rapidly evolving CRE landscape"), "smart building" hype phrasing.
 
