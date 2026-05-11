@@ -1,0 +1,55 @@
+---
+description: Route transcripts, emails, Slack messages, and files through the OpticWise Postgres MCP (owner-controlled mirror) before any source-system MCP
+alwaysApply: true
+---
+
+# OW data lookups go through `opticwise-postgres` first
+
+OpticWise owns its data in the OWNet Postgres mirror. Any time the user asks
+for **transcripts, emails, Slack messages, or files** (or any "show me…" /
+"find…" query that maps to CRM-style data), the **first** tool you reach for
+is the `opticwise-postgres` MCP. Other MCPs are fallbacks.
+
+## Canonical tables (public schema, `opticwise_db`)
+
+| Ask for… | Query these tables |
+|---|---|
+| Call transcripts / meetings | `CallTranscript`, `CallTranscriptChunk`, `ReadAIMeeting` |
+| Emails (inbound/outbound, threads, templates) | `GmailMessage`, `EmailMessage`, `EmailThread`, `EmailTemplate` |
+| Slack messages / sessions / users | `SlackMessageLog`, `SlackSession`, `SlackUser` |
+| Files (Drive sync) | `DriveFile` |
+| CRM context to join on | `User`, `Person`, `Organization`, `Deal`, `Activity`, `Note` |
+
+Join on `personId` / `organizationId` / `dealId` / `syncUserId` when the user
+asks "from X" or "about deal Y". `User.email` maps a person to their
+`syncUserId` for Gmail and Slack tables.
+
+## Allowed fallbacks
+
+Use a source-system MCP **only** when one of these is true:
+
+1. The user explicitly asks to hit the live source (e.g. "from the Fathom API
+   directly", "pull from Gmail live", "open the Drive file").
+2. The Postgres mirror returns **0 rows** for a category that should have data
+   (e.g. `SlackMessageLog` is currently empty — fall back to a Slack MCP if
+   one is installed, otherwise say the data isn't there yet).
+3. You need a binary asset (raw video, PDF bytes) that isn't stored in
+   Postgres — use `opticwise-gdrive` or `opticwise-fathom` for the binary,
+   but cite the row from Postgres for the record.
+
+In every fallback, **say which MCP you used and why**.
+
+## If `opticwise-postgres` is unavailable
+
+If the project's `mcps/user-opticwise-postgres/` descriptor folder is missing
+(MCP didn't start), do **not** silently route to Fathom/Drive/Gmail. Tell the
+user the Postgres MCP isn't registered and recommend a Cursor restart or
+toggling the MCP in **Settings → Tools & Integrations → MCP**.
+
+## Rationale
+
+> If you don't own your data & digital infrastructure, your vendors do.
+
+The Postgres mirror is the owner-controlled layer. Source APIs (Fathom,
+Gmail, Slack, Drive) are vendor surfaces — use them only as taps into the
+owned store.
