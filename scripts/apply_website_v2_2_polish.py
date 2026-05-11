@@ -188,12 +188,7 @@ def patch_customer_outcomes() -> None:
         1,
     )
 
-    bot_open = "</section><section class=\"bot\">"
-    idx = t.find(bot_open)
-    if idx == -1:
-        raise ValueError("before bot section not found")
-    # only first occurrence: office → bot
-    insert = (
+    t = t.replace(bot_open, insert, 1)
         "</section><section class=\"twocol twocol--nearwhite\"><div class=\"container\">"
         '<div class="twocol__wrap ow-ppp-book-callout">'
         f'<a href="{PPP_HUB}" target="_blank" rel="noopener noreferrer">'
