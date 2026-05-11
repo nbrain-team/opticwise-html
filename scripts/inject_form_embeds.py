@@ -7,10 +7,10 @@ Run from the repo root:
 
 What it does (idempotent — safe to re-run):
 
-1.  Adds the Insights Newsletter embed (data-opticwise-form="insights-newsletter")
-    to every site footer, immediately above the existing 5-column grid. The
-    section is dark, copy is left-aligned, and the embed itself uses
-    data-show-header="false" because the surrounding column already provides
+1.  Adds the Footer newsletter block to every site footer, immediately above
+    the existing 5-column grid. The block is two LinkedIn newsletter CTA
+    buttons ("The Owner's Standard" and "The Foundation"); we don't operate
+    a newsletter outside LinkedIn. The surrounding column already provides
     the eyebrow/heading/description copy.
 
 2.  Replaces the bottom CTA "Schedule a Complimentary Review" button on every
