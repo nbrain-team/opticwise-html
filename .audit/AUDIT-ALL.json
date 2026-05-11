@@ -178,40 +178,24 @@
   {
     "file": "insights/Data-Is-the-New-Real-Estate-Utility/",
     "isInsight": true,
-    "title": "Why Owning Your Building&#x27;s Digital Infrastructure = Owning Your Data",
-    "descLen": 183,
+    "title": "Why Owning Your Building&#x27;s Network = Owning Your Data",
+    "descLen": 173,
     "canonical": "https://www.opticwise.com/insights/Data-Is-the-New-Real-Estate-Utility/",
     "issues": [
       {
-        "kind": "SEO_TITLE_LONG",
-        "title": "Why Owning Your Building&#x27;s Digital Infrastructure = Owning Your Data",
-        "len": 73
-      },
-      {
         "kind": "SEO_DESC_LONG",
-        "desc": "If you don&#x27;t own your building&#x27;s network, you don&#x27;t own its data—or the NOI it could generate. Here&#x27;s why digital infrastructure is real estate&#x27;s new utility.",
-        "len": 183
+        "desc": "If you don&#x27;t own your building&#x27;s network, you don&#x27;t own its data — or the NOI it could generate. Why digital infrastructure is real estate&#x27;s new utility.",
+        "len": 173
       }
     ]
   },
   {
     "file": "insights/The-LLM-Model-Just-Became-a-Commodity/",
     "isInsight": true,
-    "title": "The LLM Model Just Became a Commodity. Here&#x27;s What Actually Compounds in Commercial Real Estate.",
-    "descLen": 206,
+    "title": "The LLM Model Just Became a Commodity — What Compounds in CRE",
+    "descLen": 157,
     "canonical": "https://www.opticwise.com/insights/The-LLM-Model-Just-Became-a-Commodity/",
-    "issues": [
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "The LLM Model Just Became a Commodity. Here&#x27;s What Actually Compounds in Commercial Real Estate.",
-        "len": 101
-      },
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "Stanford&#x27;s 2026 AI Index put a number on something CRE owners need to feel: AI capability is converging fast. The competitive moat moved up the stack — and most portfolios aren&#x27;t built for it yet.",
-        "len": 206
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/advanced-iot-device-management-strategies/",
@@ -225,15 +209,9 @@
     "file": "insights/ai-agents-permissions-cre-orchestration/",
     "isInsight": true,
     "title": "AI Agents Are Already Inside Your Buildings. Who Gave Them Permission?",
-    "descLen": 259,
+    "descLen": 154,
     "canonical": "https://www.opticwise.com/insights/ai-agents-permissions-cre-orchestration/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "Three signals — a major real estate breach, fresh OT vulnerabilities, and a CRE-wide acknowledgment that agentic AI is already running operations — tell the same story: software is acting on your operating data with permissions nobody on your side wrote down.",
-        "len": 259
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/ai-governance-is-now-a-cre-risk-category-are-you-exposed/",
@@ -343,15 +321,9 @@
     "file": "insights/avb-eqr-merger-operating-standard-portfolio-intelligence/",
     "isInsight": true,
     "title": "When Two Apartment Giants Merge, Whose Operating Standard Wins?",
-    "descLen": 260,
+    "descLen": 161,
     "canonical": "https://www.opticwise.com/insights/avb-eqr-merger-operating-standard-portfolio-intelligence/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "AvalonBay and Equity Residential are exploring a combination. The capital math is the easy part. The hard question — and the one that decides the value created — is whose operating standard, whose data layer, and whose intelligence runs the combined portfolio.",
-        "len": 260
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/before-ai-you-need-data-you-actually-own/",
@@ -420,21 +392,10 @@
   {
     "file": "insights/built-to-last-why-smart-infrastructure-is-the-backbone-of-future-proof/",
     "isInsight": true,
-    "title": "Built to Last: Why Smart Infrastructure Is the Backbone of Future-Proof Buildings",
-    "descLen": 293,
+    "title": "Smart Infrastructure Is the Backbone of Future-Proof CRE",
+    "descLen": 162,
     "canonical": "https://www.opticwise.com/insights/built-to-last-why-smart-infrastructure-is-the-backbone-of-future-proof/",
-    "issues": [
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "Built to Last: Why Smart Infrastructure Is the Backbone of Future-Proof Buildings",
-        "len": 81
-      },
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "Future-proof CRE buildings aren&#x27;t built on apps — they&#x27;re built on infrastructure. Smart, owner-controlled infrastructure is the durable backbone every other system runs on. Buildings without it can&#x27;t keep up as tenant expectations, AI tools, and operating models keep changing.",
-        "len": 293
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/capex-is-tightening-roi-scrutiny-is-brutal-and-cool-tech-is-dead/",
@@ -783,21 +744,10 @@
   {
     "file": "insights/monetize-like-amazon-analyze-like-google-and-avoid-tesla-s-data-missteps/",
     "isInsight": true,
-    "title": "Monetize Like Amazon, Analyze Like Google — and Avoid Tesla’s Data Missteps",
-    "descLen": 276,
+    "title": "Monetize Like Amazon, Analyze Like Google, Avoid Tesla’s Missteps",
+    "descLen": 162,
     "canonical": "https://www.opticwise.com/insights/monetize-like-amazon-analyze-like-google-and-avoid-tesla-s-data-missteps/",
-    "issues": [
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "Monetize Like Amazon, Analyze Like Google — and Avoid Tesla’s Data Missteps",
-        "len": 75
-      },
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "What Amazon, Google, and Tesla teach CRE owners about data: monetize it like Amazon, analyze it like Google, govern it better than Tesla did. The practical playbook is owner-controlled data, structured for monetization and analytics, with privacy and governance designed in —…",
-        "len": 276
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/network-compliance-multi-tenant-commercial-properties/",
@@ -819,13 +769,13 @@
     "file": "insights/not-just-smart-strategic-buildings-built-for-better-tenancy/",
     "isInsight": true,
     "title": "Not Just Smart—Strategic: Buildings Built for Better Tenancy",
-    "descLen": 279,
+    "descLen": 173,
     "canonical": "https://www.opticwise.com/insights/not-just-smart-strategic-buildings-built-for-better-tenancy/",
     "issues": [
       {
         "kind": "SEO_DESC_LONG",
-        "desc": "Smart features alone don&#x27;t drive tenancy. Strategic, owner-controlled buildings — ones that demonstrate operating discipline, predictable connectivity, and tenant-grade reliability — create the experience that lifts retention and NOI. Smart is the table stake; strategic is…",
-        "len": 279
+        "desc": "Smart features alone don&#x27;t drive tenancy. Strategic, owner-controlled buildings — operating discipline, reliable connectivity, tenant-grade UX — lift retention and NOI.",
+        "len": 173
       }
     ]
   },
@@ -849,15 +799,9 @@
     "file": "insights/operational-efficiency-is-the-new-alpha-in-commercial-real-estate/",
     "isInsight": true,
     "title": "Operational Efficiency Is the New Alpha in Commercial Real Estate",
-    "descLen": 263,
+    "descLen": 166,
     "canonical": "https://www.opticwise.com/insights/operational-efficiency-is-the-new-alpha-in-commercial-real-estate/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "Operational efficiency is the new alpha in commercial real estate. Disciplined ops — not financial engineering — separates winners from holders this cycle. Owner-controlled data is what makes the discipline measurable, repeatable, and provable to lenders and LPs.",
-        "len": 263
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/opticwise-building-intelligence-commercial-real-estate/",
@@ -879,15 +823,9 @@
     "file": "insights/own-the-digital-infrastructure-own-the-leverage/",
     "isInsight": true,
     "title": "Own the Digital Infrastructure, Own the Leverage",
-    "descLen": 274,
+    "descLen": 160,
     "canonical": "https://www.opticwise.com/insights/own-the-digital-infrastructure-own-the-leverage/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "In commercial real estate, whoever owns the digital infrastructure owns the leverage. Owner-controlled connectivity and data give the operator pricing power, vendor flexibility, AI readiness, and durable NOI. Vendor-controlled stacks transfer that leverage to someone whose…",
-        "len": 274
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/own-your-buildings-digital-infrastructure-or-be-owned-by-it/",
@@ -900,21 +838,10 @@
   {
     "file": "insights/owner-controlled-ai-orchestration-cre/",
     "isInsight": true,
-    "title": "Wall Street Just Built an AI Orchestration Firm. Owners Need Their Own. | OpticWise",
-    "descLen": 250,
+    "title": "Wall Street Built an AI Orchestration Firm — Owners Need Their Own",
+    "descLen": 164,
     "canonical": "https://www.opticwise.com/insights/owner-controlled-ai-orchestration-cre/",
-    "issues": [
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "Wall Street Just Built an AI Orchestration Firm. Owners Need Their Own. | OpticWise",
-        "len": 83
-      },
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "Anthropic, Blackstone, Hellman &amp; Friedman, and Goldman Sachs just launched a dedicated AI orchestration firm. The world&#x27;s largest capital allocators decided the layer above the model is worth its own balance sheet. CRE owners need their own.",
-        "len": 250
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/owners-are-overwhelmednot-under-informed/",
@@ -1048,15 +975,9 @@
     "file": "insights/the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat/",
     "isInsight": true,
     "title": "The AI Model Is Commoditizing. Your Owner Data Is the Real Moat.",
-    "descLen": 276,
+    "descLen": 161,
     "canonical": "https://www.opticwise.com/insights/the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "Foundation AI models are commoditizing fast — frontier and open-source models are nearly equivalent in performance and cost. The competitive moat for CRE owners has moved from the AI model to the owner-controlled data layer it runs on. The model can change tomorrow; the data…",
-        "len": 276
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/the-case-for-a-digital-architect-why-cre-property-managers-are-drowning-in/",
@@ -1222,15 +1143,9 @@
     "file": "insights/what-starbucks-taught-us-about-smart-property-ops/",
     "isInsight": true,
     "title": "What Starbucks Taught Us About Smart Property Ops",
-    "descLen": 273,
+    "descLen": 167,
     "canonical": "https://www.opticwise.com/insights/what-starbucks-taught-us-about-smart-property-ops/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "Starbucks turned operations into a system. So can CRE. The lesson: owner-controlled data and standardized workflows compound across locations far better than bespoke per-store decisions. Apply the same discipline to commercial real estate and the portfolio finally becomes…",
-        "len": 273
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/what-swedish-beach-volleyball-can-teach-you-about-cre-strategy/",
