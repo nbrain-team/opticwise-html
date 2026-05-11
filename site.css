@@ -236,6 +236,64 @@ nav .nav__dropdown-trigger:focus-visible {
   border: 0;
 }
 
+/* WEBSITE v2.2 polish — home midpoint CTA, quotes, linked cards, 5S header */
+.ow-mid-cta .ow-mid-cta__inner {
+  text-align: center;
+  max-width: 40rem;
+  margin-inline: auto;
+  padding: clamp(1.75rem, 4vw, 2.75rem) 1rem;
+}
+.ow-mid-cta .ow-mid-cta__heading {
+  font-size: clamp(1.15rem, 2.1vw, 1.65rem);
+  font-weight: 700;
+  margin: 0 0 1rem;
+  line-height: 1.25;
+}
+
+.ow-five-s-heading-link {
+  color: inherit;
+  text-decoration: none;
+}
+.ow-five-s-heading-link:hover {
+  color: var(--ow-blue, #0493d5);
+}
+
+a.cards__card--link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+a.cards__card--link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0, 22, 32, 0.12);
+}
+
+.quote.quote--compact {
+  padding: clamp(36px, 5vw, 60px) 0;
+}
+
+.ow-ppp-book-callout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem 1.5rem;
+  max-width: 56rem;
+  margin-inline: auto;
+  text-align: left;
+}
+.ow-ppp-book-callout img {
+  max-height: 110px;
+  width: auto;
+  display: block;
+}
+.ow-ppp-book-callout .ow-ppp-book-callout__text {
+  flex: 1 1 240px;
+  margin: 0;
+  max-width: 46rem;
+}
+
 .ow-outcomes-table-wrap {
   overflow-x: auto;
   margin-top: 1rem;
