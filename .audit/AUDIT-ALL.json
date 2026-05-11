@@ -37,7 +37,7 @@
   {
     "file": "advisory-services/",
     "isInsight": false,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
+    "title": "CRE Advisory Services — NOI &amp; Diligence Counsel | OpticWise",
     "descLen": 165,
     "canonical": "https://www.opticwise.com/advisory-services/",
     "issues": []
@@ -53,7 +53,7 @@
   {
     "file": "bot-building-of-things/",
     "isInsight": false,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
+    "title": "BoT® — Building of Things® for CRE | OpticWise",
     "descLen": 152,
     "canonical": "https://www.opticwise.com/bot-building-of-things/",
     "issues": []
@@ -79,16 +79,12 @@
     "isInsight": false,
     "title": "Customer Outcomes — What OpticWise Earns the Owner | OpticWise",
     "descLen": 164,
-    "canonical": "https://opticwise-html.onrender.com/customer-outcomes/",
+    "canonical": "https://www.opticwise.com/customer-outcomes/",
     "issues": [
       {
         "kind": "BARE_TM",
         "mark": "Peak Property Performance",
         "snippet": "…ese outcomes is documented in Peak Property Performance: Game-Changing AI and Digital…"
-      },
-      {
-        "kind": "BARE_INFRA",
-        "snippet": "…ctions on the other — both on infrastructure the owner controls. Per unit …"
       },
       {
         "kind": "SEO_TITLE_DUP_BRAND",
@@ -99,7 +95,7 @@
   {
     "file": "digital-infrastructure-noi-ai/",
     "isInsight": false,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
+    "title": "CRE Data &amp; Digital Infrastructure for NOI + AI | OpticWise",
     "descLen": 159,
     "canonical": "https://www.opticwise.com/digital-infrastructure-noi-ai/",
     "issues": []
@@ -115,7 +111,7 @@
   {
     "file": "digital-infrastructure-noi-strategy/",
     "isInsight": false,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
+    "title": "CRE NOI Strategy — Move the Causes, Not the Result | OpticWise",
     "descLen": 152,
     "canonical": "https://www.opticwise.com/digital-infrastructure-noi-strategy/",
     "issues": []
@@ -179,7 +175,7 @@
   {
     "file": "how-we-operate/",
     "isInsight": false,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
+    "title": "How We Operate — Owner-Controlled CRE Foundation | OpticWise",
     "descLen": 169,
     "canonical": "https://www.opticwise.com/how-we-operate/",
     "issues": []
@@ -367,15 +363,10 @@
   {
     "file": "insights/avb-eqr-merger-operating-standard-portfolio-intelligence/",
     "isInsight": true,
-    "title": "When Two Apartment Giants Merge, Whose Operating Standard Wins? | OpticWise",
+    "title": "When Two Apartment Giants Merge, Whose Operating Standard Wins?",
     "descLen": 260,
     "canonical": "https://www.opticwise.com/insights/avb-eqr-merger-operating-standard-portfolio-intelligence/",
     "issues": [
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "When Two Apartment Giants Merge, Whose Operating Standard Wins? | OpticWise",
-        "len": 75
-      },
       {
         "kind": "SEO_DESC_LONG",
         "desc": "AvalonBay and Equity Residential are exploring a combination. The capital math is the easy part. The hard question — and the one that decides the value created — is whose operating standard, whose data layer, and whose intelligence runs the combined portfolio.",
@@ -565,16 +556,10 @@
   {
     "file": "insights/digital-first-strategy-the-only-competitive-edge-that-lasts/",
     "isInsight": true,
-    "title": "Digital-First Strategy: CRE&#x27;s Lasting Competitive Edge | OpticWise",
+    "title": "Digital-First Strategy: CRE&#x27;s Lasting Competitive Edge",
     "descLen": 154,
     "canonical": "https://www.opticwise.com/insights/digital-first-strategy-the-only-competitive-edge-that-lasts/",
-    "issues": [
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "Digital-First Strategy: CRE&#x27;s Lasting Competitive Edge | OpticWise",
-        "len": 71
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/digital-infrastructure-commercial-real-estate/",
@@ -928,16 +913,10 @@
   {
     "file": "insights/own-your-buildings-digital-infrastructure-or-be-owned-by-it/",
     "isInsight": true,
-    "title": "Own Your Building&#x27;s Digital Infrastructure — or Be Owned | OpticWise",
+    "title": "Own Your Building&#x27;s Digital Infrastructure — or Be Owned",
     "descLen": 156,
     "canonical": "https://www.opticwise.com/insights/own-your-buildings-digital-infrastructure-or-be-owned-by-it/",
-    "issues": [
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "Own Your Building&#x27;s Digital Infrastructure — or Be Owned | OpticWise",
-        "len": 73
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/owner-controlled-ai-orchestration-cre/",
@@ -961,16 +940,10 @@
   {
     "file": "insights/owners-are-overwhelmednot-under-informed/",
     "isInsight": true,
-    "title": "CRE Owners Aren&#x27;t Under-Informed — They&#x27;re Overwhelmed | OpticWise",
+    "title": "CRE Owners Aren&#x27;t Under-Informed — They&#x27;re Overwhelmed",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/insights/owners-are-overwhelmednot-under-informed/",
-    "issues": [
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "CRE Owners Aren&#x27;t Under-Informed — They&#x27;re Overwhelmed | OpticWise",
-        "len": 76
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/part-2-what-cre-gets-wrong-about-tenant-experience-hint-it-s-not-a-smart/",
@@ -1347,16 +1320,10 @@
   {
     "file": "insights/wi-fi-is-not-a-utility-it-s-an-investment-signal/",
     "isInsight": true,
-    "title": "Wi-Fi Isn&#x27;t a Utility — It&#x27;s an Investment Signal | OpticWise",
+    "title": "Wi-Fi Isn&#x27;t a Utility — It&#x27;s an Investment Signal",
     "descLen": 145,
     "canonical": "https://www.opticwise.com/insights/wi-fi-is-not-a-utility-it-s-an-investment-signal/",
-    "issues": [
-      {
-        "kind": "SEO_TITLE_LONG",
-        "title": "Wi-Fi Isn&#x27;t a Utility — It&#x27;s an Investment Signal | OpticWise",
-        "len": 71
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/your-pms-has-an-api-thats-not-the-same-as-a-data-strategy/",
@@ -1369,7 +1336,7 @@
   {
     "file": "own-vs-lease-cre-building-data/",
     "isInsight": false,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
+    "title": "Own vs. Lease — The Economics of CRE Building Data | OpticWise",
     "descLen": 159,
     "canonical": "https://www.opticwise.com/own-vs-lease-cre-building-data/",
     "issues": []
@@ -1393,7 +1360,7 @@
   {
     "file": "property-brain/",
     "isInsight": false,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
+    "title": "Property Brain™ — Owner-Controlled CRE Intelligence | OpticWise",
     "descLen": 167,
     "canonical": "https://www.opticwise.com/property-brain/",
     "issues": []
@@ -1403,7 +1370,7 @@
     "isInsight": false,
     "title": "Working With Us — Deployments &amp; Friction | OpticWise",
     "descLen": 167,
-    "canonical": "https://opticwise-html.onrender.com/working-with-us/",
+    "canonical": "https://www.opticwise.com/working-with-us/",
     "issues": []
   }
 ]
