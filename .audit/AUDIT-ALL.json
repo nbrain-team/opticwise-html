@@ -21,7 +21,18 @@
     "title": "About OpticWise — CRE Digital Infrastructure Since 2004",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/about/",
-    "issues": []
+    "issues": [
+      {
+        "kind": "BARE_TM",
+        "mark": "Peak Property Performance",
+        "snippet": "…Wise's leadership co-authored Peak Property Performance: Game-Changing AI and Digital…"
+      },
+      {
+        "kind": "BARE_TM",
+        "mark": "Peak Property Performance",
+        "snippet": "…ook is the foundation for the Peak Property Performance podcast, where the same opera…"
+      }
+    ]
   },
   {
     "file": "advisory-services/",
@@ -62,6 +73,28 @@
     "descLen": 140,
     "canonical": "https://www.opticwise.com/control-cre-digital-visibility/",
     "issues": []
+  },
+  {
+    "file": "customer-outcomes/",
+    "isInsight": false,
+    "title": "Customer Outcomes — What OpticWise Earns the Owner | OpticWise",
+    "descLen": 164,
+    "canonical": "https://opticwise-html.onrender.com/customer-outcomes/",
+    "issues": [
+      {
+        "kind": "BARE_TM",
+        "mark": "Peak Property Performance",
+        "snippet": "…ese outcomes is documented in Peak Property Performance: Game-Changing AI and Digital…"
+      },
+      {
+        "kind": "BARE_INFRA",
+        "snippet": "…ctions on the other — both on infrastructure the owner controls. Per unit …"
+      },
+      {
+        "kind": "SEO_TITLE_DUP_BRAND",
+        "title": "Customer Outcomes — What OpticWise Earns the Owner | OpticWise"
+      }
+    ]
   },
   {
     "file": "digital-infrastructure-noi-ai/",
@@ -332,6 +365,25 @@
     "issues": []
   },
   {
+    "file": "insights/avb-eqr-merger-operating-standard-portfolio-intelligence/",
+    "isInsight": true,
+    "title": "When Two Apartment Giants Merge, Whose Operating Standard Wins? | OpticWise",
+    "descLen": 260,
+    "canonical": "https://www.opticwise.com/insights/avb-eqr-merger-operating-standard-portfolio-intelligence/",
+    "issues": [
+      {
+        "kind": "SEO_TITLE_LONG",
+        "title": "When Two Apartment Giants Merge, Whose Operating Standard Wins? | OpticWise",
+        "len": 75
+      },
+      {
+        "kind": "SEO_DESC_LONG",
+        "desc": "AvalonBay and Equity Residential are exploring a combination. The capital math is the easy part. The hard question — and the one that decides the value created — is whose operating standard, whose data layer, and whose intelligence runs the combined portfolio.",
+        "len": 260
+      }
+    ]
+  },
+  {
     "file": "insights/before-ai-you-need-data-you-actually-own/",
     "isInsight": true,
     "title": "Before AI in CRE: You Need Data You Actually Own | OpticWise",
@@ -398,14 +450,19 @@
   {
     "file": "insights/built-to-last-why-smart-infrastructure-is-the-backbone-of-future-proof/",
     "isInsight": true,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "title": "Built to Last: Why Smart Infrastructure Is the Backbone of Future-Proof Buildings",
+    "descLen": 293,
     "canonical": "https://www.opticwise.com/insights/built-to-last-why-smart-infrastructure-is-the-backbone-of-future-proof/",
     "issues": [
       {
+        "kind": "SEO_TITLE_LONG",
+        "title": "Built to Last: Why Smart Infrastructure Is the Backbone of Future-Proof Buildings",
+        "len": 81
+      },
+      {
         "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
+        "desc": "Future-proof CRE buildings aren&#x27;t built on apps — they&#x27;re built on infrastructure. Smart, owner-controlled infrastructure is the durable backbone every other system runs on. Buildings without it can&#x27;t keep up as tenant expectations, AI tools, and operating models keep changing.",
+        "len": 293
       }
     ]
   },
@@ -762,14 +819,19 @@
   {
     "file": "insights/monetize-like-amazon-analyze-like-google-and-avoid-tesla-s-data-missteps/",
     "isInsight": true,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "title": "Monetize Like Amazon, Analyze Like Google — and Avoid Tesla’s Data Missteps",
+    "descLen": 276,
     "canonical": "https://www.opticwise.com/insights/monetize-like-amazon-analyze-like-google-and-avoid-tesla-s-data-missteps/",
     "issues": [
       {
+        "kind": "SEO_TITLE_LONG",
+        "title": "Monetize Like Amazon, Analyze Like Google — and Avoid Tesla’s Data Missteps",
+        "len": 75
+      },
+      {
         "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
+        "desc": "What Amazon, Google, and Tesla teach CRE owners about data: monetize it like Amazon, analyze it like Google, govern it better than Tesla did. The practical playbook is owner-controlled data, structured for monetization and analytics, with privacy and governance designed in —…",
+        "len": 276
       }
     ]
   },
@@ -792,16 +854,24 @@
   {
     "file": "insights/not-just-smart-strategic-buildings-built-for-better-tenancy/",
     "isInsight": true,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "title": "Not Just Smart—Strategic: Buildings Built for Better Tenancy",
+    "descLen": 279,
     "canonical": "https://www.opticwise.com/insights/not-just-smart-strategic-buildings-built-for-better-tenancy/",
     "issues": [
       {
         "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
+        "desc": "Smart features alone don&#x27;t drive tenancy. Strategic, owner-controlled buildings — ones that demonstrate operating discipline, predictable connectivity, and tenant-grade reliability — create the experience that lifts retention and NOI. Smart is the table stake; strategic is…",
+        "len": 279
       }
     ]
+  },
+  {
+    "file": "insights/oem-owns-the-brain-cre-vendor-independence/",
+    "isInsight": true,
+    "title": "When the OEM Owns the Brain, the Owner Doesn&apos;t",
+    "descLen": 157,
+    "canonical": "https://www.opticwise.com/insights/oem-owns-the-brain-cre-vendor-independence/",
+    "issues": []
   },
   {
     "file": "insights/office-just-had-its-best-quarter-since-2018-the-winners-will-be-the-owners-who-c/",
@@ -814,14 +884,14 @@
   {
     "file": "insights/operational-efficiency-is-the-new-alpha-in-commercial-real-estate/",
     "isInsight": true,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "title": "Operational Efficiency Is the New Alpha in Commercial Real Estate",
+    "descLen": 263,
     "canonical": "https://www.opticwise.com/insights/operational-efficiency-is-the-new-alpha-in-commercial-real-estate/",
     "issues": [
       {
         "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
+        "desc": "Operational efficiency is the new alpha in commercial real estate. Disciplined ops — not financial engineering — separates winners from holders this cycle. Owner-controlled data is what makes the discipline measurable, repeatable, and provable to lenders and LPs.",
+        "len": 263
       }
     ]
   },
@@ -844,14 +914,14 @@
   {
     "file": "insights/own-the-digital-infrastructure-own-the-leverage/",
     "isInsight": true,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "title": "Own the Digital Infrastructure, Own the Leverage",
+    "descLen": 274,
     "canonical": "https://www.opticwise.com/insights/own-the-digital-infrastructure-own-the-leverage/",
     "issues": [
       {
         "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
+        "desc": "In commercial real estate, whoever owns the digital infrastructure owns the leverage. Owner-controlled connectivity and data give the operator pricing power, vendor flexibility, AI readiness, and durable NOI. Vendor-controlled stacks transfer that leverage to someone whose…",
+        "len": 274
       }
     ]
   },
@@ -866,6 +936,25 @@
         "kind": "SEO_TITLE_LONG",
         "title": "Own Your Building&#x27;s Digital Infrastructure — or Be Owned | OpticWise",
         "len": 73
+      }
+    ]
+  },
+  {
+    "file": "insights/owner-controlled-ai-orchestration-cre/",
+    "isInsight": true,
+    "title": "Wall Street Just Built an AI Orchestration Firm. Owners Need Their Own. | OpticWise",
+    "descLen": 250,
+    "canonical": "https://www.opticwise.com/insights/owner-controlled-ai-orchestration-cre/",
+    "issues": [
+      {
+        "kind": "SEO_TITLE_LONG",
+        "title": "Wall Street Just Built an AI Orchestration Firm. Owners Need Their Own. | OpticWise",
+        "len": 83
+      },
+      {
+        "kind": "SEO_DESC_LONG",
+        "desc": "Anthropic, Blackstone, Hellman &amp; Friedman, and Goldman Sachs just launched a dedicated AI orchestration firm. The world&#x27;s largest capital allocators decided the layer above the model is worth its own balance sheet. CRE owners need their own.",
+        "len": 250
       }
     ]
   },
@@ -1006,14 +1095,14 @@
   {
     "file": "insights/the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat/",
     "isInsight": true,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "title": "The AI Model Is Commoditizing. Your Owner Data Is the Real Moat.",
+    "descLen": 276,
     "canonical": "https://www.opticwise.com/insights/the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat/",
     "issues": [
       {
         "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
+        "desc": "Foundation AI models are commoditizing fast — frontier and open-source models are nearly equivalent in performance and cost. The competitive moat for CRE owners has moved from the AI model to the owner-controlled data layer it runs on. The model can change tomorrow; the data…",
+        "len": 276
       }
     ]
   },
@@ -1180,14 +1269,14 @@
   {
     "file": "insights/what-starbucks-taught-us-about-smart-property-ops/",
     "isInsight": true,
-    "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
-    "descLen": 175,
+    "title": "What Starbucks Taught Us About Smart Property Ops",
+    "descLen": 273,
     "canonical": "https://www.opticwise.com/insights/what-starbucks-taught-us-about-smart-property-ops/",
     "issues": [
       {
         "kind": "SEO_DESC_LONG",
-        "desc": "OpticWise helps commercial real estate owners own and control their data &amp; digital infrastructure to drive NOI, AI readiness, tenant experience, and long-term asset value.",
-        "len": 175
+        "desc": "Starbucks turned operations into a system. So can CRE. The lesson: owner-controlled data and standardized workflows compound across locations far better than bespoke per-store decisions. Apply the same discipline to commercial real estate and the portfolio finally becomes…",
+        "len": 273
       }
     ]
   },
@@ -1307,6 +1396,14 @@
     "title": "OpticWise | Own Your Data &amp; Digital Infrastructure",
     "descLen": 167,
     "canonical": "https://www.opticwise.com/property-brain/",
+    "issues": []
+  },
+  {
+    "file": "working-with-us/",
+    "isInsight": false,
+    "title": "Working With Us — Deployments &amp; Friction | OpticWise",
+    "descLen": 167,
+    "canonical": "https://opticwise-html.onrender.com/working-with-us/",
     "issues": []
   }
 ]
