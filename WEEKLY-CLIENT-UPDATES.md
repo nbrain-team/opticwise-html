@@ -1,5 +1,29 @@
 # Weekly Client Updates
 
+### 2026-05-11 — "Schedule Review" buttons now open the live form in a modal
+
+- **What we did**: Every "Schedule Review", "Schedule Your Review",
+  "Schedule a Complimentary Review", "Schedule a Working Session" and
+  "Schedule a Conversation" button across the site (nav, hero, mid-page,
+  any page) now opens a clean modal with the **live OWNet Schedule
+  Review form** rendered straight from the CRM Form Builder — same form
+  fields, same validation, same submission pipeline as the inline embed
+  at the bottom of every page.
+- **What we did**: Replaced the previous broken modal (which carried a
+  stale local copy of the form schema and was throwing "We couldn't
+  reach the form server" errors) with a thin launcher that delegates all
+  rendering to the official OWNet embed loader. There is now exactly one
+  source of truth for the Schedule Review form: the OpticWise Form
+  Builder.
+- **Why it matters**: Visitors get the form instantly without scrolling
+  to the bottom of the page, and the team never has to maintain two
+  copies of the field list. Any field changes made in the Form Builder
+  show up automatically on every Schedule Review entry point.
+- **Under the hood**: Lowered the cache TTL on the launcher script and
+  stamped a version query (`?v=2`) on every page so the new modal
+  behaviour reaches all visitors on their next page load instead of
+  waiting an hour for browser caches to expire.
+
 ### 2026-05-11 — Site-wide CRM-connected forms
 
 - **What we did**: Replaced the static "Schedule a Complimentary Review",

@@ -31,7 +31,10 @@ opticwise-html/
 ├── site.css                      OpticWise-specific component styles
 ├── site.js                       lightweight site behaviour (nav, etc.)
 ├── forms-embed.css               OWNet form widget styles
-├── forms-embed.js                OWNet form widget (modal + inline mounts)
+├── forms-embed.js                Schedule-Review modal launcher shim
+│                                 (composes with the official OWNet
+│                                 embed loader at
+│                                 ownet.opticwise.com/forms/embed.js)
 ├── render.yaml                   Render hosting config
 ├── scripts/                      mirror builder + maintenance scripts
 └── _mirror-manifest.json         crawler debug log
@@ -92,22 +95,36 @@ Submission body is flat: `{ [fieldKey]: value, [honeypotFieldName]: "" }`.
 | `ppp-starter-kit` | Home page lead-magnet section (dark card) | PPP Starter Kit downloaders |
 | `insights-newsletter` | Footer row (every page) | Newsletter subscribers |
 
-Schemas are fetched live from OWNet. A local fallback for each slug lives
-in `forms-embed.js` (`FALLBACK_SCHEMAS`) so localhost previews still render
-the correct fields. **Field schemas are owned by OWNet admin — do not
-modify them in this repo.**
+Schemas are fetched live from OWNet by the **official** loader at
+`https://ownet.opticwise.com/forms/embed.js`. There are no local
+fallback schemas — every form on the site reflects whatever the OWNet
+Form Builder currently has live. **Field schemas are owned by OWNet
+admin — do not duplicate them in this repo.**
 
 ---
 
-## Form Embed Widget (`forms-embed.js` / `forms-embed.css`)
+## Form Embed Stack
 
-Single namespaced widget (`ow-fe`) with no external deps. Loaded on every
-page via `<script src="/forms-embed.js" defer>` and
-`<link href="/forms-embed.css">`.
+Two scripts cooperate on every page:
 
-### Markup contract
+1. **Official OWNet loader** —
+   `<script src="https://ownet.opticwise.com/forms/embed.js" defer>`.
+   Auto-mounts every `<div data-opticwise-form="<slug>">` it finds on
+   `DOMContentLoaded`, fetching the live schema and injecting its own
+   scoped CSS under `.ow-form-embed`. Exposes
+   `window.OpticWiseForms.mount(node)` for late-injected divs.
 
-Inline mount (preferred for static placement):
+2. **Local launcher shim** —
+   `<script src="/forms-embed.js?v=N" defer>`. Tiny script (~7 KB) that
+   intercepts clicks on any "Schedule X" CTA button (nav, hero,
+   mid-page) and opens a modal containing
+   `<div data-opticwise-form="schedule-review">`, then asks the official
+   loader to mount it via `window.OpticWiseForms.mount(...)`. Bump the
+   `?v=` query string with `scripts/cache_bust_shim.py <N>` after any
+   behaviour change so visitors get the new copy on next page load
+   instead of waiting for Render's cache TTL to expire.
+
+### Markup contract for inline embeds
 
 ```html
 <div data-opticwise-form="<slug>"
@@ -120,7 +137,7 @@ Inline mount (preferred for static placement):
 </div>
 ```
 
-Modal trigger (zero-config — text-based):
+### Schedule Review modal trigger (zero-config — text-based)
 
 Any `<button>` or `<a>` whose visible text matches one of:
 
@@ -131,20 +148,11 @@ Any `<button>` or `<a>` whose visible text matches one of:
 - "Schedule a Conversation"
 - "Schedule a PPP Audit™"
 
-opens the schedule-review modal automatically.
-
-JS API:
-
-```js
-window.OWFormEmbed.openModal(slug?)
-window.OWFormEmbed.closeModal()
-window.OWFormEmbed.mountInline(targetEl, slug?, opts?)
-window.OWFormEmbed.fetchSchema(slug)
-```
-
-Backwards compatibility: the legacy attribute `data-form-embed="<slug>"`
-still works (used to be the only attribute). New code should prefer
-`data-opticwise-form`.
+opens the Schedule Review modal automatically. The modal is lazy-built
+on first click, mounted via `window.OpticWiseForms.mount`, and dismissed
+on backdrop click, the close button, or the Escape key. Cmd/Ctrl/Shift
+clicks on `<a>` triggers fall through so power users can still
+"open in new tab".
 
 ### Where each form is placed
 

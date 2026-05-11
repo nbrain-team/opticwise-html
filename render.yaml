@@ -87,9 +87,14 @@ services:
       - path: /forms-embed.css
         name: Cache-Control
         value: public, max-age=3600, must-revalidate
+      # Short TTL for /forms-embed.js — it's the modal-launcher shim that
+      # composes with the official OWNet embed loader. Keeping the TTL low
+      # means a behaviour fix here propagates within minutes instead of
+      # waiting an hour. Each HTML page also stamps ?v=N on the src so a
+      # version bump invalidates browser caches immediately.
       - path: /forms-embed.js
         name: Cache-Control
-        value: public, max-age=3600, must-revalidate
+        value: public, max-age=60, must-revalidate
 
       # Images and downloadables — long cache, revalidate on change.
       - path: /images/*
