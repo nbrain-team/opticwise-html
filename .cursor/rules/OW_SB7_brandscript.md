@@ -1,6 +1,6 @@
 # OpticWise (OW) SB7 BrandScript — Canonical Reference
 
-> Synthesized canon for every piece of OpticWise content, copy, and positioning. Built from the 14 source documents in `/Users/billdouglas/My Drive/WD cursor sandbox/` (Canonical SB7 BrandScript, Sales Playbook, PPP manuscript, Asset Manager Mindset Overlay, BrandVoice KeyCrew Yield, Brandscript Best Examples, KeyCrew Canonical Updates, KeyCrew Content Pack, Big Three Plays Diagnostic, Market Context Brief, Wins & Nightmares Library, Competitive Landscape, WD2 Sales Reframe Playbook, Curmudgeon PM Playbook). When this file conflicts with anything else in the workspace, **this file wins**.
+> Synthesized canon for every piece of OpticWise content, copy, and positioning. Built from the 14 source documents in `/Users/billdouglas/My Drive/WD cursor sandbox/` (Canonical SB7 BrandScript, Sales Playbook, PPP manuscript, Asset Manager Mindset Overlay, BrandVoice KeyCrew Yield, Brandscript Best Examples, KeyCrew Canonical Updates, KeyCrew Content Pack, Big Three Plays Diagnostic, Market Context Brief, Wins & Nightmares Library, Competitive Landscape, WD2 Sales Reframe Playbook, Curmudgeon PM Playbook). **§2 path exclusions** (`opticwise-html` **`insights/**`**, **`faq/**`**) spell out pages that are exempt from compulsory SB7. Elsewhere — and when this file conflicts with anything else in the workspace — **this file wins**.
 
 ---
 
