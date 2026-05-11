@@ -63,7 +63,7 @@ def main() -> None:
     )
     coh = coh.replace(
         '"name":"How We Operate","item":"https://www.opticwise.com/how-we-operate"',
-        f'"name":"Customer Outcomes","item":"{PROD}/customer-outcomes"',
+        f'"name":"Customer Outcomes","item":"{PROD}/customer-outcomes/"',
     )
     co.write_text(coh, encoding="utf-8")
 
@@ -91,7 +91,7 @@ def main() -> None:
     )
     wuh = wuh.replace(
         '"name":"How We Operate","item":"https://www.opticwise.com/how-we-operate"',
-        f'"name":"Working With Us","item":"{PROD}/working-with-us"',
+        f'"name":"Working With Us","item":"{PROD}/working-with-us/"',
     )
     wu.write_text(wuh, encoding="utf-8")
     print("injected customer-outcomes + working-with-us")
