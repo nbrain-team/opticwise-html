@@ -188,7 +188,10 @@ def patch_customer_outcomes() -> None:
         1,
     )
 
-    t = t.replace(bot_open, insert, 1)
+    bot_open = "</section><section class=\"bot\">"
+    if bot_open not in t:
+        raise ValueError("before bot section not found")
+    insert = (
         "</section><section class=\"twocol twocol--nearwhite\"><div class=\"container\">"
         '<div class="twocol__wrap ow-ppp-book-callout">'
         f'<a href="{PPP_HUB}" target="_blank" rel="noopener noreferrer">'
