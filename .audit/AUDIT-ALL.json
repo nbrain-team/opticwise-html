@@ -21,18 +21,7 @@
     "title": "About OpticWise — CRE Digital Infrastructure Since 2004",
     "descLen": 143,
     "canonical": "https://www.opticwise.com/about/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…Wise's leadership co-authored Peak Property Performance: Game-Changing AI and Digital…"
-      },
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…ook is the foundation for the Peak Property Performance podcast, where the same opera…"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "advisory-services/",
@@ -77,20 +66,10 @@
   {
     "file": "customer-outcomes/",
     "isInsight": false,
-    "title": "Customer Outcomes — What OpticWise Earns the Owner | OpticWise",
+    "title": "Customer Outcomes — Documented CRE Owner Economics | OpticWise",
     "descLen": 164,
     "canonical": "https://www.opticwise.com/customer-outcomes/",
-    "issues": [
-      {
-        "kind": "BARE_TM",
-        "mark": "Peak Property Performance",
-        "snippet": "…ese outcomes is documented in Peak Property Performance: Game-Changing AI and Digital…"
-      },
-      {
-        "kind": "SEO_TITLE_DUP_BRAND",
-        "title": "Customer Outcomes — What OpticWise Earns the Owner | OpticWise"
-      }
-    ]
+    "issues": []
   },
   {
     "file": "digital-infrastructure-noi-ai/",
