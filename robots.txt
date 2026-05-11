@@ -1,6 +1,84 @@
-User-Agent: *
+# OpticWise — robots.txt
+# Production canonical host: https://www.opticwise.com
+# Curated AI-friendly index: https://www.opticwise.com/llms.txt
+# Full-text pillar pages:    https://www.opticwise.com/llms-full.txt
+
+# — Default policy ——————————————————————————————————————————————————
+User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /api/
 
+# — Major search & AI assistant crawlers, explicitly welcomed —————————
+# These bots are allowed to crawl, search, train on, and cite OpticWise
+# content. Each one is listed by its canonical user-agent string so intent
+# is unambiguous to the bot operator and to anyone auditing this file.
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# — Sitemap ————————————————————————————————————————————————————————
 Sitemap: https://www.opticwise.com/sitemap.xml
