@@ -7,6 +7,20 @@
  *   - Hamburger active animation (X-shape on open)
  */
 
+/* Fixed top nav — scrolled state. Inline classes set `transition-all
+ * duration-300` so changes animate. When the page is at the top, the nav
+ * is fully transparent (sits on the dark hero). Once content scrolls
+ * under it, JS adds `is-scrolled` and we paint a dark translucent
+ * backdrop with blur so headings / body copy passing behind the nav stay
+ * legible instead of clashing with the underlying text. */
+nav.is-scrolled {
+  background: rgba(11, 17, 33, 0.78);
+  -webkit-backdrop-filter: saturate(140%) blur(14px);
+  backdrop-filter: saturate(140%) blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
 /* Hamburger: only on viewports below lg. Unscoped `display: inline-flex` here
  * previously beat Tailwind's `.lg:hidden` specificity and showed a white control
  * on desktop. */
