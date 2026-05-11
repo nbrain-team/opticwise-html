@@ -6,7 +6,14 @@
     <atom:link href="https://www.opticwise.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Owner plays for CRE: how to reclaim control, reduce operational risk, and turn data &amp; digital infrastructure into a compounding portfolio asset.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 May 2026 13:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 13:00:00 GMT</lastBuildDate>
+    <item>
+      <title>When the OEM Owns the Brain, the Owner Doesn&apos;t</title>
+      <link>https://www.opticwise.com/insights/oem-owns-the-brain-cre-vendor-independence</link>
+      <guid isPermaLink="true">https://www.opticwise.com/insights/oem-owns-the-brain-cre-vendor-independence</guid>
+      <pubDate>Mon, 11 May 2026 13:00:00 GMT</pubDate>
+      <description>Building OEMs are buying AI startups and folding the brains into their platforms. Three diligence questions every CRE owner must ask before the next renewal.</description>
+    </item>
     <item>
       <title>AI Agents Are Already Inside Your Buildings. Who Gave Them Permission?</title>
       <link>https://www.opticwise.com/insights/ai-agents-permissions-cre-orchestration</link>
