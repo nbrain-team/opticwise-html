@@ -232,7 +232,7 @@ Avoid: news ledes ("Bloomberg reported X"), topic announcements ("Today I want t
 
 > **"If you don't own your data & digital infrastructure, your vendors do."**
 
-Required at least once per long-form piece (blog, article, deck, board memo). Encouraged in talk tracks and outbound.
+Required at least once per long-form piece in **SB7 scope** (article, deck, board memo — and blog-style HTML **outside** `opticwise-html` `insights/**` / `faq/**`). Encouraged in talk tracks and outbound.
 
 ### 6.5 Default closer
 
@@ -808,7 +808,7 @@ When a property manager (Creighton archetype) tries to renegotiate the commercia
 
 ## 25. Pre-publish checklist
 
-Before delivering any output, verify:
+Before delivering any output **in SB7 scope**, verify. **Skip this checklist entirely** for **`opticwise-html` `insights/**` and `faq/**`** unless the brief explicitly asks for SB7 pass.
 
 - [ ] Did I lead with owner outcomes (NOI / control / risk / tenant experience) before product details?
 - [ ] Did I name the villain (fragmentation + lock-in + vendor-controlled control plane)?
@@ -817,7 +817,7 @@ Before delivering any output, verify:
 - [ ] OpticWise **not** framed as PropTech?
 - [ ] Every trademark on every mention: Peak Property Performance®, PPP 5C™, BoT®, Building of Things®, ElasticISP®, 5S®, Property Brain™, Portfolio Brain™?
 - [ ] **"Audit"** not used to describe the OW offering — **"review"** instead (PPP Audit™ trademark wording is the exception)?
-- [ ] Banned words absent: leverage, synergy, ecosystem, holistic, seamless, cutting-edge, ESG, PropTech?
+- [ ] Banned words absent: leverage, synergy, ecosystem, holistic, seamless, cutting-edge, ESG, PropTech? *(On `insights/**` and `faq/**`, PropTech may appear only for third-party / link context — see §6.3.)*
 - [ ] PPP 5C™ stages or named differentiators woven in, not bolted on?
 - [ ] Reframing line present at least once on long-form pieces?
 - [ ] Default closer used when the close calls for it?
