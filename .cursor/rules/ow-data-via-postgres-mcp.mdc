@@ -63,6 +63,6 @@ toggling the MCP in **Settings → Tools & Integrations → MCP**.
 
 > If you don't own your data & digital infrastructure, your vendors do.
 
-The Postgres mirror is the owner-controlled layer. Source APIs (Fathom,
-Gmail, Slack, Drive) are vendor surfaces — use them only as taps into the
+The Postgres mirror is the owner-controlled layer. Source APIs (Gmail,
+Slack, Drive, Read.ai) are vendor surfaces — use them only as taps into the
 owned store.
