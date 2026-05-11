@@ -54,7 +54,8 @@ def fix_minimal_insights_footer() -> None:
     if not p.exists():
         return
     t = p.read_text(encoding="utf-8")
-    if "md:grid-cols-1 gap-10 pb-12 border-b border-white/10 md:grid-cols-1" not in t:
+    foot = t.split("</main>", 1)[-1]
+    if "Explore</h4>" in foot and "PPP Book &amp; Podcast" in foot:
         return
     t2, n = re.subn(r'<footer class="bg-ow-navy[\s\S]*?</footer>', INSIGHTS_FOOTER_FULL, t, count=1)
     if n != 1:
