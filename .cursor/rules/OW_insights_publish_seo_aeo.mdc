@@ -1,0 +1,43 @@
+---
+description: When adding or shipping a new Insights post (insights/<slug>/index.html), complete SEO/AEO wiring — regenerate listing/search index, sitemap, and RSS feed.
+alwaysApply: true
+---
+
+# Insights publish — SEO & AEO checklist
+
+Whenever you **create** or **first publish** a new blog/Insight HTML page under `insights/<slug>/index.html` (excluding edits that only tweak copy on an already-listed post):
+
+## 1. Listing, counts, filters, client search
+
+From the repo root, run:
+
+```bash
+node scripts/build-insights-index.mjs
+```
+
+This regenerates **`insights/index.html`** (cards newest-first, first 30 visible, correct “Showing X of Y” and “Load more” remaining counts, category tabs) and writes **`insights/search-index.json`** for on-page search (`site.js`). Do not hand-edit grid markup when this script can do it.
+
+## 2. XML sitemap
+
+Add a `<url>` block for the post under **`sitemap.xml`**.
+
+- **`loc`:** `https://www.opticwise.com/insights/<slug>/` (trailing slash, match existing entries).
+- **Sort:** insert alphabetically by the path segment (`…/insights/<slug>/`), consistent with the rest of this file.
+- **`lastmod`:** use the article’s publication or refresh date when known; otherwise the current ship date.
+
+## 3. RSS feed (discoverability / AEO distribution)
+
+Under **`blog/feed.xml`**:
+
+- Prepend a new `<item>` **above** older items when the new post has the newest **`pubDate`** (otherwise insert in strict date order so the channel stays chronological).
+- Set **`pubDate`** / **`lastBuildDate`** in RFC 822 GMT form, aligned with the post’s `article:published_time` / JSON-LD `datePublished` when present.
+- Escape XML in `<title>` and `<description>` (`&` → `&amp;`, etc.).
+- **`link`** / **`guid`:** `https://www.opticwise.com/insights/<slug>` (match existing feed style for trailing slash vs none — stay consistent with neighboring items).
+
+## 4. On-page AEO/SEO (verify on the post file)
+
+Confirm the post already includes a stable **`link rel="canonical"`**, **`meta name="description"`**, Open Graph / Twitter tags, and **JSON-LD** (`Article` + breadcrumbs where used). Fix gaps if missing; those support answer engines and rich results alongside sitemap/RSS.
+
+## 5. Do not skip
+
+Treat steps 1–3 as **required PR completion** for a new Insight URL unless the user explicitly opts out. If media paths or slug change, rerun the indexer and reconcile sitemap + feed.
