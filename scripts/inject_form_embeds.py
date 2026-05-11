@@ -51,8 +51,18 @@ NEWSLETTER_BLOCK = (
     " data &amp; digital infrastructure, the plays we&#x27;re running this month, and"
     ' the moves smart owners are making. No fluff, no cadence padding.</p>'
     '</div>'
-    '<div data-opticwise-form="insights-newsletter"'
-    ' data-align="left" data-show-header="false"></div>'
+    '<div class="ow-footer-linkedin-newsletters">'
+    '<a class="btn btn-white"'
+    ' href="https://www.linkedin.com/newsletters/'
+    'the-owner-s-standard-7453186296837156864/"'
+    ' target="_blank" rel="noopener">'
+    "The Owner&#x27;s Standard on LinkedIn →</a>"
+    '<a class="btn btn-white"'
+    ' href="https://www.linkedin.com/newsletters/'
+    'the-foundation-7453442579339124736/"'
+    ' target="_blank" rel="noopener">'
+    "The Foundation on LinkedIn →</a>"
+    '</div>'
     '</div>'
 )
 
