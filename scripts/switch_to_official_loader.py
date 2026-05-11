@@ -12,9 +12,11 @@ What it does (idempotent — safe to re-run):
     defer></script>. This guarantees every embed always shows whatever the
     OWNet Form Builder currently has configured — no stale local fallbacks.
 
-3.  Adds data-theme="dark" to the footer Insights Newsletter embed so it
-    styles correctly on the dark navy footer surface (the loader's default
-    is a light/white card, which would clash on a dark background).
+3.  (Historical) Used to add data-theme="dark" to the footer Insights
+    Newsletter embed. That embed has since been replaced by two LinkedIn
+    newsletter CTA buttons (we don't operate a newsletter outside LinkedIn),
+    so the newsletter-dark step is now a no-op kept only for idempotency on
+    any stale page that still has the legacy form mount.
 
 Run from the repo root:
 
