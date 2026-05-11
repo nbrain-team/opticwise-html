@@ -144,22 +144,37 @@ nav .nav__dropdown-trigger:focus-visible {
   border-radius: 4px;
 }
 
-/* /contact form section — anchor target offset + suppress widget's internal
- * header so the section's own eyebrow/heading/sub aren't duplicated.
+/* /contact form section — anchor target offset for the fixed top nav.
  *
  * The "Send a Message" anchors on /contact (Hero CTA, CardGrid Card 1, bottom
  * CTA) all point to #contact-form. The fixed top nav is ~4–5rem tall; the
  * scroll-margin keeps the section heading from being hidden under it.
  *
- * The form widget (forms-embed.js) renders its own .ow-fe-header with copy
- * pulled from the OWNet schema. On /contact the surrounding section already
- * provides on-brand copy ("Send a Message" / "Tell Us What You're Working
- * On." / instructions), so we hide the widget header to avoid the double. */
+ * Header-suppression is now handled by the OpticWise embed itself via
+ * data-show-header="false" on the embed div — see contact/index.html. */
 #contact-form {
   scroll-margin-top: 5rem;
 }
-#contact-form .ow-fe-header {
-  display: none;
+
+/* Center the OpticWise form embed inside its host wrapper on /contact and on
+ * every bottom-CTA section across the site (the embed defaults to a 640px
+ * max-width centered card; we just keep the wrapper from forcing a left
+ * alignment). The embed itself is fully styled by the official loader CSS
+ * (.ow-form-embed namespace) — these rules only handle the surrounding
+ * layout that exists on the OpticWise pages. */
+.ow-fe-cta-mount {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.75rem;
+}
+
+/* Footer Insights Newsletter mount — the embed itself uses data-theme="dark"
+ * and data-align="left" so the official loader styles it on a dark surface
+ * and aligns it to the left of its column. We only need to constrain the
+ * overall column width so it lines up with the surrounding "Resources"
+ * column above. */
+.ow-footer-newsletter [data-opticwise-form="insights-newsletter"] {
+  max-width: 360px;
 }
 
 /* Insights listing — runtime filter/search/pagination hides cards via the
