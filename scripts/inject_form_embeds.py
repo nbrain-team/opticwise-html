@@ -124,7 +124,7 @@ FOOTER_REPLACEMENT = (
     + '<div class="grid grid-cols-1 gap-10 pb-12 border-b border-white/10 md:grid-cols-5">'
 )
 
-NEWSLETTER_ALREADY_PRESENT_MARKER = 'data-opticwise-form="insights-newsletter"'
+NEWSLETTER_ALREADY_PRESENT_MARKER = 'class="ow-footer-linkedin-newsletters"'
 
 
 def patch_file(path: Path) -> dict:
