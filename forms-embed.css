@@ -315,7 +315,7 @@
 }
 .ow-fe-success__close:hover { background: #f8fafc; }
 
-/* ── Inline mount (used on /ppp-audit/ instead of the modal) ─────────── */
+/* ── Inline mount (every [data-opticwise-form] / [data-form-embed]) ──── */
 .ow-fe-inline {
   background: #fff;
   border-radius: 14px;
@@ -332,4 +332,220 @@
 @media (max-width: 520px) {
   .ow-fe-inline .ow-fe-header { padding: 28px 22px 6px; }
   .ow-fe-inline .ow-fe-form { padding: 18px 22px 24px; }
+}
+
+/* data-align="left" — left-justified inside its container instead of centered.
+ * Used by the footer Insights Newsletter so the form lines up with the
+ * footer column rule and the surrounding "Resources" links.
+ */
+.ow-fe-inline[data-align="left"] {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
+/* data-show-header="false" — hide the embed's own eyebrow/heading/sub when the
+ * surrounding section already provides the header copy (e.g. inside a
+ * `cta cta--blue` block whose eyebrow + heading + bullets remain in place).
+ */
+.ow-fe-inline[data-show-header="false"] .ow-fe-header { display: none; }
+.ow-fe-inline[data-show-header="false"] .ow-fe-form { padding-top: 28px; }
+
+/* data-theme="dark" — dark surface variant.
+ * Used by the home page PPP Starter Kit lead-magnet card. Fields, labels,
+ * and the submit button get a dark, high-contrast treatment that matches
+ * the surrounding `.starter` section background and the OpticWise navy
+ * palette already used elsewhere on the site.
+ */
+.ow-fe-inline[data-theme="dark"] {
+  background: linear-gradient(180deg, #0b1424 0%, #0f1d36 100%);
+  color: #f8fafc;
+  box-shadow: 0 14px 40px rgba(0, 6, 22, 0.45);
+}
+.ow-fe-inline[data-theme="dark"] .ow-fe-header__eyebrow {
+  color: #66a8ff;
+}
+.ow-fe-inline[data-theme="dark"] .ow-fe-header__heading {
+  color: #ffffff;
+}
+.ow-fe-inline[data-theme="dark"] .ow-fe-header__sub {
+  color: rgba(248, 250, 252, 0.78);
+}
+.ow-fe-inline[data-theme="dark"] .ow-fe-field__label {
+  color: rgba(248, 250, 252, 0.92);
+}
+.ow-fe-inline[data-theme="dark"] .ow-fe-field__help {
+  color: rgba(203, 213, 225, 0.75);
+}
+.ow-fe-inline[data-theme="dark"] .ow-fe-input,
+.ow-fe-inline[data-theme="dark"] .ow-fe-textarea,
+.ow-fe-inline[data-theme="dark"] .ow-fe-select {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.18);
+  color: #f8fafc;
+}
+.ow-fe-inline[data-theme="dark"] .ow-fe-input::placeholder,
+.ow-fe-inline[data-theme="dark"] .ow-fe-textarea::placeholder {
+  color: rgba(203, 213, 225, 0.6);
+}
+.ow-fe-inline[data-theme="dark"] .ow-fe-input:focus,
+.ow-fe-inline[data-theme="dark"] .ow-fe-textarea:focus,
+.ow-fe-inline[data-theme="dark"] .ow-fe-select:focus {
+  border-color: #66a8ff;
+  box-shadow: 0 0 0 3px rgba(102, 168, 255, 0.25);
+  background: rgba(255, 255, 255, 0.10);
+}
+.ow-fe-inline[data-theme="dark"] .ow-fe-skeleton__row {
+  background: linear-gradient(90deg,
+    rgba(255, 255, 255, 0.05) 25%,
+    rgba(255, 255, 255, 0.12) 50%,
+    rgba(255, 255, 255, 0.05) 75%);
+}
+.ow-fe-inline[data-theme="dark"] .ow-fe-success__heading { color: #ffffff; }
+.ow-fe-inline[data-theme="dark"] .ow-fe-success__msg {
+  color: rgba(248, 250, 252, 0.78);
+}
+.ow-fe-inline[data-theme="dark"] .ow-fe-success__close {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.18);
+  color: #f8fafc;
+}
+
+/* Footer newsletter — compact, single-row layout for the Insights Newsletter
+ * embed mounted in the global site footer. Mirrors the spacing/typography
+ * scale of the surrounding footer column ("Resources").
+ */
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"],
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] {
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  color: rgba(255, 255, 255, 0.78);
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-header,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-header {
+  padding: 0 0 12px;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-form,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-form {
+  padding: 0;
+  gap: 12px;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-header__eyebrow,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-header__eyebrow {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  margin-bottom: 8px;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-header__heading,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-header__heading {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  margin-bottom: 6px;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-header__sub,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-header__sub {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 13px;
+  line-height: 1.5;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-field__label,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-field__label {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  font-weight: 600;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-input,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-input {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.14);
+  color: #ffffff;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-input::placeholder,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-input:focus,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-input:focus {
+  border-color: #66a8ff;
+  box-shadow: 0 0 0 3px rgba(102, 168, 255, 0.2);
+  background: rgba(255, 255, 255, 0.10);
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-actions,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-actions {
+  justify-content: flex-start;
+  margin-top: 0;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-submit,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-submit {
+  width: 100%;
+  justify-content: center;
+  font-size: 14px;
+  padding: 11px 18px;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-skeleton,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-skeleton {
+  padding: 0;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-skeleton__row,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-skeleton__row {
+  background: linear-gradient(90deg,
+    rgba(255, 255, 255, 0.04) 25%,
+    rgba(255, 255, 255, 0.10) 50%,
+    rgba(255, 255, 255, 0.04) 75%);
+  height: 38px;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-success,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-success {
+  padding: 8px 0;
+  text-align: left;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-success__icon,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-success__icon {
+  margin: 0 0 8px;
+  width: 36px;
+  height: 36px;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-success__icon svg,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-success__icon svg {
+  width: 20px; height: 20px;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-success__heading,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-success__heading {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+footer .ow-fe-inline[data-opticwise-form="insights-newsletter"] .ow-fe-success__msg,
+footer .ow-fe-inline[data-form-embed="insights-newsletter"] .ow-fe-success__msg {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 13px;
+}
+
+/* Embed inside a dark `.cta--blue` CTA section (replaces the bottom button on
+ * /, /ppp-audit, /about, every pillar page, every insight detail page).
+ * The surrounding section is centered and fairly narrow; the embed fits
+ * naturally into the existing layout without competing styling.
+ */
+section.cta--blue .ow-fe-inline,
+.ow-fe-cta-mount .ow-fe-inline {
+  background: #ffffff;
+  color: #0f172a;
+  margin-top: 1.75rem;
+  text-align: left;
+}
+section.cta--blue .ow-fe-mount,
+.ow-fe-cta-mount {
+  display: flex;
+  justify-content: center;
 }

@@ -1,9 +1,12 @@
 /* OpticWise FormEmbed — schema-driven form widget
  *
  * Drives every "Schedule Review" / "Schedule Your Review" button on the site
- * (modal) and the inline form on /ppp-audit/.
+ * (modal) and every inline form on opticwise.com (PPP Starter Kit on home,
+ * Inbound Contact on /contact, Schedule Review on /ppp-audit, /about, every
+ * pillar page, every insight detail page, and the Insights Newsletter in
+ * the global footer).
  *
- * Source of truth lives in OWnet:
+ * Source of truth lives in OWNet:
  *   GET  https://ownet.opticwise.com/api/public/forms/{slug}
  *   POST https://ownet.opticwise.com/api/public/forms/{slug}/submit
  *
@@ -13,14 +16,27 @@
  *             honeypotFieldName, fields: [{ fieldKey, fieldType, label,
  *             required, placeholder, helpText, options }] } }
  *
- * Triggers:
+ * Triggers / mounts:
  *   - Any <button> or <a> with text exactly "Schedule Review",
  *     "Schedule Your Review", or "Schedule a Complimentary Review"
  *     (case-insensitive, trimmed) opens the modal.
- *   - Any element with data-form-embed="<slug>" gets an inline mount.
+ *   - Any element with data-opticwise-form="<slug>" or the legacy
+ *     data-form-embed="<slug>" gets an inline mount.
+ *
+ *     Per-mount overrides (read off the host element):
+ *       data-eyebrow         override eyebrow copy (else schema name)
+ *       data-heading         override heading copy (else schema name)
+ *       data-description     override description copy (else schema description)
+ *       data-theme="dark"    render the inline card on a dark surface
+ *       data-align="left"    left-align the embed inside its container
+ *                            (default: centered, max-width 620px)
+ *       data-show-header     "false" hides the embed's own eyebrow/heading/desc
+ *                            (use when the surrounding section already provides
+ *                            the header copy)
+ *
  *   - Window-level API:
  *       window.OWFormEmbed.openModal(slug?)
- *       window.OWFormEmbed.mountInline(targetEl, slug?)
+ *       window.OWFormEmbed.mountInline(targetEl, slug?, opts?)
  *
  * No external deps. Idempotent. Safe under React hydration (event delegation
  * on document; inline mount uses a stable wrapper that React doesn't manage).
@@ -31,7 +47,20 @@
 
   var API_ORIGIN = 'https://ownet.opticwise.com';
   var DEFAULT_SLUG = 'schedule-review';
-  var TRIGGER_LABELS = ['schedule review', 'schedule your review', 'schedule a complimentary review'];
+  // Any <button>/<a> whose visible text matches one of these (case-insensitive,
+  // whitespace-collapsed) opens the schedule-review modal. Includes every hero
+  // CTA label currently used across opticwise.com so a single widget covers
+  // them all without page-specific wiring.
+  var TRIGGER_LABELS = [
+    'schedule review',
+    'schedule your review',
+    'schedule a complimentary review',
+    'schedule a working session',
+    'schedule a conversation',
+    'schedule a ppp audit',
+    'schedule a ppp audit™',
+    'schedule a ppp audit\u2122',
+  ];
 
   // Modal copy is OW-canon-aligned. The form's `name`/`description` from the
   // schema are intentionally generic ("Schedule Review" / "Standard Schedule
@@ -58,38 +87,90 @@
     'schedule-review': {
       id: 'fallback',
       slug: 'schedule-review',
-      name: 'Schedule Review',
-      description: 'Standard Schedule Review Form',
-      submitButtonLabel: 'Submit',
-      successMessage: "Thanks — we'll be in touch shortly.",
+      name: 'Schedule Your Review',
+      description: "Complimentary CRE Data & Digital Review Session.",
+      submitButtonLabel: 'Request Your Review',
+      successMessage: "Thanks! We've received your request. Our team will reach out within one business day to schedule your review.",
       honeypotFieldName: 'website_url_extra',
       fields: [
-        { fieldKey: 'first_name', fieldType: 'text',     label: 'First name', required: true,  placeholder: 'First Name' },
-        { fieldKey: 'last_name',  fieldType: 'text',     label: 'Last name',  required: true },
-        { fieldKey: 'email',      fieldType: 'email',    label: 'Work email', required: true },
-        { fieldKey: 'company',    fieldType: 'text',     label: 'Company',    required: true },
-        { fieldKey: 'message',    fieldType: 'textarea', label: 'Message',    required: false },
+        { fieldKey: 'first_name',    fieldType: 'text',     label: 'First Name', required: true },
+        { fieldKey: 'last_name',     fieldType: 'text',     label: 'Last Name',  required: true },
+        { fieldKey: 'email',         fieldType: 'email',    label: 'Email',      required: true },
+        { fieldKey: 'company',       fieldType: 'text',     label: 'Company',    required: false },
+        { fieldKey: 'phone',         fieldType: 'tel',      label: 'Phone',      required: false },
+        { fieldKey: 'property_type', fieldType: 'select',   label: 'Property Type', required: false, placeholder: 'Select…',
+          options: [
+            { label: 'Multifamily',     value: 'multifamily' },
+            { label: 'Office',          value: 'office' },
+            { label: 'Mixed-Use',       value: 'mixed_use' },
+            { label: 'Industrial',      value: 'industrial' },
+            { label: 'Retail',          value: 'retail' },
+            { label: 'Hospitality',     value: 'hospitality' },
+            { label: 'Student Housing', value: 'student_housing' },
+            { label: 'Senior Living',   value: 'senior_living' },
+            { label: 'Other',           value: 'other' },
+          ] },
+        { fieldKey: 'message',       fieldType: 'textarea', label: 'Tell us about your property', required: false, placeholder: 'Number of units, current challenges, what brought you here.' },
       ],
     },
-    // Inbound contact form mounted on /contact via <div data-form-embed="inbound-contact">.
+    // Inbound contact form mounted on /contact via <div data-opticwise-form="inbound-contact">.
     // Field keys mirror the production OWNet schema so localhost previews
     // submit a payload with the correct keys (CORS will block the POST from
     // localhost, that's expected — preview-only).
     'inbound-contact': {
       id: 'fallback',
       slug: 'inbound-contact',
-      name: 'Inbound Contact',
-      description: 'OpticWise inbound contact form',
+      name: 'Send a Message',
+      description: 'Goes directly to the OpticWise CRM. Real person responds within one business day.',
       submitButtonLabel: 'Send Message',
-      successMessage: "Thanks — we'll be in touch within one business day.",
+      successMessage: 'Thanks for reaching out. A real member of the OpticWise team will respond within one business day.',
       honeypotFieldName: 'website_url_extra',
       fields: [
-        { fieldKey: 'first_name', fieldType: 'text',     label: 'First name', required: true,  placeholder: 'First name' },
-        { fieldKey: 'last_name',  fieldType: 'text',     label: 'Last name',  required: true,  placeholder: 'Last name' },
-        { fieldKey: 'email',      fieldType: 'email',    label: 'Work email', required: true,  placeholder: 'you@company.com' },
-        { fieldKey: 'company',    fieldType: 'text',     label: 'Company',    required: false, placeholder: 'Company or firm' },
-        { fieldKey: 'field_6',    fieldType: 'text',     label: 'Title / Role', required: false, placeholder: 'Asset manager, IT exec, owner…' },
-        { fieldKey: 'reason',     fieldType: 'textarea', label: 'What are you working on?', required: false, placeholder: 'Optional context — buildings, portfolio size, what brought you here.' },
+        { fieldKey: 'first_name', fieldType: 'text',     label: 'First Name', required: true },
+        { fieldKey: 'last_name',  fieldType: 'text',     label: 'Last Name',  required: true },
+        { fieldKey: 'email',      fieldType: 'email',    label: 'Email',      required: true },
+        { fieldKey: 'company',    fieldType: 'text',     label: 'Company',    required: false },
+        { fieldKey: 'phone',      fieldType: 'tel',      label: 'Phone',      required: false },
+        { fieldKey: 'message',    fieldType: 'textarea', label: "What you're working on", required: true,
+          placeholder: "Current challenges, portfolio details, or what you'd like to discuss…",
+          helpText: 'Helpful context, not a gate. We respond personally within one business day.' },
+      ],
+    },
+    // Lead-magnet form mounted on the home page via <div data-opticwise-form="ppp-starter-kit">.
+    'ppp-starter-kit': {
+      id: 'fallback',
+      slug: 'ppp-starter-kit',
+      name: 'PPP Starter Kit Download',
+      description: 'Free download — Chapter 1 of Peak Property Performance® plus the 5C™ framework diagram and PPP Review teaser worksheet.',
+      submitButtonLabel: 'Get the PPP Starter Kit',
+      successMessage: 'Check your inbox! Your PPP Starter Kit is on its way.',
+      honeypotFieldName: 'website_url_extra',
+      fields: [
+        { fieldKey: 'name',           fieldType: 'text',   label: 'Full Name',  required: true,  placeholder: 'Full Name' },
+        { fieldKey: 'email',          fieldType: 'email',  label: 'Work Email', required: true,  placeholder: 'Work Email' },
+        { fieldKey: 'company',        fieldType: 'text',   label: 'Company',    required: true,  placeholder: 'Company' },
+        { fieldKey: 'portfolio_size', fieldType: 'select', label: 'Portfolio Size', required: false, placeholder: 'Portfolio Size (optional)',
+          options: [
+            { label: 'Single Property', value: 'single' },
+            { label: '2–5 Properties',  value: '2_5' },
+            { label: '6–20 Properties', value: '6_20' },
+            { label: '20+ Properties',  value: '20_plus' },
+          ] },
+      ],
+    },
+    // Footer newsletter form mounted via <div data-opticwise-form="insights-newsletter">.
+    'insights-newsletter': {
+      id: 'fallback',
+      slug: 'insights-newsletter',
+      name: 'Insights Newsletter',
+      description: 'Owner-controlled CRE insights, delivered. Subscribe to the OpticWise dispatch.',
+      submitButtonLabel: 'Subscribe',
+      successMessage: "You're in. Look for the next OpticWise dispatch in your inbox.",
+      honeypotFieldName: 'website_url_extra',
+      fields: [
+        { fieldKey: 'first_name', fieldType: 'text',  label: 'First Name', required: false, placeholder: 'Your name' },
+        { fieldKey: 'email',      fieldType: 'email', label: 'Email',      required: true,  placeholder: 'you@company.com' },
+        { fieldKey: 'company',    fieldType: 'text',  label: 'Company',    required: false, placeholder: 'Company (optional)' },
       ],
     },
   };
@@ -253,11 +334,20 @@
 
   function buildFormView(form, opts) {
     opts = opts || {};
-    var copy = MODAL_COPY[form.slug] || {
+    var defaults = MODAL_COPY[form.slug] || {
       eyebrow: form.name || 'Form',
       heading: form.name || 'Get in touch',
       sub: form.description || '',
     };
+    // Per-mount overrides (data-eyebrow/data-heading/data-description) win
+    // over MODAL_COPY defaults so a single embed can be re-skinned in HTML
+    // without changes here. Empty string also wins (caller wanted blank).
+    var copy = {
+      eyebrow: opts.eyebrow != null ? opts.eyebrow : defaults.eyebrow,
+      heading: opts.heading != null ? opts.heading : defaults.heading,
+      sub:     opts.description != null ? opts.description : defaults.sub,
+    };
+    var showHeader = opts.showHeader !== false;
 
     // Pair first/last name fields side-by-side when both exist (visual nicety).
     var firstNameIdx = -1, lastNameIdx = -1;
@@ -322,13 +412,18 @@
       handleSubmit(form, formNode, errorBox, submit, opts);
     });
 
-    var header = el('div', { class: 'ow-fe-header' }, [
-      el('p', { class: 'ow-fe-header__eyebrow', text: copy.eyebrow }),
-      el('h2', { class: 'ow-fe-header__heading', text: copy.heading }),
-      copy.sub ? el('p', { class: 'ow-fe-header__sub', text: copy.sub }) : null,
-    ]);
+    var children = [];
+    if (showHeader) {
+      var header = el('div', { class: 'ow-fe-header' }, [
+        copy.eyebrow ? el('p', { class: 'ow-fe-header__eyebrow', text: copy.eyebrow }) : null,
+        copy.heading ? el('h2', { class: 'ow-fe-header__heading', text: copy.heading }) : null,
+        copy.sub ? el('p', { class: 'ow-fe-header__sub', text: copy.sub }) : null,
+      ]);
+      children.push(header);
+    }
+    children.push(formNode);
 
-    var container = el('div', { class: 'ow-fe-form-view' }, [header, formNode]);
+    var container = el('div', { class: 'ow-fe-form-view' }, children);
     return container;
   }
 
@@ -560,15 +655,35 @@
     ]);
   }
 
-  /* ── Inline mount (used on /ppp-audit/) ────────────────────────────── */
+  /* ── Inline mount (used wherever a [data-opticwise-form] or legacy
+   *    [data-form-embed] element appears) ─────────────────────────────── */
 
-  function mountInline(target, slug) {
+  function mountInline(target, slug, opts) {
     if (!target) { return; }
     if (target.dataset && target.dataset.owFeMounted === '1') { return; }
     target.dataset.owFeMounted = '1';
 
-    slug = slug || target.getAttribute('data-form-embed') || DEFAULT_SLUG;
+    slug = slug
+      || target.getAttribute('data-opticwise-form')
+      || target.getAttribute('data-form-embed')
+      || DEFAULT_SLUG;
     target.classList.add('ow-fe-inline');
+
+    // Surface theme/align/show-header on the host so CSS can react.
+    var theme    = target.getAttribute('data-theme')       || '';
+    var align    = target.getAttribute('data-align')       || '';
+    var showHdr  = target.getAttribute('data-show-header');
+    if (theme)   { target.setAttribute('data-theme', theme); }
+    if (align)   { target.setAttribute('data-align', align); }
+
+    var perMount = opts || {};
+    if (perMount.eyebrow == null)     { perMount.eyebrow     = target.getAttribute('data-eyebrow'); }
+    if (perMount.heading == null)     { perMount.heading     = target.getAttribute('data-heading'); }
+    if (perMount.description == null) { perMount.description = target.getAttribute('data-description'); }
+    if (perMount.showHeader == null && showHdr != null) {
+      perMount.showHeader = !(String(showHdr).toLowerCase() === 'false' || showHdr === '0');
+    }
+    perMount.mode = 'inline';
 
     var skeleton = el('div', { class: 'ow-fe-skeleton' }, [
       el('div', { class: 'ow-fe-skeleton__row' }),
@@ -581,10 +696,10 @@
     target.appendChild(skeleton);
 
     function render(form) {
-      var view = buildFormView(form, {
-        mode: 'inline',
-        onReset: function () { mountInlineFresh(target, slug); },
+      var renderOpts = Object.assign({}, perMount, {
+        onReset: function () { mountInlineFresh(target, slug, perMount); },
       });
+      var view = buildFormView(form, renderOpts);
       target.innerHTML = '';
       target.appendChild(view);
     }
@@ -595,9 +710,9 @@
     });
   }
 
-  function mountInlineFresh(target, slug) {
+  function mountInlineFresh(target, slug, opts) {
     delete target.dataset.owFeMounted;
-    mountInline(target, slug);
+    mountInline(target, slug, opts);
   }
 
   /* ── Trigger detection (event delegation) ──────────────────────────── */
@@ -629,64 +744,30 @@
 
   /* ── Auto-mount inline embeds on load + re-mount under React ──────── */
 
+  // Picks up both the new attribute (data-opticwise-form) and the legacy
+  // (data-form-embed). Idempotent under the MutationObserver below.
   function scanInlineMounts() {
-    var nodes = document.querySelectorAll('[data-form-embed]');
+    var nodes = document.querySelectorAll(
+      '[data-opticwise-form], [data-form-embed]'
+    );
     for (var i = 0; i < nodes.length; i++) {
       var n = nodes[i];
-      if (n.dataset.owFeMounted !== '1') {
-        mountInline(n, n.getAttribute('data-form-embed'));
-      }
+      if (n.dataset.owFeMounted === '1') { continue; }
+      var slug = n.getAttribute('data-opticwise-form')
+        || n.getAttribute('data-form-embed');
+      mountInline(n, slug);
     }
-  }
-
-  /* ── Page-specific customizations ──────────────────────────────────── */
-
-  // /ppp-audit/ — replace the bottom CTA section's button with an inline form.
-  // We do this in JS (post-hydration) rather than editing static HTML because
-  // the page's React Flight chunk re-renders a `callToAction` block with a
-  // button, and any static HTML edit would be reverted by hydration. By
-  // running this after hydration AND keeping it idempotent under the global
-  // MutationObserver, the swap holds even if React reconciles.
-  function isPPPAuditPage() {
-    var p = (window.location && window.location.pathname) || '';
-    return /(?:^|\/)ppp-audit(?:\/(?:index\.html)?)?$/.test(p);
-  }
-
-  function transformPPPAuditCTA() {
-    if (!isPPPAuditPage()) { return; }
-    var section = document.getElementById('cta');
-    if (!section) {
-      section = document.querySelector('section.cta--blue');
-    }
-    if (!section) { return; }
-    if (section.querySelector('[data-form-embed]')) { return; }
-    var btn = section.querySelector('button.btn');
-    if (!btn) { return; }
-
-    var inner = btn.parentNode;
-    var mount = el('div', {
-      'data-form-embed': 'schedule-review',
-      class: 'ow-fe-mount',
-      style: 'margin-top:1.5rem',
-    });
-    inner.replaceChild(mount, btn);
-  }
-
-  function applyPageCustomizations() {
-    transformPPPAuditCTA();
   }
 
   function setupObserver() {
     if (!window.MutationObserver) { return; }
     var obs = new MutationObserver(function () {
-      applyPageCustomizations();
       scanInlineMounts();
     });
     obs.observe(document.body, { childList: true, subtree: true });
   }
 
   function start() {
-    applyPageCustomizations();
     scanInlineMounts();
     setupObserver();
   }
