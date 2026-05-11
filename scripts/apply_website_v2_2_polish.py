@@ -211,24 +211,17 @@ def patch_working_with_us() -> None:
     p = ROOT / "working-with-us/index.html"
     t = p.read_text(encoding="utf-8")
 
-    t = t.replace(
-        '<link rel="canonical" href="https://www.opticwise.com/working-with-us/"/>',
-        f'<link rel="canonical" href="{STAGING}/working-with-us/"/>',
-        1,
-    )
-    t = t.replace(
-        '<meta property="og:url" content="https://www.opticwise.com/working-with-us/"/>',
-        f'<meta property="og:url" content="{STAGING}/working-with-us/"/>',
-        1,
-    )
+    # Canonical / og:url are already correct in the source HTML
+    # (production origin). Earlier revisions of this script rewrote them to
+    # a staging host — that has been removed. Do not re-introduce.
     t = t.replace(
         '<meta property="og:image" content="https://www.opticwise.com/images/og-default.png"/>',
-        '<meta property="og:image" content="https://www.opticwise.com/images/og-working-with-us.png"/>',
+        f'<meta property="og:image" content="{PROD}/images/og-working-with-us.png"/>',
         1,
     )
     t = t.replace(
         '<meta name="twitter:image" content="https://www.opticwise.com/images/og-default.png"/>',
-        '<meta name="twitter:image" content="https://www.opticwise.com/images/og-working-with-us.png"/>',
+        f'<meta name="twitter:image" content="{PROD}/images/og-working-with-us.png"/>',
         1,
     )
 
