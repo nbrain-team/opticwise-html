@@ -157,24 +157,17 @@ def patch_customer_outcomes() -> None:
     p = ROOT / "customer-outcomes/index.html"
     t = p.read_text(encoding="utf-8")
 
-    t = t.replace(
-        '<link rel="canonical" href="https://www.opticwise.com/customer-outcomes/"/>',
-        f'<link rel="canonical" href="{STAGING}/customer-outcomes/"/>',
-        1,
-    )
-    t = t.replace(
-        '<meta property="og:url" content="https://www.opticwise.com/customer-outcomes/"/>',
-        f'<meta property="og:url" content="{STAGING}/customer-outcomes/"/>',
-        1,
-    )
+    # Canonical / og:url are already correct in the source HTML
+    # (production origin). Earlier revisions of this script rewrote them to
+    # a staging host — that has been removed. Do not re-introduce.
     t = t.replace(
         '<meta property="og:image" content="https://www.opticwise.com/images/og-default.png"/>',
-        '<meta property="og:image" content="https://www.opticwise.com/images/og-customer-outcomes.png"/>',
+        f'<meta property="og:image" content="{PROD}/images/og-customer-outcomes.png"/>',
         1,
     )
     t = t.replace(
         '<meta name="twitter:image" content="https://www.opticwise.com/images/og-default.png"/>',
-        '<meta name="twitter:image" content="https://www.opticwise.com/images/og-customer-outcomes.png"/>',
+        f'<meta name="twitter:image" content="{PROD}/images/og-customer-outcomes.png"/>',
         1,
     )
 
