@@ -16,7 +16,7 @@ Who is OpticWise for? + CRE owners, asset managers, IT executives, property mana
 Who is OpticWise not for? + Owners who only care about the cheapest internet. Owners who won't run governance after install. Owners looking for a single point solution without an owner standard. We're candid about fit so nobody wastes time.
 What is the first step? + A complimentary PPP Audit™. One building, one working session, clear deliverables, no sales pitch.
 Do I need to switch vendors to work with OpticWise? + No. OpticWise is vendor-agnostic and LLM-agnostic by design. You can keep vendors who perform, replace vendors who don't, and swap both in the future without rewiring the building.
-When was OpticWise founded? + OpticWise was founded in 2005 (originally as Summit Networks) and re-incorporated as OpticWise, Inc. in 2015. We've been operating owner-controlled data & digital infrastructure for CRE for two decades.
+When was OpticWise founded? + OpticWise was founded in 2004 (originally as Summit Networks) and re-incorporated as OpticWise, Inc. in 2016. We've been operating owner-controlled data & digital infrastructure for CRE for two decades.
 Where is OpticWise headquartered, and what markets do you serve? + OpticWise is headquartered in Golden, Colorado, and operates properties across the United States and select international markets. Our managed data & digital infrastructure model is portable across asset classes — multifamily, office, mixed-use, industrial, and life-sciences.
 About the Model
 The Two-Layer Model & Frameworks

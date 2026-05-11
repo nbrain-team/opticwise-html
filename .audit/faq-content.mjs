@@ -54,7 +54,7 @@ export const FAQ_SECTIONS = [
       },
       {
         question: "When was OpticWise founded?",
-        answer: "OpticWise was founded in 2005 (originally as Summit Networks) and re-incorporated as OpticWise, Inc. in 2015. We've been operating owner-controlled data & digital infrastructure for CRE for two decades.",
+        answer: "OpticWise was founded in 2004 (originally as Summit Networks) and re-incorporated as OpticWise, Inc. in 2016. We've been operating owner-controlled data & digital infrastructure for CRE for two decades.",
       },
       {
         question: "Where is OpticWise headquartered, and what markets do you serve?",
