@@ -311,13 +311,26 @@ def patch_all_other_footers() -> None:
     print(f"patched footers on {n} additional pages")
 
 
-def main() -> None:
+def apply_content_changes() -> None:
     patch_index()
     patch_customer_outcomes()
     patch_working_with_us()
     patch_about()
+
+
+def apply_footer_changes() -> None:
     fix_minimal_insights_footer()
     patch_all_other_footers()
+
+
+def main() -> None:
+    import sys
+
+    if len(sys.argv) > 1 and sys.argv[1] == "--footers-only":
+        apply_footer_changes()
+        return
+    apply_content_changes()
+    apply_footer_changes()
 
 
 if __name__ == "__main__":
