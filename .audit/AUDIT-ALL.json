@@ -179,15 +179,9 @@
     "file": "insights/Data-Is-the-New-Real-Estate-Utility/",
     "isInsight": true,
     "title": "Why Owning Your Building&#x27;s Network = Owning Your Data",
-    "descLen": 173,
+    "descLen": 164,
     "canonical": "https://www.opticwise.com/insights/Data-Is-the-New-Real-Estate-Utility/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "If you don&#x27;t own your building&#x27;s network, you don&#x27;t own its data — or the NOI it could generate. Why digital infrastructure is real estate&#x27;s new utility.",
-        "len": 173
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/The-LLM-Model-Just-Became-a-Commodity/",
@@ -769,15 +763,9 @@
     "file": "insights/not-just-smart-strategic-buildings-built-for-better-tenancy/",
     "isInsight": true,
     "title": "Not Just Smart—Strategic: Buildings Built for Better Tenancy",
-    "descLen": 173,
+    "descLen": 167,
     "canonical": "https://www.opticwise.com/insights/not-just-smart-strategic-buildings-built-for-better-tenancy/",
-    "issues": [
-      {
-        "kind": "SEO_DESC_LONG",
-        "desc": "Smart features alone don&#x27;t drive tenancy. Strategic, owner-controlled buildings — operating discipline, reliable connectivity, tenant-grade UX — lift retention and NOI.",
-        "len": 173
-      }
-    ]
+    "issues": []
   },
   {
     "file": "insights/oem-owns-the-brain-cre-vendor-independence/",
