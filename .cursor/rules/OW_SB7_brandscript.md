@@ -32,17 +32,30 @@ Define an acronym on first reference if the audience is mixed; assume CRE-fluent
 
 ## 2. When this applies
 
-Apply this canon to **every output that carries the OW name**:
+Apply this canon to **every output that carries the OW name**, **except** the explicit carve-outs below.
 
-- Web copy on this `opticwise-html` site (and `peakpropertyperformance.com`)
-- Blog posts and articles on opticwise.com / peakpropertyperformance.com
+### 2.1 Default scope (full SB7)
+
+- Web copy on this `opticwise-html` site (and `peakpropertyperformance.com`) **except** paths in §2.2
 - LinkedIn posts and articles (OpticWise company page; founder/exec profiles)
 - Sales decks, talk tracks, objection handling, scripts, one-pagers
 - Outbound emails, partner and vendor comms, board updates, investor letters
 - Podcast intros, press materials, ad copy, image prompts
 - Internal memos and sales-enablement collateral
+- Blog posts and articles **outside** the `opticwise-html` `insights/` tree (e.g., other properties, guest posts) unless a brief exempts them
 
-If a request is content-adjacent (e.g., generating an HTML page or component about OW services), still apply this canon — voice, terminology, trademarks, banned words, and audience lens all carry over.
+If a request is content-adjacent (e.g., generating an HTML page or component about OW services in **SB7 scope**), still apply this canon — voice, terminology, trademarks, banned words, and audience lens all carry over.
+
+### 2.2 Excluded from compulsory SB7 — `opticwise-html` Insight posts and FAQ
+
+These paths are **not** subject to mandatory SB7 rewrites, banned-word enforcement, or the pre-publish checklist:
+
+- **`insights/**`** — long-form Insight posts (the site’s blog-style HTML)
+- **`faq/**`** — FAQ pages
+
+**Operating rules for excluded paths:** Prioritize source fidelity, citations, and outbound link strategy (including outlet names and anchor text). The word **PropTech** is **allowed** when it names third-party context, media, or link targets. **Do not** relabel **OpticWise** as PropTech anywhere.
+
+On all **other** pages in this repository, SB7 remains compulsory.
 
 ---
 

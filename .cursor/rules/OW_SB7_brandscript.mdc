@@ -1,19 +1,25 @@
 ---
-description: OpticWise (OW) SB7 BrandScript — canonical positioning, voice, sales canon, proof library, and frameworks. Apply to ALL OW content, copy, sales materials, decks, web copy, emails, and talk tracks.
+description: OpticWise (OW) SB7 BrandScript — canonical positioning for marketing/site pages and all non-excluded OW collateral. Insight posts (`insights/`) and FAQ (`faq/`) on this repo are excluded from compulsory SB7; PropTech wording allowed there for outbound links and source fidelity.
 alwaysApply: true
 ---
 
 # OpticWise SB7 BrandScript Rule
 
-Whenever you are asked to write, edit, reposition, draft, or proof anything that represents **OpticWise (OW)** — externally or internally — you MUST follow the OW SB7 BrandScript canon.
+Whenever you are asked to write, edit, reposition, draft, or proof anything that represents **OpticWise (OW)** — externally or internally — follow the OW SB7 BrandScript canon **except where this rule explicitly carves out paths or channels**.
 
-This applies to: web copy (this `opticwise-html` site and any related property), blog posts, LinkedIn posts/articles, sales decks, talk tracks, objection handling, outbound emails, partner communications, board materials, podcast intros, ad copy, press materials, internal memos, and any other output that carries the OW name.
+## Scope — where SB7 is compulsory vs excluded (this `opticwise-html` repo)
 
-**Read the connected canon before writing a single word:**
+- **SB7 compulsory:** All site pages **except** HTML living under `insights/` and `faq/`. Treat these as the canonical marketing and narrative surface.
+- **SB7 not compulsory:** `insights/**` (Insight / long-form posts) and `faq/**`. Do not run SB7 rewrites, banned-word scrubs, or checklist enforcement on those files unless the user explicitly asks. Preserve author and source text, citations, and link targets (including SEO / outbound link strategy). The word **PropTech** may appear when naming third-party outlets, anchor text, or quoted coverage.
+- **Still true everywhere (including insights and FAQ):** Do **not** describe **OpticWise** as "PropTech." Never invent client names, metrics, quotes, case studies, or proof points.
+
+**All other OW outputs** (LinkedIn, decks, emails, board materials, pages on other properties, etc.) remain under full SB7 unless a brief says otherwise.
+
+**Read the connected canon before writing a single word** (for work in SB7 scope):
 
 @OW_SB7_brandscript.md
 
-The connected file is the synthesized brandscript canon — SB7 narrative, voice, trademarks, banned words, PPP 5C™ plan, two-layer model, asset-manager mindset overlay, approved Wins & Nightmares, Big Three Plays diagnostic, NOI benchmarks, market-context thesis, sales reframes, competitive posture, and pre-publish checklist. It is non-negotiable and overrides anything in this codebase that contradicts it.
+The connected file is the synthesized brandscript canon — SB7 narrative, voice, trademarks, banned words, PPP 5C™ plan, two-layer model, asset-manager mindset overlay, approved Wins & Nightmares, Big Three Plays diagnostic, NOI benchmarks, market-context thesis, sales reframes, competitive posture, and pre-publish checklist. For **non-excluded** work, it overrides anything in this codebase that contradicts it.
 
 **Acronyms (define on request, never substitute):**
 - **OW** = OpticWise
@@ -22,12 +28,12 @@ The connected file is the synthesized brandscript canon — SB7 narrative, voice
 **Source canon files** (the 14 documents this rule was built from):
 `/Users/billdouglas/My Drive/WD cursor sandbox/`
 
-If a content question lands outside the connected canon, ask before improvising. Never invent client names, numbers, quotes, case studies, or proof points.
+If a content question lands outside the connected canon, ask before improvising.
 
-## Hard rules (do not violate, ever)
+## Hard rules (SB7 scope only — do not violate on canonical site pages and all other full-SB7 outputs)
 
 - Always say **"data & digital infrastructure"** — never "infrastructure" alone.
-- OpticWise is **NOT "PropTech."** Ever.
+- OpticWise is **NOT "PropTech."** Ever (word **PropTech** may still appear in `insights/**` and `faq/**` only for third-party / link context, not as OW’s label).
 - Use **"owner"** (not "REIT"), **"review"** (not "audit" for the OW engagement — PPP Audit™ stays as a trademark), and **"operations" / "utilities optimization"** (never "ESG").
 - Every trademark, every mention: **Peak Property Performance®, PPP 5C™, BoT®, Building of Things®, ElasticISP®, 5S®, Property Brain™, Portfolio Brain™.**
 - Default audience lens is the **asset manager**. PMs, IT, and engineers are read-through stakeholders, not the buyer.
@@ -35,4 +41,6 @@ If a content question lands outside the connected canon, ask before improvising.
 - Use the reframing line at least once per long-form piece: **"If you don't own your data & digital infrastructure, your vendors do."**
 - Default closer when the close calls for it: **"Own your data & digital infrastructure. Operate with strategic foresight. Build for the long game."**
 
-## Before delivery, run the pre-publish checklist in §22 of `OW_SB7_brandscript.md`.
+## Before delivery
+
+Run the pre-publish checklist in **section 25** of `OW_SB7_brandscript.md` **unless** the deliverable is only `insights/**` or `faq/**` HTML in this repo.
