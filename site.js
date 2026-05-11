@@ -96,6 +96,26 @@
         if (isMobileViewport()) { close(); }
       });
     });
+
+    // Scroll-state: paint the nav with a dark translucent backdrop once
+    // the page scrolls so body copy passing behind the bar stays readable.
+    // Inline `transition-all duration-300` on the nav element animates it.
+    var SCROLL_THRESHOLD = 8;
+    var scrollTicking = false;
+    function syncScrolled() {
+      scrollTicking = false;
+      if ((window.scrollY || window.pageYOffset || 0) > SCROLL_THRESHOLD) {
+        nav.classList.add('is-scrolled');
+      } else {
+        nav.classList.remove('is-scrolled');
+      }
+    }
+    window.addEventListener('scroll', function () {
+      if (scrollTicking) { return; }
+      scrollTicking = true;
+      window.requestAnimationFrame(syncScrolled);
+    }, { passive: true });
+    syncScrolled();
   }
 
   function setupInsights() {
