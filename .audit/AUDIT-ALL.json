@@ -101,7 +101,79 @@
     "title": "OpticWise FAQ — Direct Answers for CRE Owners",
     "descLen": 151,
     "canonical": "https://www.opticwise.com/faq/",
-    "issues": []
+    "issues": [
+      {
+        "kind": "BANNED",
+        "word": "PropTech",
+        "snippet": "…cture you own does. Are you a PropTech company? How is OpticWise dif…"
+      },
+      {
+        "kind": "BANNED",
+        "word": "PropTech",
+        "snippet": "…How is OpticWise different? + PropTech is the application layer — th…"
+      },
+      {
+        "kind": "BANNED",
+        "word": "PropTech",
+        "snippet": "…d digital infrastructure that PropTech runs on. We don't compete wit…"
+      },
+      {
+        "kind": "BANNED",
+        "word": "PropTech",
+        "snippet": "…uns on. We don't compete with PropTech; we enable it. When PropTech …"
+      },
+      {
+        "kind": "BANNED",
+        "word": "PropTech",
+        "snippet": "… PropTech; we enable it. When PropTech enters a building with owner-…"
+      },
+      {
+        "kind": "BANNED",
+        "word": "PropTech",
+        "snippet": "…ructure already in place, the PropTech vendor can plug in and run — …"
+      },
+      {
+        "kind": "BANNED",
+        "word": "PropTech",
+        "snippet": "…l it, or manage it. We enable PropTech. We don't compete with it. Ar…"
+      },
+      {
+        "kind": "BARE_INFRA",
+        "snippet": "…proof of how owner-controlled infrastructure protects capital outside the …"
+      },
+      {
+        "kind": "BARE_INFRA",
+        "snippet": "…ts. What happens to OpticWise infrastructure at trade or exit? + The infra…"
+      },
+      {
+        "kind": "BARE_INFRA",
+        "snippet": "…cture at trade or exit? + The infrastructure stays with the asset because …"
+      },
+      {
+        "kind": "BARE_INFRA",
+        "snippet": "…vel pattern: the hardware and infrastructure are a capitalized asset, the …"
+      },
+      {
+        "kind": "BARE_INFRA",
+        "snippet": "… does not capitalize. Data on infrastructure you own does. Are you a PropT…"
+      },
+      {
+        "kind": "BARE_INFRA",
+        "snippet": "…ses; we don't replace it. The infrastructure is vendor- and platform-agnos…"
+      },
+      {
+        "kind": "BARE_INFRA",
+        "snippet": "…y improving their firm's data infrastructure is a top priority over the ne…"
+      },
+      {
+        "kind": "BARE_INFRA",
+        "snippet": "…move to streaming. The wiring infrastructure (coax) can sometimes be re-us…"
+      },
+      {
+        "kind": "BARE_INFRA",
+        "snippet": "…ise networking, security, and infrastructure manufacturers, selected per p…"
+      }
+    ]
   },
   {
     "file": "for-asset-managers/",

@@ -189,15 +189,18 @@ function auditPage(file) {
   const issues = [];
 
   const rel = relPath(file);
-  // Per scope: blogs/insights are allowed exceptions to the SB7 brandscript.
-  // We audit them for SEO only — not for banned words, bare TMs, bare-infra,
-  // missing reframing line, or missing default closer.
+  // Per scope (.cursor/rules/OW_SB7_brandscript.mdc): SB7 is NOT compulsory on
+  // /insights/** or /faq/**. We audit them for SEO only — not for banned words,
+  // bare TMs, bare-infra, missing reframing line, or missing default closer.
+  // Notes:
+  //   • /insights/ tree includes the index hub plus all 126 long-form posts.
+  //   • /faq/ is allowed to mention PropTech in third-party / comparative
+  //     context (the rule preserves that for SEO discoverability) and is not
+  //     subject to the data&digital-infrastructure prefix rule.
   const isInsight = rel.startsWith("insights/");
+  const isFaq = rel.startsWith("faq/");
   const isHome = rel === "/" || rel === "index.html" || rel === "";
-  const insightsIndex = rel === "insights/";
-  const skipBrand = isInsight && !insightsIndex; // /insights/ index is exempt? No — it's a top-level resource page; canon applies. The 126 post pages skip.
-  // Actually: per the scope update, /insights/ index is also blog territory. Skip brand on the entire /insights/ tree.
-  const skipBrandAll = isInsight; // includes /insights/ index too
+  const skipBrandAll = isInsight || isFaq;
 
   if (!skipBrandAll) {
     // ---- BrandScript checks (body text only, not <head>) ----
