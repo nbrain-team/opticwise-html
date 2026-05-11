@@ -43,4 +43,4 @@ If a content question lands outside the connected canon, ask before improvising.
 
 ## Before delivery
 
-Run the pre-publish checklist in **section 25** of `OW_SB7_brandscript.md` **unless** the deliverable is only `insights/**` or `faq/**` HTML in this repo.
+Run the pre-publish checklist in **section 25** of `OW_SB7_brandscript.md` for every **SB7-scope** file in the change. **Skip the checklist** for `insights/**` and `faq/**` unless the brief asks for an SB7 pass. If a task touches both excluded and canonical pages, check only the canonical pages.

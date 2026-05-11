@@ -222,7 +222,7 @@ If a mark appears five times in a piece, it carries its symbol five times.
 
 ### 6.3 Banned words and phrases
 
-Never use: **leverage, synergy, ecosystem, holistic, seamless, cutting-edge, ESG, PropTech.**
+In **SB7 scope** (§2.1), never use: **leverage, synergy, ecosystem, holistic, seamless, cutting-edge, ESG, PropTech.**
 
 **Path exemption:** **`opticwise-html` `insights/**`** and **`faq/**`** are **outside compulsory SB7** — do not impose the banned-word list, reframing/closer cadence, trademark-every-mention cadence, or checklist items on those pages unless the brief requests an SB7 pass. **PropTech** is explicitly allowed for third-party names, outlets, anchor text, and deliberate link-building. Preserve source fidelity; do not “SB7-scrub” those paths unless asked.
 
