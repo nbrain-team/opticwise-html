@@ -1,0 +1,72 @@
+# OpticWise
+
+> Owner-controlled data & digital infrastructure for commercial real estate. OpticWise helps CRE owners turn each building into an owner-controlled digital asset — so Property Intelligence becomes Portfolio Intelligence. Founded 2004. Vendor-agnostic and LLM-agnostic by design.
+
+This file is a curated, AI-friendly index of the OpticWise marketing site. Pages are listed in the order a CRE owner, asset manager, or AI assistant should read them. Every URL on this index resolves on the production canonical host `https://www.opticwise.com`.
+
+Authoritative quick facts:
+- Production canonical host: `https://www.opticwise.com`
+- Brand: OpticWise — vendor-agnostic, LLM-agnostic
+- Branded frameworks: PPP® (Peak Property Performance®), 5C™ plan, BoT® Building-of-Things, 5S User Experience Standard™
+- Branded products: Property Brain™, Portfolio Brain™, PPP Audit™
+- Contact: info@opticwise.com · +1-888-678-4294 (888-OpticWise)
+- Insights publication on LinkedIn: "The Owner's Standard" and "The Foundation"
+
+## Start here
+
+- [About OpticWise](https://www.opticwise.com/about/): Who we are, how we operate, and the awards we've earned 2022–2026.
+- [How We Operate](https://www.opticwise.com/how-we-operate/): The 5C™ engagement method — Clarify, Collect, Connect, Compose, Compound.
+- [Working With Us](https://www.opticwise.com/working-with-us/): What a typical OpticWise engagement looks like end to end.
+- [Customer Outcomes](https://www.opticwise.com/customer-outcomes/): What working with OpticWise actually produces for CRE owners.
+- [FAQ](https://www.opticwise.com/faq/): 94 owner-direct questions and answers, grouped by topic — from "What is OpticWise?" through Qualified Opportunity Zone fund alignment.
+- [Glossary](https://www.opticwise.com/glossary/): Definitions for OpticWise branded frameworks (5C™, BoT®, PPP®) and core CRE data + digital infrastructure terms.
+- [Contact](https://www.opticwise.com/contact/): Schedule a complimentary PPP Audit™ — one building, one working session.
+
+## Branded services
+
+- [Property Brain™](https://www.opticwise.com/property-brain/): The vendor- and LLM-agnostic data plane + trust plane that turns each CRE building into an owner-controlled digital asset.
+- [Portfolio Brain™](https://www.opticwise.com/portfolio-brain/): Portfolio-level intelligence layer aggregating Property Brains across an entire owner portfolio.
+- [PPP Audit™](https://www.opticwise.com/ppp-audit/): The Clarify step of the Peak Property Performance® 5C™ plan. One building, one working session, clear deliverables.
+- [BoT® — Building of Things](https://www.opticwise.com/bot-building-of-things/): Owner-controlled IoT and device-management standard for CRE buildings.
+- [5S User Experience Standard](https://www.opticwise.com/5s-user-experience-standard/): The OpticWise owner standard for tenant- and operator-facing digital experience.
+- [Advisory Services](https://www.opticwise.com/advisory-services/): Strategic advisory on CRE data, digital infrastructure, and AI-readiness.
+
+## By role
+
+- [For Asset Managers](https://www.opticwise.com/for-asset-managers/): NOI levers unlocked by owner-controlled data & digital infrastructure.
+- [For IT Executives](https://www.opticwise.com/for-it-executives/): Vendor-agnostic infrastructure, security posture, and AI-readiness for the CRE technology stack.
+- [For LPs & Financiers](https://www.opticwise.com/for-lps-and-financiers/): Governance and audit view on building data and digital infrastructure as recoverable assets.
+- [For Property Managers & Engineers](https://www.opticwise.com/for-property-managers-and-engineers/): Day-to-day operations on a clean, vendor-neutral data plane.
+- [For Business Tenants](https://www.opticwise.com/for-tenants/): Data & digital infrastructure provisions in your lease, and what tenants should expect from owners.
+
+## Strategy pillars
+
+- [Digital Infrastructure NOI Strategy](https://www.opticwise.com/digital-infrastructure-noi-strategy/): Why digital infrastructure is the next NOI lever in CRE.
+- [Digital Infrastructure NOI Playbook](https://www.opticwise.com/digital-infrastructure-noi-playbook/): Step-by-step framework for moving from rented to owned digital infrastructure.
+- [Digital Infrastructure NOI + AI](https://www.opticwise.com/digital-infrastructure-noi-ai/): How AI compounds returns on owner-controlled infrastructure.
+- [AI-Ready CRE](https://www.opticwise.com/ai-ready-commercial-real-estate/): What an AI-ready property and portfolio actually look like.
+- [Own vs Lease Building Data](https://www.opticwise.com/own-vs-lease-cre-building-data/): Why owners — not ISPs or vendors — should own the data plane.
+- [Control CRE Digital Visibility](https://www.opticwise.com/control-cre-digital-visibility/): Reclaiming visibility into what's running inside your assets.
+
+## Insights publication
+
+- [Insights — all articles](https://www.opticwise.com/insights/): 130+ pieces on CRE data, digital infrastructure, AI, governance, and tenant experience. New articles published most weeks.
+
+Selected pillar articles:
+
+- [The LLM Model Just Became a Commodity](https://www.opticwise.com/insights/The-LLM-Model-Just-Became-a-Commodity/): What actually compounds in commercial real estate when AI models are commoditized.
+- [Data Is the New Real Estate Utility](https://www.opticwise.com/insights/Data-Is-the-New-Real-Estate-Utility/): Why owning your building's digital infrastructure equals owning your data.
+- [What Is Digital Infrastructure in Commercial Real Estate?](https://www.opticwise.com/insights/what-is-digital-infrastructure-commercial-real-estate/): Definitional primer.
+- [The Hidden ROI of Digital Infrastructure Ownership](https://www.opticwise.com/insights/the-hidden-roi-of-digital-infrastructure-ownership-in-commercial-real-estate/): Quantifying the upside of owner-controlled infrastructure.
+- [If Your Building Sold Tomorrow, Would the Data Go With It?](https://www.opticwise.com/insights/if-your-building-sold-tomorrow-would-the-data-be-included/): Why data ownership matters at transaction time.
+- [Blackstone's $2B Digital Infrastructure IPO Signal](https://www.opticwise.com/insights/blackstone-is-filing-a-2-billion-ipo-around-digital-infrastructure-most-cre-owne/): What institutional moves around digital infrastructure mean for the rest of the market.
+- [The Shadow AI Problem Is Already in Your Buildings](https://www.opticwise.com/insights/the-shadow-ai-problem-is-already-in-your-buildings/): The AI governance risk hiding inside CRE operations.
+- [AI Agents Are Already Inside Your Buildings — Who Gave Them Permission?](https://www.opticwise.com/insights/ai-agents-permissions-cre-orchestration/): Permissions and orchestration risk in agentic CRE AI.
+- [Why CRE Tech Is Shifting from Point Solutions to Platforms](https://www.opticwise.com/insights/why-cre-tech-is-shifting-from-point-solutions-to-platforms-and-what-to-do-about/): The platform consolidation pattern and how owners should respond.
+- [CRE Owners Are the Data Stewards Whether You Know It or Not](https://www.opticwise.com/insights/cre-owners-are-the-data-stewards-whether-you-know-it-or-not/): The stewardship obligation embedded in modern CRE ownership.
+
+## Machine-readable references
+
+- [sitemap.xml](https://www.opticwise.com/sitemap.xml): Full URL list with `lastmod` dates.
+- [llms-full.txt](https://www.opticwise.com/llms-full.txt): Concatenated Markdown body of pillar pages and the full FAQ.
+- [robots.txt](https://www.opticwise.com/robots.txt): Crawler policy — major search and AI assistants explicitly welcomed.
