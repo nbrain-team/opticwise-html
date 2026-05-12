@@ -185,6 +185,53 @@ def harvest_links(fragment: str) -> list[tuple[str, str]]:
     return ordered
 
 
+def citation_scan_plain(fragment: str) -> str:
+    """Lowercased plaintext for whitelist matching (linked prose removed)."""
+    s = fragment
+    s = re.sub(r"<script[^>]*>.*?</script>", " ", s, flags=re.I | re.DOTALL)
+    s = re.sub(r"<style[^>]*>.*?</style>", " ", s, flags=re.I | re.DOTALL)
+    s = re.sub(r"<a\s[^>]*>.*?</a>", " ", s, flags=re.I | re.DOTALL)
+    s = re.sub(r"<[^>]+>", " ", s)
+    for a, b in (
+        ("&nbsp;", " "),
+        ("&#8217;", "'"),
+        ("&#8211;", " "),
+        ("&#8220;", " "),
+        ("&#8221;", " "),
+        ("&#x27;", "'"),
+        ("&amp;", "&"),
+    ):
+        s = s.replace(a, b)
+    return re.sub(r"\s+", " ", s).strip().lower()
+
+
+def harvest_named_citations(fragment: str) -> list[tuple[str, str]]:
+    """Map curated org/regulator mentions to canonical homepages."""
+    blob = citation_scan_plain(fragment)
+    seen: dict[str, tuple[str, str]] = {}
+    for cre, url, lbl in NAMED_RULES_COMPILED:
+        if cre.search(blob):
+            key = normalize_dedupe_key(url)
+            if key not in seen:
+                seen[key] = (url.strip(), lbl)
+    ordered = list(seen.values())
+    ordered.sort(key=lambda x: urlparse(x[0]).netloc.lower() + urlparse(x[0]).path)
+    return ordered
+
+
+def merge_citation_pairs(
+    link_pairs: list[tuple[str, str]], named_pairs: list[tuple[str, str]]
+) -> list[tuple[str, str]]:
+    merged: dict[str, tuple[str, str]] = {}
+    for href, lbl in link_pairs:
+        merged[normalize_dedupe_key(href)] = (href.strip(), lbl)
+    for href, lbl in named_pairs:
+        key = normalize_dedupe_key(href)
+        if key not in merged:
+            merged[key] = (href.strip(), lbl)
+    return sorted(merged.values(), key=lambda x: urlparse(x[0]).netloc.lower() + urlparse(x[0]).path)
+
+
 def build_references_html(pairs: list[tuple[str, str]]) -> str:
     lines = ["      <div class=\"references\">", "        <h3>References Cited</h3>", "        <ol>"]
     for href, label in pairs:
@@ -231,9 +278,9 @@ def process_one(path: Path, dry_run: bool) -> str:
     prefix = gs + len(GO_MARKER)
     inner = text[prefix:si]
 
-    pairs = harvest_links(inner)
+    pairs = merge_citation_pairs(harvest_links(inner), harvest_named_citations(inner))
     if not pairs:
-        return "skip_no_links"
+        return "skip_no_sources"
 
     refs_html = build_references_html(pairs).rstrip() + "\n"
     # Nested branded article shells use <article> + byline near </article>.
@@ -261,18 +308,20 @@ def main() -> None:
     for p in sorted(INSIGHTS.glob("*/index.html")):
         res = process_one(p, dry_run=args.dry_run)
         stats[res] = stats.get(res, 0) + 1
-        if res == "skip_no_links":
+        if res == "skip_no_sources":
             no_links.append(p.parent.name)
 
     print("--- add_insights_sources_from_links ---")
     for k in sorted(stats, key=lambda x: (-stats[x], x)):
         print(f"  {stats[k]:3d}  {k}")
-    print("\nSkipping (zero outbound cited links after filters):", len(no_links))
+    print("\nSkipping (no anchor links plus no named-whitelist matches):", len(no_links))
     if no_links:
         (ROOT / "scripts" / "skipped-no-outbound-links.txt").write_text(
             "\n".join(sorted(no_links)) + "\n", encoding="utf-8"
         )
-        print(f"  List written to scripts/skipped-no-outbound-links.txt ({len(no_links)} slug(s))")
+        print(
+            f"  List written to scripts/skipped-no-outbound-links.txt ({len(no_links)} slug(s))"
+        )
     first = sorted(no_links)[:25]
     for s in first:
         print(f"  - {s}")
