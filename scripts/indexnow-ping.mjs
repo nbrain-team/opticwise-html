@@ -162,14 +162,7 @@ async function main() {
     return;
   }
 
-  const verified = await verifyKeyHosted(key, retries, pauseMs);
-  if (!verified.ok) {
-    console.warn(
-      `[indexnow] Verification URL not reachable after ${retries} attempts: ${verified.verifyUrl}\n[indexnow] Skipping ping this run (often the first deploy with a new key; next deploy or manual run will succeed).`
-    );
-    process.exitCode = 0;
-    return;
-  }
+
 
   let anyFailed = false;
   for (let i = 0; i < urls.length; i += batchMax) {
