@@ -120,25 +120,17 @@ def harvest_links(fragment: str) -> list[tuple[str, str]]:
     return ordered
 
 
-def cite_label_from_url(url: str) -> str:
-    hu = urlparse(url).hostname or ""
-    return hu.replace("www.", "").title().replace("-", ".")
-
-
 def build_references_html(pairs: list[tuple[str, str]]) -> str:
     lines = ["      <div class=\"references\">", "        <h3>References Cited</h3>", "        <ol>"]
     for href, label in pairs:
         href_attr = html_mod.escape(href, quote=True)
-        hostish = cite_label_from_url(href)
-        left = html_mod.escape(label, quote=False)
-        if len(left) > 160:
-            left = left[:157] + "…"
-        link_label = html_mod.escape(label[:200], quote=False) if len(label) < 240 else html_mod.escape(
-            label[:200] + "…", quote=False
-        )
+        hn = urlparse(href).hostname or "source"
+        left = hn.replace("www.", "")
+        anch = html_mod.escape(label[:220] + ("…" if len(label) > 220 else ""), quote=False)
+        left_esc = html_mod.escape(left, quote=False)
         lines.append(
-            f"          <li>{left} — <a href=\"{href_attr}\" target=\"_blank\" rel=\"noopener noreferrer\">"
-            f"{link_label}</a></li>"
+            f'          <li>{left_esc} — <a href="{href_attr}" target="_blank" rel="noopener noreferrer">'
+            f"{anch}</a></li>"
         )
     lines.append("        </ol>")
     lines.append("      </div>")
@@ -147,20 +139,18 @@ def build_references_html(pairs: list[tuple[str, str]]) -> str:
 
 
 def inject_simple(inner: str, refs_html: str) -> str:
-    inner = inner.rstrip()
-    if inner.endswith("</html>"):
-        inner = inner.rstrip("</html>").rstrip()
-    return inner + "\n" + refs_html.rstrip("\n")
+    return inner.rstrip() + "\n" + refs_html.rstrip("\n")
 
 
 def inject_article(inner: str, refs_html: str) -> str:
     token = '<p class="byline"'
     idx = inner.rfind(token)
     if idx >= 0:
-        return inner[:idx] + refs_html + inner[idx:]
+        return inner[:idx] + refs_html + "\n\n" + inner[idx:]
     idx = inner.rfind("</article>")
     if idx >= 0:
-        return inner[:idx].rstrip() + "\n" + refs_html + "\n      " + inner[idx:]
+        insertion = ("\n" + refs_html.strip("\n")).rstrip() + "\n      "
+        return inner[:idx].rstrip() + insertion + inner[idx:]
     return inject_simple(inner, refs_html)
 
 
