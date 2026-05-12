@@ -9,9 +9,9 @@
  *
  * Behaviour:
  *   - Reads URLs from ./sitemap.xml (<loc>...</loc>).
- *   - Optionally waits until the verification file is reachable on the live
- *     site (Render publishes *after* this build finishes, so retries cover
- *     propagation and the chicken-and-egg of the very first deploy).
+ *   - Optionally GETs the live verification file between attempts (checks the
+ *     *already-deployed* site from the prior release). Rotating the IndexNow key
+ *     takes two publishes: first publishes the TXT, second pings successfully.
  *   - POSTs batches to https://api.indexnow.org/IndexNow
  *
  * Env:
@@ -21,8 +21,8 @@
  *   INDEXNOW_SKIP=1       — noop (exit 0)
  *   INDEXNOW_DRY_RUN=1   — parse sitemap + key only; skip verify POST
  *   INDEXNOW_BATCH=9000    — max URLs per request (protocol max 10000)
- *   INDEXNOW_VERIFY_RETRIES — default 24 (attempts before giving up verify GET)
- *   INDEXNOW_VERIFY_DELAY_MS — default 15000 ms between retries
+ *   INDEXNOW_VERIFY_RETRIES — default 15; set to 0 to skip verify GET
+ *   INDEXNOW_VERIFY_DELAY_MS — default 5000 ms between retries
  */
 
 import { readFileSync, readdirSync } from 'node:fs';
