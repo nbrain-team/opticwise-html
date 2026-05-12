@@ -76,7 +76,7 @@ _NAMED_RULES_RAW: list[tuple[str, str, str]] = [
     (r"reuters", "https://www.reuters.com/", "Reuters"),
     (r"(?<![\w])nist(?![\w])", "https://www.nist.gov/", "NIST"),
     (r"\bgdpr\b", "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679", "General Data Protection Regulation (GDPR)"),
-    (r"\bleed\b|\busgbc\b", "https://www.usgbc.org/leed", "LEED — U.S. Green Building Council"),
+    (r"(?<![\w])leed(?![\w])|\busgbc\b", "https://www.usgbc.org/leed", "LEED — U.S. Green Building Council"),
     (r"(?<![\w])fcc(?![\w])", "https://www.fcc.gov/", "Federal Communications Commission"),
     (r"(?<![\w])ftc(?![\w])", "https://www.ftc.gov/", "Federal Trade Commission"),
     (r"ieee\b", "https://www.ieee.org/", "IEEE"),
@@ -89,7 +89,7 @@ _NAMED_RULES_RAW: list[tuple[str, str, str]] = [
 
 NAMED_RULES_RAW = sorted(_NAMED_RULES_RAW, key=lambda row: (-len(row[0]), row[0]))
 NAMED_RULES_COMPILED = [
-    (re.compile(pat, re.IGNORECASE), url, label) for pat, url, label in NAMED_RULES_RAW
+    (re.compile(pat, re.IGNORECASE), url, lbl) for pat, url, lbl in NAMED_RULES_RAW
 ]
 
 TRACKING_HOST_FRAGMENTS = frozenset(
