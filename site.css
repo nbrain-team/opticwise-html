@@ -170,12 +170,11 @@ nav .nav__dropdown-trigger:focus-visible {
   scroll-margin-top: 5rem;
 }
 
-/* Center the OpticWise form embed inside its host wrapper on /contact and on
- * every bottom-CTA section across the site (the embed defaults to a 640px
- * max-width centered card; we just keep the wrapper from forcing a left
- * alignment). The embed itself is fully styled by the official loader CSS
- * (.ow-form-embed namespace) — these rules only handle the surrounding
- * layout that exists on the OpticWise pages. */
+/* Center the Schedule Review modal trigger (.btn-nav) inside the bottom CTA
+ * wrapper on pages that replace the legacy inline OWNet embed. The popup form
+ * is mounted by forms-embed.js when the user clicks the trigger. Other inline
+ * embeds (/contact headline form, PPP starter kit) keep using the same helper
+ * for horizontal centering. */
 .ow-fe-cta-mount {
   display: flex;
   justify-content: center;
