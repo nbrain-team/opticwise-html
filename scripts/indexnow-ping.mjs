@@ -177,6 +177,7 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error('[indexnow] Failed:', err.message || err);
-  process.exitCode = 1;
+  console.error('[indexnow] Fatal:', err.message || err);
+  /* Do not fail the static deploy */
+  process.exitCode = 0;
 });
