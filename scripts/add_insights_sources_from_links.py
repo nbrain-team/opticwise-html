@@ -171,11 +171,14 @@ def process_one(path: Path, dry_run: bool) -> str:
     if not pairs:
         return "skip_no_links"
 
-    refs_html = build_references_html(pairs)
-    if "<article>" in inner and '</p><!--$-->' not in inner:
-        inner_new = inject_article(inner, refs_html + "\n")
-    else:
-        inner_new = inject_simple(inner, refs_html)
+    refs_html = build_references_html(pairs).rstrip() + "\n"
+    # Nested branded article shells use <article> + byline near </article>.
+    # Legacy insights are raw <p>/<h*> blocks without an <article>.
+    inner_new = (
+        inject_article(inner, refs_html)
+        if "<article>" in inner.lower()
+        else inject_simple(inner, refs_html)
+    )
 
     new_text = text[:prefix] + inner_new + text[si:]
     if not dry_run:
