@@ -1,7 +1,12 @@
 # Render — Static Site config for opticwise.com
 #
 # Deployment model: this repo is the canonical source. Each push to the deploy
-# branch triggers Render to publish the directory contents (no build step).
+# branch triggers Render to publish static files.
+#
+# After each successful sync, Render runs IndexNow ping (scripts/indexnow-ping.mjs).
+# Verification key lives at repo root under https://www.opticwise.com/{KEY}.txt
+#
+# Forms post directly to https://ownet.opticwise.com/api/public/forms/<slug>
 #
 # - Forms post directly to https://ownet.opticwise.com/api/public/forms/<slug>
 #   (CRM lives at the same Render org). CORS is configured server-side to
