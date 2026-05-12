@@ -41,7 +41,7 @@ _NAMED_RULES_RAW: list[tuple[str, str, str]] = [
     (r"j\.?\s*p\.?\s*morgan(?:\s+chase|\s+research)?", "https://www.jpmorganchase.com/", "JPMorgan Chase"),
     (r"morgan\s+stanley", "https://www.morganstanley.com/", "Morgan Stanley"),
     (r"bain\s*&\s*company", "https://www.bain.com/", "Bain & Company"),
-    (r"p\.?\s*w\.?\s*c\.?", "https://www.pwc.com/", "PwC"),
+    (r"ernst\s*&\s*young", "https://www.ey.com/", "Ernst & Young"),
     (r"wall\s+street\s+journal|\bwsj\b", "https://www.wsj.com/", "The Wall Street Journal"),
     (r"fast\s+company", "https://www.fastcompany.com/", "Fast Company"),
     (r"digital\s+realty", "https://www.digitalrealty.com/", "Digital Realty"),
