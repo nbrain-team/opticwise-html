@@ -6,14 +6,12 @@
 # After each successful sync, Render runs IndexNow ping (scripts/indexnow-ping.mjs).
 # Verification key lives at repo root under https://www.opticwise.com/{KEY}.txt
 #
-# Forms post directly to https://ownet.opticwise.com/api/public/forms/<slug>
-#
 # - Forms post directly to https://ownet.opticwise.com/api/public/forms/<slug>
 #   (CRM lives at the same Render org). CORS is configured server-side to
 #   allow this origin.
 # - Page interactivity is plain HTML/CSS + /site.js + /forms-embed.js. No
 #   Next.js bundle, no React hydration.
-# - Sitemap, robots.txt, and JSON-LD are all hand-edited in this repo.
+# - Sitemap, robots.txt, JSON-LD, and IndexNow (scripts/indexnow-ping.mjs) ship from this repo.
 #
 # Reference: https://render.com/docs/static-sites
 services:
