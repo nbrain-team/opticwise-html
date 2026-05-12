@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """
-Append <div class="references"> blocks to Insight posts whose body already
-hyperlinks outbound https sources — no invented URLs.
+Append <div class="references"> blocks to Insight posts.
+
+Pass 1: harvest outbound https links already in prose (filtered).
+Pass 2: detect named citations (orgs, statutes, regulators) against a curated
+whitelist of canonical URLs — no invented links. Matching runs on text after
+<script>/<style>/<a> blocks are stripped so prose that is already linked is not
+used to imply a citation.
 
 Skips HTML that already contains class="references".
-Skips ghost bodies with zero outbound links after filtering (internal OW, fonts, GA).
+Skips ghost bodies where merge(pass1 ∪ pass2) is empty after deduping URLs.
 
 Usage:
   python3 scripts/add_insights_sources_from_links.py [--dry-run]
@@ -26,6 +31,66 @@ ANCHOR_RE = re.compile(
     r'<a\s[^>]*\bhref=(["\'])([^"\']+)\1[^>]*>(.*?)</a>',
     re.DOTALL | re.IGNORECASE,
 )
+
+# Longer phrases first (compiled after list is sorted).
+_NAMED_RULES_RAW: list[tuple[str, str, str]] = [
+    (r"norton\s+rose\s+fulbright", "https://www.nortonrosefulbright.com/", "Norton Rose Fulbright"),
+    (r"jones\s+lang\s+lasalle", "https://www.jll.com/", "Jones Lang LaSalle (JLL)"),
+    (r"amazon\s+web\s+services", "https://aws.amazon.com/", "Amazon Web Services"),
+    (r"goldman\s+sachs", "https://www.goldmansachs.com/", "Goldman Sachs"),
+    (r"j\.?\s*p\.?\s*morgan(?:\s+chase|\s+research)?", "https://www.jpmorganchase.com/", "JPMorgan Chase"),
+    (r"morgan\s+stanley", "https://www.morganstanley.com/", "Morgan Stanley"),
+    (r"bain\s*&\s*company", "https://www.bain.com/", "Bain & Company"),
+    (r"ernst\s*&\s*young", "https://www.ey.com/", "Ernst & Young"),
+    (r"p\.?\s*w\.?\s*c\.?", "https://www.pwc.com/", "PwC"),
+    (r"wall\s+street\s+journal|\bwsj\b", "https://www.wsj.com/", "The Wall Street Journal"),
+    (r"fast\s+company", "https://www.fastcompany.com/", "Fast Company"),
+    (r"digital\s+realty", "https://www.digitalrealty.com/", "Digital Realty"),
+    (r"silicon\s+review", "https://thesiliconreview.com/", "The Silicon Review"),
+    (r"eu\s+(?:digital\s+|)ai\s+act", "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai", "EU Artificial Intelligence Act (European Commission)"),
+    (r"proptech\s+outlook", "https://www.proptechoutlook.com/", "PropTech Outlook"),
+    (r"google\s+cloud", "https://cloud.google.com/", "Google Cloud"),
+    (r"peak\s+property\s+performance", "https://www.peakpropertyperformance.com/", "Peak Property Performance®"),
+    (r"gramm[-–]?\s*leach|\bglba\b", "https://www.ftc.gov/legal-library/browse/rules/standards-for-safeguarding-customer-information", "GLBA safeguarding standards (FTC)"),
+    (r"(?<![\w])jll(?![\w])", "https://www.jll.com/", "JLL"),
+    (r"(?<![\w])aws(?![\w])", "https://aws.amazon.com/", "Amazon Web Services (AWS)"),
+    (r"(?<![\w])goldman(?![\w])", "https://www.goldmansachs.com/", "Goldman Sachs"),
+    (r"citigroup", "https://www.citigroup.com/", "Citigroup"),
+    (r"(?<![\w])citi\b", "https://www.citi.com/", "Citi"),
+    (r"mckinsey", "https://www.mckinsey.com/", "McKinsey & Company"),
+    (r"(?<![\w])ey(?![\w])", "https://www.ey.com/", "EY"),
+    (r"(?<![\w])pwc(?![\w])", "https://www.pwc.com/", "PwC"),
+    (r"kpmg", "https://kpmg.com/", "KPMG"),
+    (r"deloitte", "https://www.deloitte.com/", "Deloitte"),
+    (r"cbre", "https://www.cbre.com/", "CBRE"),
+    (r"blackstone", "https://www.blackstone.com/", "Blackstone"),
+    (r"brookfield", "https://www.brookfield.com/", "Brookfield"),
+    (r"wework", "https://www.wework.com/", "WeWork"),
+    (r"gartner", "https://www.gartner.com/", "Gartner"),
+    (r"forrester", "https://www.forrester.com/", "Forrester"),
+    (r"(?<![\w])idc(?![\w])", "https://www.idc.com/", "IDC"),
+    (r"nareit", "https://www.reit.com/", "Nareit"),
+    (r"msci", "https://www.msci.com/", "MSCI"),
+    (r"realpage", "https://www.realpage.com/", "RealPage"),
+    (r"bloomberg", "https://www.bloomberg.com/", "Bloomberg"),
+    (r"reuters", "https://www.reuters.com/", "Reuters"),
+    (r"(?<![\w])nist(?![\w])", "https://www.nist.gov/", "NIST"),
+    (r"\bgdpr\b", "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679", "General Data Protection Regulation (GDPR)"),
+    (r"\bleed\b|\busgbc\b", "https://www.usgbc.org/leed", "LEED — U.S. Green Building Council"),
+    (r"(?<![\w])fcc(?![\w])", "https://www.fcc.gov/", "Federal Communications Commission"),
+    (r"(?<![\w])ftc(?![\w])", "https://www.ftc.gov/", "Federal Trade Commission"),
+    (r"ieee\b", "https://www.ieee.org/", "IEEE"),
+    (r"cisco\b", "https://www.cisco.com/", "Cisco"),
+    (r"microsoft\b", "https://www.microsoft.com/", "Microsoft"),
+    (r"oracle\b", "https://www.oracle.com/", "Oracle"),
+    (r"salesforce\b", "https://www.salesforce.com/", "Salesforce"),
+    (r"servicenow\b", "https://www.servicenow.com/", "ServiceNow"),
+]
+
+NAMED_RULES_RAW = sorted(_NAMED_RULES_RAW, key=lambda row: (-len(row[0]), row[0]))
+NAMED_RULES_COMPILED = [
+    (re.compile(pat, re.IGNORECASE), url, label) for pat, url, label in NAMED_RULES_RAW
+]
 
 TRACKING_HOST_FRAGMENTS = frozenset(
     {
