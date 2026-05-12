@@ -948,4 +948,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <url>
+    <loc>https://www.opticwise.com/insights/multifamily-pms-data-strategy-owner-controlled-warehouse/</loc>
+    <lastmod>2026-05-12T18:33:21.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.opticwise.com/insights/hyperscale-data-center-lessons-cre-owners/</loc>
+    <lastmod>2026-05-12T18:33:21.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

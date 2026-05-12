@@ -5,6 +5,9 @@
 Icon?
 ._*
 
+# Local working / audit artifacts
+.audit/
+
 # Windows
 Thumbs.db
 ehthumbs.db
