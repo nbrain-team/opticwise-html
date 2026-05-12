@@ -142,41 +142,50 @@ async function main() {
     return;
   }
 
+  const dryRun = /^1|true|yes$/i.test(process.env.INDEXNOW_DRY_RUN || '');
+
   const key = discoverKeyFromRoot();
   const sitemapXml = readFileSync(resolve(ROOT, 'sitemap.xml'), 'utf8');
   const urls = parseUrlsFromSitemap(sitemapXml);
   if (urls.length === 0) throw new Error('No URLs extracted from sitemap.xml');
 
+  const batchMax = Number.parseInt(process.env.INDEXNOW_BATCH ?? '9000', 10);
+
   const retries = Number.parseInt(process.env.INDEXNOW_VERIFY_RETRIES ?? '24', 10);
   const pauseMs = Number.parseInt(process.env.INDEXNOW_VERIFY_DELAY_MS ?? '15000', 10);
+
+  if (dryRun) {
+    console.log(
+      `[indexnow] INDEXNOW_DRY_RUN=1 — parsed ${urls.length} URL(s) in ${Math.ceil(urls.length / batchMax)} batch(es); skipping verify GET and POST`
+    );
+    process.exitCode = 0;
+    return;
+  }
+
   const verified = await verifyKeyHosted(key, retries, pauseMs);
   if (!verified.ok) {
     console.warn(
       `[indexnow] Verification URL not reachable after ${retries} attempts: ${verified.verifyUrl}\n[indexnow] Skipping ping this run (often the first deploy with a new key; next deploy or manual run will succeed).`
     );
+    process.exitCode = 0;
     return;
   }
 
   let anyFailed = false;
-  if (dryRun)
-    console.log(`[indexnow] Would submit ${urls.length} URL(s) in ${Math.ceil(urls.length / batchMax)} batch(es)`);
-  else {
-    for (let i = 0; i < urls.length; i += batchMax) {
-      const chunk = urls.slice(i, i + batchMax);
-      try {
-        await submitBatch(chunk, key);
-      } catch (e) {
-        anyFailed = true;
-        console.warn('[indexnow] Batch failed:', e.message || e);
-      }
+  for (let i = 0; i < urls.length; i += batchMax) {
+    const chunk = urls.slice(i, i + batchMax);
+    try {
+      await submitBatch(chunk, key);
+    } catch (e) {
+      anyFailed = true;
+      console.warn('[indexnow] Batch failed:', e.message || e);
     }
-
-    if (anyFailed)
-      console.warn('[indexnow] One or more batches failed — site still deployed.');
-    else console.log(`[indexnow] Done — submitted ${urls.length} unique URL(s) from sitemap`);
   }
 
-  /* Never fail the Render build — deploy + live site matters more than a ping */
+  if (anyFailed)
+    console.warn('[indexnow] One or more batches failed — site still deployed.');
+  else console.log(`[indexnow] Done — submitted ${urls.length} unique URL(s) from sitemap`);
+
   process.exitCode = 0;
 }
 
