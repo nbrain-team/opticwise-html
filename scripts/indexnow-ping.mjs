@@ -19,6 +19,7 @@
  *   INDEXNOW_HOST          — default www.opticwise.com
  *   INDEXNOW_SITE_ORIGIN    — default https://www.opticwise.com
  *   INDEXNOW_SKIP=1       — noop (exit 0)
+ *   INDEXNOW_DRY_RUN=1   — parse sitemap + key only; skip verify POST
  *   INDEXNOW_BATCH=9000    — max URLs per request (protocol max 10000)
  *   INDEXNOW_VERIFY_RETRIES — default 24 (attempts before giving up verify GET)
  *   INDEXNOW_VERIFY_DELAY_MS — default 15000 ms between retries
