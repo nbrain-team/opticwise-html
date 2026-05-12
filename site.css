@@ -181,6 +181,17 @@ nav .nav__dropdown-trigger:focus-visible {
   margin-top: 1.75rem;
 }
 
+/* Bottom-CTA Schedule Review trigger: white pill + OW blue label reads clearly on
+ * blue gradients (.cta--blue, Insights footers). Nav keeps btn-nav (blue fill on
+ * dark header). */
+.ow-fe-cta-mount .btn.btn-white {
+  padding: 0.625rem 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.22);
+}
+
 /* Footer LinkedIn newsletter buttons — two stacked CTAs that point to the
  * LinkedIn newsletter pages. Replaces the old in-house signup form (we
  * don't run a newsletter outside LinkedIn). Constrains the column width

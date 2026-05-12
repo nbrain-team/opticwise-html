@@ -67,7 +67,7 @@ NEWSLETTER_BLOCK = (
 
 SCHEDULE_REVIEW_MODAL_TRIGGER = (
     '<div class="ow-fe-cta-mount">'
-    '<button type="button" class="btn btn-nav">Schedule Review</button>'
+    '<button type="button" class="btn btn-white">Schedule Review</button>'
     '</div>'
 )
 
