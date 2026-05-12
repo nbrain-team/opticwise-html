@@ -156,21 +156,24 @@ async function main() {
     return;
   }
 
-  const batchMax = Number.parseInt(process.env.INDEXNOW_BATCH ?? '9000', 10);
   let anyFailed = false;
-  for (let i = 0; i < urls.length; i += batchMax) {
-    const chunk = urls.slice(i, i + batchMax);
-    try {
-      await submitBatch(chunk, key);
-    } catch (e) {
-      anyFailed = true;
-      console.warn('[indexnow] Batch failed:', e.message || e);
+  if (dryRun)
+    console.log(`[indexnow] Would submit ${urls.length} URL(s) in ${Math.ceil(urls.length / batchMax)} batch(es)`);
+  else {
+    for (let i = 0; i < urls.length; i += batchMax) {
+      const chunk = urls.slice(i, i + batchMax);
+      try {
+        await submitBatch(chunk, key);
+      } catch (e) {
+        anyFailed = true;
+        console.warn('[indexnow] Batch failed:', e.message || e);
+      }
     }
-  }
 
-  if (anyFailed)
-    console.warn('[indexnow] One or more batches failed — site still deployed.');
-  else console.log(`[indexnow] Done — submitted ${urls.length} unique URL(s) from sitemap`);
+    if (anyFailed)
+      console.warn('[indexnow] One or more batches failed — site still deployed.');
+    else console.log(`[indexnow] Done — submitted ${urls.length} unique URL(s) from sitemap`);
+  }
 
   /* Never fail the Render build — deploy + live site matters more than a ping */
   process.exitCode = 0;
