@@ -20,9 +20,9 @@ services:
   - type: web
     name: opticwise-marketing
     runtime: static
-    # No build step — publish the working directory as-is. If a build is ever
-    # added (e.g., to compile Tailwind or run a linter), set buildCommand here.
-    buildCommand: ""
+    # Fast post-deploy indexing: ping IndexNow with every `<loc>` in sitemap.xml
+    # (never fails the build). See scripts/indexnow-ping.mjs and {KEY}.txt at root.
+    buildCommand: node scripts/indexnow-ping.mjs
     staticPublishPath: .
 
     # Pretty URLs: /about/ resolves to /about/index.html. This matches the
