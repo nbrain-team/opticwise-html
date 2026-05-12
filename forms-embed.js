@@ -6,9 +6,10 @@
  *
  * That official loader auto-mounts every <div data-opticwise-form="..."> the
  * page already contains (PPP Starter Kit on the home page, Inbound Contact
- * on /contact, the bottom-CTA Schedule Review embed on every page, and the
- * footer Insights Newsletter). The schemas come straight from the CRM — no
- * local fallbacks, no stale field lists.
+ * on /contact, Insights Newsletter footer, and embedded forms elsewhere). Bottom
+ * of every page only carries a Schedule Review trigger — the opener below injects a
+ * single schedule-review embed into the modal the first time it opens. Schemas come
+ * from the CRM — no local fallbacks, no stale field lists.
  *
  * What this small companion script does:
  *

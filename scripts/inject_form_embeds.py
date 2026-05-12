@@ -14,12 +14,11 @@ What it does (idempotent — safe to re-run):
     the eyebrow/heading/description copy.
 
 2.  Replaces the bottom CTA "Schedule a Complimentary Review" button on every
-    top-level page (cta cta--blue section pattern) with the Schedule Review
-    inline embed (data-opticwise-form="schedule-review").
+    top-level page (cta cta--blue section pattern) with a Schedule Review modal
+    trigger (matches the nav button — opens popup via forms-embed.js shim).
 
-3.  Replaces the bottom "Schedule Your Review" button on every insight detail
-    page (different CTA section pattern, white text, blue gradient bg) with
-    the Schedule Review inline embed.
+3.  Same for insight detail pages / blue-gradient footer CTA: swap the legacy
+    "Schedule …" button for the Schedule Review modal trigger.
 
 Pages this script does NOT touch (already manually wired):
     - index.html (home)
@@ -66,14 +65,9 @@ NEWSLETTER_BLOCK = (
     '</div>'
 )
 
-SCHEDULE_REVIEW_EMBED = (
+SCHEDULE_REVIEW_MODAL_TRIGGER = (
     '<div class="ow-fe-cta-mount">'
-    '<div data-opticwise-form="schedule-review"'
-    ' data-eyebrow="YOUR NEXT STEP"'
-    ' data-heading="Complimentary CRE Data &amp; Digital Review Session"'
-    ' data-description="One building. Map who owns what, where data lives,'
-    ' and where operational burden stacks up vs your KPIs."'
-    ' data-show-header="false"></div>'
+    '<button type="button" class="btn btn-nav">Schedule Review</button>'
     '</div>'
 )
 
@@ -88,7 +82,7 @@ TOP_LEVEL_CTA_BUTTON_RE = re.compile(
     r'<button type="button" class="btn btn-light btn-arrow"[^>]*>'
     r'[^<]+</button>'
 )
-TOP_LEVEL_CTA_BUTTON_REPLACEMENT = SCHEDULE_REVIEW_EMBED
+TOP_LEVEL_CTA_BUTTON_REPLACEMENT = SCHEDULE_REVIEW_MODAL_TRIGGER
 
 # Bottom CTA on insight detail pages and a couple of utility pages
 # (faq, glossary, 404). Different markup: blue-gradient background,
@@ -100,15 +94,7 @@ INSIGHT_CTA_BUTTON_RE = re.compile(
     r'<button type="button" class="btn btn-white btn-lg"[^>]*>'
     r'[^<]+</button>'
 )
-INSIGHT_CTA_BUTTON_REPLACEMENT = (
-    '<div data-opticwise-form="schedule-review"'
-    ' data-eyebrow="YOUR NEXT STEP"'
-    ' data-heading="Complimentary CRE Data &amp; Digital Review Session"'
-    ' data-description="One building. Map who owns what, where data lives,'
-    ' and where operational burden stacks up vs your KPIs."'
-    ' data-show-header="false"'
-    ' class="ow-fe-cta-mount-inline"></div>'
-)
+INSIGHT_CTA_BUTTON_REPLACEMENT = SCHEDULE_REVIEW_MODAL_TRIGGER
 
 # Footer marker — same on every page in the mirror. We insert the newsletter
 # block immediately after `<div class="ow-container py-16">` and BEFORE the
