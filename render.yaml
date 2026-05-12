@@ -104,6 +104,25 @@ services:
         name: Cache-Control
         value: public, max-age=86400, immutable
 
+      # — Private deliverables (gated assets) ————————————————————————————
+      # `/downloads/*` holds PDFs (and similar) we hand out via email or
+      # form-completion follow-up (e.g. PPP Starter Kit). The URLs are
+      # publicly reachable so the recipient can click them, but we don't
+      # want them surfacing in Google / Bing / AI assistants. The
+      # `X-Robots-Tag: noindex, nofollow` header is the canonical way to
+      # tell every crawler to drop the URL from its index — including
+      # PDFs, which can't carry a <meta robots> tag. Intentionally NOT
+      # disallowed in robots.txt: disallow would block crawlers from
+      # reading this header, which can leave "URL-only" stub entries in
+      # Google if anyone ever backlinks the file. noindex is the cleaner
+      # signal.
+      - path: /downloads/*
+        name: X-Robots-Tag
+        value: noindex, nofollow
+      - path: /downloads/*
+        name: Cache-Control
+        value: public, max-age=86400, must-revalidate
+
       # Sitemap + robots: short TTL so SEO updates propagate.
       - path: /sitemap.xml
         name: Cache-Control

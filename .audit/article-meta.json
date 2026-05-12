@@ -1,0 +1,1042 @@
+[
+  {
+    "slug": "oem-owns-the-brain-cre-vendor-independence",
+    "title": "When the OEM Owns the Brain, the Owner Doesn't",
+    "desc": "Building OEMs are buying AI startups and folding the brains into their platforms. Three diligence questions every CRE owner must ask before the next renewal.",
+    "image": "https://www.opticwise.com/api/media/file/oem-owns-the-brain-og.png",
+    "datePub": "2026-05-11T13:00:00.000Z",
+    "dateMod": "2026-05-11T13:00:00.000Z"
+  },
+  {
+    "slug": "ai-agents-permissions-cre-orchestration",
+    "title": "AI Agents Are Already Inside Your Buildings. Who Gave Them Permission?",
+    "desc": "Agentic AI is already in your buildings \u2014 so are breaches and OT vulnerabilities. Stand up an owner-controlled orchestration layer before the next incident.",
+    "image": "https://www.opticwise.com/api/media/file/ai-agents-permissions-cre-orchestration.png",
+    "datePub": "2026-05-08T13:00:00.000Z",
+    "dateMod": "2026-05-08T13:00:00.000Z"
+  },
+  {
+    "slug": "owner-controlled-ai-orchestration-cre",
+    "title": "Wall Street Just Built an AI Orchestration Firm. Owners Need Their Own.",
+    "desc": "AI orchestration just became a Wall Street balance-sheet item. Here's why CRE owners need their own orchestration layer to keep portfolio intelligence in-house.",
+    "image": "https://www.opticwise.com/api/media/file/owner-controlled-ai-orchestration-cre.png",
+    "datePub": "2026-05-06T13:00:00.000Z",
+    "dateMod": "2026-05-06T13:00:00.000Z"
+  },
+  {
+    "slug": "The-LLM-Model-Just-Became-a-Commodity",
+    "title": "The LLM Model Just Became a Commodity",
+    "desc": "Here's What Actually Compounds in Commercial Real Estate",
+    "image": "https://www.opticwise.com/api/media/file/The-LLM-Model-Just-Became-a-Commodity-1.jpg",
+    "datePub": "2026-05-04T13:58:51.944Z",
+    "dateMod": "2026-05-04T13:58:51.944Z"
+  },
+  {
+    "slug": "avb-eqr-merger-operating-standard-portfolio-intelligence",
+    "title": "When Two Apartment Giants Merge, Whose Operating Standard Wins?",
+    "desc": "AvalonBay and Equity Residential are exploring a combination. The operating-standard question \u2014 not the capital math \u2014 decides the value created from 165,000 units.",
+    "image": "https://www.opticwise.com/api/media/file/avb-eqr-merger-operating-standard-portfolio-intelligence.png",
+    "datePub": "2026-05-04T13:00:00.000Z",
+    "dateMod": "2026-05-04T13:00:00.000Z"
+  },
+  {
+    "slug": "your-pms-has-an-api-thats-not-the-same-as-a-data-strategy",
+    "title": "Your PMS Has an API. That's Not the Same as a Data Strategy.",
+    "desc": "An API isn&#x27;t a data strategy. See why CRE owners need governance, not just connectors \u2014 and what real owner-controlled data looks like.",
+    "image": "https://www.opticwise.com/api/media/file/your-pms-has-an-api-thats-not-the-same-as-a-data-strategy.png",
+    "datePub": "2026-05-01T13:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:29.443Z"
+  },
+  {
+    "slug": "the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat",
+    "title": "The AI Model Is Commoditizing. Your Owner Data Is the Real Moat.",
+    "desc": "Foundation AI models are commoditizing fast \u2014 frontier and open-source models are nearly equivalent in performance and cost. The competitive moat for CRE owners has moved from the AI model to the owner-controlled data layer it runs on. The model can change tomorrow; the data\u2026",
+    "image": "https://www.opticwise.com/api/media/file/the-ai-model-is-commoditizing-your-owner-data-is-the-real-moat.png",
+    "datePub": "2026-04-29T13:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:29.119Z"
+  },
+  {
+    "slug": "why-cre-tech-is-shifting-from-point-solutions-to-platforms-and-what-to-do-about",
+    "title": "Why CRE Tech Is Shifting From Point Solutions to Platforms (and What to Do About It)",
+    "desc": "CRE tech is consolidating into platforms. See why owners must avoid platform lock-in while still capturing the operational benefits.",
+    "image": "https://www.opticwise.com/api/media/file/why-cre-tech-is-shifting-from-point-solutions-to-platforms-and-what-to-do-about.png",
+    "datePub": "2026-04-26T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:53.221Z"
+  },
+  {
+    "slug": "the-winners-in-cre-will-own-the-stacknot-just-the-asset",
+    "title": "The Winners in CRE Will Own the Stack\u2014Not Just the Asset",
+    "desc": "Owning the building isn&#x27;t enough anymore. See why the next generation of CRE winners owns the entire stack: data, network, and intelligence.",
+    "image": "https://www.opticwise.com/api/media/file/the-winners-in-cre-will-own-the-stacknot-just-the-asset.png",
+    "datePub": "2026-04-24T13:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:28.745Z"
+  },
+  {
+    "slug": "the-most-valuable-asset-in-cre-isnt-the-buildingits-the-data",
+    "title": "The Most Valuable Asset in CRE Isn\u2019t the Building\u2014It\u2019s the Data",
+    "desc": "The most valuable asset in CRE isn&#x27;t the building anymore \u2014 it&#x27;s the data the building generates. See why owners must claim it before vendors do.",
+    "image": "https://www.opticwise.com/api/media/file/the-most-valuable-asset-in-cre-isnt-the-buildingits-the-data.png",
+    "datePub": "2026-04-22T13:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:28.359Z"
+  },
+  {
+    "slug": "the-hidden-cost-killing-your-noi-and-you-dont-see-it",
+    "title": "The Hidden Cost Killing Your NOI (And You Don\u2019t See It)",
+    "desc": "There&#x27;s a hidden cost in your CRE portfolio you don&#x27;t see \u2014 until you do. See where vendor-controlled infrastructure quietly drains NOI.",
+    "image": "https://www.opticwise.com/api/media/file/the-hidden-cost-killing-your-noi-and-you-dont-see-it.png",
+    "datePub": "2026-04-19T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:52.841Z"
+  },
+  {
+    "slug": "operational-efficiency-is-the-new-alpha-in-commercial-real-estate",
+    "title": "Operational Efficiency Is the New Alpha in Commercial Real Estate",
+    "desc": "Operational efficiency is the new alpha in commercial real estate. Disciplined ops \u2014 not financial engineering \u2014 separates winners from holders this cycle. Owner-controlled data is what makes the discipline measurable, repeatable, and provable to lenders and LPs.",
+    "image": "https://www.opticwise.com/api/media/file/operational-efficiency-is-the-new-alpha-in-commercial-real-estate.png",
+    "datePub": "2026-04-17T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:52.396Z"
+  },
+  {
+    "slug": "data-centers-are-the-new-cre-gravity-well",
+    "title": "Data Centers Are the New CRE Gravity Well",
+    "desc": "Data centers are pulling capital, talent, and attention away from traditional CRE. See why every owner should reckon with the gravity well now.",
+    "image": "https://www.opticwise.com/api/media/file/data-centers-are-the-new-cre-gravity-well.png",
+    "datePub": "2026-04-14T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:52.070Z"
+  },
+  {
+    "slug": "owners-are-overwhelmednot-under-informed",
+    "title": "Owners Are Overwhelmed\u2014Not Under-Informed",
+    "desc": "CRE owners aren&#x27;t lacking data \u2014 they&#x27;re drowning in it. See why clarity, not more dashboards, is the lever that compounds asset value.",
+    "image": "https://www.opticwise.com/api/media/file/owners-are-overwhelmednot-under-informed.png",
+    "datePub": "2026-04-12T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:51.687Z"
+  },
+  {
+    "slug": "capex-is-tightening-roi-scrutiny-is-brutal-and-cool-tech-is-dead",
+    "title": "CapEx Is Tightening. ROI Scrutiny Is Brutal. And \u201cCool Tech\u201d Is Dead.",
+    "desc": "CapEx is tightening, ROI scrutiny is brutal, and &#x27;cool tech&#x27; is dead. See how CRE owners must justify every digital infrastructure dollar now.",
+    "image": "https://www.opticwise.com/api/media/file/capex-is-tightening-roi-scrutiny-is-brutal-and-cool-tech-is-dead.png",
+    "datePub": "2026-04-10T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:51.301Z"
+  },
+  {
+    "slug": "ai-wont-fix-your-propertyit-will-expose-whats-broken",
+    "title": "AI Won\u2019t Fix Your Property\u2014It Will Expose What\u2019s Broken",
+    "desc": "AI brings hidden CRE problems into the light. See why owners with weak governance will see operational gaps revealed faster than fixed.",
+    "image": "https://www.opticwise.com/api/media/file/ai-wont-fix-your-propertyit-will-expose-whats-broken.png",
+    "datePub": "2026-04-07T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:50.995Z"
+  },
+  {
+    "slug": "ai-wont-fix-your-propertybut-this-will",
+    "title": "AI Won\u2019t Fix Your Property\u2014But This Will",
+    "desc": "AI won&#x27;t fix a property with a broken foundation. See what actually fixes CRE: owner-controlled data and a digital infrastructure strategy.",
+    "image": "https://www.opticwise.com/api/media/file/ai-wont-fix-your-propertybut-this-will.png",
+    "datePub": "2026-04-05T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:50.686Z"
+  },
+  {
+    "slug": "ai-will-commoditize-creunless-you-own-something-it-cant-replicate",
+    "title": "AI Will Commoditize CRE\u2014Unless You Own Something It Can\u2019t Replicate",
+    "desc": "AI commoditizes everything it can copy. See why CRE owners must hold something AI can&#x27;t replicate \u2014 and what that &#x27;something&#x27; actually is.",
+    "image": "https://www.opticwise.com/api/media/file/ai-will-commoditize-creunless-you-own-something-it-cant-replicate.png",
+    "datePub": "2026-04-03T13:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:28.048Z"
+  },
+  {
+    "slug": "if-your-building-sold-tomorrow-would-the-data-be-included",
+    "title": "If Your Building Sold Tomorrow, Would the Data Be Included?",
+    "desc": "Data is becoming a CRE valuation driver \u2014 but only if you actually own it. See what changes when buyers ask for the data on close.",
+    "image": "https://www.opticwise.com/api/media/file/if-your-building-sold-tomorrow-would-the-data-be-included.png",
+    "datePub": "2026-03-31T13:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:27.609Z"
+  },
+  {
+    "slug": "ai-needs-a-nervous-system-why-digital-infrastructure-is-the-real-enabler",
+    "title": "AI Needs a Nervous System: Why Digital Infrastructure Is the Real Enabler",
+    "desc": "AI is failing in CRE because buildings can&#x27;t carry signal. See why digital infrastructure is the nervous system AI actually needs.",
+    "image": "https://www.opticwise.com/api/media/file/ai-needs-a-nervous-system-why-digital-infrastructure-is-the-real-enabler.png",
+    "datePub": "2026-03-29T13:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:27.274Z"
+  },
+  {
+    "slug": "ai-governance-is-now-a-cre-risk-category-are-you-exposed",
+    "title": "AI Governance Is Now a CRE Risk Category \u2014 Are You Exposed?",
+    "desc": "AI governance has crossed from technical concern to CRE risk category. See where regulators are heading and how owners can prepare now.",
+    "image": "https://www.opticwise.com/api/media/file/ai-governance-is-now-a-cre-risk-category-are-you-exposed.png",
+    "datePub": "2026-03-27T13:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:26.962Z"
+  },
+  {
+    "slug": "why-asset-managers-are-flying-blind-and-dont-even-know-it",
+    "title": "Why Asset Managers Are Flying Blind (And Don\u2019t Even Know It)",
+    "desc": "Asset managers are accountable for performance but rarely have raw data access. See why owner-controlled data is now the alpha lever.",
+    "image": "https://www.opticwise.com/api/media/file/why-asset-managers-are-flying-blind-and-dont-even-know-it.png",
+    "datePub": "2026-03-24T13:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:26.487Z"
+  },
+  {
+    "slug": "hyperscalers-are-industrializing-digital-infrastructure-your-building-is-next",
+    "title": "Hyperscalers Are Industrializing Digital Infrastructure. Your Building Is Next.",
+    "desc": "Hyperscalers have industrialized digital infrastructure. See what their playbook teaches CRE owners \u2014 before vendor platforms run your building too.",
+    "image": "https://www.opticwise.com/api/media/file/hyperscalers-are-industrializing-digital-infrastructure-your-building-is-next.png",
+    "datePub": "2026-03-22T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:50.364Z"
+  },
+  {
+    "slug": "the-realpage-settlements-are-not-the-story-the-story-is-who-makes-your-decisions",
+    "title": "The RealPage Settlements Are Not the Story. The Story Is Who Makes Your Decisions.",
+    "desc": "The RealPage settlements aren&#x27;t the lesson. See why CRE owners are being held accountable for vendor decisions \u2014 and how to take governance back.",
+    "image": "https://www.opticwise.com/api/media/file/the-realpage-settlements-are-not-the-story-the-story-is-who-makes-your-decisions.png",
+    "datePub": "2026-03-19T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:49.969Z"
+  },
+  {
+    "slug": "the-shadow-ai-problem-is-already-in-your-buildings",
+    "title": "The Shadow AI Problem Is Already in Your Buildings",
+    "desc": "Shadow AI is already running in your buildings \u2014 under vendor control. See why CRE owners must surface and govern it before it shapes asset value.",
+    "image": "https://www.opticwise.com/api/media/file/the-shadow-ai-problem-is-already-in-your-buildings.png",
+    "datePub": "2026-03-17T13:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:26.164Z"
+  },
+  {
+    "slug": "office-just-had-its-best-quarter-since-2018-the-winners-will-be-the-owners-who-c",
+    "title": "Office Just Had Its Best Quarter Since 2018. The Winners Will Be the Owners Who Can See Their Buildings.",
+    "desc": "Office had its best quarter since 2018. See why the winners will be CRE owners with the visibility to optimize each property in real time.",
+    "image": "https://www.opticwise.com/api/media/file/office-just-had-its-best-quarter-since-2018-the-winners-will-be-the-owners-who-c.png",
+    "datePub": "2026-03-15T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:49.596Z"
+  },
+  {
+    "slug": "data-centers-just-got-their-own-reit-every-owner-should-read-the-signal",
+    "title": "Data Centers Just Got Their Own REIT. Every Owner Should Read the Signal.",
+    "desc": "When data centers get their own REIT, the market just told you what&#x27;s becoming the asset. See why every CRE owner should read the signal now.",
+    "image": "https://www.opticwise.com/api/media/file/data-centers-just-got-their-own-reit-every-owner-should-read-the-signal.png",
+    "datePub": "2026-03-12T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:49.286Z"
+  },
+  {
+    "slug": "blackstone-is-filing-a-2-billion-ipo-around-digital-infrastructure-most-cre-owne",
+    "title": "Blackstone Is Filing a $2 Billion IPO Around Digital Infrastructure. Most CRE Owners Don't Own Theirs.",
+    "desc": "Blackstone&#x27;s $2B digital infrastructure IPO is a signal. See why most CRE owners are giving theirs away \u2014 and what to do before the gap widens.",
+    "image": "https://www.opticwise.com/api/media/file/blackstone-is-filing-a-2-billion-ipo-around-digital-infrastructure-most-cre-owne.png",
+    "datePub": "2026-03-10T13:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:48.924Z"
+  },
+  {
+    "slug": "ai-promises-20-30-savings-in-your-building-thats-only-true-if-you-own-your-data",
+    "title": "AI Promises 20-30% Savings in Your Building. That's Only True if You Own Your Data.",
+    "desc": "AI promises 20-30% operating savings in CRE \u2014 but only owners with controlled data capture the upside. See what data ownership actually requires.",
+    "image": "https://www.opticwise.com/api/media/file/ai-promises-20-30-savings-in-your-building-thats-only-true-if-you-own-your-data.png",
+    "datePub": "2026-03-08T13:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:25.843Z"
+  },
+  {
+    "slug": "blackstone-brookfield-and-jpmorgan-just-rewrote-the-rules-on-real-estate-value",
+    "title": "Blackstone, Brookfield, and JPMorgan Just Rewrote the Rules on Real Estate Value",
+    "desc": "Major institutional moves into digital infrastructure are repricing CRE. See what owners need to know \u2014 and own \u2014 before the next wave hits.",
+    "image": "https://www.opticwise.com/api/media/file/blackstone-brookfield-and-jpmorgan-just-rewrote-the-rules-on-real-estate-value.png",
+    "datePub": "2026-03-05T14:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:48.590Z"
+  },
+  {
+    "slug": "ai-in-cre-wont-save-you-if-you-dont-own-your-data",
+    "title": "AI in CRE Won't Save You If You Don't Own Your Data",
+    "desc": "AI without owner-controlled data is rented intelligence. See why CRE owners must own their data before they buy another AI tool.",
+    "image": "https://www.opticwise.com/api/media/file/ai-in-cre-wont-save-you-if-you-dont-own-your-data.png",
+    "datePub": "2026-03-03T14:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:25.449Z"
+  },
+  {
+    "slug": "when-the-scorekeeper-works-for-the-vendor-who-is-looking-out-for-you",
+    "title": "When the Scorekeeper Works for the Vendor, Who Is Looking Out for You?",
+    "desc": "Vendor-run scoring systems aren&#x27;t neutral. See why CRE owners need independent governance of their building data, networks, and ratings.",
+    "image": "https://www.opticwise.com/api/media/file/when-the-scorekeeper-works-for-the-vendor-who-is-looking-out-for-you.png",
+    "datePub": "2026-02-28T14:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:48.280Z"
+  },
+  {
+    "slug": "ai-wont-fix-your-building-operations-your-data-foundation-will",
+    "title": "AI Won\u2019t Fix Your Building Operations. Your Data Foundation Will.",
+    "desc": "AI access in CRE is widespread but results are weak. See why owner-controlled data foundations decide who actually wins with AI in operations.",
+    "image": "https://www.opticwise.com/api/media/file/ai-wont-fix-your-building-operations-your-data-foundation-will.png",
+    "datePub": "2026-02-26T14:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:24.931Z"
+  },
+  {
+    "slug": "part-5-digital-infrastructure-as-the-strategic-foundation-for-ai-driven-esg-and",
+    "title": "Part 5: Digital Infrastructure as the Strategic Foundation for AI-Driven ESG and Sustainability Goals",
+    "desc": "AI-driven CRE outcomes need a digital infrastructure foundation. See why owner-controlled infrastructure is the strategic enabler \u2014 not the dashboard.",
+    "image": "https://www.opticwise.com/api/media/file/part-5-digital-infrastructure-as-the-strategic-foundation-for-ai-driven-esg-and.png",
+    "datePub": "2026-02-24T14:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:47.965Z"
+  },
+  {
+    "slug": "part-4-ai-adoption-without-strategy-is-waste-digital-infrastructure-makes-it-wor",
+    "title": "Part 4: AI Adoption Without Strategy Is Waste \u2014 Digital Infrastructure Makes It Work",
+    "desc": "AI bolted onto a broken foundation creates more problems than it solves. See why CRE owners need a digital infrastructure strategy first.",
+    "image": "https://www.opticwise.com/api/media/file/part-4-ai-adoption-without-strategy-is-waste-digital-infrastructure-makes-it-wor.png",
+    "datePub": "2026-02-21T14:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:30.165Z"
+  },
+  {
+    "slug": "part-3-digital-infrastructure-ai-operational-excellence-and-higher-asset-value",
+    "title": "Part 3: Digital Infrastructure + AI = Operational Excellence (and Higher Asset Value)",
+    "desc": "AI works only when systems connect. See how owner-controlled digital infrastructure turns AI into operational excellence \u2014 and higher CRE asset value.",
+    "image": "https://www.opticwise.com/api/media/file/part-3-digital-infrastructure-ai-operational-excellence-and-higher-asset-value.png",
+    "datePub": "2026-02-19T14:00:00.000Z",
+    "dateMod": "2026-05-01T23:53:29.851Z"
+  },
+  {
+    "slug": "Data-Is-the-New-Real-Estate-Utility",
+    "title": "Data Is the New Real Estate Utility \u2014 But Only If You Own the Network That Collects It",
+    "desc": "Part 2 in Series: AI-Ready Real Estate: Turning Digital Infrastructure into Strategic Advantage -- Monetizing building data starts with owning the digital infrastructure that captures it.",
+    "image": "https://www.opticwise.com/api/media/file/Smart%20office%20tower%20at%20night.png",
+    "datePub": "2026-02-18T16:00:00.000Z",
+    "dateMod": "2026-05-02T00:07:47.595Z"
+  },
+  {
+    "slug": "ai-isn-t-the-future-it-s-today-why-your-digital-infrastructure-must",
+    "title": "AI Isn\u2019t the Future \u2014 It\u2019s Today: Why Your Digital Infrastructure Must Deliver Actionable Intelligence",
+    "desc": "Part 1 in Series: AI-Ready Real Estate: Turning Digital Infrastructure into Strategic Advantage --\nThere\u2019s a lot of noise about AI in real estate. But behind the buzzwords and boardroom buzz, there\u2019s one truth that gets overlooked:  90% of CRE owners say AI is in their strategy. ",
+    "image": "https://www.opticwise.com/api/media/file/ai-isn-t-the-future-it-s-today-why-your-digital-infrastructure-must-cover.png",
+    "datePub": "2026-02-17T05:01:44.000Z",
+    "dateMod": "2026-05-02T00:04:58.264Z"
+  },
+  {
+    "slug": "part-5-cre-s-digital-divide-why-infrastructure-ownership-determines-ai",
+    "title": "Part 5 CRE\u2019s Digital Divide: Why Infrastructure Ownership Determines AI Readiness",
+    "desc": "Commercial real estate owners are increasingly presented with point solutions, apps, and dashboards designed to improve performance. However, without clear ownership of the underly",
+    "image": "https://www.opticwise.com/api/media/file/part-5-cre-s-digital-divide-why-infrastructure-ownership-determines-ai-cover.png",
+    "datePub": "2026-02-10T19:23:59.000Z",
+    "dateMod": "2026-05-02T00:04:58.631Z"
+  },
+  {
+    "slug": "part-4-the-coming-regulation-wave-why-cre-must-prepare-for-ethical-ai-now",
+    "title": "Part 4 The Coming Regulation Wave: Why CRE Must Prepare for Ethical AI Now",
+    "desc": "Commercial real estate owners are increasingly presented with point solutions, apps, and dashboards designed to improve performance. However, without clear ownership of the underly",
+    "image": "https://www.opticwise.com/api/media/file/part-4-the-coming-regulation-wave-why-cre-must-prepare-for-ethical-ai-now-cover.png",
+    "datePub": "2026-01-28T14:28:01.000Z",
+    "dateMod": "2026-05-02T00:04:58.921Z"
+  },
+  {
+    "slug": "part-3-esg-illusion-why-ai-dashboards-alone-won-t-deliver-sustainable-results",
+    "title": "Part 3 : ESG Illusion: Why AI Dashboards Alone Won\u2019t Deliver Sustainable Results",
+    "desc": "Commercial real estate owners are increasingly presented with point solutions, apps, and dashboards designed to improve performance. However, without clear ownership of the underly",
+    "image": "https://www.opticwise.com/api/media/file/part-3-esg-illusion-why-ai-dashboards-alone-won-t-deliver-sustainable-results-cover.png",
+    "datePub": "2026-01-26T13:30:07.000Z",
+    "dateMod": "2026-05-02T00:04:59.264Z"
+  },
+  {
+    "slug": "part-2-what-cre-gets-wrong-about-tenant-experience-hint-it-s-not-a-smart",
+    "title": "Part 2 : What CRE Gets Wrong About Tenant Experience (Hint: It\u2019s Not a Smart Lock)",
+    "desc": "Commercial real estate owners are increasingly presented with point solutions, apps, and dashboards designed to improve performance. But without clear ownership of the underlying d",
+    "image": "https://www.opticwise.com/api/media/file/part-2-what-cre-gets-wrong-about-tenant-experience-hint-it-s-not-a-smart-cover.jpg",
+    "datePub": "2026-01-21T14:13:01.000Z",
+    "dateMod": "2026-05-02T00:04:59.548Z"
+  },
+  {
+    "slug": "digital-infrastructure-first-series-part-1-digital-infrastructure-is-the",
+    "title": "Digital Infrastructure-First Series: Part 1 Digital Infrastructure Is the New Amenity: Monetizing Your Smart Building Backbone",
+    "desc": "Commercial real estate owners are increasingly presented with point solutions, apps, and dashboards designed to improve performance. However, without clear ownership of the underly",
+    "image": "https://www.opticwise.com/api/media/file/digital-infrastructure-first-series-part-1-digital-infrastructure-is-the-cover.jpeg",
+    "datePub": "2026-01-19T20:00:00.000Z",
+    "dateMod": "2026-05-02T00:04:59.910Z"
+  },
+  {
+    "slug": "the-case-for-a-digital-architect-why-cre-property-managers-are-drowning-in",
+    "title": "The Case for a Digital Architect: Why CRE Property Managers Are Drowning in Disconnected Tech",
+    "desc": "Digital is now the backbone of tenant experience and building performance. But in too many commercial real estate (CRE) projects, responsibility for the building\u2019s most strategic s",
+    "image": "https://www.opticwise.com/api/media/file/the-case-for-a-digital-architect-why-cre-property-managers-are-drowning-in-cover.png",
+    "datePub": "2026-01-12T14:37:05.000Z",
+    "dateMod": "2026-05-02T00:05:00.215Z"
+  },
+  {
+    "slug": "organizational-pencils-why-agility-not-perfection-will-win-in-2026",
+    "title": "Organizational Pencils: Why Agility, Not Perfection, Will Win in 2026",
+    "desc": "We\u2019ve been taught to write in pen. Lock it in. Make it final. Sign the deal, pour the concrete, and build for decades.  That mindset works well in real estate development. In fact,",
+    "image": "https://www.opticwise.com/api/media/file/organizational-pencils-why-agility-not-perfection-will-win-in-2026-cover.jpg",
+    "datePub": "2026-01-09T21:16:17.000Z",
+    "dateMod": "2026-05-02T00:05:00.607Z"
+  },
+  {
+    "slug": "digital-infrastructure-isn-t-just-wi-fi-it-s-the-nervous-system-of-your-property",
+    "title": "Digital Infrastructure Isn\u2019t Just Wi-Fi\u2014It\u2019s the Nervous System of Your Property",
+    "desc": "Let\u2019s clear something up: Digital infrastructure isn\u2019t just about providing internet access to tenants. It\u2019s the operational backbone that makes everything in your building work sm",
+    "image": "https://www.opticwise.com/api/media/file/digital-infrastructure-isn-t-just-wi-fi-it-s-the-nervous-system-of-your-property-cover.png",
+    "datePub": "2026-01-09T21:02:46.000Z",
+    "dateMod": "2026-05-02T00:05:00.950Z"
+  },
+  {
+    "slug": "the-cost-of-doing-nothing-what-you-lose-by-letting-the-isp-build-your-network",
+    "title": "The Cost of Doing Nothing: What You Lose by Letting the ISP Build Your Network",
+    "desc": "Every developer has faced this moment. You\u2019re close to GMP. Timelines are tight. You\u2019re told the ISP will \"handle the network.\" It seems simple. One less thing to worry about.  But",
+    "image": "https://www.opticwise.com/api/media/file/the-cost-of-doing-nothing-what-you-lose-by-letting-the-isp-build-your-network-cover.png",
+    "datePub": "2026-01-09T20:21:42.000Z",
+    "dateMod": "2026-05-02T00:05:01.309Z"
+  },
+  {
+    "slug": "how-one-portfolio-used-ai-to-cut-utility-spend-double-digits",
+    "title": "How One Portfolio Used AI to Cut Utility Spend Double-Digits",
+    "desc": "See how AI technology enabled one portfolio to slash utility expenses and improve asset performance with data-driven operational control.",
+    "image": "https://www.opticwise.com/api/media/file/how-one-portfolio-used-ai-to-cut-utility-spend-double-digits-cover.jpg",
+    "datePub": "2025-12-11T01:44:46.000Z",
+    "dateMod": "2026-05-02T00:05:01.677Z"
+  },
+  {
+    "slug": "own-the-digital-infrastructure-own-the-leverage",
+    "title": "Own the Digital Infrastructure, Own the Leverage",
+    "desc": "In commercial real estate, whoever owns the digital infrastructure owns the leverage. Owner-controlled connectivity and data give the operator pricing power, vendor flexibility, AI readiness, and durable NOI. Vendor-controlled stacks transfer that leverage to someone whose\u2026",
+    "image": "https://www.opticwise.com/api/media/file/own-the-digital-infrastructure-own-the-leverage-cover.png",
+    "datePub": "2025-12-03T22:04:21.000Z",
+    "dateMod": "2026-05-02T00:05:02.011Z"
+  },
+  {
+    "slug": "trust-at-first-sight-data-dictionaries-refresh-stamps-and-adoption",
+    "title": "Trust at First Sight\u2014Data Dictionaries, Refresh Stamps, and Adoption",
+    "desc": "The real adoption gap isn\u2019t technical Most \u201cwe need better dashboards\u201d complaints are trust problems in disguise. Operators won\u2019t act on a chart if they don\u2019t know what a metric me",
+    "image": "https://www.opticwise.com/api/media/file/trust-at-first-sight-data-dictionaries-refresh-stamps-and-adoption-cover.jpeg",
+    "datePub": "2025-12-03T22:03:09.000Z",
+    "dateMod": "2026-05-02T00:05:02.333Z"
+  },
+  {
+    "slug": "what-ai-is-doing-to-apartment-demand-and-how-buildings-must-respond",
+    "title": "What AI Is Doing to Apartment Demand\u2014And How Buildings Must Respond",
+    "desc": "In the shadow of Silicon Valley\u2019s latest boom, a quieter transformation is reshaping the multifamily real estate landscape: Artificial Intelligence (AI) is not just changing how pe",
+    "image": "https://www.opticwise.com/api/media/file/what-ai-is-doing-to-apartment-demand-and-how-buildings-must-respond-cover.png",
+    "datePub": "2025-11-25T21:42:29.000Z",
+    "dateMod": "2026-05-02T00:05:02.756Z"
+  },
+  {
+    "slug": "the-genai-divide-what-cre-leaders-must-know-before-falling-behind",
+    "title": "The GenAI Divide: What CRE Leaders Must Know Before Falling Behind",
+    "desc": "If you're in commercial real estate and still treating AI as a buzzword or future concern, you're on the wrong side of the GenAI Divide. MIT's \"State of AI in Business 2025\" report",
+    "image": "https://www.opticwise.com/api/media/file/the-genai-divide-what-cre-leaders-must-know-before-falling-behind-cover.png",
+    "datePub": "2025-11-25T20:50:00.000Z",
+    "dateMod": "2026-05-02T00:05:03.250Z"
+  },
+  {
+    "slug": "the-post-pandemic-office-isn-t-smaller-it-s-smarter",
+    "title": "The Post-Pandemic Office Isn\u2019t Smaller\u2014It\u2019s Smarter",
+    "desc": "The COVID-19 pandemic redefined how the world works. In its wake, commercial office space hasn\u2019t vanished, but it has fundamentally changed. CRE owners and operators are seeing a p",
+    "image": "https://www.opticwise.com/api/media/file/the-post-pandemic-office-isn-t-smaller-it-s-smarter-cover.png",
+    "datePub": "2025-11-25T20:28:00.000Z",
+    "dateMod": "2026-05-02T00:05:03.683Z"
+  },
+  {
+    "slug": "cretech-2025-the-ai-illusion-and-the-next-wave-no-one-s-talking-about",
+    "title": "CREtech 2025: The AI Illusion and the Next Wave No One\u2019s Talking About",
+    "desc": "AI was everywhere at CREtech 2025. From predictive amenities to \u201cpersonalized tenant experiences,\u201d the vendor booths and main stage talks were overflowing with AI promises. But as ",
+    "image": "https://www.opticwise.com/api/media/file/cretech-2025-the-ai-illusion-and-the-next-wave-no-one-s-talking-about-cover.png",
+    "datePub": "2025-11-18T21:48:35.000Z",
+    "dateMod": "2026-05-02T00:05:04.086Z"
+  },
+  {
+    "slug": "from-data-to-decisions-what-cre-can-learn-from-cortland-s-product-mindset",
+    "title": "From Data to Decisions: What CRE Can Learn from Cortland\u2019s Product Mindset (with Shea Fallick)",
+    "desc": "Cortland\u2019s Shea Fallick breaks down how real data transformation starts with top-down alignment, clean pipelines, and a product mindset that solves a business problem first\u2014then bu",
+    "image": "https://www.opticwise.com/api/media/file/from-data-to-decisions-what-cre-can-learn-from-cortland-s-product-mindset-cover.png",
+    "datePub": "2025-11-18T21:00:32.000Z",
+    "dateMod": "2026-05-02T00:05:04.449Z"
+  },
+  {
+    "slug": "cre-owners-are-the-data-stewards-whether-you-know-it-or-not",
+    "title": "CRE owners are the data stewards \u2013 whether you know it or not",
+    "desc": "*This article is part of Bill Douglas\u2019s 52-Week Series originally published on [PropTech-X](https://proptech-x.com/original-link).   Republished here with permission.*  I\u2019m Bill Do",
+    "image": "https://www.opticwise.com/api/media/file/cre-owners-are-the-data-stewards-whether-you-know-it-or-not-cover.jpeg",
+    "datePub": "2025-10-27T19:45:50.000Z",
+    "dateMod": "2026-05-02T00:05:04.890Z"
+  },
+  {
+    "slug": "the-hidden-tech-debt-you-won-t-catch-in-the-code",
+    "title": "The Hidden Tech Debt You Won\u2019t Catch in the Code",
+    "desc": "At OpticWise, we believe what you don\u2019t own, you can\u2019t control \u2014 and hidden technical debt is one of the biggest blind spots for commercial real estate owners. In this article, ori",
+    "image": "https://www.opticwise.com/api/media/file/the-hidden-tech-debt-you-won-t-catch-in-the-code-cover.jpg",
+    "datePub": "2025-10-06T15:15:04.000Z",
+    "dateMod": "2026-05-02T00:05:05.239Z"
+  },
+  {
+    "slug": "mastering-control-the-final-c-in-the-5c-framework",
+    "title": "Mastering Control: The Final C in the 5C Framework",
+    "desc": "After clarifying what you own, connecting your systems, collecting your data, and coordinating insights, the final step in the 5C Framework is Control. This is where it all comes t",
+    "image": "https://www.opticwise.com/api/media/file/mastering-control-the-final-c-in-the-5c-framework-cover.jpeg",
+    "datePub": "2025-09-30T19:36:55.000Z",
+    "dateMod": "2026-05-02T00:05:05.586Z"
+  },
+  {
+    "slug": "bringing-systems-together-the-coordination-step-in-the-five-c-s",
+    "title": "Bringing Systems Together: The Coordination Step in the Five C\u2019s",
+    "desc": " When it comes to digital infrastructure in commercial real estate, the Five C\u2019s framework provides a roadmap: Clarify, Connect, Collect, Coordinate, and Control. Each step builds ",
+    "image": "https://www.opticwise.com/api/media/file/bringing-systems-together-the-coordination-step-in-the-five-c-s-cover.jpeg",
+    "datePub": "2025-09-25T23:03:21.000Z",
+    "dateMod": "2026-05-02T00:05:05.929Z"
+  },
+  {
+    "slug": "collect-unlocking-the-value-hidden-in-your-building-s-data",
+    "title": "Collect \u2013 Unlocking the Value Hidden in Your Building\u2019s Data",
+    "desc": "From Gut Feeling to Data-Driven Decisions In commercial real estate, many owners and operators still make decisions based on instinct or incomplete reports. But in today\u2019s market, ",
+    "image": "https://www.opticwise.com/api/media/file/collect-unlocking-the-value-hidden-in-your-building-s-data-cover.jpeg",
+    "datePub": "2025-09-12T21:22:53.000Z",
+    "dateMod": "2026-05-02T00:05:06.303Z"
+  },
+  {
+    "slug": "connect-creating-the-flow-that-unlocks-your-building-s-potential",
+    "title": "Connect \u2013 Creating the Flow That Unlocks Your Building\u2019s Potential",
+    "desc": "Why Connection Matters More Than You Think Most owners assume their building systems are \u201cintegrated.\u201d Vendors reassure them. Dashboards exist. Reports flow. But here\u2019s the catch: ",
+    "image": "https://www.opticwise.com/api/media/file/connect-creating-the-flow-that-unlocks-your-building-s-potential-cover.png",
+    "datePub": "2025-09-12T21:22:03.000Z",
+    "dateMod": "2026-05-02T00:05:06.720Z"
+  },
+  {
+    "slug": "clarify-the-first-step-to-peak-property-performance",
+    "title": "Clarify \u2013 The First Step to Peak Property Performance",
+    "desc": "\"What Is That?\" \u2014 How One Question Saved $56,000 and Created New NOI Commercial real estate owners are constantly searching for ways to boost Net Operating Income (NOI), retain ten",
+    "image": "https://www.opticwise.com/api/media/file/clarify-the-first-step-to-peak-property-performance-cover.jpeg",
+    "datePub": "2025-09-11T20:54:01.000Z",
+    "dateMod": "2026-05-02T00:05:07.098Z"
+  },
+  {
+    "slug": "the-hidden-cost-of-vendor-sprawl-and-what-to-do-about-it",
+    "title": "The Hidden Cost of Vendor Sprawl (And What to Do About It)",
+    "desc": "You\u2019re Managing Your Vendors, Not Your Building As an operator, your day shouldn\u2019t be a vendor triage. Yet too often, it is. Multiple platforms, invoices, service calls, and contra",
+    "image": "https://www.opticwise.com/api/media/file/the-hidden-cost-of-vendor-sprawl-and-what-to-do-about-it-cover.jpeg",
+    "datePub": "2025-09-02T03:05:25.000Z",
+    "dateMod": "2026-05-02T00:05:07.629Z"
+  },
+  {
+    "slug": "the-operator-s-guide-to-autonomous-buildings",
+    "title": "The Operator\u2019s Guide to Autonomous Buildings",
+    "desc": "You Don\u2019t Need More To-Do\u2019s. You Need Fewer Interruptions. Being a building operator in 2025 means juggling tenants, vendors, systems, alerts, and budgets\u2014all while trying to avoid",
+    "image": "https://www.opticwise.com/api/media/file/the-operator-s-guide-to-autonomous-buildings-cover.jpeg",
+    "datePub": "2025-09-02T02:35:37.000Z",
+    "dateMod": "2026-05-02T00:05:08.060Z"
+  },
+  {
+    "slug": "wi-fi-is-not-a-utility-it-s-an-investment-signal",
+    "title": "Wi-Fi Is Not a Utility. It\u2019s an Investment Signal",
+    "desc": "Underwriting Has Evolved\u2014Have You? In the past, real estate underwriting looked at three core levers: location, lease rates, and occupancy. But in 2025, there's a fourth lever ever",
+    "image": "https://www.opticwise.com/api/media/file/wi-fi-is-not-a-utility-it-s-an-investment-signal-cover.jpeg",
+    "datePub": "2025-09-02T01:58:16.000Z",
+    "dateMod": "2026-05-02T00:05:08.439Z"
+  },
+  {
+    "slug": "digital-first-strategy-the-only-competitive-edge-that-lasts",
+    "title": "Digital-First Strategy: The Only Competitive Edge That Lasts",
+    "desc": "The Infrastructure Question Every CEO Should Be Asking There\u2019s no shortage of pressure on today\u2019s CRE executives. From hybrid work patterns and rising tenant expectations to ESG di",
+    "image": "https://www.opticwise.com/api/media/file/digital-first-strategy-the-only-competitive-edge-that-lasts-cover.jpeg",
+    "datePub": "2025-09-01T22:05:25.000Z",
+    "dateMod": "2026-05-02T00:05:08.800Z"
+  },
+  {
+    "slug": "tthe-hidden-cap-rate-enhancer-no-one-talks-about",
+    "title": "TThe Hidden Cap Rate Enhancer No One Talks About",
+    "desc": "You Can\u2019t Underwrite What You Can\u2019t See Spreadsheets don\u2019t show it. Lease abstracts won\u2019t flag it. But buried beneath every building\u2019s surface is a hidden lever that directly impac",
+    "image": "https://www.opticwise.com/api/media/file/tthe-hidden-cap-rate-enhancer-no-one-talks-about-cover.png",
+    "datePub": "2025-09-01T19:18:55.000Z",
+    "dateMod": "2026-05-02T00:05:09.161Z"
+  },
+  {
+    "slug": "how-one-operator-cut-120k-in-opex-with-a-single-upgrade",
+    "title": "How One Operator Cut $120K in OPEX With a Single Upgrade",
+    "desc": "It Wasn\u2019t Magic\u2014It Was Smart Infrastructure When budgets are tight and staff are stretched thin, most operators don\u2019t need a revolution\u2014they need a single smart move that removes f",
+    "image": "https://www.opticwise.com/api/media/file/how-one-operator-cut-120k-in-opex-with-a-single-upgrade-cover.jpeg",
+    "datePub": "2025-09-01T18:01:33.000Z",
+    "dateMod": "2026-05-02T00:06:01.788Z"
+  },
+  {
+    "slug": "reframing-cre-strategy-stop-playing-to-win-start-building-to-endure",
+    "title": "Reframing CRE Strategy: Stop Playing to Win\u2014Start Building to Endure",
+    "desc": "If you don\u2019t own your digital infrastructure, your vendors do. And if you\u2019re only optimizing for next quarter\u2019s NOI instead of the next decade of asset value, you\u2019re playing the wr",
+    "image": "https://www.opticwise.com/api/media/file/reframing-cre-strategy-stop-playing-to-win-start-building-to-endure-cover.jpeg",
+    "datePub": "2025-08-25T19:10:54.000Z",
+    "dateMod": "2026-05-02T00:06:02.246Z"
+  },
+  {
+    "slug": "what-s-your-smart-building-strategy-or-are-you-guessing",
+    "title": "What\u2019s Your Smart Building Strategy\u2014Or Are You Guessing?",
+    "desc": "You Don't Wing It With Finance\u2014So Why Wing It With Infrastructure? Most CEOs wouldn\u2019t tolerate guessing in financial modeling, legal compliance, or workforce strategy. Yet when it ",
+    "image": "https://www.opticwise.com/api/media/file/what-s-your-smart-building-strategy-or-are-you-guessing-cover.jpeg",
+    "datePub": "2025-08-20T22:12:22.000Z",
+    "dateMod": "2026-05-02T00:06:02.606Z"
+  },
+  {
+    "slug": "what-starbucks-taught-us-about-smart-property-ops",
+    "title": "What Starbucks Taught Us About Smart Property Ops",
+    "desc": "Starbucks turned operations into a system. So can CRE. The lesson: owner-controlled data and standardized workflows compound across locations far better than bespoke per-store decisions. Apply the same discipline to commercial real estate and the portfolio finally becomes\u2026",
+    "image": "https://www.opticwise.com/api/media/file/what-starbucks-taught-us-about-smart-property-ops-cover.jpeg",
+    "datePub": "2025-08-14T03:01:18.000Z",
+    "dateMod": "2026-05-02T00:06:02.983Z"
+  },
+  {
+    "slug": "why-98-of-property-owners-are-leaving-money-on-the-table",
+    "title": "Why 98% of Property Owners Are Leaving Money on the Table",
+    "desc": "You Did Everything Right. So Why Is Your Margin Still Flat? You secured a prime location. You invested in high-end finishes. You filled the building. Maybe even got your name on a ",
+    "image": "https://www.opticwise.com/api/media/file/why-98-of-property-owners-are-leaving-money-on-the-table-cover.jpeg",
+    "datePub": "2025-08-11T21:02:34.000Z",
+    "dateMod": "2026-05-02T00:06:03.409Z"
+  },
+  {
+    "slug": "what-swedish-beach-volleyball-can-teach-you-about-cre-strategy",
+    "title": "What Swedish Beach Volleyball Can Teach You About CRE Strategy",
+    "desc": "Why Your NOI Depends on Rethinking What You Already Own In 2022, Swedish beach volleyball duo David \u00c5hman and Jonatan Hellvig shocked the sports world with a move now called the Sw",
+    "image": "https://www.opticwise.com/api/media/file/what-swedish-beach-volleyball-can-teach-you-about-cre-strategy-cover.jpeg",
+    "datePub": "2025-07-29T21:33:41.000Z",
+    "dateMod": "2026-05-02T00:06:03.795Z"
+  },
+  {
+    "slug": "why-power-and-not-just-square-footage-is-the-future-of-smart-buildings",
+    "title": "Why Power\u2014and Not Just Square Footage\u2014is the Future of Smart Buildings",
+    "desc": "In Virginia alone, 15.4 gigawatts of data center power are queued for deployment. This isn\u2019t just a local anomaly\u2014it\u2019s a bellwether for the commercial real estate industry. Power, ",
+    "image": "https://www.opticwise.com/api/media/file/why-power-and-not-just-square-footage-is-the-future-of-smart-buildings-cover.jpeg",
+    "datePub": "2025-07-24T21:16:59.000Z",
+    "dateMod": "2026-05-02T00:06:04.103Z"
+  },
+  {
+    "slug": "the-800k-conversation-developers-keep-missing",
+    "title": "The $800k CONVERSATION DEVELOPERS KEEP MISSING",
+    "desc": "The Conversation That Saved My Client $800K It happened before the first wire was ever pulled. Most developers miss this conversation entirely, and it\u2019s costing them\u2014big time.  The",
+    "image": "https://www.opticwise.com/api/media/file/the-800k-conversation-developers-keep-missing-cover.jpeg",
+    "datePub": "2025-07-15T20:11:04.000Z",
+    "dateMod": "2026-05-02T00:06:04.474Z"
+  },
+  {
+    "slug": "who-s-making-480k-year-off-your-tenants-hint-it-s-not-you",
+    "title": "Who's Making $480K/Year Off Your Tenants? (Hint: It's Not You)",
+    "desc": "Who\u2019s Really Profiting From Your Property\u2019s Internet? Let\u2019s be blunt: Someone is making $480,000 a year off your tenants\u2014and it\u2019s not you. If you're still settling for a 4% revenue",
+    "image": "https://www.opticwise.com/api/media/file/who-s-making-480k-year-off-your-tenants-hint-it-s-not-you-cover.jpeg",
+    "datePub": "2025-07-15T18:48:42.000Z",
+    "dateMod": "2026-05-02T00:06:04.894Z"
+  },
+  {
+    "slug": "data-lake-not-data-swamp-structuring-what-you-collect",
+    "title": "Data Lake, Not Data Swamp: Structuring What You Collect",
+    "desc": "In today\u2019s commercial real estate technology landscape, data is everywhere. From HVAC systems to access controls, lighting sensors to lease management tools\u2014smart buildings generat",
+    "image": "https://www.opticwise.com/api/media/file/data-lake-not-data-swamp-structuring-what-you-collect-cover.jpeg",
+    "datePub": "2025-07-02T15:00:05.000Z",
+    "dateMod": "2026-05-02T00:06:05.322Z"
+  },
+  {
+    "slug": "before-ai-you-need-data-you-actually-own",
+    "title": "Before AI: You Need Data You Actually Own",
+    "desc": "Artificial intelligence might be the buzzword on every boardroom whiteboard\u2014but before your building can harness AI, there\u2019s a foundational step that can\u2019t be skipped: You need to ",
+    "image": "https://www.opticwise.com/api/media/file/before-ai-you-need-data-you-actually-own-cover.jpeg",
+    "datePub": "2025-06-30T21:05:35.000Z",
+    "dateMod": "2026-05-02T00:06:05.683Z"
+  },
+  {
+    "slug": "from-wifi-to-wealth-the-hidden-profit-in-connectivity",
+    "title": "From WiFi to Wealth: The Hidden Profit in Connectivity",
+    "desc": "For decades, WiFi was seen as a \u201cnice-to-have\u201d amenity in commercial real estate (CRE). Fast forward to today, and it\u2019s a need-to-have, not just for tenants, but for owners looking",
+    "image": "https://www.opticwise.com/api/media/file/from-wifi-to-wealth-the-hidden-profit-in-connectivity-cover.jpeg",
+    "datePub": "2025-06-27T18:26:08.000Z",
+    "dateMod": "2026-05-02T00:06:06.039Z"
+  },
+  {
+    "slug": "monetize-like-amazon-analyze-like-google-and-avoid-tesla-s-data-missteps",
+    "title": "Monetize Like Amazon, Analyze Like Google \u2014 and Avoid Tesla\u2019s Data Missteps",
+    "desc": "What Amazon, Google, and Tesla teach CRE owners about data: monetize it like Amazon, analyze it like Google, govern it better than Tesla did. The practical playbook is owner-controlled data, structured for monetization and analytics, with privacy and governance designed in \u2014\u2026",
+    "image": "https://www.opticwise.com/api/media/file/monetize-like-amazon-analyze-like-google-and-avoid-tesla-s-data-missteps-cover.jpeg",
+    "datePub": "2025-06-19T19:29:53.000Z",
+    "dateMod": "2026-05-02T00:06:06.425Z"
+  },
+  {
+    "slug": "why-redundant-networks-are-silent-killers",
+    "title": "Why Redundant Networks Are Silent Killers",
+    "desc": "At first glance, your building\u2019s network setup may seem fine. Internet\u2019s running. Cameras are up. HVAC hums along. But behind the scenes? You might be bleeding cash through a web o",
+    "image": "https://www.opticwise.com/api/media/file/why-redundant-networks-are-silent-killers-cover.jpeg",
+    "datePub": "2025-06-11T19:16:42.000Z",
+    "dateMod": "2026-05-02T00:06:06.782Z"
+  },
+  {
+    "slug": "invisible-guardians-redefining-privacy-in-commercial-real-estate",
+    "title": "Invisible Guardians: Redefining Privacy in Commercial Real Estate",
+    "desc": "In the evolving landscape of commercial real estate (CRE), the integration of advanced technologies has revolutionized how buildings operate, enhancing efficiency, security, and te",
+    "image": "https://www.opticwise.com/api/media/file/invisible-guardians-redefining-privacy-in-commercial-real-estate-cover.jpeg",
+    "datePub": "2025-05-29T21:45:34.000Z",
+    "dateMod": "2026-05-02T00:06:07.162Z"
+  },
+  {
+    "slug": "from-liability-to-leadership-how-cre-data-unlocks-value-in-at-risk-assets",
+    "title": "From Liability to Leadership: How CRE Data Unlocks Value in At-Risk Assets",
+    "desc": "The Quiet Crisis in Commercial Real Estate Commercial real estate is entering a new era\u2014and not all assets are prepared for it. With hybrid work, shifting tenant expectations, ESG ",
+    "image": "https://www.opticwise.com/api/media/file/from-liability-to-leadership-how-cre-data-unlocks-value-in-at-risk-assets-cover.jpeg",
+    "datePub": "2025-05-27T18:50:07.000Z",
+    "dateMod": "2026-05-02T00:06:07.536Z"
+  },
+  {
+    "slug": "from-amenities-to-expectations-on-demand-connectivity-as-a-cre-necessity",
+    "title": "From Amenities to Expectations: On-Demand Connectivity as a CRE Necessity",
+    "desc": "Today, connectivity is as essential as electricity and running water. There was a time when it was a perk and wasn\u2019t expected to be high speed. However, as smart building tech, hyb",
+    "image": "https://www.opticwise.com/api/media/file/from-amenities-to-expectations-on-demand-connectivity-as-a-cre-necessity-cover.jpeg",
+    "datePub": "2025-05-19T22:43:27.000Z",
+    "dateMod": "2026-05-02T00:06:07.899Z"
+  },
+  {
+    "slug": "built-to-last-why-smart-infrastructure-is-the-backbone-of-future-proof",
+    "title": "Built to Last: Why Smart Infrastructure Is the Backbone of Future-Proof Buildings",
+    "desc": "Future-proof CRE buildings aren't built on apps \u2014 they're built on infrastructure. Smart, owner-controlled infrastructure is the durable backbone every other system runs on. Buildings without it can't keep up as tenant expectations, AI tools, and operating models keep changing.",
+    "image": "https://www.opticwise.com/api/media/file/built-to-last-why-smart-infrastructure-is-the-backbone-of-future-proof-cover.jpeg",
+    "datePub": "2025-05-13T22:46:57.000Z",
+    "dateMod": "2026-05-02T00:06:08.259Z"
+  },
+  {
+    "slug": "the-hidden-roi-of-digital-infrastructure-ownership-in-commercial-real-estate",
+    "title": "The Hidden ROI of Digital Infrastructure Ownership in Commercial Real Estate",
+    "desc": "Discover how owning your building\u2019s digital infrastructure unlocks hidden ROI, boosts asset value, and creates new revenue in commercial real estate.\n",
+    "image": "https://www.opticwise.com/api/media/file/the-hidden-roi-of-digital-infrastructure-ownership-in-commercial-real-estate-cover.jpeg",
+    "datePub": "2025-04-30T19:34:41.000Z",
+    "dateMod": "2026-05-02T00:06:08.627Z"
+  },
+  {
+    "slug": "data-infrastructure-the-engine-behind-modern-cre-operations",
+    "title": "Data Infrastructure: The Engine Behind Modern CRE Operations",
+    "desc": "Traditional assets like location and design remain important in today's commercial real estate (CRE) landscape. However, the true differentiator is now data infrastructure. Real-ti",
+    "image": "https://www.opticwise.com/api/media/file/data-infrastructure-the-engine-behind-modern-cre-operations-cover.jpeg",
+    "datePub": "2025-04-30T19:34:04.000Z",
+    "dateMod": "2026-05-02T00:06:08.985Z"
+  },
+  {
+    "slug": "ai-in-commercial-real-estate-innovation-ethics-and-the-new-regulatory",
+    "title": "AI in Commercial Real Estate: Innovation, Ethics, and the New Regulatory Frontier",
+    "desc": "Artificial Intelligence in Real Estate is no longer a futuristic concept \u2014 it's here, reshaping everything from property management to smart building operations.  In commercial rea",
+    "image": "https://www.opticwise.com/api/media/file/ai-in-commercial-real-estate-innovation-ethics-and-the-new-regulatory-cover.jpeg",
+    "datePub": "2025-04-28T19:53:58.000Z",
+    "dateMod": "2026-05-02T00:06:09.349Z"
+  },
+  {
+    "slug": "not-just-smart-strategic-buildings-built-for-better-tenancy",
+    "title": "Not Just Smart\u2014Strategic: Buildings Built for Better Tenancy",
+    "desc": "Smart features alone don't drive tenancy. Strategic, owner-controlled buildings \u2014 ones that demonstrate operating discipline, predictable connectivity, and tenant-grade reliability \u2014 create the experience that lifts retention and NOI. Smart is the table stake; strategic is\u2026",
+    "image": "https://www.opticwise.com/api/media/file/not-just-smart-strategic-buildings-built-for-better-tenancy-cover.jpeg",
+    "datePub": "2025-04-24T22:36:14.000Z",
+    "dateMod": "2026-05-02T00:06:09.721Z"
+  },
+  {
+    "slug": "cre-tech-revolution-data-driven-properties",
+    "title": "The CRE Tech Revolution: Why Data-Driven Properties Win in the Market",
+    "desc": "Discover how CRE tech and data-driven strategies give properties a competitive edge in today's market with smarter decision-making tools.",
+    "image": "https://www.opticwise.com/api/media/file/cre-tech-revolution-data-driven-properties-cover.jpeg",
+    "datePub": "2025-04-15T14:27:23.000Z",
+    "dateMod": "2026-05-04T20:28:27.269Z"
+  },
+  {
+    "slug": "iot-networks-operational-efficiency-commercial-real-estate",
+    "title": "How to Use IoT Networks to Boost Operational Efficiency in Commercial Real Estate",
+    "desc": "Discover how IoT networks enhance operational efficiency in commercial real estate by optimizing energy use, asset management, and tenant experiences.",
+    "image": "https://www.opticwise.com/api/media/file/iot-networks-operational-efficiency-commercial-real-estate-cover.jpeg",
+    "datePub": "2025-04-15T14:14:20.000Z",
+    "dateMod": "2026-05-04T20:28:26.897Z"
+  },
+  {
+    "slug": "smart-security-future-access-control-protection",
+    "title": "Smart Security: The Future of Access Control and Protection",
+    "desc": "Discover how smart security is revolutionizing access control and protection with advanced technology for safer, more efficient security solutions.",
+    "image": "https://www.opticwise.com/api/media/file/smart-security-future-access-control-protection-cover.jpeg",
+    "datePub": "2025-04-15T14:13:39.000Z",
+    "dateMod": "2026-05-04T20:28:26.516Z"
+  },
+  {
+    "slug": "invisible-workforce-iot-networks-running-cre",
+    "title": "The Invisible Workforce: How IoT Networks Are Running CRE Behind the Scenes",
+    "desc": "Explore how IoT networks power commercial real estate, streamlining operations and boosting efficiency behind the scenes in CRE.",
+    "image": "https://www.opticwise.com/api/media/file/invisible-workforce-iot-networks-running-cre-cover.jpeg",
+    "datePub": "2025-04-09T17:30:20.000Z",
+    "dateMod": "2026-05-04T20:28:26.132Z"
+  },
+  {
+    "slug": "ai-revolutionizing-commercial-property-security-beyond-surveillance",
+    "title": "Beyond Surveillance: How AI is Revolutionizing Commercial Property Security",
+    "desc": "Explore how AI is transforming commercial property security, offering smarter solutions beyond traditional surveillance for enhanced safety and efficiency.",
+    "image": "https://www.opticwise.com/api/media/file/ai-revolutionizing-commercial-property-security-beyond-surveillance-cover.jpeg",
+    "datePub": "2025-04-09T17:19:35.000Z",
+    "dateMod": "2026-05-02T00:06:11.701Z"
+  },
+  {
+    "slug": "digital-infrastructure-office-residential-conversions",
+    "title": "The Business Case for Upgrading Digital Infrastructure in Office-to-Residential Conversions",
+    "desc": "Discover why upgrading digital infrastructure is essential for successful office-to-residential conversions, boosting value, efficiency, and tenant satisfaction.",
+    "image": "https://www.opticwise.com/api/media/file/digital-infrastructure-office-residential-conversions-cover.jpeg",
+    "datePub": "2025-04-09T16:59:51.000Z",
+    "dateMod": "2026-05-04T20:28:25.759Z"
+  },
+  {
+    "slug": "5-genius-ways-smart-building-tech-elevates-tenant-experience",
+    "title": "5 Genius Ways Smart Building Tech Elevates the Tenant Experience",
+    "desc": "Explore five innovative ways smart building technology enhances the tenant experience, boosting satisfaction, efficiency, and overall property value.",
+    "image": "https://www.opticwise.com/api/media/file/5-genius-ways-smart-building-tech-elevates-tenant-experience-cover.jpeg",
+    "datePub": "2025-04-03T21:28:01.000Z",
+    "dateMod": "2026-05-04T20:28:25.364Z"
+  },
+  {
+    "slug": "own-your-buildings-digital-infrastructure-or-be-owned-by-it",
+    "title": "Own Your Building\u2019s Digital Infrastructure\u2014Or Be Owned By It",
+    "desc": "Learn how owning your building\u2019s digital infrastructure can give you a competitive edge and prevent being left behind.",
+    "image": "https://www.opticwise.com/api/media/file/own-your-buildings-digital-infrastructure-or-be-owned-by-it-cover.jpeg",
+    "datePub": "2025-04-02T21:06:03.000Z",
+    "dateMod": "2026-05-04T20:28:24.971Z"
+  },
+  {
+    "slug": "soaring-above-rest-opticwise-cre-thrive-flight-quality-era",
+    "title": "Soaring Above the Rest: How OpticWise Helps CRE Thrive in the Flight to Quality Era",
+    "desc": "Discover how OpticWise helps commercial real estate thrive in the Flight to Quality era with advanced data and infrastructure solutions.",
+    "image": "https://www.opticwise.com/api/media/file/soaring-above-rest-opticwise-cre-thrive-flight-quality-era-cover.jpeg",
+    "datePub": "2025-04-01T16:26:24.000Z",
+    "dateMod": "2026-05-02T00:07:03.169Z"
+  },
+  {
+    "slug": "network-compliance-multi-tenant-commercial-properties",
+    "title": "How to Ensure Network Compliance in Multi-Tenant Commercial Properties",
+    "desc": "Learn how to ensure network compliance in multi-tenant commercial properties with best practices for security, regulations, and infrastructure management.",
+    "image": "https://www.opticwise.com/api/media/file/network-compliance-multi-tenant-commercial-properties-cover.jpeg",
+    "datePub": "2025-03-27T20:42:04.000Z",
+    "dateMod": "2026-05-04T20:28:24.651Z"
+  },
+  {
+    "slug": "smart-building-technology-enhances-tenant-experience",
+    "title": "5 Ways Smart Building Technology Enhances Tenant Experience",
+    "desc": "Discover how smart building technology boosts tenant satisfaction through improved comfort, efficiency, security, and connectivity in modern properties.",
+    "image": "https://www.opticwise.com/api/media/file/smart-building-technology-enhances-tenant-experience-cover.jpeg",
+    "datePub": "2025-03-26T20:24:03.000Z",
+    "dateMod": "2026-05-04T20:28:24.281Z"
+  },
+  {
+    "slug": "network-resilience-smart-building-success",
+    "title": "Why Network Resilience is Critical for Smart Building Success",
+    "desc": "Network resilience ensures smart buildings operate efficiently, minimizing downtime, enhancing security, and optimizing performance for seamless digital infrastructure success.",
+    "image": "https://www.opticwise.com/api/media/file/network-resilience-smart-building-success-cover.jpeg",
+    "datePub": "2025-03-18T19:41:02.000Z",
+    "dateMod": "2026-05-04T20:28:23.891Z"
+  },
+  {
+    "slug": "how-building-intelligence-drives-sustainable-work-environments",
+    "title": "How Building Intelligence is Driving Sustainable Work Environments",
+    "desc": "Discover how building intelligence enhances sustainability, optimizing energy efficiency, reducing waste, and creating eco-friendly work environments for businesses.",
+    "image": "https://www.opticwise.com/api/media/file/how-building-intelligence-drives-sustainable-work-environments-cover.jpeg",
+    "datePub": "2025-03-17T14:46:29.000Z",
+    "dateMod": "2026-05-04T20:28:23.412Z"
+  },
+  {
+    "slug": "digital-twins-revolutionizing-commercial-real-estate",
+    "title": "How Digital Twins Are Revolutionizing Commercial Real Estate",
+    "desc": "Discover how digital twins are transforming commercial real estate with virtual tours, data-driven decisions, and enhanced building intelligence.",
+    "image": "https://www.opticwise.com/api/media/file/digital-twins-revolutionizing-commercial-real-estate-cover.jpeg",
+    "datePub": "2025-03-13T19:39:02.000Z",
+    "dateMod": "2026-05-04T20:28:23.021Z"
+  },
+  {
+    "slug": "impact-cre-technology-real-estate",
+    "title": "Exploring the Impact of CRE Technology on Real Estate",
+    "desc": "Discover how CRE technology is transforming real estate, enhancing efficiency, improving decision-making, and driving innovation in the industry.",
+    "image": "https://www.opticwise.com/api/media/file/impact-cre-technology-real-estate-cover.jpeg",
+    "datePub": "2025-03-12T18:56:10.000Z",
+    "dateMod": "2026-05-04T20:28:22.629Z"
+  },
+  {
+    "slug": "advanced-iot-device-management-strategies",
+    "title": "Optimizing Your Success: Advanced IoT Device Management Strategies",
+    "desc": "Discover advanced IoT device management strategies to optimize performance, enhance security, and streamline operations for seamless connectivity and success.",
+    "image": "https://www.opticwise.com/api/media/file/advanced-iot-device-management-strategies-cover.png",
+    "datePub": "2025-03-11T14:32:31.000Z",
+    "dateMod": "2026-05-04T20:28:22.238Z"
+  },
+  {
+    "slug": "digital-infrastructure-commercial-real-estate",
+    "title": "Why Digital Infrastructure is the Backbone of Modern Commercial Real Estate",
+    "desc": "Discover why digital infrastructure is the backbone of modern commercial real estate. Learn how connectivity, data, and smart tech drive efficiency and value.",
+    "image": "https://www.opticwise.com/api/media/file/digital-infrastructure-commercial-real-estate-cover.jpeg",
+    "datePub": "2025-03-10T21:19:20.000Z",
+    "dateMod": "2026-05-02T00:07:06.048Z"
+  },
+  {
+    "slug": "building-management-systems-security-connectivity",
+    "title": "How Building Management Systems Enhance Security and Connectivity",
+    "desc": "Discover how Building Management Systems improve security, connectivity & efficiency. Explore key benefits of integrating smart BMS solutions today.",
+    "image": "https://www.opticwise.com/api/media/file/building-management-systems-security-connectivity-cover.jpeg",
+    "datePub": "2025-03-10T21:16:52.000Z",
+    "dateMod": "2026-05-04T20:28:21.854Z"
+  },
+  {
+    "slug": "commercial-real-estate-technology",
+    "title": "The Role of Commercial Real Estate Technology in Modern Business",
+    "desc": "Discover how commercial real estate technology is transforming modern business with automation, data analytics, and AI-driven property management solutions.",
+    "image": "https://www.opticwise.com/api/media/file/commercial-real-estate-technology-cover.jpeg",
+    "datePub": "2025-03-10T21:06:40.000Z",
+    "dateMod": "2026-05-02T00:07:06.830Z"
+  },
+  {
+    "slug": "building-automation-systems-future-of-smart-buildings",
+    "title": "Building Automation Systems: The Future of Smart Building",
+    "desc": "Discover how building automation systems are transforming smart buildings with advanced technology, enhancing efficiency, security, and sustainability.",
+    "image": "https://www.opticwise.com/api/media/file/building-automation-systems-future-of-smart-buildings-cover.jpeg",
+    "datePub": "2025-03-10T20:59:29.000Z",
+    "dateMod": "2026-05-02T00:07:07.203Z"
+  },
+  {
+    "slug": "transforming-spaces-smart-building-technology",
+    "title": "Transforming Spaces: The Impact of Smart Building Technology",
+    "desc": "Discover how smart building technology transforms spaces, enhancing efficiency, comfort, and sustainability for modern living and working environments.",
+    "image": "https://www.opticwise.com/api/media/file/transforming-spaces-smart-building-technology-cover.jpeg",
+    "datePub": "2025-03-10T20:47:52.000Z",
+    "dateMod": "2026-05-02T00:07:07.552Z"
+  },
+  {
+    "slug": "future-proof-network-digital-era",
+    "title": "The Importance of a Future-Proof Network in the Digital Era",
+    "desc": "Discover why a future-proof network is crucial in today's digital era, ensuring scalability, security, and seamless connectivity for businesses.",
+    "image": "https://www.opticwise.com/api/media/file/future-proof-network-digital-era-cover.jpeg",
+    "datePub": "2025-03-05T15:49:01.000Z",
+    "dateMod": "2026-05-02T00:07:07.899Z"
+  },
+  {
+    "slug": "how-intelligent-buildings-revolutionize-multi-family-living",
+    "title": "How Intelligent Buildings Are Revolutionizing Multi-Family Living",
+    "desc": "Discover how intelligent buildings enhance multi-family living with smart technology, energy efficiency, and security for a modern lifestyle.",
+    "image": "https://www.opticwise.com/api/media/file/how-intelligent-buildings-revolutionize-multi-family-living-cover.jpeg",
+    "datePub": "2025-02-19T14:54:58.000Z",
+    "dateMod": "2026-05-04T20:28:21.481Z"
+  },
+  {
+    "slug": "how-digital-infrastructure-shapes-modern-business",
+    "title": "How Digital Infrastructure is Shaping the Modern Business Landscape",
+    "desc": "Discover how digital infrastructure transforms modern businesses, enhancing efficiency, security, and scalability for a competitive edge in today's market.",
+    "image": "https://www.opticwise.com/api/media/file/how-digital-infrastructure-shapes-modern-business-cover.jpeg",
+    "datePub": "2025-02-19T14:33:20.000Z",
+    "dateMod": "2026-05-04T20:28:21.104Z"
+  },
+  {
+    "slug": "intelligent-buildings-investment-trend",
+    "title": "Why Intelligent Buildings Are the Next Big Thing for investors",
+    "desc": "Discover why intelligent buildings are the future of real estate investment, offering efficiency, sustainability, and higher returns for savvy investors.",
+    "image": "https://www.opticwise.com/api/media/file/intelligent-buildings-investment-trend-cover.png",
+    "datePub": "2025-02-19T14:16:31.000Z",
+    "dateMod": "2026-05-04T20:28:20.681Z"
+  },
+  {
+    "slug": "smart-access-workspace-optimization-modern-space-as-a-service",
+    "title": "Smart Access and Workspace Optimization in Modern Space as a Service",
+    "desc": "Enhance efficiency with smart access and workspace optimization in modern Space-as-a-Service solutions, improving flexibility, security, and productivity.",
+    "image": "https://www.opticwise.com/api/media/file/smart-access-workspace-optimization-modern-space-as-a-service-cover.png",
+    "datePub": "2025-02-19T14:00:37.000Z",
+    "dateMod": "2026-05-04T20:28:20.302Z"
+  },
+  {
+    "slug": "resolute-building-intelligence-commercial-real-estate-management",
+    "title": "How Resolute Building Intelligence Transforms Commercial Real Estate Management",
+    "desc": "Discover how Resolute Building Intelligence enhances commercial real estate management with smart technology, data-driven insights, and automation for efficiency.",
+    "image": "https://www.opticwise.com/api/media/file/resolute-building-intelligence-commercial-real-estate-management-cover.jpeg",
+    "datePub": "2025-02-17T12:51:08.000Z",
+    "dateMod": "2026-05-02T00:07:09.626Z"
+  },
+  {
+    "slug": "how-smart-tech-is-shattering-modern-boundaries",
+    "title": "How Smart Tech is Shattering Safety Standards in Modern Buildings",
+    "desc": "Discover how smart technology is revolutionizing industries, breaking barriers, and transforming everyday experiences with automation, AI, and IoT innovations.",
+    "image": "https://www.opticwise.com/api/media/file/how-smart-tech-is-shattering-modern-boundaries-cover.jpeg",
+    "datePub": "2025-02-14T22:06:09.000Z",
+    "dateMod": "2026-05-04T20:28:19.905Z"
+  },
+  {
+    "slug": "how-smart-technology-enhances-tenant-experience-commercial-real-estate",
+    "title": "How Smart Technology is Enhancing Tenant Experience in Commercial Real Estate",
+    "desc": "Explore how smart technology improves tenant experience in commercial real estate, from enhanced convenience to energy efficiency and security.",
+    "image": "https://www.opticwise.com/api/media/file/how-smart-technology-enhances-tenant-experience-commercial-real-estate-cover.jpeg",
+    "datePub": "2025-02-11T13:48:40.000Z",
+    "dateMod": "2026-05-02T00:07:10.466Z"
+  },
+  {
+    "slug": "proactive-cybersecurity-smart-building-tech-keeps-tenants-safe",
+    "title": "Proactive Cybersecurity: How Smart Building Tech Keeps Tenants Safe and Secure from Emerging Threats",
+    "desc": "Discover how proactive cybersecurity and smart building technology protect tenants from emerging threats, ensuring safety and security in modern spaces.",
+    "image": "https://www.opticwise.com/api/media/file/proactive-cybersecurity-smart-building-tech-keeps-tenants-safe-cover.jpeg",
+    "datePub": "2025-02-10T15:28:57.000Z",
+    "dateMod": "2026-05-02T00:07:10.806Z"
+  },
+  {
+    "slug": "integrating-iot-smarter-safer-cre-building-management",
+    "title": "Integrating IoT for Smarter, Safer, and More Efficient CRE Building Management",
+    "desc": "Discover how IoT enhances CRE management, boosting safety, efficiency, and smart control in building operations.\n\n\n\n\n\n",
+    "image": "https://www.opticwise.com/api/media/file/integrating-iot-smarter-safer-cre-building-management-cover.png",
+    "datePub": "2025-02-07T11:49:29.000Z",
+    "dateMod": "2026-05-04T20:28:19.512Z"
+  },
+  {
+    "slug": "leveraging-data-analytics-optimize-commercial-real-estate-assets",
+    "title": "Leveraging Data Analytics to Optimize Commercial Real Estate Assets",
+    "desc": "Discover how leveraging data analytics can optimize commercial real estate assets, improve decision-making, and maximize property performance.",
+    "image": "https://www.opticwise.com/api/media/file/leveraging-data-analytics-optimize-commercial-real-estate-assets-cover.jpeg",
+    "datePub": "2025-01-28T14:07:25.000Z",
+    "dateMod": "2026-05-04T20:28:19.107Z"
+  },
+  {
+    "slug": "future-cre-operations-intelligent-building-systems",
+    "title": "The Future of CRE Operations with Intelligent Building Systems",
+    "desc": "\nExplore the future of CRE operations with intelligent building systems, leveraging AI and IoT for efficiency and seamless management.",
+    "image": "https://www.opticwise.com/api/media/file/future-cre-operations-intelligent-building-systems-cover.jpeg",
+    "datePub": "2025-01-24T23:07:54.000Z",
+    "dateMod": "2026-05-02T00:07:11.859Z"
+  },
+  {
+    "slug": "ai-iot-modern-commercial-real-estate-management",
+    "title": "The Role of AI and IoT in Modern Commercial Real Estate Management",
+    "desc": "\nDiscover how AI and IoT revolutionize commercial real estate management with predictive maintenance, building intelligence, and enhanced efficiency.",
+    "image": "https://www.opticwise.com/api/media/file/ai-iot-modern-commercial-real-estate-management-cover.png",
+    "datePub": "2025-01-21T10:49:05.000Z",
+    "dateMod": "2026-05-04T20:28:18.666Z"
+  },
+  {
+    "slug": "benefits-of-intelligent-building-management-for-multi-family-communities",
+    "title": "Benefits of Intelligent Building Management for Multi-Family Communities",
+    "desc": "In the evolving landscape of multi-family communities, intelligent building management emerges as a pivotal component for enhancing operational efficiency, tenant satisfaction, and",
+    "image": "https://www.opticwise.com/api/media/file/benefits-of-intelligent-building-management-for-multi-family-communities-cover.jpeg",
+    "datePub": "2025-01-20T14:48:47.000Z",
+    "dateMod": "2026-05-02T00:07:12.572Z"
+  },
+  {
+    "slug": "artificial-intelligence-in-commercial-real-estate",
+    "title": "Leveraging artificial intelligence (AI) in commercial real estate for transformational growth",
+    "desc": "Leveraging artificial intelligence (AI) in commercial real estate (CRE) can transform the industry by enhancing decision-making, improving operational efficiencies, and unlocking n",
+    "image": "https://www.opticwise.com/api/media/file/artificial-intelligence-in-commercial-real-estate-cover.jpeg",
+    "datePub": "2025-01-08T22:15:45.000Z",
+    "dateMod": "2026-05-02T00:07:12.939Z"
+  },
+  {
+    "slug": "best-practices-in-building-management",
+    "title": "Best Practices in Building Management: Harnessing Building Intelligence",
+    "desc": "In the evolving landscape of commercial real estate, building management has transcended traditional methodologies to embrace sophisticated technological advancements. This transfo",
+    "image": "https://www.opticwise.com/api/media/file/best-practices-in-building-management-cover.jpeg",
+    "datePub": "2024-12-17T09:46:34.000Z",
+    "dateMod": "2026-05-02T00:07:13.291Z"
+  },
+  {
+    "slug": "opticwise-building-intelligence-commercial-real-estate",
+    "title": "OpticWise Building Intelligence: Shaping the Future of Commercial Real Estate",
+    "desc": "The commercial real estate (CRE) landscape is undergoing a profound digital transformation, with smart building technology taking center stage. One of the key players driving this ",
+    "image": "https://www.opticwise.com/api/media/file/opticwise-building-intelligence-commercial-real-estate-cover.jpeg",
+    "datePub": "2024-12-10T13:24:41.000Z",
+    "dateMod": "2026-05-04T20:28:18.250Z"
+  },
+  {
+    "slug": "how-technology-is-transforming-real-estate-management",
+    "title": "How Technology is Transforming Real Estate Management",
+    "desc": "The real estate industry is undergoing a significant transformation driven by technological advancements. From property data analytics to smart building infrastructures, technology",
+    "image": "https://www.opticwise.com/api/media/file/how-technology-is-transforming-real-estate-management-cover.png",
+    "datePub": "2024-12-10T13:22:54.000Z",
+    "dateMod": "2026-05-02T00:07:46.490Z"
+  },
+  {
+    "slug": "what-is-digital-infrastructure-commercial-real-estate",
+    "title": "What is Digital Infrastructure? Understanding Its Role in Commercial Real Estate",
+    "desc": "Welcome to our comprehensive exploration of digital infrastructure and its pivotal role in the evolution of commercial real estate. The landscape of commercial real estate is under",
+    "image": "https://www.opticwise.com/api/media/file/what-is-digital-infrastructure-commercial-real-estate-cover.jpeg",
+    "datePub": "2024-12-03T15:03:55.000Z",
+    "dateMod": "2026-05-02T00:07:46.877Z"
+  },
+  {
+    "slug": "transitioning-to-digital-first-commercial-real-estate-portfolio-owners",
+    "title": "Transitioning to Digital-First: A Path for Commercial Real Estate Portfolio Owners",
+    "desc": "Welcome to our comprehensive analysis of the evolving landscape of commercial real estate. As the industry stands on the brink of a digital revolution, understanding the trajectory",
+    "image": "https://www.opticwise.com/api/media/file/transitioning-to-digital-first-commercial-real-estate-portfolio-owners-cover.jpeg",
+    "datePub": "2024-12-03T15:03:20.000Z",
+    "dateMod": "2026-05-04T20:28:17.819Z"
+  }
+]
