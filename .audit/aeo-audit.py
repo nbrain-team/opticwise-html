@@ -125,7 +125,13 @@ def main():
 
         if '/insights/' in f.as_posix() and not f.as_posix().endswith('/insights/index.html'):
             article_count += 1
-            if 'authors/bill-douglas' in t and 'authors/drew-hall' in t and '· By ' in t:
+            # Visible byline = <p>...By <a ...bill-douglas...><a ...drew-hall...></p>
+            # Two valid formats: "· By Bill ... & Drew ..." (older) and "By Bill ... & Drew ..." (newer).
+            byline_match = re.search(
+                r'<p[^>]*>[^<]*(?:·\s*)?By\s*<a[^>]*authors/bill-douglas[^<]*</a>\s*(?:&amp;|&)\s*'
+                r'<a[^>]*authors/drew-hall[^<]*</a>[^<]*</p>',
+                t)
+            if byline_match:
                 articles_with_byline += 1
             if '"@id":"https://www.opticwise.com/authors/bill-douglas/#person"' in t:
                 articles_with_person_author += 1
