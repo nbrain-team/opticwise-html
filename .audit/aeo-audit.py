@@ -125,14 +125,17 @@ def main():
 
         if '/insights/' in f.as_posix() and not f.as_posix().endswith('/insights/index.html'):
             article_count += 1
-            # Visible byline = <p>...By <a ...bill-douglas...><a ...drew-hall...></p>
-            # Two valid formats: "· By Bill ... & Drew ..." (older) and "By Bill ... & Drew ..." (newer).
-            byline_match = re.search(
-                r'<p[^>]*>[^<]*(?:·\s*)?By\s*<a[^>]*authors/bill-douglas[^<]*</a>\s*(?:&amp;|&)\s*'
-                r'<a[^>]*authors/drew-hall[^<]*</a>[^<]*</p>',
-                t)
-            if byline_match:
-                articles_with_byline += 1
+            # Visible byline: a <p>...</p> in the hero that mentions "By", then links
+            # to both author profile pages. Two formats coexist:
+            #   "April 3, 2025 · 4 min read · By <a Bill> & <a Drew>"   (125 articles)
+            #   "By <a Bill> & <a Drew>"                                ( 5 articles)
+            for pm in re.finditer(r'<p\b[^>]*>(.*?)</p>', t, re.DOTALL):
+                inner = pm.group(1)
+                if ('authors/bill-douglas' in inner
+                    and 'authors/drew-hall' in inner
+                    and re.search(r'(?:·\s*)?By\s*<a', inner)):
+                    articles_with_byline += 1
+                    break
             if '"@id":"https://www.opticwise.com/authors/bill-douglas/#person"' in t:
                 articles_with_person_author += 1
 
