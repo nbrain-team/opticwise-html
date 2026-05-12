@@ -146,11 +146,10 @@ def inject_article(inner: str, refs_html: str) -> str:
     token = '<p class="byline"'
     idx = inner.rfind(token)
     if idx >= 0:
-        return inner[:idx] + refs_html + "\n\n" + inner[idx:]
+        return inner[:idx].rstrip() + "\n" + refs_html + inner[idx:]
     idx = inner.rfind("</article>")
     if idx >= 0:
-        insertion = ("\n" + refs_html.strip("\n")).rstrip() + "\n      "
-        return inner[:idx].rstrip() + insertion + inner[idx:]
+        return inner[:idx].rstrip() + "\n" + refs_html + inner[idx:]
     return inject_simple(inner, refs_html)
 
 
