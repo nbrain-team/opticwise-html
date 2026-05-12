@@ -151,8 +151,8 @@ async function main() {
 
   const batchMax = Number.parseInt(process.env.INDEXNOW_BATCH ?? '9000', 10);
 
-  const retries = Number.parseInt(process.env.INDEXNOW_VERIFY_RETRIES ?? '24', 10);
-  const pauseMs = Number.parseInt(process.env.INDEXNOW_VERIFY_DELAY_MS ?? '15000', 10);
+  const retries = Number.parseInt(process.env.INDEXNOW_VERIFY_RETRIES ?? '15', 10);
+  const pauseMs = Number.parseInt(process.env.INDEXNOW_VERIFY_DELAY_MS ?? '5000', 10);
 
   if (dryRun) {
     console.log(
@@ -162,7 +162,13 @@ async function main() {
     return;
   }
 
-
+  let verified = { ok: false, verifyUrl: `${SITE_ORIGIN}/${key}.txt` };
+  if (retries > 0) verified = await verifyKeyHosted(key, retries, pauseMs);
+  if (!verified.ok && retries > 0) {
+    console.warn(
+      `[indexnow] Key file not reachable on live CDN yet (${verified.verifyUrl}). Submitting batches anyway — first deploy after a new key sometimes returns HTTP 403 from IndexUntil the next publish.`
+    );
+  }
 
   let anyFailed = false;
   for (let i = 0; i < urls.length; i += batchMax) {
