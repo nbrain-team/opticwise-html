@@ -203,18 +203,16 @@ def main() -> None:
     for k in sorted(stats, key=lambda x: (-stats[x], x)):
         print(f"  {stats[k]:3d}  {k}")
     print("\nSkipping (zero outbound cited links after filters):", len(no_links))
-    if len(no_links) <= 35:
-        for s in no_links:
-            print(f"  - {s}")
-    else:
-        for s in no_links[:25]:
-            print(f"  - {s}")
-        print(f"  ... and {len(no_links)-25} more (see skipped-no-outbound-links.txt)")
-
+    if no_links:
         (ROOT / "scripts" / "skipped-no-outbound-links.txt").write_text(
-            "\n".join(no_links) + "\n", encoding="utf-8"
+            "\n".join(sorted(no_links)) + "\n", encoding="utf-8"
         )
-
+        print(f"  List written to scripts/skipped-no-outbound-links.txt ({len(no_links)} slug(s))")
+    first = sorted(no_links)[:25]
+    for s in first:
+        print(f"  - {s}")
+    if len(no_links) > 25:
+        print(f"  ... ({len(no_links)-25} more)")
 
 if __name__ == "__main__":
     main()
