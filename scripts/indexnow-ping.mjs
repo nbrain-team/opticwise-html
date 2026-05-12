@@ -125,7 +125,7 @@ async function submitBatch(urlList, key) {
   });
 
   const snippet = `${res.status} ${res.statusText}`.trim();
-  if (!(res.ok || res.status === 200 || res.status === 202)) {
+  if (!res.ok && res.status !== 202) {
     const text = await res.text().catch(() => '');
     throw new Error(`${endpoint} → ${snippet} ${text ? `(${text.slice(0, 200)})` : ''}`);
   }
@@ -157,12 +157,23 @@ async function main() {
   }
 
   const batchMax = Number.parseInt(process.env.INDEXNOW_BATCH ?? '9000', 10);
+  let anyFailed = false;
   for (let i = 0; i < urls.length; i += batchMax) {
     const chunk = urls.slice(i, i + batchMax);
-    await submitBatch(chunk, key);
+    try {
+      await submitBatch(chunk, key);
+    } catch (e) {
+      anyFailed = true;
+      console.warn('[indexnow] Batch failed:', e.message || e);
+    }
   }
 
-  console.log(`[indexnow] Done — submitted ${urls.length} unique URL(s) from sitemap`);
+  if (anyFailed)
+    console.warn('[indexnow] One or more batches failed — site still deployed.');
+  else console.log(`[indexnow] Done — submitted ${urls.length} unique URL(s) from sitemap`);
+
+  /* Never fail the Render build — deploy + live site matters more than a ping */
+  process.exitCode = 0;
 }
 
 main().catch((err) => {
