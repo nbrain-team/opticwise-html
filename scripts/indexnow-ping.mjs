@@ -166,7 +166,7 @@ async function main() {
   if (retries > 0) verified = await verifyKeyHosted(key, retries, pauseMs);
   if (!verified.ok && retries > 0) {
     console.warn(
-      `[indexnow] Key file not reachable on live CDN yet (${verified.verifyUrl}). Submitting batches anyway — first deploy after a new key sometimes returns HTTP 403 from IndexUntil the next publish.`
+      `[indexnow] Key file not reachable on live CDN yet (${verified.verifyUrl}). Submitting batches anyway — first deploy after a new key sometimes returns HTTP 403 from IndexNow until the next publish.`
     );
   }
 
