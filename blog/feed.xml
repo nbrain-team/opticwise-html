@@ -6,7 +6,14 @@
     <atom:link href="https://www.opticwise.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Owner plays for CRE: how to reclaim control, reduce operational risk, and turn data &amp; digital infrastructure into a compounding portfolio asset.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2026 13:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 May 2026 14:45:00 GMT</lastBuildDate>
+    <item>
+      <title>Microsoft Just Pitched Autonomous Buildings. The Layer That Makes Them Safe Does Not Exist Yet.</title>
+      <link>https://www.opticwise.com/insights/microsoft-autonomous-building-pitch-safety-layer-gap</link>
+      <guid isPermaLink="true">https://www.opticwise.com/insights/microsoft-autonomous-building-pitch-safety-layer-gap</guid>
+      <pubDate>Tue, 13 May 2026 14:45:00 GMT</pubDate>
+      <description>IBcon stories about autonomous operations assume owner-controlled data &amp; digital infrastructure &mdash; data plane, trust plane, segmented OT &mdash; that most portfolios still lack.</description>
+    </item>
     <item>
       <title>When the OEM Owns the Brain, the Owner Doesn&apos;t</title>
       <link>https://www.opticwise.com/insights/oem-owns-the-brain-cre-vendor-independence</link>
