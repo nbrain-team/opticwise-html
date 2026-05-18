@@ -6,7 +6,14 @@
     <atom:link href="https://www.opticwise.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Owner plays for CRE: how to reclaim control, reduce operational risk, and turn data &amp; digital infrastructure into a compounding portfolio asset.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 14:45:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 13:00:00 GMT</lastBuildDate>
+    <item>
+      <title>The CRE AI Conversation Just Shifted From Which Model to Who Owns the Rollout</title>
+      <link>https://www.opticwise.com/insights/cre-ai-conversation-shifted-model-to-rollout-ownership</link>
+      <guid isPermaLink="true">https://www.opticwise.com/insights/cre-ai-conversation-shifted-model-to-rollout-ownership</guid>
+      <pubDate>Mon, 18 May 2026 13:00:00 GMT</pubDate>
+      <description>The vendor deck still sells tool choice. Boards are already past that &mdash; who owns the rollout, governance, and the data plane before AI agents bake into workflows.</description>
+    </item>
     <item>
       <title>Microsoft Just Pitched Autonomous Buildings. The Layer That Makes Them Safe Does Not Exist Yet.</title>
       <link>https://www.opticwise.com/insights/microsoft-autonomous-building-pitch-safety-layer-gap</link>
