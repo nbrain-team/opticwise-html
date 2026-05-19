@@ -370,31 +370,46 @@ a.cards__card--link:hover {
 }
 
 /* Legal pages (/privacy/, /terms/) — long-form policy copy.
- * Content sits inside <section class="legal-section"><div class="container"><div class="legal">.
- * Keep typography readable, lists indented, defined terms bolded. */
+ *
+ * Content sits inside:
+ *   <div class="ow-v4">  -- v4 dark wrapper, background: var(--bg) = #0a0a0b
+ *     <section class="hero hero--dark">…</section>
+ *     <section class="legal-section">
+ *       <div class="container">
+ *         <div class="legal">…</div>
+ *
+ * Because .ow-v4 paints the entire page near-black, the legal copy must be
+ * light-on-dark to stay legible. We use the canonical v4 tokens:
+ *   body text  : var(--text)         #f4f5f5
+ *   emphasis   : var(--ow-white)     #ffffff
+ *   links      : var(--ow-blue-sky)  #0493d5
+ *   borders    : translucent white
+ */
 .legal-section {
   padding: clamp(2.5rem, 5vw, 4rem) 0 clamp(3.5rem, 6vw, 5rem);
+  color: var(--text, #f4f5f5);
 }
 .legal {
   max-width: 820px;
   margin-inline: auto;
-  color: rgba(0, 22, 32, 0.85);
+  color: var(--text, #f4f5f5);
   font-size: 1rem;
-  line-height: 1.7;
+  line-height: 1.75;
 }
 .legal p {
   margin: 0 0 1rem;
+  color: var(--text, #f4f5f5);
 }
 .legal .legal__intro {
   font-size: 1.0625rem;
-  color: rgba(0, 22, 32, 0.95);
+  color: var(--ow-white, #ffffff);
   margin-bottom: 1.25rem;
 }
 .legal h2 {
   font-size: clamp(1.35rem, 2.2vw, 1.625rem);
   font-weight: 800;
   margin: 2.5rem 0 1rem;
-  color: var(--ow-navy, #0b1121);
+  color: var(--ow-white, #ffffff);
   letter-spacing: -0.01em;
 }
 .legal h2:first-of-type {
@@ -404,18 +419,19 @@ a.cards__card--link:hover {
   font-size: 1.125rem;
   font-weight: 700;
   margin: 1.75rem 0 0.65rem;
-  color: var(--ow-navy, #0b1121);
+  color: var(--ow-white, #ffffff);
 }
 .legal h4 {
   font-size: 1rem;
   font-weight: 700;
   margin: 1.25rem 0 0.5rem;
-  color: rgba(0, 22, 32, 0.9);
+  color: var(--ow-near-white, #f4f5f5);
 }
 .legal ul {
   list-style: disc;
   padding-left: 1.5rem;
   margin: 0 0 1rem;
+  color: var(--text, #f4f5f5);
 }
 .legal ul ul {
   list-style: circle;
@@ -424,24 +440,33 @@ a.cards__card--link:hover {
 .legal li {
   margin-bottom: 0.5rem;
   line-height: 1.65;
+  color: var(--text, #f4f5f5);
 }
 .legal strong {
   font-weight: 700;
-  color: rgba(0, 22, 32, 0.95);
+  color: var(--ow-white, #ffffff);
 }
 .legal a {
-  color: var(--ow-blue, #0493d5);
+  color: var(--ow-blue-sky, #0493d5);
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 .legal a:hover {
-  color: #0270a6;
+  color: var(--ow-blue-bright, #057bb2);
+}
+.legal code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.9em;
+  padding: 0.05rem 0.4rem;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--ow-near-white, #f4f5f5);
 }
 .legal .legal__footnote {
   margin-top: 2rem;
   font-size: 0.8125rem;
-  color: rgba(0, 22, 32, 0.55);
-  border-top: 1px solid rgba(0, 22, 32, 0.1);
+  color: rgba(244, 245, 245, 0.6);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 1rem;
 }
 .legal .legal__footnote sup {
