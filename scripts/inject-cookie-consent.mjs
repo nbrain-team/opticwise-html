@@ -54,12 +54,22 @@ for (const file of files) {
 
   // 2. Add "Cookie Preferences" link to footer (if not already present)
   if (!html.includes('Cookie Preferences') && !html.includes('cookie-preferences')) {
-    // Pattern for marketing pages: Privacy Policy</a> · <a ... href="/terms/">Terms of Use</a>
+    // Pattern A: marketing pages with Privacy Policy · Terms of Use
     const footerPattern1 = /(<a[^>]*href="\/terms\/"[^>]*>Terms of Use<\/a>)/
+    // Pattern B: blog posts with only "© 2026 OpticWise. All rights reserved."
+    const footerPattern2 = /(© (?:<!-- -->)?2026(?:<!-- -->)? OpticWise\. All rights reserved\.)/
+
     if (footerPattern1.test(html)) {
       html = html.replace(
         footerPattern1,
         '$1 · <a class="hover:text-white transition-colors" href="#" data-ow-cookie-prefs>Cookie Preferences</a>'
+      )
+      changed = true
+      footerUpdated++
+    } else if (footerPattern2.test(html)) {
+      html = html.replace(
+        footerPattern2,
+        '$1 · <a class="hover:text-white transition-colors" href="/privacy/">Privacy Policy</a> · <a class="hover:text-white transition-colors" href="/terms/">Terms of Use</a> · <a class="hover:text-white transition-colors" href="#" data-ow-cookie-prefs>Cookie Preferences</a>'
       )
       changed = true
       footerUpdated++
