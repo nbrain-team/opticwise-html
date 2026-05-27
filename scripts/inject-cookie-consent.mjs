@@ -10,7 +10,7 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises'
 import { join, relative } from 'node:path'
 
-const ROOT = new URL('..', import.meta.url).pathname.replace(/\/$/, '')
+const ROOT = decodeURIComponent(new URL('..', import.meta.url).pathname).replace(/\/$/, '')
 
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true })
