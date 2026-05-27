@@ -296,13 +296,56 @@
     }
   }
 
+  // ── Geo-detection ────────────────────────────────────────────────────
+
+  function getCachedGeo() {
+    try {
+      var raw = localStorage.getItem(GEO_CACHE_KEY);
+      if (!raw) return null;
+      var cached = JSON.parse(raw);
+      if (Date.now() - cached.ts > GEO_CACHE_TTL) return null;
+      return cached.country;
+    } catch (e) { return null; }
+  }
+
+  function setCachedGeo(country) {
+    try {
+      localStorage.setItem(GEO_CACHE_KEY, JSON.stringify({ country: country, ts: Date.now() }));
+    } catch (e) { /* quota or private browsing */ }
+  }
+
+  function detectCountry(callback) {
+    var cached = getCachedGeo();
+    if (cached) { callback(cached); return; }
+
+    // Cloudflare's trace endpoint returns plain-text key=value pairs
+    fetch('https://www.cloudflare.com/cdn-cgi/trace', { credentials: 'omit' })
+      .then(function (r) { return r.text(); })
+      .then(function (text) {
+        var match = text.match(/loc=([A-Z]{2})/);
+        var country = match ? match[1] : 'US';
+        setCachedGeo(country);
+        callback(country);
+      })
+      .catch(function () {
+        // On failure, assume non-EU to avoid blocking US visitors
+        callback('US');
+      });
+  }
+
+  function isEUCountry(code) {
+    return EU_COUNTRIES.indexOf(code) !== -1;
+  }
+
   // ── Init ────────────────────────────────────────────────────────────
 
   consent = readConsent();
+  var visitorIsEU = false;
 
   window.OWConsent = {
     hasConsent: hasConsent,
-    showPreferences: showPreferences
+    showPreferences: showPreferences,
+    isEU: false
   };
 
   function wirePrefsLinks() {
@@ -316,16 +359,49 @@
     });
   }
 
-  function init() {
+  function grantImplicitConsent() {
+    if (consent) return;
+    consent = { analytics: true, embeds: true, implicit: true, timestamp: new Date().toISOString() };
+    document.dispatchEvent(new CustomEvent('ow:consent-updated', { detail: consent }));
+  }
+
+  function initAfterGeo(country) {
+    visitorIsEU = isEUCountry(country);
+    window.OWConsent.isEU = visitorIsEU;
+
     syncVimeo();
     wirePrefsLinks();
-    if (!consent) {
-      showBanner();
+
+    if (visitorIsEU) {
+      if (!consent) {
+        showBanner();
+      }
+    } else {
+      // Non-EU: grant implicit consent, no banner
+      grantImplicitConsent();
+      restoreVimeoEmbeds();
+    }
+  }
+
+  function init() {
+    // If user already has explicit consent, apply it immediately
+    if (consent) {
+      syncVimeo();
+      wirePrefsLinks();
+      document.dispatchEvent(new CustomEvent('ow:consent-updated', { detail: consent }));
+      // Still detect geo in background for the isEU flag
+      detectCountry(function (country) {
+        visitorIsEU = isEUCountry(country);
+        window.OWConsent.isEU = visitorIsEU;
+      });
+    } else {
+      wirePrefsLinks();
+      detectCountry(initAfterGeo);
     }
   }
 
   document.addEventListener('ow:consent-updated', function () {
-    consent = readConsent();
+    consent = readConsent() || consent;
     syncVimeo();
   });
 
