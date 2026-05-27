@@ -261,18 +261,43 @@
     applyFilters();
   }
 
-  var ga4Loaded = false;
+  /* Google Consent Mode v2 + GA4.
+   *
+   * GA4 loads immediately with consent defaults set to 'denied'. This sends
+   * cookieless/modeled pings so Google can provide aggregate data even before
+   * the visitor interacts with the consent banner.
+   *
+   * When the visitor grants analytics consent (via OWConsent), we update the
+   * consent state to 'granted' so GA4 sets cookies and sends full measurement.
+   *
+   * For non-EU visitors (detected by cookie-consent.js geo-check), the
+   * ow:consent-updated event fires immediately with analytics:true, so full
+   * measurement starts right away without any visible banner. */
 
-  function loadGa4() {
-    if (ga4Loaded) { return; }
+  var ga4Initialized = false;
+
+  function initGa4WithConsentMode() {
+    if (ga4Initialized) { return; }
     var mid = GA4_MEASUREMENT_ID;
     if (!mid || !/^G-[A-Z0-9]+$/i.test(mid)) { return; }
-    ga4Loaded = true;
+    ga4Initialized = true;
+
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     window.gtag = gtag;
+
+    // Consent Mode v2 defaults — deny everything until explicit consent
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'wait_for_update': 500
+    });
+
     gtag('js', new Date());
     gtag('config', mid);
+
     var script = document.createElement('script');
     script.async = true;
     script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(mid);
@@ -281,12 +306,24 @@
     }
   }
 
+  function updateGa4Consent(granted) {
+    if (typeof gtag !== 'function') { return; }
+    gtag('consent', 'update', {
+      'analytics_storage': granted ? 'granted' : 'denied'
+    });
+  }
+
   function setupGa4() {
+    initGa4WithConsentMode();
+
+    // If consent already exists (returning visitor), apply it immediately
     if (window.OWConsent && window.OWConsent.hasConsent('analytics')) {
-      loadGa4();
+      updateGa4Consent(true);
     }
+
     document.addEventListener('ow:consent-updated', function (e) {
-      if (e.detail && e.detail.analytics) { loadGa4(); }
+      var granted = e.detail && e.detail.analytics;
+      updateGa4Consent(!!granted);
     });
   }
 
