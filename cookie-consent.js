@@ -289,8 +289,20 @@
     showPreferences: showPreferences
   };
 
+  function wirePrefsLinks() {
+    document.querySelectorAll('[data-ow-cookie-prefs]').forEach(function (link) {
+      if (link.dataset.owBound) return;
+      link.dataset.owBound = '1';
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        showPreferences();
+      });
+    });
+  }
+
   function init() {
     syncVimeo();
+    wirePrefsLinks();
     if (!consent) {
       showBanner();
     }
