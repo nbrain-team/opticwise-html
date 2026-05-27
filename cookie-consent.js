@@ -3,9 +3,14 @@
  * Exposes window.OWConsent:
  *   .hasConsent(category)   — returns true if the user accepted the category
  *   .showPreferences()      — opens the preferences modal
+ *   .isEU                   — true if visitor is in EU/EEA/UK (set after geo check)
  *
  * Fires a custom event "ow:consent-updated" on document whenever preferences
  * change, so other scripts (site.js / GA4) can react.
+ *
+ * Geo-detection: banner only shown to EU/EEA/UK visitors. Non-EU visitors get
+ * implicit full consent (no banner, all cookies allowed). Uses Cloudflare's
+ * /cdn-cgi/trace endpoint for country detection with a localStorage cache.
  *
  * Cookie: ow_consent  (JSON, 365 days, SameSite=Lax)
  *   { analytics: bool, embeds: bool, timestamp: ISO string }
@@ -16,6 +21,17 @@
   var COOKIE_NAME = 'ow_consent';
   var COOKIE_DAYS = 365;
   var CATEGORIES = ['analytics', 'embeds'];
+
+  // EU/EEA member states + UK + CH (Switzerland applies GDPR-equivalent FADP)
+  var EU_COUNTRIES = [
+    'AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE',
+    'IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE',
+    'IS','LI','NO',  // EEA
+    'GB',             // UK GDPR
+    'CH'              // Swiss FADP
+  ];
+  var GEO_CACHE_KEY = 'ow_geo';
+  var GEO_CACHE_TTL = 86400000; // 24 hours
 
   // ── Cookie helpers ──────────────────────────────────────────────────
 
