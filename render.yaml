@@ -87,6 +87,12 @@ services:
       - path: /site.js
         name: Cache-Control
         value: public, max-age=3600, must-revalidate
+      - path: /cookie-consent.js
+        name: Cache-Control
+        value: public, max-age=3600, must-revalidate
+      - path: /cookie-consent.css
+        name: Cache-Control
+        value: public, max-age=3600, must-revalidate
       - path: /forms-embed.css
         name: Cache-Control
         value: public, max-age=3600, must-revalidate
