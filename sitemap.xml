@@ -937,8 +937,14 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.opticwise.com/cookie-policy/</loc>
+    <lastmod>2026-05-27T00:00:00Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.opticwise.com/privacy/</loc>
-    <lastmod>2026-05-19T00:00:00Z</lastmod>
+    <lastmod>2026-05-27T00:00:00Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
