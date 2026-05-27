@@ -261,9 +261,13 @@
     applyFilters();
   }
 
-  function setupGa4() {
+  var ga4Loaded = false;
+
+  function loadGa4() {
+    if (ga4Loaded) { return; }
     var mid = GA4_MEASUREMENT_ID;
     if (!mid || !/^G-[A-Z0-9]+$/i.test(mid)) { return; }
+    ga4Loaded = true;
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     window.gtag = gtag;
@@ -275,6 +279,15 @@
     if (document.head) {
       document.head.appendChild(script);
     }
+  }
+
+  function setupGa4() {
+    if (window.OWConsent && window.OWConsent.hasConsent('analytics')) {
+      loadGa4();
+    }
+    document.addEventListener('ow:consent-updated', function (e) {
+      if (e.detail && e.detail.analytics) { loadGa4(); }
+    });
   }
 
   function setupGa4NavTracking() {
