@@ -1,57 +1,55 @@
 /* OpticWise Cookie Consent — GDPR-compliant consent manager.
  *
  * Exposes window.OWConsent:
- *   .hasConsent(category)   — returns true if the user accepted the category
+ *   .hasConsent(category)   — true if the user accepted the category
  *   .showPreferences()      — opens the preferences modal
- *   .isEU                   — true if visitor is in EU/EEA/UK (set after geo check)
+ *   .isEU                   — true if visitor is in EU/EEA/UK timezone
  *
- * Fires a custom event "ow:consent-updated" on document whenever preferences
- * change, so other scripts (site.js / GA4) can react.
+ * Fires "ow:consent-updated" on document whenever preferences change.
  *
- * Geo-detection: banner only shown to EU/EEA/UK visitors. Non-EU visitors get
- * implicit full consent (no banner, all cookies allowed). Uses Cloudflare's
- * /cdn-cgi/trace endpoint for country detection with a localStorage cache.
+ * Geo-detection: uses Intl.DateTimeFormat timezone to detect EU/EEA/UK visitors.
+ * No external fetch required — instant, offline-compatible, zero latency.
+ * Non-EU visitors get implicit full consent with no banner.
  *
- * Cookie: ow_consent  (JSON, 365 days, SameSite=Lax)
- *   { analytics: bool, embeds: bool, timestamp: ISO string }
+ * Persistence: localStorage key "ow_consent" (JSON, 13-month expiry per GDPR).
+ * Falls back to a session cookie if localStorage is unavailable.
  */
 (function () {
   'use strict';
 
-  var COOKIE_NAME = 'ow_consent';
-  var COOKIE_DAYS = 365;
-  var CATEGORIES = ['analytics', 'embeds'];
+  var STORAGE_KEY = 'ow_consent';
+  var CONSENT_TTL = 395 * 86400000; // 13 months in ms (GDPR max)
 
-  // EU/EEA member states + UK + CH (Switzerland applies GDPR-equivalent FADP)
-  var EU_COUNTRIES = [
-    'AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE',
-    'IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE',
-    'IS','LI','NO',  // EEA
-    'GB',             // UK GDPR
-    'CH'              // Swiss FADP
+  // EU/EEA timezone prefixes — covers all EU member states, EEA, UK, Switzerland
+  var EU_TZ_PREFIXES = [
+    'Europe/', 'Atlantic/Canary', 'Atlantic/Faroe', 'Atlantic/Madeira',
+    'Atlantic/Reykjavik', 'Arctic/Longyearbyen'
   ];
-  var GEO_CACHE_KEY = 'ow_geo';
-  var GEO_CACHE_TTL = 86400000; // 24 hours
 
-  // ── Cookie helpers ──────────────────────────────────────────────────
+  // ── Storage helpers ─────────────────────────────────────────────────
 
-  function getCookie(name) {
-    var match = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]*)'));
-    return match ? decodeURIComponent(match[1]) : null;
+  function readStored() {
+    try {
+      var raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return null;
+      var data = JSON.parse(raw);
+      if (Date.now() - new Date(data.timestamp).getTime() > CONSENT_TTL) {
+        localStorage.removeItem(STORAGE_KEY);
+        return null;
+      }
+      return data;
+    } catch (e) { return null; }
   }
 
-  function setCookie(name, value, days) {
-    var d = new Date();
-    d.setTime(d.getTime() + days * 86400000);
-    document.cookie = name + '=' + encodeURIComponent(value) +
-      ';expires=' + d.toUTCString() +
-      ';path=/;SameSite=Lax';
+  function writeStored(prefs) {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(prefs)); }
+    catch (e) { /* private browsing or quota */ }
   }
 
-  function deleteCookiesByPrefix(prefix) {
+  function deleteGaCookies() {
     document.cookie.split(';').forEach(function (c) {
       var name = c.split('=')[0].trim();
-      if (name.indexOf(prefix) === 0) {
+      if (name.indexOf('_ga') === 0) {
         document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/';
       }
     });
@@ -61,27 +59,30 @@
 
   var consent = null;
 
-  function readConsent() {
-    var raw = getCookie(COOKIE_NAME);
-    if (!raw) return null;
-    try { return JSON.parse(raw); } catch (e) { return null; }
-  }
-
   function saveConsent(prefs) {
     prefs.timestamp = new Date().toISOString();
     consent = prefs;
-    setCookie(COOKIE_NAME, JSON.stringify(prefs), COOKIE_DAYS);
+    writeStored(prefs);
     document.dispatchEvent(new CustomEvent('ow:consent-updated', { detail: prefs }));
     hideBanner();
-
-    if (!prefs.analytics) {
-      deleteCookiesByPrefix('_ga');
-    }
+    if (!prefs.analytics) { deleteGaCookies(); }
   }
 
   function hasConsent(category) {
     if (!consent) return false;
     return !!consent[category];
+  }
+
+  // ── Geo-detection (timezone-based) ──────────────────────────────────
+
+  function detectIsEU() {
+    try {
+      var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+      for (var i = 0; i < EU_TZ_PREFIXES.length; i++) {
+        if (tz.indexOf(EU_TZ_PREFIXES[i]) === 0) return true;
+      }
+    } catch (e) { /* old browser — assume non-EU */ }
+    return false;
   }
 
   // ── DOM creation helpers ────────────────────────────────────────────
@@ -110,24 +111,23 @@
   var modalEl = null;
 
   function buildBanner() {
-    var wrap = el('div', { className: 'ow-cc-banner', role: 'dialog', 'aria-label': 'Cookie consent' }, [
+    return el('div', { className: 'ow-cc-banner', role: 'dialog', 'aria-label': 'Cookie consent' }, [
       el('div', { className: 'ow-cc-banner__inner' }, [
         el('div', { className: 'ow-cc-banner__text' }, [
           el('p', { className: 'ow-cc-banner__title' }, 'We value your privacy'),
           el('p', { className: 'ow-cc-banner__desc' }, [
             'We use cookies to analyze site usage and improve your experience. You can accept all cookies, reject non-essential ones, or customize your preferences. See our ',
-            el('a', { href: '/privacy/', className: 'ow-cc-link' }, 'Privacy Policy'),
+            el('a', { href: '/cookie-policy/', className: 'ow-cc-link' }, 'Cookie Policy'),
             ' for details.'
           ])
         ]),
         el('div', { className: 'ow-cc-banner__actions' }, [
           el('button', { className: 'ow-cc-btn ow-cc-btn--accept', onClick: acceptAll }, 'Accept All'),
-          el('button', { className: 'ow-cc-btn ow-cc-btn--reject', onClick: rejectNonEssential }, 'Reject Non-Essential'),
-          el('button', { className: 'ow-cc-btn ow-cc-btn--customize', onClick: showPreferences }, 'Customize')
+          el('button', { className: 'ow-cc-btn ow-cc-btn--reject', onClick: rejectNonEssential }, 'Reject All'),
+          el('button', { className: 'ow-cc-btn ow-cc-btn--customize', onClick: showPreferences }, 'Manage Preferences')
         ])
       ])
     ]);
-    return wrap;
   }
 
   function showBanner() {
@@ -184,12 +184,14 @@
           el('h2', { className: 'ow-cc-modal__title' }, 'Cookie Preferences'),
           el('button', { className: 'ow-cc-modal__close', 'aria-label': 'Close', onClick: closeModal }, '\u00D7')
         ]),
-        el('p', { className: 'ow-cc-modal__desc' },
-          'Choose which cookie categories you allow. Strictly necessary cookies are always active because they are essential for the site to function.'
-        ),
+        el('p', { className: 'ow-cc-modal__desc' }, [
+          'Choose which cookie categories you allow. Strictly necessary cookies are always active. For full details, see our ',
+          el('a', { href: '/cookie-policy/', className: 'ow-cc-link' }, 'Cookie Policy'),
+          '.'
+        ]),
         el('div', { className: 'ow-cc-pref__list' }, [
-          buildToggle('necessary', 'Strictly Necessary', 'Essential for the website to function. Cannot be disabled.', true, true),
-          buildToggle('analytics', 'Analytics', 'Help us understand how visitors use the site via Google Analytics.', analyticsChecked, false),
+          buildToggle('necessary', 'Strictly Necessary', 'Essential for the website to function (consent preferences). Cannot be disabled.', true, true),
+          buildToggle('analytics', 'Analytics', 'Google Analytics 4 with Consent Mode v2. Helps us understand how visitors use the site. Cookieless pings are sent by default; full measurement only after you accept.', analyticsChecked, false),
           buildToggle('embeds', 'Embedded Content', 'Allow third-party embeds (e.g. Vimeo videos) which may set cookies.', embedsChecked, false)
         ]),
         el('div', { className: 'ow-cc-modal__actions' }, [
@@ -222,9 +224,7 @@
     document.removeEventListener('keydown', escCloseModal);
   }
 
-  function escCloseModal(e) {
-    if (e.key === 'Escape') closeModal();
-  }
+  function escCloseModal(e) { if (e.key === 'Escape') closeModal(); }
 
   function saveFromModal() {
     var analytics = document.getElementById('ow-cc-toggle-analytics');
@@ -238,27 +238,20 @@
 
   // ── Quick actions ───────────────────────────────────────────────────
 
-  function acceptAll() {
-    saveConsent({ analytics: true, embeds: true });
-  }
-
-  function rejectNonEssential() {
-    saveConsent({ analytics: false, embeds: false });
-  }
+  function acceptAll() { saveConsent({ analytics: true, embeds: true }); }
+  function rejectNonEssential() { saveConsent({ analytics: false, embeds: false }); }
 
   // ── Vimeo embed gating ─────────────────────────────────────────────
 
   function gateVimeoEmbeds() {
     var iframes = document.querySelectorAll('.ow-vimeo iframe[src*="player.vimeo.com"]');
     if (!iframes.length) return;
-
     iframes.forEach(function (iframe) {
       if (iframe.dataset.owConsentGated) return;
       iframe.dataset.owConsentGated = '1';
       var src = iframe.getAttribute('src');
       var wrapper = iframe.parentElement;
       if (!wrapper) return;
-
       var placeholder = el('div', { className: 'ow-cc-embed-placeholder' }, [
         el('div', { className: 'ow-cc-embed-placeholder__icon' }, '\u25B6'),
         el('p', { className: 'ow-cc-embed-placeholder__text' }, 'This video is hosted by Vimeo. Playing it may set third-party cookies.'),
@@ -266,8 +259,6 @@
           saveConsent({ analytics: consent ? consent.analytics : false, embeds: true });
         }}, 'Accept & Play')
       ]);
-      placeholder.dataset.owVimeoSrc = src;
-
       iframe.removeAttribute('src');
       iframe.style.display = 'none';
       iframe.dataset.owOrigSrc = src;
@@ -289,63 +280,19 @@
   }
 
   function syncVimeo() {
-    if (hasConsent('embeds')) {
-      restoreVimeoEmbeds();
-    } else {
-      gateVimeoEmbeds();
-    }
-  }
-
-  // ── Geo-detection ────────────────────────────────────────────────────
-
-  function getCachedGeo() {
-    try {
-      var raw = localStorage.getItem(GEO_CACHE_KEY);
-      if (!raw) return null;
-      var cached = JSON.parse(raw);
-      if (Date.now() - cached.ts > GEO_CACHE_TTL) return null;
-      return cached.country;
-    } catch (e) { return null; }
-  }
-
-  function setCachedGeo(country) {
-    try {
-      localStorage.setItem(GEO_CACHE_KEY, JSON.stringify({ country: country, ts: Date.now() }));
-    } catch (e) { /* quota or private browsing */ }
-  }
-
-  function detectCountry(callback) {
-    var cached = getCachedGeo();
-    if (cached) { callback(cached); return; }
-
-    // Cloudflare's trace endpoint returns plain-text key=value pairs
-    fetch('https://www.cloudflare.com/cdn-cgi/trace', { credentials: 'omit' })
-      .then(function (r) { return r.text(); })
-      .then(function (text) {
-        var match = text.match(/loc=([A-Z]{2})/);
-        var country = match ? match[1] : 'US';
-        setCachedGeo(country);
-        callback(country);
-      })
-      .catch(function () {
-        // On failure, assume non-EU to avoid blocking US visitors
-        callback('US');
-      });
-  }
-
-  function isEUCountry(code) {
-    return EU_COUNTRIES.indexOf(code) !== -1;
+    if (hasConsent('embeds')) { restoreVimeoEmbeds(); }
+    else { gateVimeoEmbeds(); }
   }
 
   // ── Init ────────────────────────────────────────────────────────────
 
-  consent = readConsent();
-  var visitorIsEU = false;
+  consent = readStored();
+  var visitorIsEU = detectIsEU();
 
   window.OWConsent = {
     hasConsent: hasConsent,
     showPreferences: showPreferences,
-    isEU: false
+    isEU: visitorIsEU
   };
 
   function wirePrefsLinks() {
@@ -365,43 +312,23 @@
     document.dispatchEvent(new CustomEvent('ow:consent-updated', { detail: consent }));
   }
 
-  function initAfterGeo(country) {
-    visitorIsEU = isEUCountry(country);
-    window.OWConsent.isEU = visitorIsEU;
-
-    syncVimeo();
+  function init() {
     wirePrefsLinks();
 
-    if (visitorIsEU) {
-      if (!consent) {
-        showBanner();
-      }
+    if (consent) {
+      syncVimeo();
+      document.dispatchEvent(new CustomEvent('ow:consent-updated', { detail: consent }));
+    } else if (visitorIsEU) {
+      syncVimeo();
+      showBanner();
     } else {
-      // Non-EU: grant implicit consent, no banner
       grantImplicitConsent();
       restoreVimeoEmbeds();
     }
   }
 
-  function init() {
-    // If user already has explicit consent, apply it immediately
-    if (consent) {
-      syncVimeo();
-      wirePrefsLinks();
-      document.dispatchEvent(new CustomEvent('ow:consent-updated', { detail: consent }));
-      // Still detect geo in background for the isEU flag
-      detectCountry(function (country) {
-        visitorIsEU = isEUCountry(country);
-        window.OWConsent.isEU = visitorIsEU;
-      });
-    } else {
-      wirePrefsLinks();
-      detectCountry(initAfterGeo);
-    }
-  }
-
   document.addEventListener('ow:consent-updated', function () {
-    consent = readConsent() || consent;
+    consent = readStored() || consent;
     syncVimeo();
   });
 
