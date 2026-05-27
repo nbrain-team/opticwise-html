@@ -68,35 +68,29 @@
 <p>We use this information to provide features of Our Service, to improve and customize Our Service. The information may be uploaded to the Company&#x27;s servers and/or a Service Provider&#x27;s server or it be simply stored on Your device.</p>
 <p>You can enable or disable access to this information at any time, through Your Device settings. You can also enable or disable location services when You use Our Service at any time, through Your Device settings.</p>
 
-<h3>Tracking Technologies and Cookies</h3>
-<p>We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service.</p>
-<p>You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service.</p>
-<p>Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. Persistent Cookies remain on your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close your web browser. Learn more about cookies: <a href="https://www.allaboutcookies.org/" target="_blank" rel="noopener">All About Cookies</a>.</p>
-<p><strong>Cookies currently in use on this Site.</strong> The Site loads Google Analytics 4 (Measurement ID G-XSB5M0FJC0), which sets first-party persistent cookies (<code>_ga</code> and <code>_ga_*</code>) used to measure aggregate Site usage. We do not currently deploy advertising, retargeting, session-replay, or social-media tracking cookies. Cookie inventory may change; this Policy will be updated when it does.</p>
-
-<h4>Analytics Cookies — Google Analytics 4</h4>
-<p><strong>Type:</strong> First-party persistent Cookies (<code>_ga</code>, <code>_ga_&lt;stream-id&gt;</code>)<br/><strong>Administered by:</strong> Google LLC, on behalf of Us<br/><strong>Purpose:</strong> These Cookies help Us understand aggregate Site usage — pages viewed, traffic sources, and how visitors interact with content — so We can improve the Site. We use the default GA4 configuration without Google Signals, advertising features, or remarketing audiences. You can opt out of Google Analytics at <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">tools.google.com/dlpage/gaoptout</a>.</p>
-
-<p>You may also block or delete cookies through Your browser settings at any time; doing so will not affect Your ability to use the Site.</p>
+<h3>Tracking Technologies, Cookies, and Google Consent Mode v2</h3>
+<p>We use cookies and similar tracking technologies to track the activity on Our Service and store certain information. We also use browser <strong>localStorage</strong> to persist Your cookie consent preferences. Learn more about cookies: <a href="https://www.allaboutcookies.org/" target="_blank" rel="noopener">All About Cookies</a>.</p>
+<p>This Site implements <strong>Google Consent Mode v2</strong>, Google's framework for adjusting how Google tags behave based on Your consent choices. Google Analytics 4 (GA4) loads on every page with all consent categories set to <code>denied</code> by default. In this state, GA4 sends <strong>cookieless pings</strong> — anonymous, aggregate signals that do not store cookies on Your device and cannot identify You individually. When You explicitly accept analytics cookies, the consent state is updated to <code>granted</code> and GA4 switches to full cookie-based measurement. If You reject analytics, only cookieless pings continue. For full details, see our <a href="/cookie-policy/">Cookie Policy</a>.</p>
 
 <h4>Cookie Consent and How to Withdraw</h4>
-<p>When You first visit the Site, a cookie consent banner allows You to accept all cookies, reject non-essential cookies, or customize Your preferences by category. Your choice is stored in a first-party cookie (<code>ow_consent</code>) for 365 days.</p>
-<p>You may change or withdraw Your consent at any time by clicking the <strong>"Cookie Preferences"</strong> link in the footer of any page. Withdrawing consent for analytics cookies will stop Google Analytics from loading on subsequent page views and clear existing <code>_ga</code> cookies from Your browser.</p>
+<p>When You first visit the Site from a region covered by the GDPR, ePrivacy Directive, or equivalent regulations (detected via Your timezone), a consent banner gives You three options: <strong>Accept All</strong>, <strong>Reject All</strong>, or <strong>Manage Preferences</strong> (with per-category toggles). Your choice is stored in <strong>localStorage</strong> (key: <code>ow_consent</code>) for <strong>13 months</strong>, the maximum allowed under GDPR.</p>
+<p>If Your timezone does not correspond to the EU/EEA/UK, the banner does not appear and all cookie categories are enabled by default. You can still change Your preferences at any time.</p>
+<p>You may change or withdraw Your consent at any time by clicking the <strong>"Cookie Settings"</strong> link in the footer of any page. Withdrawing consent for analytics cookies will prevent GA4 from setting cookies on subsequent page views and clear existing <code>_ga</code> cookies from Your browser. Withdrawing consent does not affect the lawfulness of processing based on consent before its withdrawal.</p>
 
 <h4>Complete Cookie Inventory</h4>
-<p>The following table lists every cookie set by or on behalf of this Site:</p>
+<p>The following table lists every cookie and storage mechanism used by or on behalf of this Site:</p>
 <div class="ow-outcomes-table-wrap">
 <table class="ow-outcomes-table">
-<thead><tr><th>Cookie Name</th><th>Provider</th><th>Purpose</th><th>Type</th><th>Duration</th><th>Category</th></tr></thead>
+<thead><tr><th>Name</th><th>Provider</th><th>Purpose</th><th>Type</th><th>Duration</th><th>Category</th></tr></thead>
 <tbody>
-<tr><td><code>ow_consent</code></td><td>OpticWise (first-party)</td><td>Stores Your cookie consent preferences (JSON object with category flags and timestamp).</td><td>First-party, persistent</td><td>365 days</td><td>Strictly Necessary</td></tr>
-<tr><td><code>_ga</code></td><td>Google Analytics</td><td>Distinguishes unique visitors by assigning a randomly generated number as a client identifier.</td><td>First-party, persistent</td><td>2 years</td><td>Analytics</td></tr>
-<tr><td><code>_ga_&lt;stream-id&gt;</code></td><td>Google Analytics</td><td>Maintains session state for the GA4 data stream (Measurement ID G-XSB5M0FJC0).</td><td>First-party, persistent</td><td>2 years</td><td>Analytics</td></tr>
+<tr><td><code>ow_consent</code></td><td>OpticWise</td><td>Stores Your cookie consent preferences (JSON with category flags and timestamp).</td><td>localStorage</td><td>13 months</td><td>Strictly Necessary</td></tr>
+<tr><td><code>_ga</code></td><td>Google Analytics 4</td><td>Distinguishes unique visitors by assigning a randomly generated client identifier.</td><td>First-party cookie</td><td>2 years</td><td>Analytics</td></tr>
+<tr><td><code>_ga_&lt;stream-id&gt;</code></td><td>Google Analytics 4</td><td>Maintains session state for the GA4 data stream (Measurement ID G-XSB5M0FJC0).</td><td>First-party cookie</td><td>2 years</td><td>Analytics</td></tr>
 </tbody>
 </table>
 </div>
-<p>Analytics cookies (<code>_ga</code>, <code>_ga_*</code>) are only set when You have given consent via the cookie banner. If You reject analytics cookies or do not interact with the banner, these cookies are never loaded.</p>
-<p>Embedded content (e.g. Vimeo video players on select pages) may set additional third-party cookies when loaded. These embeds are blocked by default and only load when You consent to the "Embedded Content" category.</p>
+<p>Analytics cookies (<code>_ga</code>, <code>_ga_*</code>) are only set after You accept analytics cookies via the consent banner. If You reject or do not interact with the banner, GA4 sends cookieless pings only — no tracking cookies are set.</p>
+<p>Embedded content (e.g. Vimeo video players on select pages) may set additional third-party cookies when loaded. These embeds are blocked by default and only load when You consent to the "Embedded Content" category. You can opt out of Google Analytics at <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">tools.google.com/dlpage/gaoptout</a>.</p>
 
 <h2>Legal Basis for Processing (GDPR, Art. 6)</h2>
 <p>If You are located in the European Economic Area (EEA), the United Kingdom, or Switzerland, We process Your Personal Data under the following legal bases:</p>
