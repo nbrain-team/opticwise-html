@@ -30,6 +30,53 @@
     return window.matchMedia('(max-width: ' + MOBILE_MAX + 'px)').matches;
   }
 
+  /* ── WCAG 2.1 AA — Skip link + main landmark ───────────────────── */
+
+  function setupA11yLandmarks() {
+    var main = document.querySelector('main');
+    if (main && !main.id) { main.id = 'main-content'; }
+
+    var nav = document.querySelector('nav');
+    var target = main || document.querySelector('.ow-v4') || document.body;
+    if (!target.id) { target.id = 'main-content'; }
+
+    if (!document.querySelector('.ow-skip-link')) {
+      var skip = document.createElement('a');
+      skip.href = '#' + target.id;
+      skip.className = 'ow-skip-link';
+      skip.textContent = 'Skip to main content';
+      var first = nav || document.body.firstChild;
+      document.body.insertBefore(skip, first);
+    }
+  }
+
+  /* ── WCAG 2.1 AA — Reusable focus trap ────────────────────────── */
+
+  function trapFocus(container) {
+    var FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+    function getFocusable() {
+      return Array.prototype.slice.call(container.querySelectorAll(FOCUSABLE)).filter(function (el) {
+        return el.offsetParent !== null;
+      });
+    }
+    function handler(ev) {
+      if (ev.key !== 'Tab') { return; }
+      var focusable = getFocusable();
+      if (!focusable.length) { return; }
+      var first = focusable[0];
+      var last = focusable[focusable.length - 1];
+      if (ev.shiftKey) {
+        if (document.activeElement === first) { ev.preventDefault(); last.focus(); }
+      } else {
+        if (document.activeElement === last) { ev.preventDefault(); first.focus(); }
+      }
+    }
+    container.addEventListener('keydown', handler);
+    return function release() { container.removeEventListener('keydown', handler); };
+  }
+
+  window.OWTrapFocus = trapFocus;
+
   function setupNav() {
     var nav = document.querySelector('nav');
     if (!nav) { return; }
@@ -39,15 +86,54 @@
     var hamburger = nav.querySelector('button[aria-label="Menu"]');
     var dropdowns = nav.querySelectorAll('.nav__dropdown');
 
+    /* ── Phase 2: Nav ARIA — hamburger ───────────────────────────── */
+    if (hamburger) {
+      hamburger.setAttribute('aria-expanded', 'false');
+      hamburger.setAttribute('aria-controls', 'ow-mobile-menu');
+      var menuList = nav.querySelector('ul');
+      if (menuList) { menuList.id = 'ow-mobile-menu'; }
+    }
+
+    /* ── Phase 2: Nav ARIA — dropdown triggers ───────────────────── */
+    dropdowns.forEach(function (dd) {
+      var trigger = dd.querySelector('.nav__dropdown-trigger');
+      var menu = dd.querySelector('.nav__dropdown-menu');
+      if (trigger) {
+        if (trigger.tagName !== 'A') {
+          trigger.setAttribute('role', 'button');
+          trigger.setAttribute('tabindex', '0');
+        }
+        trigger.setAttribute('aria-haspopup', 'true');
+        trigger.setAttribute('aria-expanded', 'false');
+      }
+      if (menu) {
+        menu.setAttribute('role', 'menu');
+        menu.querySelectorAll('a').forEach(function (a) {
+          a.setAttribute('role', 'menuitem');
+        });
+      }
+    });
+
+    function syncDropdownAria(dd, expanded) {
+      var trigger = dd.querySelector('.nav__dropdown-trigger');
+      if (trigger) { trigger.setAttribute('aria-expanded', expanded ? 'true' : 'false'); }
+    }
+
     function close() {
       nav.classList.remove('is-open');
-      dropdowns.forEach(function (dd) { dd.classList.remove('is-expanded'); });
+      if (hamburger) { hamburger.setAttribute('aria-expanded', 'false'); }
+      dropdowns.forEach(function (dd) {
+        dd.classList.remove('is-expanded');
+        syncDropdownAria(dd, false);
+      });
     }
 
     if (hamburger) {
       hamburger.addEventListener('click', function (ev) {
         ev.stopPropagation();
+        var opening = !nav.classList.contains('is-open');
         nav.classList.toggle('is-open');
+        hamburger.setAttribute('aria-expanded', opening ? 'true' : 'false');
       });
     }
 
