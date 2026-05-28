@@ -581,5 +581,22 @@ footer.bg-ow-navy .text-white\/55 {
   color: rgba(255, 255, 255, 0.85);
 }
 
-/* Eyebrow text on light surfaces — ensure contrast against #f4f5f5 / #ffffff.
- * OW blue #006495 on white = ~5.6:1 — passes AA. Inherit from design tokens. */
+/* .lede / muted paragraph text on light surfaces (#f4f5f5, #ffffff):
+ * Original #8e9296 gives ~2.86:1 — FAIL.
+ * #595d60 on #f4f5f5 = ~4.82:1 — PASS.
+ * #595d60 on #ffffff = ~5.61:1 — PASS. */
+.twocol--light .lede,
+.twocol--nearwhite .lede,
+.ow-economics-teaser .lede,
+.cards .lede {
+  color: #595d60;
+}
+
+/* Eyebrow text on light surfaces:
+ * Original #0493d5 on #ffffff = 3.42:1, on #f4f5f5 = 3.13:1 — FAIL.
+ * #006495 on #ffffff = ~5.6:1, on #f4f5f5 = ~5.1:1 — PASS. */
+.twocol--light .eyebrow,
+.twocol--nearwhite .eyebrow,
+.cards .eyebrow {
+  color: #006495;
+}
