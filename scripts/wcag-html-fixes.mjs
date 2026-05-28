@@ -10,7 +10,7 @@
 import { readFileSync, writeFileSync, readdirSync, statSync } from 'fs';
 import { join, relative } from 'path';
 
-const ROOT = new URL('..', import.meta.url).pathname.replace(/\/$/, '');
+const ROOT = decodeURIComponent(new URL('..', import.meta.url).pathname).replace(/\/$/, '');
 
 function walk(dir, ext) {
   const results = [];
