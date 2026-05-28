@@ -607,8 +607,15 @@ footer.bg-ow-navy .text-white\/55 {
 .role-tab {
   color: #566275;
 }
+/* Active tab: white text on blue (#2b6cb0) bg → ~8:1 — PASS. */
 .role-tab.active {
-  color: #1e293b;
+  color: #ffffff;
+}
+
+/* Insights results counter: #9ca3af on #fff = 2.53:1 — FAIL.
+ * #6b7280 on #fff = ~5.0:1 — PASS. */
+[data-ow-insights-count] {
+  color: #6b7280;
 }
 
 /* Insight card metadata (date, author): #9ca3af on #ffffff = 2.85:1 — FAIL.
