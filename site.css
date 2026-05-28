@@ -598,8 +598,7 @@ footer.bg-ow-navy .text-white\/55 {
 /* Only on light-surface sections; dark-surface eyebrows keep their
    original lighter blue for contrast on near-black backgrounds. */
 .twocol--light .eyebrow,
-.twocol--nearwhite .eyebrow,
-section:not(.hero):not(.cta):not(.brain):not(.bot):not(.problem):not(.quote) > .container > .cards__header > .eyebrow {
+.twocol--nearwhite .eyebrow {
   color: #006495;
 }
 
