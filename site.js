@@ -258,6 +258,32 @@
     var loadMoreWrap = document.querySelector('[data-ow-insights-loadmore-wrap]');
     var counter = document.querySelector('[data-ow-insights-count]');
 
+    /* ── Phase 4: Tab ARIA + search label + live region ───────────── */
+    var tabWrap = tabs[0] && tabs[0].parentElement;
+    if (tabWrap) { tabWrap.setAttribute('role', 'tablist'); tabWrap.setAttribute('aria-label', 'Filter insights by category'); }
+    tabs.forEach(function (t, i) {
+      t.setAttribute('role', 'tab');
+      t.id = t.id || ('ow-tab-' + i);
+      t.setAttribute('aria-selected', t.classList.contains('active') ? 'true' : 'false');
+    });
+    grid.setAttribute('role', 'tabpanel');
+    grid.setAttribute('aria-label', 'Insights articles');
+    if (tabs[0]) { grid.setAttribute('aria-labelledby', tabs[0].id); }
+
+    if (counter) { counter.setAttribute('aria-live', 'polite'); counter.setAttribute('aria-atomic', 'true'); }
+
+    if (searchInput && !searchInput.id) { searchInput.id = 'ow-insights-search'; }
+    if (searchInput) {
+      var label = document.querySelector('label[for="ow-insights-search"]');
+      if (!label) {
+        label = document.createElement('label');
+        label.setAttribute('for', 'ow-insights-search');
+        label.className = 'sr-only';
+        label.textContent = 'Search insights';
+        searchInput.parentNode.insertBefore(label, searchInput);
+      }
+    }
+
     var INITIAL_BATCH = 30;
     var BATCH = 30;
 
