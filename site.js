@@ -30,7 +30,7 @@
     return window.matchMedia('(max-width: ' + MOBILE_MAX + 'px)').matches;
   }
 
-  /* ── WCAG 2.1 AA — Skip link + main landmark ───────────────────── */
+  /* ── WCAG 2.1 AA — Skip link + landmarks + heading fix ──────────── */
 
   function setupA11yLandmarks() {
     var main = document.querySelector('main');
@@ -47,6 +47,29 @@
       skip.textContent = 'Skip to main content';
       var first = nav || document.body.firstChild;
       document.body.insertBefore(skip, first);
+    }
+
+    if (nav && !nav.getAttribute('aria-label')) {
+      nav.setAttribute('aria-label', 'Main navigation');
+    }
+
+    var footer = document.querySelector('footer');
+    if (footer && !footer.getAttribute('aria-label')) {
+      footer.setAttribute('aria-label', 'Site footer');
+    }
+
+    /* Downgrade footer h4 → semantically neutral spans so the heading
+       hierarchy doesn't skip from h2 (in main content) to h4. The visual
+       styling is preserved via the Tailwind utility classes on each element. */
+    if (footer) {
+      footer.querySelectorAll('h4').forEach(function (h4) {
+        var span = document.createElement('p');
+        span.className = h4.className;
+        span.setAttribute('role', 'heading');
+        span.setAttribute('aria-level', '2');
+        span.innerHTML = h4.innerHTML;
+        h4.parentNode.replaceChild(span, h4);
+      });
     }
   }
 
