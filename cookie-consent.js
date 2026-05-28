@@ -207,11 +207,18 @@
 
   function showPreferences() {
     if (modalEl) return;
+    prefsLastFocus = document.activeElement;
     modalEl = buildModal();
     document.body.appendChild(modalEl);
     requestAnimationFrame(function () {
       requestAnimationFrame(function () {
         modalEl.classList.add('ow-cc-overlay--visible');
+        var inner = modalEl.querySelector('.ow-cc-modal');
+        if (inner && window.OWTrapFocus) {
+          releaseModalTrap = window.OWTrapFocus(inner);
+        }
+        var firstBtn = modalEl.querySelector('button');
+        if (firstBtn) { try { firstBtn.focus(); } catch (_) {} }
       });
     });
     document.addEventListener('keydown', escCloseModal);
@@ -219,11 +226,16 @@
 
   function closeModal() {
     if (!modalEl) return;
+    if (releaseModalTrap) { releaseModalTrap(); releaseModalTrap = null; }
     modalEl.classList.remove('ow-cc-overlay--visible');
     var m = modalEl;
     setTimeout(function () { if (m.parentNode) m.parentNode.removeChild(m); }, 300);
     modalEl = null;
     document.removeEventListener('keydown', escCloseModal);
+    if (prefsLastFocus && typeof prefsLastFocus.focus === 'function') {
+      try { prefsLastFocus.focus(); } catch (_) {}
+      prefsLastFocus = null;
+    }
   }
 
   function escCloseModal(e) { if (e.key === 'Escape') closeModal(); }
