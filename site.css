@@ -2,10 +2,87 @@
  * Loaded after styles.css so these rules win without !important where possible.
  *
  * Scope:
+ *   - WCAG 2.1 AA a11y: skip link, focus rings, reduced motion
  *   - Mobile nav open-state (hamburger toggles `nav.is-open`)
  *   - Mobile dropdown expand-state (`.nav__dropdown.is-expanded`)
  *   - Hamburger active animation (X-shape on open)
  */
+
+/* ── WCAG 2.1 AA — Skip link ──────────────────────────────────────── */
+
+.ow-skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: 10000;
+  padding: 0.75rem 1.5rem;
+  background: #fff;
+  color: #0f172a;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0 0 8px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.ow-skip-link:focus {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+
+/* Screen-reader-only utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ── WCAG 2.1 AA — Global focus-visible ────────────────────────────── */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible,
+.btn:focus-visible,
+.role-tab:focus-visible,
+summary:focus-visible {
+  outline: 2px solid rgba(43, 108, 176, 0.7);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Override Tailwind's focus:outline-none transparent outline */
+.focus\:outline-none:focus-visible {
+  outline: 2px solid rgba(43, 108, 176, 0.7) !important;
+  outline-offset: 2px;
+}
+
+/* ── WCAG 2.1 AA — Reduced motion ─────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
 
 /* Fixed top nav — scrolled state. Inline classes set `transition-all
  * duration-300` so changes animate. When the page is at the top, the nav
