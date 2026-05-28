@@ -24,5 +24,8 @@ desktop.ini
 *.tmp
 .cache/
 
+# Cursor hook opt-out (prevents auto-push from overwriting GitHub publisher commits)
+.no-auto-push
+
 # MCP / local secrets (never commit)
 opticwise-mcp-bundle/mcp-servers/gdrive/credentials.json
