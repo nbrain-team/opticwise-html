@@ -549,3 +549,37 @@ a.cards__card--link:hover {
 .legal .legal__footnote sup {
   margin-right: 0.25rem;
 }
+
+/* ── WCAG 2.1 AA — Contrast remediation ────────────────────────────
+ * Footer on bg-ow-navy (#0A1628): Tailwind opacity utilities like
+ * text-white/25, /30, /35 fail 4.5:1 for small text. Override to
+ * meet AA minimums while preserving the visual hierarchy.
+ *
+ * Computed contrast ratios (against #0A1628):
+ *   rgba(255,255,255,0.25) = ~1.9:1 — FAIL
+ *   rgba(255,255,255,0.55) = ~4.8:1 — PASS (small text)
+ *   rgba(255,255,255,0.65) = ~6.0:1 — PASS (small text)
+ */
+
+footer.bg-ow-navy .text-white\/25,
+footer.bg-ow-navy .text-white\/30 {
+  color: rgba(255, 255, 255, 0.58) !important;
+}
+footer.bg-ow-navy .text-white\/35,
+footer.bg-ow-navy .text-white\/40 {
+  color: rgba(255, 255, 255, 0.62) !important;
+}
+footer.bg-ow-navy .text-white\/50 {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+footer.bg-ow-navy .text-white\/55 {
+  color: rgba(255, 255, 255, 0.68) !important;
+}
+
+/* Nav dropdown muted text on dark backgrounds */
+.nav__dropdown-trigger {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Eyebrow text on light surfaces — ensure contrast against #f4f5f5 / #ffffff.
+ * OW blue #006495 on white = ~5.6:1 — passes AA. Inherit from design tokens. */
