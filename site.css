@@ -618,10 +618,15 @@ section:not(.hero):not(.cta):not(.brain):not(.bot):not(.problem):not(.quote) > .
   color: #6b7280 !important;
 }
 
-/* Cards on white backgrounds inside .ow-v4 inherit dark-theme text
- * (#f4f5f5) — invisible on white. Force readable contrast on any
- * light-background card surface. */
-.cards__card .cta__bullet,
-.cards__card li {
+/* Light-bg sections inside .ow-v4 inherit dark-theme text (#f4f5f5) —
+ * invisible on white/gray-50. Force readable contrast. */
+.ow-v4 .bg-gray-50,
+.ow-v4 .bg-white {
   color: #374151;
+}
+
+/* Dark section eyebrows (.cards--dark) keep light-on-dark palette;
+ * don't let the AA contrast override darken them. */
+.cards--dark .eyebrow {
+  color: var(--ow-blue-sky, #0493d5);
 }
