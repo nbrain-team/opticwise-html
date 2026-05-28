@@ -624,8 +624,9 @@ footer.bg-ow-navy .text-white\/55 {
   color: #374151;
 }
 
-/* Dark section eyebrows (.cards--dark) keep light-on-dark palette;
- * don't let the AA contrast override darken them. */
+/* Dark section eyebrows: original #006495 on #0a0a0b = 3.06:1 — FAIL.
+ * #0493d5 on #0a0a0b = ~4.8:1 — PASS. */
+.cards--dark .cards__header > .eyebrow,
 .cards--dark .eyebrow {
-  color: var(--ow-blue-sky, #0493d5);
+  color: #0493d5 !important;
 }
