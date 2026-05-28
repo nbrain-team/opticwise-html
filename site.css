@@ -617,3 +617,11 @@ section:not(.hero):not(.cta):not(.brain):not(.bot):not(.problem):not(.quote) > .
 [data-ow-insights-grid] .text-gray-400 {
   color: #6b7280 !important;
 }
+
+/* Cards on white backgrounds inside .ow-v4 inherit dark-theme text
+ * (#f4f5f5) — invisible on white. Force readable contrast on any
+ * light-background card surface. */
+.cards__card .cta__bullet,
+.cards__card li {
+  color: #374151;
+}
