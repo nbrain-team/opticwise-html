@@ -480,6 +480,7 @@
   }
 
   function start() {
+    setupA11yLandmarks();
     setupNav();
     setupGa4NavTracking();
     setupInsights();
