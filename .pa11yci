@@ -1,0 +1,43 @@
+{
+  "defaults": {
+    "standard": "WCAG2AA",
+    "timeout": 30000,
+    "wait": 1000,
+    "runners": ["htmlcs"],
+    "chromeLaunchConfig": {
+      "args": ["--no-sandbox"]
+    },
+    "ignore": [
+      "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Abs"
+    ]
+  },
+  "urls": [
+    "https://www.opticwise.com/",
+    "https://www.opticwise.com/property-brain/",
+    "https://www.opticwise.com/portfolio-brain/",
+    "https://www.opticwise.com/ppp-audit/",
+    "https://www.opticwise.com/bot-building-of-things/",
+    "https://www.opticwise.com/5s-user-experience-standard/",
+    "https://www.opticwise.com/advisory-services/",
+    "https://www.opticwise.com/for-asset-managers/",
+    "https://www.opticwise.com/for-it-executives/",
+    "https://www.opticwise.com/for-property-managers-and-engineers/",
+    "https://www.opticwise.com/for-lps-and-financiers/",
+    "https://www.opticwise.com/for-tenants/",
+    "https://www.opticwise.com/how-we-operate/",
+    "https://www.opticwise.com/customer-outcomes/",
+    "https://www.opticwise.com/working-with-us/",
+    "https://www.opticwise.com/insights/",
+    "https://www.opticwise.com/faq/",
+    "https://www.opticwise.com/glossary/",
+    "https://www.opticwise.com/about/",
+    "https://www.opticwise.com/contact/",
+    "https://www.opticwise.com/privacy/",
+    "https://www.opticwise.com/terms/",
+    "https://www.opticwise.com/cookie-policy/",
+    "https://www.opticwise.com/accessibility/",
+    "https://www.opticwise.com/digital-infrastructure-noi-ai/",
+    "https://www.opticwise.com/digital-infrastructure-noi-strategy/",
+    "https://www.opticwise.com/digital-infrastructure-noi-playbook/"
+  ]
+}
