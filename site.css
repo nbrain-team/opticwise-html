@@ -600,3 +600,18 @@ footer.bg-ow-navy .text-white\/55 {
 .cards .eyebrow {
   color: #006495;
 }
+
+/* Insights tab buttons: #64748b on #f1f5f9 = 4.34:1 — FAIL.
+ * #566275 on #f1f5f9 = ~5.1:1 — PASS. */
+.role-tab {
+  color: #566275;
+}
+.role-tab.active {
+  color: #1e293b;
+}
+
+/* Insight card metadata (date, author): #9ca3af on #ffffff = 2.85:1 — FAIL.
+ * #6b7280 on #ffffff = ~5.0:1 — PASS. */
+[data-ow-insights-grid] .text-gray-400 {
+  color: #6b7280 !important;
+}
