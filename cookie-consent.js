@@ -109,6 +109,8 @@
 
   var bannerEl = null;
   var modalEl = null;
+  var releaseModalTrap = null;
+  var prefsLastFocus = null;
 
   function buildBanner() {
     return el('div', { className: 'ow-cc-banner', role: 'dialog', 'aria-label': 'Cookie consent' }, [
