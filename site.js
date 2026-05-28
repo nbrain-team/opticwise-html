@@ -140,20 +140,63 @@
     dropdowns.forEach(function (dd) {
       var trigger = dd.querySelector('.nav__dropdown-trigger');
       if (!trigger) { return; }
-      // On mobile only: tap-to-expand (desktop already opens on hover).
-      // Anchor triggers with hrefs (e.g. Insights links to /insights) keep
-      // their navigation on a second tap; the first tap just expands.
+
       trigger.addEventListener('click', function (ev) {
         if (!isMobileViewport()) { return; }
         var alreadyOpen = dd.classList.contains('is-expanded');
-        // If trigger is an anchor and dropdown is already open, allow nav.
         if (trigger.tagName === 'A' && alreadyOpen) { return; }
         ev.preventDefault();
         dropdowns.forEach(function (other) {
-          if (other !== dd) { other.classList.remove('is-expanded'); }
+          if (other !== dd) {
+            other.classList.remove('is-expanded');
+            syncDropdownAria(other, false);
+          }
         });
         dd.classList.toggle('is-expanded');
+        syncDropdownAria(dd, dd.classList.contains('is-expanded'));
       });
+
+      /* Phase 2: Keyboard — Enter/Space opens dropdown, arrows navigate items */
+      trigger.addEventListener('keydown', function (ev) {
+        var menu = dd.querySelector('.nav__dropdown-menu');
+        if (!menu) { return; }
+        var items = Array.prototype.slice.call(menu.querySelectorAll('a'));
+        if (ev.key === 'Enter' || ev.key === ' ') {
+          if (trigger.tagName !== 'A') {
+            ev.preventDefault();
+            var isOpen = dd.classList.contains('is-expanded');
+            if (isMobileViewport()) {
+              dd.classList.toggle('is-expanded');
+              syncDropdownAria(dd, !isOpen);
+            }
+            if (items.length && !isOpen) { items[0].focus(); }
+          }
+        }
+        if (ev.key === 'ArrowDown') {
+          ev.preventDefault();
+          if (items.length) { items[0].focus(); }
+        }
+      });
+
+      var menu = dd.querySelector('.nav__dropdown-menu');
+      if (menu) {
+        menu.addEventListener('keydown', function (ev) {
+          var items = Array.prototype.slice.call(menu.querySelectorAll('a'));
+          var idx = items.indexOf(document.activeElement);
+          if (ev.key === 'ArrowDown') {
+            ev.preventDefault();
+            if (idx < items.length - 1) { items[idx + 1].focus(); }
+          } else if (ev.key === 'ArrowUp') {
+            ev.preventDefault();
+            if (idx > 0) { items[idx - 1].focus(); }
+            else if (trigger) { trigger.focus(); }
+          } else if (ev.key === 'Escape') {
+            syncDropdownAria(dd, false);
+            dd.classList.remove('is-expanded');
+            if (trigger) { trigger.focus(); }
+          }
+        });
+      }
     });
 
     document.addEventListener('click', function (ev) {
