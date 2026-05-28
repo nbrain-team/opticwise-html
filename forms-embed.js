@@ -173,14 +173,17 @@
     lastFocus = triggerEl || document.activeElement;
     modalEl.classList.add('is-open');
     document.body.classList.add('ow-schedule-modal-open');
-    // Defer focus until after layout so iOS Safari doesn't fight us.
+
+    var panel = modalEl.querySelector('.ow-schedule-modal__panel');
+    if (panel && window.OWTrapFocus) {
+      releaseTrap = window.OWTrapFocus(panel);
+    }
+
     setTimeout(function () {
       var firstField = formEl.querySelector('input,textarea,select');
       if (firstField) {
         try { firstField.focus({ preventScroll: true }); } catch (_) {}
       } else {
-        // Form not mounted yet — focus the close button so keyboard users
-        // can still escape the modal.
         var closeBtn = modalEl.querySelector('.ow-schedule-modal__close');
         if (closeBtn) { try { closeBtn.focus({ preventScroll: true }); } catch (_) {} }
       }
@@ -191,6 +194,7 @@
     if (!modalEl) { return; }
     modalEl.classList.remove('is-open');
     document.body.classList.remove('ow-schedule-modal-open');
+    if (releaseTrap) { releaseTrap(); releaseTrap = null; }
     if (lastFocus && typeof lastFocus.focus === 'function') {
       try { lastFocus.focus({ preventScroll: true }); } catch (_) {}
     }
