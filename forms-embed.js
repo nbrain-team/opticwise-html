@@ -105,6 +105,7 @@
   var formMounted = false;
   var lastFocus = null;
   var mountAttempts = 0;
+  var releaseTrap = null;
 
   function buildModal() {
     if (modalEl) { return; }
