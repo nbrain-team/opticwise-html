@@ -6,7 +6,28 @@
     <atom:link href="https://www.opticwise.com/blog/feed.xml" rel="self" type="application/rss+xml" />
     <description>Owner plays for CRE: how to reclaim control, reduce operational risk, and turn data &amp; digital infrastructure into a compounding portfolio asset.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 May 2026 13:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 May 2026 14:56:03 GMT</lastBuildDate>
+    <item>
+      <title>Before You Grant the AI Agent a Permission: The Architecture Beneath Autonomous Building Operations</title>
+      <link>https://www.opticwise.com/insights/ai-agent-permissions-autonomous-building-architecture</link>
+      <guid isPermaLink="true">https://www.opticwise.com/insights/ai-agent-permissions-autonomous-building-architecture</guid>
+      <pubDate>Thu, 29 May 2026 14:56:03 GMT</pubDate>
+      <description>AI agents will act on HVAC, access, elevators in your buildings. Three architectural layers must be owner-controlled before the first permission gets granted.</description>
+    </item>
+    <item>
+      <title>Your Board Just Made AI a Strategy Question. You Need a Strategy Answer.</title>
+      <link>https://www.opticwise.com/insights/ai-board-strategy-cre-owner-controlled-layer</link>
+      <guid isPermaLink="true">https://www.opticwise.com/insights/ai-board-strategy-cre-owner-controlled-layer</guid>
+      <pubDate>Sun, 25 May 2026 14:48:32 GMT</pubDate>
+      <description>Your board just made AI a strategy question. CRE owners need a strategy answer that is not a vendor logo. Here is what to put on the agenda before the next meeting.</description>
+    </item>
+    <item>
+      <title>The Tenant Just Built an AI Stack Around Your Building. Here Is Why.</title>
+      <link>https://www.opticwise.com/insights/tenant-shadow-ai-multifamily-building-stack</link>
+      <guid isPermaLink="true">https://www.opticwise.com/insights/tenant-shadow-ai-multifamily-building-stack</guid>
+      <pubDate>Thu, 22 May 2026 14:57:46 GMT</pubDate>
+      <description>Residents are using consumer AI and open-source tools to work around closed building systems. Here is the architecture fix multifamily owners need now.</description>
+    </item>
     <item>
       <title>The CRE AI Conversation Just Shifted From Which Model to Who Owns the Rollout</title>
       <link>https://www.opticwise.com/insights/cre-ai-conversation-shifted-model-to-rollout-ownership</link>
